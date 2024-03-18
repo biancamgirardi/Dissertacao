@@ -1,0 +1,1760 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  18 MAR 2024 14:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(ppgec.cls
+Document Class: ppgec 2021/01/13 v1.0 Modelo PPGEC/UFRGS baseado em abnTeX2
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex
+2.cls
+Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.
+cls
+Document Class: memoir 2024/01/26 v3.8.2 configurable book, report, article doc
+ument class
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.
+sty
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3
+.sty
+Package: expl3 2024-03-14 L3 programming layer (loader) 
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3ba
+ckend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count188
+\l__pdf_internal_box=\box51
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpa
+rse\xparse.sty
+Package: xparse 2024-03-14 L3 Experimental document command parser
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etool
+box.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count189
+))
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
+\@memcnta=\count190
+\c@@memmarkcntra=\count191
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.
+sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\trimtop=\skip51
+\trimedge=\skip52
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.c
+lo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
+\c@storedpagenumber=\count192
+\memPD=\dimen140
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
+\c@book=\count193
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
+\c@@ppsavesec=\count267
+\c@@ppsaveapp=\count268
+\ragrparindent=\dimen141
+\everylistparindent=\dimen142
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
+\@enLab=\toks17
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen143
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
+\c@vslineno=\count269
+\c@poemline=\count270
+\c@modulo@vs=\count271
+\c@memfvsline=\count272
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen144
+\c@verse=\count273
+\c@chrsinstr=\count274
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
+\c@poem=\count275
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.st
+y
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box52
+\extrarowheight=\dimen146
+\NC@list=\toks18
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box53
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.
+sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray
+.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx
+.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen147
+\TX@old@table=\dimen148
+\TX@old@col=\dimen149
+\TX@target=\dimen150
+\TX@delta=\dimen151
+\TX@cols=\count276
+\TX@ftn=\toks19
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\bookt
+abs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen164
+)
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
+\abovecolumnspenalty=\count281
+\@linestogo=\count282
+\@cellstogo=\count283
+\@cellsincolumn=\count284
+\crtok=\toks20
+\@mincolumnwidth=\dimen165
+\c@newflo@tctr=\count285
+\mem@margin@floatbox=\box54
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen166
+\c@@contsubnum=\count286
+\m@mscap@capbox=\box55
+\m@mscap@fbox=\box56
+\sidecapsep=\dimen167
+\sidecapwidth=\dimen168
+\m@m@tempdima=\dimen169
+\m@mscapraise=\dimen170
+\sidecapraise=\dimen171
+\m@mscapmainwidth=\dimen172
+\m@mscaplkern=\dimen173
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
+LaTeX Info: Redefining \em on input line 6932.
+LaTeX Info: Redefining \emph on input line 6940.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namer
+ef.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refco
+unt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxc
+mds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\in
+fwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestri
+ng\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvop
+tions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyva
+l.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvse
+tkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\c@section@level=\count287
+)
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen174
+\cftbooknumwidth=\dimen175
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen176
+\c@maxsecnumdepth=\count288
+\bibindent=\dimen177
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
+\indexmarkstyle=\toks22
+\@indexbox=\insert252
+LaTeX Info: Redefining \raggedbottom on input line 7935.
+LaTeX Info: Redefining \flushbottom on input line 7939.
+\glossarycolsep=\dimen178
+\glossaryrule=\dimen179
+\sideparvshift=\skip161
+\sideins=\insert251
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count289
+\m@m@h=\dimen180
+\m@mipn@skip=\skip170
+\sidefootins=\insert248
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
+\c@sidefootnote=\count290
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
+\c@pagenote=\count291
+\c@pagenoteshadow=\count292
+\mem@pn@lastkern=\skip180
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim
+.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read2
+)
+\verbatimindent=\skip181
+\verbatim@out=\write3
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.
+sty
+Package: shortvrb 2022/11/13 v3.0m Standard LaTeX documentation package V3 (FMi
+)
+)
+\bvboxsep=\skip182
+\c@memfbvline=\count293
+\c@bvlinectr=\count294
+\bvnumlength=\skip183
+\fb@frw=\dimen181
+\fb@frh=\dimen182
+\FrameRule=\dimen183
+\FrameSep=\dimen184
+\c@cp@cntr=\count295
+\c@ism@mctr=\count296
+\c@xsm@mctr=\count297
+\c@csm@mctr=\count298
+\c@ksm@mctr=\count299
+\c@xksm@mctr=\count300
+\c@cksm@mctr=\count301
+\c@msm@mctr=\count302
+\c@xmsm@mctr=\count303
+\c@cmsm@mctr=\count304
+\c@bsm@mctr=\count305
+\c@workm@mctr=\count306
+\c@sheetsequence=\count307
+\c@lastsheet=\count308
+\c@lastpage=\count309
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textc
+ase.sty
+Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count310
+\c@lofdepth=\count311
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
+\c@table=\count312
+\c@lotdepth=\count313
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyper
+ref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys
+\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pd
+fescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\p
+dftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolo
+r.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhoo
+k.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen185
+\Hy@linkcounter=\count314
+\Hy@pagecounter=\count315
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1en
+c.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intc
+alc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count316
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc
+.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count317
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen186
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitse
+t.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\b
+igintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count318
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-
+ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count319
+\c@Item=\count320
+\c@Hfootnote=\count321
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdft
+ex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend
+-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count322
+\c@bookmark@seq@number=\count323
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck
+\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounte
+r\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip190
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfix
+c.sty
+Package: memhfixc 2023/09/10 v1.22 hyperref package fixes for memoir class
+\c@memhycontfloat=\count324
+\c@Hpagenote=\count325
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookm
+ark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-p
+dftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count326
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.
+sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count327
+\U@D=\dimen189
+\l@unhyphenated=\language79
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbab
+el.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count328
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.
+cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges
+\brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumi
+tem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip191
+\enit@outerparindent=\dimen190
+\enit@toks=\toks25
+\enit@inbox=\box57
+\enit@count@id=\count329
+\enitdp@description=\count330
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
+\calc@Adimen=\dimen191
+\calc@Bdimen=\dimen192
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count333
+\calc@Cskip=\skip194
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count334
+\cftlastnumwidth=\skip195
+\chapternamenumlength=\skip196
+\ABNTEXcitacaorecuo=\skip197
+\c@alineasi=\count335
+\c@alineasii=\count336
+\enitdp@alineas=\count337
+\c@subalineasi=\count338
+\enitdp@subalineas=\count339
+\c@incisosi=\count340
+\enitdp@incisos=\count341
+\ABNTEXsignwidth=\skip198
+\ABNTEXsignthickness=\skip199
+\ABNTEXsignskip=\skip256
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backr
+ef.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex
+2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex
+2abrev.sty)
+\minimumbiblabelwidth=\skip257
+\ABCIauxlen=\skip258
+\c@ABCIaux=\count342
+\c@ABCImax=\count343
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.
+sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxete
+x.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsiz
+e.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip259
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks26
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssy
+mb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfo
+nts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmat
+h.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip260
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstex
+t.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen
+.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen193
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy
+.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen194
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn
+.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count344
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count345
+\leftroot@=\count346
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count347
+\DOTSCASE@=\count348
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen195
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count349
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count350
+\dotsspace@=\muskip17
+\c@parentequation=\count351
+\dspbrk@lvl=\count352
+\tag@help=\toks29
+\row@=\count353
+\column@=\count354
+\maxfields@=\count355
+\andhelp@=\toks30
+\eqnshift@=\dimen196
+\alignsep@=\dimen197
+\tagshift@=\dimen198
+\tagwidth@=\dimen199
+\totwidth@=\dimen256
+\lineht@=\dimen257
+\@envbody=\toks31
+\multlinegap=\skip261
+\multlinetaggap=\skip262
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.
+sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen258
+\captionmargin=\dimen259
+\caption@leftmargin=\dimen260
+\caption@rightmargin=\dimen261
+\caption@width=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: memoir document class detected.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n-memoir.sto
+File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to th
+e memoir document class (AR)
+))
+\c@caption@flags=\count356
+\c@continuedfloat=\count357
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen266
+\caption@adjustwidth@linewidth=\dimen267
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color
+.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\c
+olor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\p
+dftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathc
+olor.ltx))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancy
+hdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip263
+\f@nch@O@elh=\skip264
+\f@nch@O@erh=\skip265
+\f@nch@O@olh=\skip266
+\f@nch@O@orh=\skip267
+\f@nch@O@elf=\skip268
+\f@nch@O@erf=\skip269
+\f@nch@O@olf=\skip270
+\f@nch@O@orf=\skip271
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.s
+ty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\footn
+ote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box60
+\fn@width=\dimen268
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+icx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+ics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.
+sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\g
+raphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen269
+\Gin@req@width=\dimen270
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfi
+rst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.
+sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+sty
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3k
+eys2e\l3keys2e.sty
+Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count358
+\l__lipsum_a_int=\count359
+\l__lipsum_b_int=\count360
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+ltd.tex))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtabl
+e.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip272
+\LTright=\skip273
+\LTpre=\skip274
+\LTpost=\skip275
+\LTchunksize=\count361
+\LTcapwidth=\dimen271
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@gbox=\box65
+\LT@cols=\count362
+\LT@rows=\count363
+\c@LT@tables=\count364
+\c@LT@chunks=\count365
+\LT@p@ftn=\toks35
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscap
+e.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptm
+x.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup9
+\symitalic=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks36
+\MT@tempbox=\box66
+\MT@count=\count366
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks37
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen272
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count367
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip276
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpa
+ges.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pi
+c.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen273
+\ESO@tempdimb=\dimen274
+)
+\AM@pagewidth=\dimen275
+\AM@pageheight=\dimen276
+\AM@fboxrule=\dimen277
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdf
+tex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count368
+\AM@pagebox=\box67
+\AM@global@opts=\toks38
+\AM@pagecnt=\count369
+\AM@toc@title=\toks39
+\AM@lof@heading=\toks40
+\c@AM@survey=\count370
+\AM@templatesizebox=\box68
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.s
+ty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstrin
+g.sty
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstr
+ing.tex
+\xs_counta=\count371
+\xs_countb=\count372
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex
+.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count373
+\Gm@cntv=\count374
+\c@Gm@tempcnt=\count375
+\Gm@bindingoffset=\dimen278
+\Gm@wd@mp=\dimen279
+\Gm@odd@mp=\dimen280
+\Gm@even@mp=\dimen281
+\Gm@layoutwidth=\dimen282
+\Gm@layoutheight=\dimen283
+\Gm@layouthoffset=\dimen284
+\Gm@layoutvoffset=\dimen285
+\Gm@dimlist=\toks41
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.cfg)
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (830.82037pt) is ignored.
+
+)
+Package color Info: Redefining color blue on input line 191.
+Package hyperref Info: Option `colorlinks' set `true' on input line 208.
+\c@quadro=\count376
+\c@loqdepth=\count377
+\cftbeforequadroskip=\skip277
+\cftquadroindent=\skip278
+\cftquadronumwidth=\skip279
+\c@cnt=\count378
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 66.
+
+(dados.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 69.
+
+(pacotes_macros.tex
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/float\float.st
+y
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count379
+\float@exts=\toks42
+\float@box=\box69
+\@float@everytoks=\toks43
+\@floatcapt=\box70
+))
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 75
+.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.f
+d
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (main.aux (chap/cap1.aux) (chap/cap2.aux) (chap/cap3.aux
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
+/en\babel-english.tex
+Package babel Info: Importing basic data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)) (chap/cap4.aux) (chap/cap5.aux) (pos/apeA.aux)
+(pos/apeB.aux) (pos/apeC.aux) (pos/aneA.aux) (pos/aneB.aux) (pos/aneC.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
+\myptabbox=\box71
+\myptabboxwidth=\skip280
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcapt
+ion.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
+pp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count380
+\scratchdimen=\dimen286
+\scratchbox=\box72
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen287
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
+pstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 75.
+Package microtype Info: Applying patch `item' on input line 75.
+Package microtype Info: Applying patch `toc' on input line 75.
+Package microtype Info: Applying patch `eqnum' on input line 75.
+Package microtype Info: Applying patch `footnote' on input line 75.
+Package microtype Info: Applying patch `verbatim' on input line 75.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 75.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-p
+tm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdfl
+scape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdfl
+scape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-21.28552pt
+* \headheight=14.5pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=42.9055pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{C:/Users/Bianca Girardi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/U
+sers/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 79.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmc
+m.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 79.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmc
+m.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 79.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmc
+m.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 79.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmc
+m.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-m
+sa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-m
+sb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-c
+mr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
+9.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.
+fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \imprimirfolhaderosto
+                          		% obrigatório [1
+
+
+
+
+]
+<./pre/ficha.pdf, id=15, 597.51233pt x 845.0471pt>
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf>
+Package pdftex.def Info: ./pre/ficha.pdf  used on input line 80.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf>
+Package pdftex.def Info: ./pre/ficha.pdf  used on input line 80.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+<./pre/ficha.pdf, id=18, page=1, 597.51233pt x 845.0471pt>
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf, page 1>
+Package pdftex.def Info: ./pre/ficha.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf, page 1>
+Package pdftex.def Info: ./pre/ficha.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf, page 1>
+Package pdftex.def Info: ./pre/ficha.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf, page 1>
+Package pdftex.def Info: ./pre/ficha.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ./pre/ficha.pdf Graphic file (type pdf)
+<use ./pre/ficha.pdf, page 1>
+Package pdftex.def Info: ./pre/ficha.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [2
+
+
+ <./pre/ficha.pdf>]
+(pre/errata.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+) [3
+
+] [4
+
+
+] (pre/resumo.tex) [5
+
+] (pre/abstract.tex) [6
+
+] (main.lof) [7
+
+] (main.loq) [8
+
+] (main.lot) [9
+
+] (pre/siglas.tex) [10
+
+
+] (pre/simbolos.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 58
+.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.f
+d
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 66.
+
+) [11
+
+
+] (main.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+ [12
+
+]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 41
+.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.f
+d
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (12.77655pt too wide) in paragraph at lines 46--46
+ [][] [][][]\T1/ptm/m/n/14.4 (-20) QUER AJU-DAR A CUS-TO-MI-ZAR OS MO-DE-LOS DO
+ ABNT[]X2 
+ []
+
+[13]) [14]
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 96.
+
+\openout2 = `./chap/cap1.aux'.
+
+(chap/cap1.tex) [15
+
+
+
+]
+\openout2 = `./chap/cap2.aux'.
+
+ (chap/cap2.tex [16
+
+
+
+
+] [17] [18] [19]) [20]
+\openout2 = `./chap/cap3.aux'.
+
+ (chap/cap3.tex
+[21
+
+
+
+
+]
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 145--145
+[] [] 
+ []
+
+
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 145--145
+[] [] 
+ []
+
+
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 145--145
+[] [] 
+ []
+
+[22]
+
+pdfTeX warning: pdflatex.exe (file ./fig/fraturas.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<./fig/fraturas.pdf, id=370, 633.36626pt x 240.9pt>
+File: ./fig/fraturas.pdf Graphic file (type pdf)
+<use ./fig/fraturas.pdf>
+Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 215.
+(pdftex.def)             Requested size: 316.68236pt x 120.44969pt.
+File: ./fig/fraturas.pdf Graphic file (type pdf)
+<use ./fig/fraturas.pdf>
+Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 233.
+(pdftex.def)             Requested size: 190.01134pt x 72.27055pt.
+
+Overfull \hbox (7.91647pt too wide) in paragraph at lines 233--234
+ [][] 
+ []
+
+
+Overfull \hbox (79.66911pt too wide) in paragraph at lines 234--234
+[] [] 
+ []
+
+File: ./fig/fraturas.pdf Graphic file (type pdf)
+<use ./fig/fraturas.pdf>
+Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 239.
+(pdftex.def)             Requested size: 126.671pt x 48.17914pt.
+
+Overfull \hbox (79.66911pt too wide) in paragraph at lines 240--240
+[] [] 
+ []
+
+[23] [24 <./fig/fraturas.pdf>] [25] [26] [27] [28] [29] [30]
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
+/fr\babel-french.tex
+Package babel Info: Importing basic data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
+/es\babel-spanish.tex
+Package babel Info: Importing basic data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) [31] [32]) [33]
+\openout2 = `./chap/cap4.aux'.
+
+ (chap/cap4.tex) [34
+
+
+
+
+]
+\openout2 = `./chap/cap5.aux'.
+
+ (chap/cap5.tex)
+[35
+
+
+
+
+] (main.bbl (main.brf)
+\tf@brf=\write4
+\openout4 = `main.brf'.
+
+
+bibitemlist
+[36
+
+
+
+]) [37] [38
+
+
+]
+\openout2 = `./pos/apeA.aux'.
+
+ (pos/apeA.tex) [39
+
+
+]
+\openout2 = `./pos/apeB.aux'.
+
+ (pos/apeB.tex) [40
+
+
+
+
+]
+\openout2 = `./pos/apeC.aux'.
+
+ (pos/apeC.tex) [41
+
+
+
+
+]
+[42
+
+
+
+
+]
+\openout2 = `./pos/aneA.aux'.
+
+ (pos/aneA.tex) [43
+
+
+]
+\openout2 = `./pos/aneB.aux'.
+
+ (pos/aneB.tex) [44
+
+
+
+
+]
+\openout2 = `./pos/aneC.aux'.
+
+ (pos/aneC.tex) [45
+
+
+
+
+]
+<./pos/latex_symbols.pdf, id=630, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf>
+Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf>
+Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<./pos/latex_symbols.pdf, id=633, page=1, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 1>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
+.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 1>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
+.
+(pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 1>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
+.
+(pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 1>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
+.
+(pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 1>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
+.
+(pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
+ [46
+
+
+
+
+ <./pos/latex_symbols.pdf>]
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf>
+Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf>
+Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<./pos/latex_symbols.pdf, id=717, page=2, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 2>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
+.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 2>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 2>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 2>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 2>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [47
+
+ <./pos/latex_symbols.pdf>]
+<./pos/latex_symbols.pdf, id=722, page=3, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [48
+
+ <./pos/latex_symbols.pdf>]
+<./pos/latex_symbols.pdf, id=728, page=4, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 4>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 4>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 4>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[49
+
+ <./pos/latex_symbols.pdf>]
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+\tf@loq=\write6
+\openout6 = `main.loq'.
+
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+ (main.aux (chap/cap1.aux) (chap/cap2.aux)
+(chap/cap3.aux) (chap/cap4.aux) (chap/cap5.aux) (pos/apeA.aux) (pos/apeB.aux)
+(pos/apeC.aux) (pos/aneA.aux) (pos/aneB.aux) (pos/aneC.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: 62C028128AEF10AE8076F5267338BD74;1520.
+ ) 
+Here is how much of TeX's memory you used:
+ 24389 strings out of 474423
+ 404317 string characters out of 5737434
+ 1951496 words of memory out of 5000000
+ 45517 multiletter control sequences out of 15000+600000
+ 688320 words of font info for 486 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 113i,18n,121p,2011b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bianca Girardi/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Bianca Gira
+rdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Bianca Girardi/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bia
+nca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Bianca Girardi/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Bianca Girardi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+9.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmss10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bianca Girardi/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Bianca Gir
+ardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Bianca Girardi/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmu10.pfb><C:/Users/Bianca Girardi/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/User
+s/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latx
+font/line10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb><C:/Users/Bianca Girardi/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Bianca 
+Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Us
+ers/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
+a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/sy
+mbol/usyr.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/symbol/usyr.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/times/utmb8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (50 pages, 713850 bytes).
+PDF statistics:
+ 1105 PDF objects out of 1200 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
+ 144487 words of extra memory for PDF output out of 154059 (max. 10000000)
+
