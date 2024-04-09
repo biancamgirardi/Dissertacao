@@ -3,66 +3,64 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{15}{chapter.1}%
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Iniciando com o \LaTeX }}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}O que é \TeX ?}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}O que é \LaTeX ?}{16}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Diferença entre processadores de texto Visuais e Lógicos}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Instalando \LaTeX ~ no sistema Windows}{18}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Instalando \LaTeX ~ em outros sistemas operacionais}{19}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Alguns tutoriais úteis}{19}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Sobre o modelo PPGEC, organização dos arquivos e utilização}{20}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Resultados de comandos}}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Codificação dos arquivos: UTF8}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Citações diretas}{21}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Diretrizes da pesquisa}}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Tema}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Problema de pesquisa}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Objetivos}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Delimitações}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Metodologia e etapas do estudo}{19}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Resultados de comandos}}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Codificação dos arquivos: UTF8}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Citações diretas}{20}{section.3.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {section}{\numberline {3.3}Notas de rodapé}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tabelas}{22}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Figuras}{23}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Figuras em \emph {minipages}}{24}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Expressões matemáticas}{24}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Enumerações: alíneas e subalíneas}{25}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Espaçamento entre parágrafos e linhas}{26}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Inclusão de outros arquivos}{27}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Compilar o documento \LaTeX }{27}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Remissões internas}{28}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Divisões do documento: seção}{28}{section.3.12}%
-\contentsline {subsection}{\numberline {3.12.1}Divisões do documento: subseção}{28}{subsection.3.12.1}%
-\contentsline {subsubsection}{\numberline {3.12.1.1}Divisões do documento: subsubseção}{29}{subsubsection.3.12.1.1}%
-\contentsline {subsubsection}{\numberline {3.12.1.2}Divisões do documento: subsubseção}{29}{subsubsection.3.12.1.2}%
-\contentsline {subsection}{\numberline {3.12.2}Divisões do documento: subseção}{29}{subsection.3.12.2}%
-\contentsline {subsubsection}{\numberline {3.12.2.1}Divisões do documento: subsubseção}{29}{subsubsection.3.12.2.1}%
-\contentsline {paragraph}{\numberline {3.12.2.1.1}Esta é uma subseção de quinto nível}{29}{paragraph.3.12.2.1.1}%
-\contentsline {paragraph}{\numberline {3.12.2.1.2}Esta é outra subseção de quinto nível}{29}{paragraph.3.12.2.1.2}%
-\contentsline {paragraph}{\numberline {3.12.2.1.3}Este é um parágrafo numerado}{29}{paragraph.3.12.2.1.3}%
-\contentsline {paragraph}{\numberline {3.12.2.1.4}Esta é outro parágrafo numerado}{29}{paragraph.3.12.2.1.4}%
-\contentsline {section}{\numberline {3.13}Este é um exemplo de nome de seção longo. Ele deve estar alinhado à esquerda e a segunda e demais linhas devem iniciar logo abaixo da primeira palavra da primeira linha}{30}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Diferentes idiomas e hifenizações}{30}{section.3.14}%
-\contentsline {section}{\numberline {3.15}Consulte o manual da classe \textsf {abntex2}}{32}{section.3.15}%
-\contentsline {section}{\numberline {3.16}Referências bibliográficas}{32}{section.3.16}%
-\contentsline {subsection}{\numberline {3.16.1}Acentuação de referências bibliográficas}{32}{subsection.3.16.1}%
-\contentsline {section}{\numberline {3.17}Precisa de ajuda?}{33}{section.3.17}%
-\contentsline {section}{\numberline {3.18}Você pode ajudar?}{33}{section.3.18}%
-\contentsline {section}{\numberline {3.19}Quer ajudar a customizar os modelos do abn\TeX 2\ para o PPGEC-UFRGS?}{33}{section.3.19}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Conteúdos específicos do modelo de trabalho no modelo}}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Quadros}{34}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Novo Capítulo}}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Oi, tudo bom?}{35}{section.5.1}%
+\contentsline {section}{\numberline {3.3}Notas de rodapé}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tabelas}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Figuras}{22}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Figuras em \emph {minipages}}{23}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Expressões matemáticas}{23}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Enumerações: alíneas e subalíneas}{24}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Espaçamento entre parágrafos e linhas}{25}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Inclusão de outros arquivos}{26}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Compilar o documento \LaTeX }{26}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Remissões internas}{27}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Divisões do documento: seção}{27}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Divisões do documento: subseção}{27}{subsection.3.12.1}%
+\contentsline {subsubsection}{\numberline {3.12.1.1}Divisões do documento: subsubseção}{28}{subsubsection.3.12.1.1}%
+\contentsline {subsubsection}{\numberline {3.12.1.2}Divisões do documento: subsubseção}{28}{subsubsection.3.12.1.2}%
+\contentsline {subsection}{\numberline {3.12.2}Divisões do documento: subseção}{28}{subsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.2.1}Divisões do documento: subsubseção}{28}{subsubsection.3.12.2.1}%
+\contentsline {paragraph}{\numberline {3.12.2.1.1}Esta é uma subseção de quinto nível}{28}{paragraph.3.12.2.1.1}%
+\contentsline {paragraph}{\numberline {3.12.2.1.2}Esta é outra subseção de quinto nível}{28}{paragraph.3.12.2.1.2}%
+\contentsline {paragraph}{\numberline {3.12.2.1.3}Este é um parágrafo numerado}{28}{paragraph.3.12.2.1.3}%
+\contentsline {paragraph}{\numberline {3.12.2.1.4}Esta é outro parágrafo numerado}{28}{paragraph.3.12.2.1.4}%
+\contentsline {section}{\numberline {3.13}Este é um exemplo de nome de seção longo. Ele deve estar alinhado à esquerda e a segunda e demais linhas devem iniciar logo abaixo da primeira palavra da primeira linha}{29}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Diferentes idiomas e hifenizações}{29}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Consulte o manual da classe \textsf {abntex2}}{31}{section.3.15}%
+\contentsline {section}{\numberline {3.16}Referências bibliográficas}{31}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Acentuação de referências bibliográficas}{31}{subsection.3.16.1}%
+\contentsline {section}{\numberline {3.17}Precisa de ajuda?}{32}{section.3.17}%
+\contentsline {section}{\numberline {3.18}Você pode ajudar?}{32}{section.3.18}%
+\contentsline {section}{\numberline {3.19}Quer ajudar a customizar os modelos do abn\TeX 2\ para o PPGEC-UFRGS?}{32}{section.3.19}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Conteúdos específicos do modelo de trabalho no modelo}}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Quadros}{33}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Novo Capítulo}}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Oi, tudo bom?}{34}{section.5.1}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{36}{section*.23}%
+\contentsline {chapter}{REFERÊNCIAS}{35}{section*.23}%
 \setcounter {tocdepth}{-1}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{APÊNDICES}{38}{section*.25}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{39}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{40}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{41}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{41}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{41}{section.C.2}%
-\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{41}{subsection.C.2.1}%
+\contentsline {part}{APÊNDICES}{37}{section*.25}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{38}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{39}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{40}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{40}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{40}{section.C.2}%
+\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{40}{subsection.C.2.1}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{42}{section*.26}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{43}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{44}{appendix.anexochapback.2}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{45}{appendix.anexochapback.3}%
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{46}{appendix.anexochapback.4}%
+\contentsline {part}{ANEXOS}{41}{section*.26}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{42}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{43}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{44}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{45}{appendix.anexochapback.4}%
