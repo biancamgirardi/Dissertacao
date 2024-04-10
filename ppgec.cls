@@ -332,7 +332,7 @@
 	\fancyhf{}
 	\fancyhead[RO,LE]{\footnotesize\thepage}
 	\fancyfoot{}
-	\cfoot{\ifodd \thepage \footnotesize{\trabalhotitulo} \else \footnotesize{\imprimirautor~(\emailautor) \imprimirtipotrabalho.~\abrevppg/\abrevinstituicao. \imprimirdata.}\fi}	
+	\cfoot{\ifodd \thepage \footnotesize{\trabalhotitulo} \else \footnotesize{\imprimirautor~(\emailautor). \imprimirtipotrabalho.~\abrevppg/\abrevinstituicao. \imprimirdata.}\fi}	
 	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{.4pt}	
 	\aliaspagestyle{chapter}{fancy}	%adiciona o rodapé do ppgec na primeira pag do capítulo

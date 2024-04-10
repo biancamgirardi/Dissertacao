@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  9 APR 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  10 APR 2024 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,15 +1373,24 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 66.
 
 ] (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
- [12
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+) [12
 
-]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 39
+] [13]
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 96.
+
+\openout2 = `./chap/cap1.aux'.
+
+(chap/cap1.tex
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 14
 .
 
 (C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.f
@@ -1392,38 +1401,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (12.77655pt too wide) in paragraph at lines 44--44
- [][] [][][]\T1/ptm/m/n/14.4 (-20) QUER AJU-DAR A CUS-TO-MI-ZAR OS MO-DE-LOS DO
- ABNT[]X2 
- []
-
-) [13] [14]
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 96.
-
-\openout2 = `./chap/cap1.aux'.
-
-(chap/cap1.tex) [15
+) [14
 
 
 
 ]
 \openout2 = `./chap/cap2.aux'.
 
- (chap/cap2.tex [16
+ (chap/cap2.tex [15
 
 
 
 
-] [17] [18]) [19]
+] [16] [17]) [18]
 \openout2 = `./chap/cap3.aux'.
 
  (chap/cap3.tex
-[20
+
+LaTeX Warning: Reference `sec-hifenizacao' on page 19 undefined on input line 5
+3.
+
+[19
 
 
 
@@ -1443,52 +1441,10 @@ Overfull \hbox (65.35225pt too wide) in paragraph at lines 145--145
 [] [] 
  []
 
-[21]
-
-pdfTeX warning: pdflatex.exe (file ./fig/fraturas.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<./fig/fraturas.pdf, id=339, 633.36626pt x 240.9pt>
-File: ./fig/fraturas.pdf Graphic file (type pdf)
-<use ./fig/fraturas.pdf>
-Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 215.
-(pdftex.def)             Requested size: 316.68236pt x 120.44969pt.
-File: ./fig/fraturas.pdf Graphic file (type pdf)
-<use ./fig/fraturas.pdf>
-Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 233.
-(pdftex.def)             Requested size: 190.01134pt x 72.27055pt.
-
-Overfull \hbox (7.91647pt too wide) in paragraph at lines 233--234
- [][] 
- []
-
-
-Overfull \hbox (79.66911pt too wide) in paragraph at lines 234--234
-[] [] 
- []
-
-File: ./fig/fraturas.pdf Graphic file (type pdf)
-<use ./fig/fraturas.pdf>
-Package pdftex.def Info: ./fig/fraturas.pdf  used on input line 239.
-(pdftex.def)             Requested size: 126.671pt x 48.17914pt.
-
-Overfull \hbox (79.66911pt too wide) in paragraph at lines 240--240
-[] [] 
- []
-
-[22] [23 <./fig/fraturas.pdf>] [24] [25] [26] [27] [28] [29]
-(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
-/fr\babel-french.tex
-Package babel Info: Importing basic data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
-)
-(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
-/es\babel-spanish.tex
-Package babel Info: Importing basic data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-) [30] [31]) [32]
+) [20] [21]
 \openout2 = `./chap/cap4.aux'.
 
- (chap/cap4.tex) [33
+ (chap/cap4.tex) [22
 
 
 
@@ -1496,8 +1452,7 @@ Package babel Info: Importing basic data for spanish
 ]
 \openout2 = `./chap/cap5.aux'.
 
- (chap/cap5.tex)
-[34
+ (chap/cap5.tex) [23
 
 
 
@@ -1508,23 +1463,23 @@ Package babel Info: Importing basic data for spanish
 
 
 bibitemlist
-[35
+[24
 
 
 
-]) [36] [37
+]) [25] [26
 
 
 ]
 \openout2 = `./pos/apeA.aux'.
 
- (pos/apeA.tex) [38
+ (pos/apeA.tex) [27
 
 
 ]
 \openout2 = `./pos/apeB.aux'.
 
- (pos/apeB.tex) [39
+ (pos/apeB.tex) [28
 
 
 
@@ -1532,13 +1487,13 @@ bibitemlist
 ]
 \openout2 = `./pos/apeC.aux'.
 
- (pos/apeC.tex) [40
+ (pos/apeC.tex) [29
 
 
 
 
 ]
-[41
+[30
 
 
 
@@ -1546,13 +1501,13 @@ bibitemlist
 ]
 \openout2 = `./pos/aneA.aux'.
 
- (pos/aneA.tex) [42
+ (pos/aneA.tex) [31
 
 
 ]
 \openout2 = `./pos/aneB.aux'.
 
- (pos/aneB.tex) [43
+ (pos/aneB.tex) [32
 
 
 
@@ -1560,13 +1515,13 @@ bibitemlist
 ]
 \openout2 = `./pos/aneC.aux'.
 
- (pos/aneC.tex) [44
+ (pos/aneC.tex) [33
 
 
 
 
 ]
-<./pos/latex_symbols.pdf, id=599, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=369, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
@@ -1575,7 +1530,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=602, page=1, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=372, page=1, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 1>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
@@ -1601,7 +1556,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
 .
 (pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
- [45
+ [34
 
 
 
@@ -1615,7 +1570,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=686, page=2, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=456, page=2, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 2>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
@@ -1641,10 +1596,10 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [46
+ [35
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=691, page=3, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=461, page=3, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 3>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
@@ -1660,10 +1615,10 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [47
+ [36
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=696, page=4, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=467, page=4, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 4>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
@@ -1680,7 +1635,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[48
+[37
 
  <./pos/latex_symbols.pdf>]
 \tf@lof=\write5
@@ -1702,17 +1657,21 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 773B12BE21511C7EA02BBFBBF1265929;1520.
+(rerunfilecheck)             Checksum: C9EC9281BB1560B301B073F3756A692F;753.
  ) 
 Here is how much of TeX's memory you used:
- 24355 strings out of 474423
- 404022 string characters out of 5737434
- 1948496 words of memory out of 5000000
- 45513 multiletter control sequences out of 15000+600000
- 684873 words of font info for 474 fonts, out of 8000000 for 9000
+ 23920 strings out of 474423
+ 395737 string characters out of 5737434
+ 1944496 words of memory out of 5000000
+ 45247 multiletter control sequences out of 15000+600000
+ 668844 words of font info for 406 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,18n,121p,2011b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,18n,121p,1582b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bianca Girardi/AppData/Local/Pr
@@ -1740,21 +1699,20 @@ ardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
 e1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Bianca Girardi/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmu10.pfb><C:/Users/Bianca Girardi/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/User
-s/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latx
-font/line10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb><C:/Users/Bianca Girardi/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Bianca 
-Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Us
-ers/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
-a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/sy
-mbol/usyr.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/symbol/usyr.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmb8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/
-MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (49 pages, 704227 bytes).
+s/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Bianca Girardi/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Bianca Girardi/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Bianca G
+irardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/
+Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C
+:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
+8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on main.pdf (38 pages, 609139 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 140375 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 127394 words of extra memory for PDF output out of 128383 (max. 10000000)
 
