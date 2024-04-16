@@ -1,3 +1,4 @@
+\backcite {Moreira2006}{{7}{(document)}{Doc-Start}}
 \backcite {abntex2classe}{{14}{1}{chapter.1}}
 \backcite {abntex2-wiki-como-customizar}{{14}{1}{chapter.1}}
 \backcite {abntex2classe,abntex2cite,abntex2cite-alf}{{14}{1}{chapter.1}}
@@ -7,8 +8,15 @@
 \backcite {Knuth1984}{{15}{2.1}{section.2.1}}
 \backcite {1994lamport}{{15}{2.2}{section.2.2}}
 \backcite {wiki:2020}{{16}{2.2}{section.2.2}}
-\backcite {NBR10520:2002}{{19}{3.1.3}{subsection.3.1.3}}
-\backcite {van86}{{20}{3.1}{table.caption.16}}
-\backcite {ibge1993}{{20}{3.1.5}{table.caption.16}}
-\backcite {NBR14724:2011}{{20}{1}{Hfootnote.5}}
-\backcite {NBR14724:2005}{{24}{5.1}{chapter*.20}}
+\backcite {Moreira2006}{{20}{3.1.1}{subsection.3.1.1}}
+\backcite {Moreira2006}{{20}{3.1.1}{subsection.3.1.1}}
+\backcite {Moreira2006}{{21}{3.1}{figure.caption.16}}
+\backcite {NBR10520:2002}{{21}{3.1.3}{subsection.3.1.3}}
+\backcite {van86}{{22}{3.1}{table.caption.17}}
+\backcite {ibge1993}{{22}{3.1.5}{table.caption.17}}
+\backcite {NBR14724:2011}{{22}{1}{Hfootnote.5}}
+\backcite {NBR10520:2002}{{24}{4.3}{section.4.3}}
+\backcite {van86}{{25}{4.1}{table.caption.19}}
+\backcite {ibge1993}{{25}{4.5}{table.caption.19}}
+\backcite {NBR14724:2011}{{25}{1}{Hfootnote.8}}
+\backcite {NBR14724:2005}{{29}{6.1}{chapter*.23}}

@@ -60,19 +60,6 @@ Rio de Janeiro, 2005. 9~p.}
   documenta{\c c}\~ao --- trabalhos acad\^emicos --- apresenta{\c c}\~ao.
 Rio de Janeiro, 2011. 15~p. Substitui a Ref.~\citeonline{NBR14724:2005}.}
 
-\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2012]{NBR6024:2012}
-\abntrefinfo{ABNT}{ABNT}{2012}
-{\underline{\ \ \ \ \ \ \ \ }. \textbf{{NBR} 6024}: Numera{\c c}\~ao
-  progressiva das se{\c c}\~oes de um documento.
-Rio de Janeiro, 2012. 4~p.}
-
-\bibitem[Braams 2008]{babel}
-\abntrefinfo{Braams}{BRAAMS}{2008}
-{BRAAMS, J. \textbf{Babel, a multilingual package for use with LATEX's standard
-  document classes}.
-[S.l.], 2008. Dispon{\'\i}vel em:
-  \url{http://mirrors.ctan.org/info/babel/babel.pdf}. Acesso em: 17 fev. 2013.}
-
 \bibitem[IBGE 1993]{ibge1993}
 \abntrefinfo{IBGE}{IBGE}{1993}
 {IBGE. \textbf{Normas de apresenta{\c c}{\~a}o tabular}. 3. ed. Rio de Janeiro:
@@ -92,6 +79,12 @@ ISBN 0-201-13447-0.}
   reference manual}. Reading, Mass.: Addison-Wesley Pub. Co., 1994. --~p.
 ISSN 0201529831 9780201529838. Dispon{\'\i}vel em:
   \url{http://www.worldcat.org/oclc/29225162}.}
+
+\bibitem[Moreira 2006]{Moreira2006}
+\abntrefinfo{Moreira}{MOREIRA}{2006}
+{MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
+\textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
+  p. 92--115, 2006.}
 
 \bibitem[{van} Gigch e Pipino 1986]{van86}
 \abntrefinfo{{van} Gigch e Pipino}{{van} GIGCH; PIPINO}{1986}

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %	cap#.tex 
@@ -13,14 +14,32 @@
 
 Recomenda-se, antes de abrir uma subseção, escrever ao menos um parágrafo introdutório do capítulo.
 
-
-
+%---
 \section{Problemática geral de túneis}
 %---
 
 Definição, classificação...
 
 \subsection{Breve histórico}
+%---
+
+Há indícios de que as primeiras atividades geotécnicas iniciaram na Pré-História, pois o homem já havia começado a desenvolver uma noção da rigidez das rochas e suas zonas de fragilidade, além da estabilidade das cavidades subterrâneas. As cavernas \textit{Font de Gaume} e \textit{Lascaux}, na França, e a caverna \textit{Zhoukoudian} na China, são exemplos que indicam essa intuição \cite{Moreira2006}.
+
+O túnel mais antigo de que se tem registro foi construído no ano de 2000 a.C., durante o reinado da Rainha Samíramis, na Babilônia, com dimensões de 4,5 x 5,5 m e extensão de 1 km. Estabeleceu uma conexão subterrânea entre o Templo e o Palácio Real, e sua construção desviou o rio Eufrates de seu curso natural (Silveira 1974 apud Couto 2011 - ver como fazer essa citação).
+
+Ao explorar as nascentes na parte inferior de uma cadeia montanhosa, os persas escavaram túneis com pequenas inclinações com o intuito de evitar perdas por evaporação e preservar as propriedades da água, chamados \textit{qanats}, e são datados do século IX a.C., de acordo com \citeonline{Moreira2006}. 
+
+%O sistema de abastecimento de água à cidade de Samos, com 1 km de extensão, é um exemplo de túnel grego de meados do século VI a.C. 
+
+Os romanos se destacam na Antiguidade pela grande rede de túneis com o objetivo de transporte de água. A \autoref{fig_cloaca} apresenta a \textit{Cloaca Maxima}, esgoto urbano da Roma Antiga, construído por volta de 600 a.C., que possui dimensões memoráveis para a época, sendo 4,2 m de altura e 3,2 m de largura. Foi utilizada a técnica de variação brusca de temperatura em sua construção.
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[scale=0.8]{Cloacamaxima.jpg}
+	\end{center}
+	\caption{\label{fig_cloaca}Aspecto da boca de saída da \textit{Cloaca Maxima} em Roma (fonte: \citeonline{Moreira2006})}
+\end{figure}
+
 
 % ---
 \subsection{Métodos de escavação}
@@ -167,3 +186,163 @@ acadêmicos.
 
 
 \section{Túneis gêmeos}
+=======
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	cap#.tex 
+%  -----------
+%
+%	Neste arquivo você escreve o capítulo. Deve sempre iniciar com o ambiente
+%	\chapter{Nome do Capitulo}
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\chapter{Revisão bibliográfica}\label{cap_exemplos}
+% ----------------------------------------------------------
+
+Neste capítulo serão abordados os tópicos mais importantes para o tema proposto.
+
+% ---
+\section{tuneis}
+% ---
+
+
+% ---
+\section{Métodos de escavação}
+% ---
+
+
+% ---
+\section{Suporte}
+\label{sec-citacao}
+% ---
+
+\index{citações!diretas}Utilize o ambiente \texttt{citacao} para incluir
+citações diretas com mais de três linhas: 
+% O comando \index envia a 'palavra-chave' para o índice remissivo
+
+\begin{citacao}
+As citações diretas, no texto, com mais de três linhas, devem ser
+destacadas com recuo de 4 cm da margem esquerda, com letra menor que a do texto
+utilizado e sem as aspas. No caso de documentos datilografados, deve-se
+observar apenas o recuo \cite[5.3]{NBR10520:2002}.
+\end{citacao}
+
+Use o ambiente assim:
+
+\begin{verbatim}
+\begin{citacao}
+As citações diretas, no texto, com mais de três linhas [...]
+deve-se observar apenas o recuo \cite[5.3]{NBR10520:2002}.
+\end{citacao}
+\end{verbatim}
+
+O ambiente \texttt{citacao} pode receber como parâmetro opcional um nome de
+idioma previamente carregado nas opções da classe (\autoref{sec-hifenizacao}). Nesse
+caso, o texto da citação é automaticamente escrito em itálico e a hifenização é
+ajustada para o idioma selecionado na opção do ambiente. Por exemplo:
+
+\begin{verbatim}
+\begin{citacao}[english]
+Text in English language in italic with correct hyphenation.
+\end{citacao}
+\end{verbatim}
+
+Tem como resultado:
+
+\begin{citacao}[english]
+Text in English language in italic with correct hyphenation.
+\end{citacao}
+
+\index{citações!simples}Citações simples, com até três linhas, devem ser
+incluídas com aspas. Observe que em \LaTeX~as aspas iniciais são diferentes das
+finais: ``Amor é fogo que arde sem se ver''.
+
+% ---
+\section{Comportamento do maciço frente à escavação}
+% ---
+
+As notas de rodapé são detalhadas pela NBR 14724:2011 na seção 5.2.1\footnote{As
+notas devem ser digitadas ou datilografadas dentro das margens, ficando
+separadas do texto por um espaço simples de entre as linhas e por filete de 5
+cm, a partir da margem esquerda. Devem ser alinhadas, a partir da segunda linha
+da mesma nota, abaixo da primeira letra da primeira palavra, de forma a destacar
+o expoente, sem espaço entre elas e com fonte menor
+\citeonline[5.2.1]{NBR14724:2011}.}\footnote{Caso uma série de notas sejam
+criadas sequencialmente, o \abnTeX\ instrui o \LaTeX\ para que uma vírgula seja
+colocada após cada número do expoente que indica a nota de rodapé no corpo do
+texto.}\footnote{Verifique se os números do expoente possuem uma vírgula para
+dividi-los no corpo do texto.}. 
+
+
+% ---
+\section{Interação maciço-revestimento}
+% ---
+
+\index{tabelas}A \autoref{tab-nivinv} é um exemplo de tabela construída em
+\LaTeX.
+
+\begin{table}[htb]
+\ABNTEXfontereduzida
+\caption[Níveis de investigação]{Níveis de investigação}
+\label{tab-nivinv}
+\begin{tabular}{p{2.6cm}|p{6.0cm}|p{2.25cm}|p{3.40cm}}
+  %\hline
+   \textbf{Nível de Investigação} & \textbf{Insumos}  & \textbf{Sistemas de Investigação}  & \textbf{Produtos}  \\
+    \hline
+    Meta-nível & Filosofia\index{filosofia} da Ciência  & Epistemologia &
+    Paradigma  \\
+    \hline
+    Nível do objeto & Paradigmas do metanível e evidências do nível inferior &
+    Ciência  & Teorias e modelos \\
+    \hline
+    Nível inferior & Modelos e métodos do nível do objeto e problemas do nível inferior & Prática & Solução de problemas  \\
+   % \hline
+\end{tabular}
+\begin{flushright}
+\normalsize{(fonte: \citeonline{van86})}$\quad\quad$
+\end{flushright}
+\end{table}
+
+Já a \autoref{tabela-ibge} apresenta uma tabela criada conforme o padrão do
+\citeonline{ibge1993} requerido pelas normas da ABNT para documentos técnicos e
+acadêmicos.
+
+\begin{table}[htb]
+\IBGEtab{%
+  \caption{Um Exemplo de tabela alinhada que pode ser longa
+  ou curta, conforme padrão IBGE}%
+  \label{tabela-ibge}
+}{%
+  \begin{tabular}{ccc}
+  \toprule
+   Nome & Nascimento & Documento \\
+  \midrule \midrule
+   Maria da Silva & 11/11/1111 & 111.111.111-11 \\
+  \midrule 
+   João Souza & 11/11/2111 & 211.111.111-11 \\
+  \midrule 
+   Laura Vicuña & 05/04/1891 & 3111.111.111-11 \\
+  \bottomrule
+\end{tabular}%
+}{%
+  \nota{Esta é uma nota, que diz que os dados são baseados na
+  regressão linear.}%
+  \nota[Anotações]{Uma anotação adicional, que pode ser seguida de várias
+  outras.}%
+  }
+\begin{flushright}
+\normalsize{(fonte: produzido pelos autores)}$\quad\quad$
+\end{flushright}
+\end{table}
+
+% ---
+\section{Métodos de dimensionamento}
+% ---
+
+\subsection{Métodos analíticos}
+
+\subsection{Métodos simplificados}
+
+\subsection{Métodos diretos}
+>>>>>>> Stashed changes
