@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  16 APR 2024 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  17 APR 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,43 +1443,43 @@ Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 38.
 
 ]
 
-LaTeX Warning: Reference `sec-hifenizacao' on page 21 undefined on input line 7
-8.
+LaTeX Warning: Reference `sec-hifenizacao' on page 21 undefined on input line 8
+3.
 
 [21 <./fig/Cloacamaxima.jpg>]
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 170--170
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 175--175
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 170--170
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 175--175
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 170--170
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 175--175
 [] [] 
  []
 
 [22] [23]
 
 LaTeX Warning: Reference `sec-hifenizacao' on page 24 undefined on input line 2
-41.
+46.
 
 [24
 
 ]
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 333--333
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 338--338
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 333--333
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 338--338
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 333--333
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 338--338
 [] [] 
  []
 
@@ -1706,15 +1706,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 53F0C8BB707A9896E12B498CFFE51CB5;1173.
+
+Package rerunfilecheck Warning: File `main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `main.brf':
+(rerunfilecheck)             Before: 9DF9BC260BBE587ABEFAA98B93D84851;1173
+(rerunfilecheck)             After:  53F0C8BB707A9896E12B498CFFE51CB5;1173.
  ) 
 Here is how much of TeX's memory you used:
- 23972 strings out of 474423
- 396494 string characters out of 5737434
+ 23975 strings out of 474423
+ 396518 string characters out of 5737434
  1944496 words of memory out of 5000000
  45269 multiletter control sequences out of 15000+600000
- 669318 words of font info for 411 fonts, out of 8000000 for 9000
+ 669448 words of font info for 413 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,18n,121p,1582b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -1755,7 +1760,7 @@ Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C
 8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (43 pages, 681950 bytes).
+Output written on main.pdf (43 pages, 682338 bytes).
 PDF statistics:
  879 PDF objects out of 1000 (max. 8388607)
  167 named destinations out of 1000 (max. 500000)
