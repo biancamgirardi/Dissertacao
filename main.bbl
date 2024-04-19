@@ -5,14 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Araujo 2012]{araujo2012}
-\abntrefinfo{Araujo}{ARAUJO}{2012}
-{ARAUJO, L.~C.
-\textbf{Configura{\c c}{\~a}o}: uma perspectiva de {A}rquitetura da
-  {I}nforma{\c c}{\~a}o da {E}scola de {B}ras{\'\i}lia.
-Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia,
-  Bras{\'\i}lia, mar. 2012.}
-
 \bibitem[Araujo 2015]{abntex2classe}
 \abntrefinfo{Araujo}{ARAUJO}{2015a}
 {ARAUJO, L.~C. \textbf{A classe abntex2: Modelo can{\^o}nico de trabalhos
@@ -59,6 +51,13 @@ Rio de Janeiro, 2005. 9~p.}
 {\underline{\ \ \ \ \ \ \ \ }. \textbf{{NBR} 14724}: Informa{\c c}\~ao e
   documenta{\c c}\~ao --- trabalhos acad\^emicos --- apresenta{\c c}\~ao.
 Rio de Janeiro, 2011. 15~p. Substitui a Ref.~\citeonline{NBR14724:2005}.}
+
+\bibitem[Benamar 1996]{Benamar1996}
+\abntrefinfo{Benamar}{BENAMAR}{1996}
+{BENAMAR, I.
+\textbf{{Etude des effets diff{\'{e}}r{\'{e}}s dans les tunnels profonds}}.
+205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
+  1996.}
 
 \bibitem[IBGE 1993]{ibge1993}
 \abntrefinfo{IBGE}{IBGE}{1993}

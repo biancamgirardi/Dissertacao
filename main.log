@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  17 APR 2024 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  19 APR 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,52 +1434,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-<./fig/Cloacamaxima.jpg, id=295, 344.78813pt x 288.3272pt>
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+1.
+
+(C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.
+fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [20
+
+]
+<./fig/Cloacamaxima.jpg, id=302, 344.78813pt x 288.3272pt>
 File: ./fig/Cloacamaxima.jpg Graphic file (type jpg)
 <use ./fig/Cloacamaxima.jpg>
-Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 38.
+Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 42.
 (pdftex.def)             Requested size: 275.83087pt x 230.66205pt.
- [20
+ [21 <./fig/Cloacamaxima.jpg>]
 
-] [21 <./fig/Cloacamaxima.jpg>]
-
-LaTeX Warning: Reference `sec-hifenizacao' on page 22 undefined on input line 8
-7.
+LaTeX Warning: Reference `sec-hifenizacao' on page 22 undefined on input line 9
+1.
 
 [22]
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 179--179
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 184--184
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 179--179
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 184--184
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 179--179
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 184--184
 [] [] 
  []
 
 [23] [24]
 
 LaTeX Warning: Reference `sec-hifenizacao' on page 25 undefined on input line 2
-50.
+55.
 
 [25
 
 ]
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 342--342
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 347--347
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 342--342
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 347--347
 [] [] 
  []
 
 
-Overfull \hbox (65.35225pt too wide) in paragraph at lines 342--342
+Overfull \hbox (65.35225pt too wide) in paragraph at lines 347--347
 [] [] 
  []
 
@@ -1563,7 +1570,7 @@ bibitemlist
 
 
 ]
-<./pos/latex_symbols.pdf, id=468, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=472, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
@@ -1572,7 +1579,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=471, page=1, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=475, page=1, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 1>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 129
@@ -1612,7 +1619,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 129.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=555, page=2, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=559, page=2, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 2>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
@@ -1641,7 +1648,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 129
  [41
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=560, page=3, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=564, page=3, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 3>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
@@ -1660,7 +1667,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 129
  [42
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=566, page=4, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=570, page=4, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 4>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 129
@@ -1706,20 +1713,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 4278BCA52BD3CA5545E5781B433C7DCE;1229
-(rerunfilecheck)             After:  D784E6C0DE74DE13D3B6C1FD2DD6D7D3;1285.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: 6AFE65EAA395C1B86972ED8D5838DA41;1333.
  ) 
 Here is how much of TeX's memory you used:
- 23976 strings out of 474423
- 396528 string characters out of 5737434
+ 24009 strings out of 474423
+ 397077 string characters out of 5737434
  1944496 words of memory out of 5000000
- 45269 multiletter control sequences out of 15000+600000
- 669448 words of font info for 413 fonts, out of 8000000 for 9000
+ 45294 multiletter control sequences out of 15000+600000
+ 669818 words of font info for 416 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,18n,121p,1582b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -1760,9 +1762,9 @@ Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C
 8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 684945 bytes).
+Output written on main.pdf (44 pages, 686128 bytes).
 PDF statistics:
- 887 PDF objects out of 1000 (max. 8388607)
+ 891 PDF objects out of 1000 (max. 8388607)
  168 named destinations out of 1000 (max. 500000)
- 127503 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 129551 words of extra memory for PDF output out of 154059 (max. 10000000)
 
