@@ -451,7 +451,7 @@
 	\instituicao{Universidade Federal do Rio Grande do Sul}
 	\newcommand{\escola}{Escola de Engenharia}
 	\newcommand{\ppg}{Programa de Pós-Graduação em Engenharia Civil}
-	\preambulo{\imprimirtipotrabalho~apresentada ao \ppg~da \imprimirinstituicao~como parte dos requisitos para obtenção do título de \tituloobtido.}
+	\preambulo{\imprimirtipotrabalho~apresentado ao \ppg~da \imprimirinstituicao~como parte dos requisitos para obtenção do título de \tituloobtido.}
 	%
 	% Titulo dos agradecimentos, lista de abreviaturas e siglas, lista de simbolos
 	\renewcommand{\agradecimentosname}{Agradecimentos}
