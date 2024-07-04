@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  2 JUL 2024 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.18)  4 JUL 2024 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,12 +1089,9 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 76
 (C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.f
 d
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (main.aux (chap/cap1.aux) (chap/cap2.aux) (chap/cap3.aux
-
-LaTeX Warning: Label `cap_exemplos' multiply defined.
-
-) (chap/cap4.aux) (chap/cap5.aux) (pos/apeA.aux) (pos/apeB.aux) (pos/apeC.aux)
-(pos/aneA.aux) (pos/aneB.aux) (pos/aneC.aux))
+) (main.aux (chap/cap1.aux) (chap/cap2.aux) (chap/cap3.aux) (chap/cap4.aux)
+(chap/cap5.aux) (pos/apeA.aux) (pos/apeB.aux) (pos/apeC.aux) (pos/aneA.aux)
+(pos/aneB.aux) (pos/aneC.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1380,11 +1377,11 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 66.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 ) [13]
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
@@ -1427,7 +1424,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-7.
+2.
 
 (C:\Users\Bianca Girardi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.
 fd
@@ -1435,18 +1432,15 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [20
 
 ]
-<./fig/Cloacamaxima.jpg, id=294, 344.78813pt x 288.3272pt>
+<./fig/Cloacamaxima.jpg, id=273, 344.78813pt x 288.3272pt>
 File: ./fig/Cloacamaxima.jpg Graphic file (type jpg)
 <use ./fig/Cloacamaxima.jpg>
-Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 48.
+Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 43.
 (pdftex.def)             Requested size: 275.83087pt x 230.66205pt.
- [21 <./fig/Cloacamaxima.jpg>] [22] [23] [24] [25] [26]) [27
-
-]
+ [21 <./fig/Cloacamaxima.jpg>] [22] [23] [24] [25]) [26]
 \openout2 = `./chap/cap4.aux'.
 
-
-(chap/cap4.tex) [28
+ (chap/cap4.tex) [27
 
 
 
@@ -1454,7 +1448,7 @@ Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 48.
 ]
 \openout2 = `./chap/cap5.aux'.
 
- (chap/cap5.tex) [29
+ (chap/cap5.tex) [28
 
 
 
@@ -1465,23 +1459,23 @@ Package pdftex.def Info: ./fig/Cloacamaxima.jpg  used on input line 48.
 
 
 bibitemlist
-[30
+[29
 
 
 
-]) [31] [32
+]) [30] [31
 
 
 ]
 \openout2 = `./pos/apeA.aux'.
 
- (pos/apeA.tex) [33
+ (pos/apeA.tex) [32
 
 
 ]
 \openout2 = `./pos/apeB.aux'.
 
- (pos/apeB.tex) [34
+ (pos/apeB.tex) [33
 
 
 
@@ -1489,13 +1483,13 @@ bibitemlist
 ]
 \openout2 = `./pos/apeC.aux'.
 
- (pos/apeC.tex) [35
+ (pos/apeC.tex) [34
 
 
 
 
 ]
-[36
+[35
 
 
 
@@ -1503,13 +1497,13 @@ bibitemlist
 ]
 \openout2 = `./pos/aneA.aux'.
 
- (pos/aneA.tex) [37
+ (pos/aneA.tex) [36
 
 
 ]
 \openout2 = `./pos/aneB.aux'.
 
- (pos/aneB.tex) [38
+ (pos/aneB.tex) [37
 
 
 
@@ -1517,13 +1511,13 @@ bibitemlist
 ]
 \openout2 = `./pos/aneC.aux'.
 
- (pos/aneC.tex) [39
+ (pos/aneC.tex) [38
 
 
 
 
 ]
-<./pos/latex_symbols.pdf, id=423, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=398, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
@@ -1532,7 +1526,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=426, page=1, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=401, page=1, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 1>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 130
@@ -1558,7 +1552,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 130
 .
 (pdftex.def)             Requested size: 549.70517pt x 777.43988pt.
- [40
+ [39
 
 
 
@@ -1572,7 +1566,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=510, page=2, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=485, page=2, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 2>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 130
@@ -1596,31 +1590,31 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 130
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 2>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 130
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [40
+
+ <./pos/latex_symbols.pdf>]
+<./pos/latex_symbols.pdf, id=490, page=3, 597.50829pt x 845.0471pt>
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
+.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pos/latex_symbols.pdf Graphic file (type pdf)
+<use ./pos/latex_symbols.pdf, page 3>
+Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [41
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=515, page=3, 597.50829pt x 845.0471pt>
-File: ./pos/latex_symbols.pdf Graphic file (type pdf)
-<use ./pos/latex_symbols.pdf, page 3>
-Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
-.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pos/latex_symbols.pdf Graphic file (type pdf)
-<use ./pos/latex_symbols.pdf, page 3>
-Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
-.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pos/latex_symbols.pdf Graphic file (type pdf)
-<use ./pos/latex_symbols.pdf, page 3>
-Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
-.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [42
-
- <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=521, page=4, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=495, page=4, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 4>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 130
@@ -1637,7 +1631,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 130
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[43
+[42
 
  <./pos/latex_symbols.pdf>]
 \tf@lof=\write5
@@ -1659,19 +1653,15 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 130
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 229252B6883C00BAE261BF8B794C0220;941.
+(rerunfilecheck)             Checksum: 9CF148B8F951653FED21BAD59C0DAF23;916.
  ) 
 Here is how much of TeX's memory you used:
- 23978 strings out of 474423
- 396578 string characters out of 5737434
+ 23954 strings out of 474423
+ 396302 string characters out of 5737434
  1944496 words of memory out of 5000000
- 45278 multiletter control sequences out of 15000+600000
- 667034 words of font info for 412 fonts, out of 8000000 for 9000
+ 45267 multiletter control sequences out of 15000+600000
+ 666908 words of font info for 410 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,18n,121p,1582b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -1712,9 +1702,9 @@ Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C
 8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/Bianca Girardi/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 674348 bytes).
+Output written on main.pdf (43 pages, 666281 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 125455 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 125375 words of extra memory for PDF output out of 128383 (max. 10000000)
 
