@@ -6,40 +6,42 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Diretrizes da pesquisa}}{15}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Tema}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Problema de pesquisa}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Objetivos}{16}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Delimitações}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Metodologia e etapas do estudo}{18}{section.2.5}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Problemática geral de túneis}}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Aspectos gerais}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Breve histórico}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Métodos de escavação}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Suporte}{24}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Comportamento do maciço frente à escavação e interação com o revestimento}{25}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Método convergência-confinamento}{26}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Métodos de dimensionamento}{26}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Métodos analíticos}{26}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Métodos simplificados}{26}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Métodos diretos}{26}{subsection.3.6.3}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Problemática geral de túneis gêmeos}}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Quadros}{27}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Modelos constitutivos}}{28}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Lei constitutiva do revestimento}{28}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Lei constitutiva do maciço}{28}{section.5.2}%
+\contentsline {section}{\numberline {2.3}Objetivos}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Delimitações}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Metodologia/Delineamento e etapas do estudo}{16}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Problemática geral de túneis}}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aspectos gerais}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Breve histórico}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Métodos de escavação}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Suporte}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Comportamento do maciço frente à escavação e interação com o revestimento}{22}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Método convergência-confinamento}{23}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Métodos de dimensionamento}{23}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Métodos analíticos}{23}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Métodos simplificados}{23}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Métodos diretos}{23}{subsection.3.6.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Problemática geral de túneis gêmeos}}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Aspectos gerais}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Estado da arte}{24}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Modelos constitutivos}}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Lei constitutiva do revestimento}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Lei constitutiva do maciço}{25}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Cronograma}}{26}{chapter.6}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{29}{section*.18}%
+\contentsline {chapter}{REFERÊNCIAS}{27}{section*.17}%
 \setcounter {tocdepth}{-1}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{APÊNDICES}{31}{section*.20}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{32}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{33}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{34}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{34}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{34}{section.C.2}%
-\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{34}{subsection.C.2.1}%
+\contentsline {part}{APÊNDICES}{29}{section*.19}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{30}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{31}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{32}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{32}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{32}{section.C.2}%
+\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{32}{subsection.C.2.1}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{35}{section*.21}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{36}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{37}{appendix.anexochapback.2}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{38}{appendix.anexochapback.3}%
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{39}{appendix.anexochapback.4}%
+\contentsline {part}{ANEXOS}{33}{section*.20}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{34}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{35}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{36}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{37}{appendix.anexochapback.4}%
