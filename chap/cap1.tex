@@ -11,30 +11,58 @@
 \chapter{Introdução}\label{introducao}
 % ----------------------------------------------------------
 
-Este documento e seu código-fonte são exemplos de utilização da classe \textsf{ppgec}. Tal classe utiliza a classe \textsf{abntex2} e o pacote \textsf{abntex2cite} derivados do projeto \abnTeX. 
-
-Algumas macros foram modificadas para que a tese ou dissertação ficasse no formato requerido pelo PPGEC-UFRGS, o qual não corresponde exatamente ao produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação - Trabalhos acadêmicos - Apresentação}. Uma lista completa das normas observadas pelo \abnTeX\ original é apresentada em \citeonline{abntex2classe}.
-
-Os capítulos apresentados nesse documento, exemplificando alguns comandos, são os mesmos do "Modelo Canônico" de trabalho acadêmico do projeto \abnTeX\ porém com as modificações dadas pela classe \textsf{ppgec}.
-
-Sinta-se convidado a participar do projeto original \abnTeX! Acesse o site em
-\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
-estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
-modificados tenham seus nomes alterados e que os créditos sejam dados aos
-autores originais, nos termos da ``The \LaTeX\ Project Public
-License''\footnote{\url{http://www.latex-project.org/lppl.txt}}. Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
-incompatíveis com as customizações promovidas. Consulte
-\citeonline{abntex2-wiki-como-customizar} para mais informações.
-
-Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
-\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
-\cite{memoir}. 
-
-Espero, sinceramente, que este modelo aprimore a qualidade do trabalho que
-você produzirá, de modo que o principal esforço seja concentrado no principal:
-na contribuição científica.
-
-
-Augusto Bopsin Borges\footnote{modificada da mensagem original da Equipe \abnTeX~e de Lauro César Araujo}
+Tema da pesquisa: Deformações induzidas pelo processo construtivo defasado de túneis gêmeos profundos com galerias transversais considerando o comportamento instantâneo e diferido no tempo.
   
+% ---
+\section{Objetivos}
+% ---
 
+O principal objetivo do presente trabalho consiste em programar/aplicar modelos constitutivos para o maciço e para o revestimento, a fim de analisar o comportamento instantâneo e diferido no tempo através do processo de escavação defasado de túneis profundos interligados por galerias.
+
+\begin{alineas}
+	
+	\item elaborar um script APDL através do software ansys; 
+	
+	\item empregar a USERMAT;
+	
+	\item analisar as convergências;
+	
+	\item objetivo específico 4.
+	
+\end{alineas}
+% ---
+\section{Metodologia}
+% ---
+Um parágrafo apresentando a metodologia do trabalho
+% ---
+\section{Justificativa}
+% ---
+Justificar a escolha da pesquisa (?)
+% ---
+\section{Delimitações}
+% ---
+Adota-se as seguintes delimitações para este trabalho:
+
+\begin{alineas}
+	
+	\item Os túneis em estudo são considerados profundos, ou seja, são desprezadas as cargas provenientes de estruturas da superfície e também recalques induzidos pela escavação de túneis.
+	
+	\item O maciço pode apresentar descontinuidades e possuir um comportamento muito complexo. Portanto, para reduzir essa complexidade e mantendo a efetividade das simulações, neste trabalho admite-se um meio contínuo, homogêneo e isotrópico.
+	
+	\item Considerando a complexidade do estado de tensões internas do maciço devido à anisotropia, heterogeneidade e descontinuidade dos materiais, adotou-se um estado de tensões geostático-hidrostático, onde as tensões verticais e horizontais são iguais.
+	
+	\item velocidade de escavação constante
+	
+	\item modelo único de revestimento e com espessura constante 
+	
+	\item escavação é de face inteira
+	
+	\item citar os modelos utilizados (elastico, elastoplastico, viscoplastico...)
+	
+	\item evolução das deformações quase-estática (não se considera excitações dinâmicas)
+	
+\end{alineas}
+% ---
+\section{Delineamento do trabalho}
+% ---
+Apresentar os capítulos do trabalho: O capítulo 1 trata de...
