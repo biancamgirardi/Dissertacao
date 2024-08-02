@@ -10,44 +10,44 @@
 \contentsline {section}{\numberline {1.5}Delineamento do trabalho}{15}{section.1.5}%
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{16}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Aspectos gerais}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Breve histórico}{16}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Métodos de escavação}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Suporte}{20}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Comportamento do maciço frente à escavação e interação com o revestimento}{21}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Métodos de dimensionamento de suporte}{22}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{23}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{23}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}\textit {New Austrian Tunneling Method} (NATM)}{23}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}Método convergência-confinamento (CV-CF)}{23}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{24}{subsubsection.2.6.2.3}%
-\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{24}{subsection.2.6.3}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Problemática geral de túneis gêmeos}}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Aspectos gerais}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Estado da arte}{25}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Modelos constitutivos}}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Modelo elástico}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Modelo elastoplástico}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Comportamento do material elastoplástico perfeito}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Comportamento do material elastoplástico com endurecimento}{26}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comportamento do material elastoplástico com amolecimento}{26}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Modelo viscoplástico}{26}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelo elastoplástico viscoplástico}{26}{section.4.4}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{27}{chapter.5}%
+\contentsline {section}{\numberline {2.2}Breve histórico}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Métodos de escavação}{19}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Suporte}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Comportamento do maciço frente à escavação}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Métodos de dimensionamento do suporte}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{26}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{27}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Novo Método Austríaco de Construção de Túneis (NATM)}{27}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}Método convergência-confinamento (CV-CF)}{28}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{30}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{30}{subsection.2.6.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Problemática geral de túneis gêmeos}}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aspectos gerais}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estado da arte}{31}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Modelos constitutivos}}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Modelo elástico}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelo elastoplástico}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Comportamento do material elastoplástico perfeito}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Comportamento do material elastoplástico com endurecimento}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comportamento do material elastoplástico com amolecimento}{32}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Modelo viscoplástico}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelo elastoplástico viscoplástico}{32}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{33}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{28}{section*.18}%
+\contentsline {chapter}{REFERÊNCIAS}{34}{section*.26}%
 \setcounter {tocdepth}{-1}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{APÊNDICES}{30}{section*.20}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{31}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{32}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{33}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{33}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{33}{section.C.2}%
-\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{33}{subsection.C.2.1}%
+\contentsline {part}{APÊNDICES}{36}{section*.28}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{37}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{38}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Exemplo de apêndice com subsecção}}{39}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Seção de Apêndice C}{39}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Seção de Apêndice C}{39}{section.C.2}%
+\contentsline {subsection}{\numberline {C.2.1}Subseção de Apêndice C}{39}{subsection.C.2.1}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{34}{section*.21}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{35}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{36}{appendix.anexochapback.2}%
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{37}{appendix.anexochapback.3}%
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{38}{appendix.anexochapback.4}%
+\contentsline {part}{ANEXOS}{40}{section*.29}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{41}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{42}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{43}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase []{Símbolos matemáticos}}{44}{appendix.anexochapback.4}%
