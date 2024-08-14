@@ -11,25 +11,25 @@
 \chapter{Introdução}\label{introducao}
 % ----------------------------------------------------------
 
-Tema da pesquisa: Deformações induzidas pelo processo construtivo defasado de túneis gêmeos profundos com galerias transversais considerando o comportamento instantâneo e diferido no tempo.
+
   
 % ---
 \section{Objetivos}
 % ---
 
-O objetivo principal deste trabalho consiste na aplicação de modelos constitutivos tanto para o maciço quanto para o revestimento, com o intuito de analisar o comportamento instantâneo e diferido no tempo decorrente processo de escavação defasada de túneis profundos interligados por galerias.
+O objetivo principal do trabalho consiste na análise de túneis gêmeos profundos com galerias transversais considerando a defasagem construtiva entre os túneis longitudinais e modelos constitutivos não-lineares para o maciço e para o revestimento. 
 
-Para alcançar o principal objetivo do presente trabalho, foram definidos objetivos intermediários que devem ser concluídos previamente. Assim, os objetivos específicos são os seguintes:
+Para alcançá-lo, foram definidos objetivos intermediários que devem ser concluídos previamente. Assim, os objetivos específicos são os seguintes:
 
 \begin{alineas}
 	
-	\item Desenvolver um \textit{script} APDL através do \textit{software} ANSYS que permita a análise de túneis gêmeos profundos interligados por galerias transversais, escavados de forma defasada, com as leis de comportamento elastoplástica-viscoplástica para o maciço e viscoelástica para o revestimento; 
+	\item adaptar o \textit{script} APDL para viabilizar a análise de túneis gêmeos profundos com galerias transversais considerando o processo construtivo defasado; 
 	
-	\item Empregar o USERMAT para a introdução das leis constitutivas desenvolvidas por Quevedo (2019) e Quevedo (2021);
+	\item implementar a superfície de Mohr-Coulomb na subrotina constitutiva elastoplástica-viscoplástica desenvolvida por Quevedo (2017) e Quevedo (2021);
 	
-	\item analisar as convergências;
+	\item realizar verificações numéricas em elastoplasticidade considerando o modelo constitutivo de Mohr-Coulomb;
 	
-	\item objetivo específico 4.
+	\item investigar o efeito do parâmetro friccional (ângulo de atrito) nos perfis de convergências dos túneis longitudinais.
 	
 \end{alineas}
 % ---
@@ -39,32 +39,43 @@ Um parágrafo apresentando a metodologia do trabalho
 % ---
 \section{Justificativa}
 % ---
-Justificar a escolha da pesquisa (?)
+Justificar a escolha da pesquisa
 % ---
 \section{Delimitações}
 % ---
-Adota-se as seguintes delimitações para este trabalho:
+Foram adotadas as seguintes delimitações para o desenvolvimento deste trabalho: 
 
 \begin{alineas}
+
+\item os túneis em estudo são considerados profundos, ou seja, as cargas provenientes de estruturas da superfície e os recalques induzidos pela escavação de túneis são desprezados;
 	
-	\item Os túneis em estudo são considerados profundos, ou seja, são desprezadas as cargas provenientes de estruturas da superfície e também recalques induzidos pela escavação de túneis.
+\item o maciço em que o túnel se encontra pode apresentar descontinuidades e um comportamento muito complexo, portanto, para reduzir essa complexidade mantendo a efetividade das simulações, admite-se um meio contínuo e um maciço homogêneo e isotrópico;
 	
-	\item O maciço pode apresentar descontinuidades e possuir um comportamento muito complexo. Portanto, para reduzir essa complexidade e mantendo a efetividade das simulações, neste trabalho admite-se um meio contínuo, homogêneo e isotrópico.
+\item embora o estado de tensões internas do maciço seja complexo devido à descontinuidade e heterogeneidade dos materiais, adota-se para as análises um estado de tensões geostático-hidrostático, onde as tensões verticais e horizontais são iguais;
 	
-	\item Considerando a complexidade do estado de tensões internas do maciço devido à anisotropia, heterogeneidade e descontinuidade dos materiais, adotou-se um estado de tensões geostático-hidrostático, onde as tensões verticais e horizontais são iguais.
-	
-	\item velocidade de escavação constante
-	
-	\item modelo único de revestimento e com espessura constante 
-	
-	\item escavação é de face inteira
-	
-	\item citar os modelos utilizados (elastico, elastoplastico, viscoplastico...)
-	
-	\item evolução das deformações quase-estática (não se considera excitações dinâmicas)
-	
+\item ao contrário da prática usual de execução de túneis, onde a velocidade de avanço da escavação e o revestimento variam conforme o cronograma de obra e as características do maciço, adota-se uma velocidade de avanço constante e um modelo de revestimento com espessura também constante;
+
+\item o processo de escavação de túneis pode apresentar diferentes técnicas, porém, neste trabalho a escavação é realizada à seção plena, plana e vertical, além de não utilizar nenhuma técnica de pré-suporte;
+
+\item adota-se a evolução das deformações na forma quase-estática, não considerando a presença de excitações dinâmicas ou termos inerciais.
+
 \end{alineas}
+
 % ---
 \section{Delineamento do trabalho}
 % ---
 Apresentar os capítulos do trabalho: O capítulo 1 trata de...
+
+\begin{alineas}
+	
+	\item pesquisa bibliográfica sobre túneis;
+	
+	\item pesquisa bibliográfica sobre os modelos constitutivos utilizados na modelagem de túneis profundos;
+	
+	\item realização de análises preliminares para a compreensão do estudo de túneis profundos e verificação com soluções analíticas;
+	
+	\item desenvolvimento do \textit{script} APDL para a modelagem no \textit{software} ANSYS;
+	
+	\item estudos paramétricos de túneis com galerias transversais;
+	
+\end{alineas}
