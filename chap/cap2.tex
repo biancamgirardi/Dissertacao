@@ -250,12 +250,69 @@ construtivo do túnel.
 \subsubsection{\textit{New Implicit Method} (NIM)}
 % ---
 
+O Novo Método Implícito, também conhecido como NIM (\textit{New Implicit Method}), apresenta soluções que incluem a influência da rigidez do concreto projetado na determinação da convergência $U_0$. A \autoref{influenciarigidezNIM} apresenta os gráficos $U_i$ x $z$ ilustrando a variação da convergência de um túnel revestido ao longo de uma distância longitudinal $z$ por métodos diretos (a) e pelo método CV-CF (b). O gráfico obtido através do método direto (a) demonstra que o aumento da rigidez do concreto $K_c$ acarreta em uma redução nas convergências $U_i$ da parede de escavação. Por outro lado, o gráfico obtido pelo método CV-CF apresenta um único valor para diferentes valores de rigidez. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1.1]{influenciarigidezNIM.pdf}
+	\end{center}
+	\caption{\label{metodocvcf} Método convergência-confinamento (fonte: Quevedo (2021) (fazer a citaçao))}
+\end{figure}
 
 \subsection{Métodos diretos}
 
 Os métodos diretos estão relacionados às abordagens numéricas e, na engenharia civil, possibilitam a análise de estruturas complexas. Esses métodos aproximados permitem resolver o sistema de equações diferenciais que um meio em equilíbrio deve atender. Destacam-se aqui o Método dos Elementos Finitos, Método das Diferenças Finitas e o Método dos Elementos de Contorno.
 
-Na engenharia de túneis, a aplicação de métodos numéricos tem se expandido significativamente, permitindo a consideração de um maior número de parâmetros nos estudos. Dessa forma, é possível obter uma modelagem da interação solo-estrutura mais precisa e adequada (MARQUES, 2014).
+Na engenharia de túneis, a aplicação de métodos numéricos tem se expandido significativamente, permitindo a consideração de um maior número de parâmetros nos estudos. Dessa forma, é possível obter uma modelagem da interação solo-estrutura mais precisa e adequada (MARQUES, 2014). Entre esses parâmetros, Couto (2011) cita a profundidade e geometria do túnel, a geometria da estrutura do revestimento e das unidades geomecânicas no entorno do túnel e as fases de escavação e instalação do revestimento.
+
+As análises numéricas de túneis podem ser realizadas através de abordagens bidimensionais (deformações planas e axissimétricas) ou tridimensionais. As abordagens bidimensionais requerem menos tempo de processamento, ou seja, menos recursos computacionais são exigidos, sendo essa a principal vantagem em relação às análises tridimensionais.
+
+Nas soluções numéricas em deformações planas é possível considerar leis constitutivas mais complexas que em soluções analíticas, considerando túneis com seção transversal variada e perfil de solo não homogêneo. A simulação do processo de escavação e colocação do suporte é simplificada, realizada "através do incremento de uma pressão fictícia no interior da seção até que a convergência $U_0$ seja igual à medida \textit{in situ} ou de acordo com algum método simplificado" (QUEVEDO, 2019). Esse conceito, também utilizado no método CV-CF, considera que, antes da colocação do revestimento, uma pressão com valor situado entre a pressão geostática $p_\infty$ e zero atua na parede do túnel. A pressão existente no momento da instalação do suporte corresponde a um deslocamento radial $U_0$ e, após a instalação, a pressão fictícia é igualada a zero (COUTO, 2011). A pressão fictícia no momento da colocação do suporte é calculada a partir do deslocamento $U_0$, obtido através de métodos simplificados ou de leituras de instrumentação.
+
+Soluções em axissimetria são capazes de simular o processo de escavação e colocação do suporte de forma mais precisa através do recurso de ativação e desativação dos elementos finitos (fazer figura?), porém, apresenta limitações quanto à geometria da seção transversal e o tipo de solo ou rocha, devendo considerar um túnel de seção circular e o maciço sendo homogêneo e isotrópico (QUEVEDO, 2019).
+
+Por fim, as análises númericas tridimensionais permitem incluir diversos parâmetros e fatores que tornam o modelo o mais próximo da realidade. Contudo, seu uso acaba sendo limitado a problemas que não podem ser resolvidos através das análises bidimensionais, em virtude da exigência de grandes recursos computacionais. Quevedo (2019) apresenta os seguintes fatores que podem ser incluídos nos modelos tridimensionais:
+
+\begin{alineas}
+	
+	\item seções transversais de diferentes formatos;
+	
+	\item face de escavação de forma parcializada;
+	
+	\item perfil heterogêneo do maciço;
+	
+	\item condições de carregamento diferentes da geostática-hidrostática;
+	
+	\item galerias, estações e outros túneis na proximidade;
+	
+	\item efeitos de assentamento na superfície e interação com fundações.
+	
+\end{alineas}
+
+"É possível modelar os efeitos diferidos ao longo das escavações nas análises bidimensionais axissimétricas e tridimensionais através do tempo transcorrido durante o ciclo de escavação e colocação do suporte". Portanto, esse tempo está relacionado à velocidade e ao tamanho do passo de escavação, como demonstra a equação:
+
+\begin{equation}
+	t_p = \frac{p}{V},
+\end{equation}
+
+onde:
+
+$t_p$ = tempo transcorrido durante um passo de escavação;
+
+$p$ = tamanho do passo de escavação;
+
+$V$ = velocidade de avanço do túnel.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
