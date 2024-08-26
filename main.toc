@@ -18,8 +18,8 @@
 \contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{27}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{28}{subsection.2.6.2}%
 \contentsline {subsubsection}{\numberline {2.6.2.1}\textit {New Austrian Tunneling Method} (NATM)}{28}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}Método convergência-confinamento (CV-CF)}{31}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{33}{subsubsection.2.6.2.3}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}Método convergência-confinamento (CV-CF)}{30}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{32}{subsubsection.2.6.2.3}%
 \contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{33}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{35}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Estado da arte}{35}{subsection.2.7.1}%
