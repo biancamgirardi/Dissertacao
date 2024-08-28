@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  27 AUG 2024 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  28 AUG 2024 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,11 +1302,11 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 66.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 )
 
 [13]
@@ -1325,6 +1325,11 @@ ine 97.
 
 
 ]
+Overfull \hbox (104.44948pt too wide) in paragraph at lines 63--64
+[][][][][][][]\T1/ptm/m/n/12 (-20) ; 
+ []
+
+
 
 [15])
 
@@ -1338,7 +1343,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./fig/tunelrasoeprofundo.pdf, id=246, 635.84132pt x 318.97296pt>
+<./fig/tunelrasoeprofundo.pdf, id=252, 635.84132pt x 318.97296pt>
 File: ./fig/tunelrasoeprofundo.pdf Graphic file (type pdf)
 <use ./fig/tunelrasoeprofundo.pdf>
 Package pdftex.def Info: ./fig/tunelrasoeprofundo.pdf  used on input line 22.
@@ -1351,7 +1356,7 @@ Package pdftex.def Info: ./fig/tunelrasoeprofundo.pdf  used on input line 22.
 
 
 ]
-<./fig/cloacamassima.jpg, id=258, 991.705pt x 1003.75pt>
+<./fig/cloacamassima.jpg, id=264, 991.705pt x 1003.75pt>
 File: ./fig/cloacamassima.jpg Graphic file (type jpg)
 <use ./fig/cloacamassima.jpg>
 Package pdftex.def Info: ./fig/cloacamassima.jpg  used on input line 42.
@@ -1361,7 +1366,7 @@ Package pdftex.def Info: ./fig/cloacamassima.jpg  used on input line 42.
 [18 <./fig/tunelrasoeprofundo.pdf>]
 
 [19 <./fig/cloacamassima.jpg>]
-<./fig/valarecoberta.pdf, id=285, 509.94902pt x 263.4145pt>
+<./fig/valarecoberta.pdf, id=291, 509.94902pt x 263.4145pt>
 File: ./fig/valarecoberta.pdf Graphic file (type pdf)
 <use ./fig/valarecoberta.pdf>
 Package pdftex.def Info: ./fig/valarecoberta.pdf  used on input line 75.
@@ -1378,7 +1383,7 @@ Overfull \hbox (3.70576pt too wide) in paragraph at lines 75--76
 [21 <./fig/valarecoberta.pdf>]
 
 [22]
-<./fig/revestimento.pdf, id=424, 357.79332pt x 232.0466pt>
+<./fig/revestimento.pdf, id=430, 357.79332pt x 232.0466pt>
 File: ./fig/revestimento.pdf Graphic file (type pdf)
 <use ./fig/revestimento.pdf>
 Package pdftex.def Info: ./fig/revestimento.pdf  used on input line 106.
@@ -1386,7 +1391,7 @@ Package pdftex.def Info: ./fig/revestimento.pdf  used on input line 106.
 
 
 [23 <./fig/revestimento.pdf>]
-<./fig/mobilizacaoresistenciacisalhamento.pdf, id=448, 599.99156pt x 435.12563p
+<./fig/mobilizacaoresistenciacisalhamento.pdf, id=454, 599.99156pt x 435.12563p
 t>
 File: ./fig/mobilizacaoresistenciacisalhamento.pdf Graphic file (type pdf)
 <use ./fig/mobilizacaoresistenciacisalhamento.pdf>
@@ -1401,7 +1406,7 @@ Overfull \hbox (24.74979pt too wide) in paragraph at lines 128--129
 
 
 [24]
-<./fig/arqueamentotensoestrid.pdf, id=455, 291.5395pt x 181.9949pt>
+<./fig/arqueamentotensoestrid.pdf, id=461, 291.5395pt x 181.9949pt>
 File: ./fig/arqueamentotensoestrid.pdf Graphic file (type pdf)
 <use ./fig/arqueamentotensoestrid.pdf>
 Package pdftex.def Info: ./fig/arqueamentotensoestrid.pdf  used on input line 1
@@ -1410,7 +1415,7 @@ Package pdftex.def Info: ./fig/arqueamentotensoestrid.pdf  used on input line 1
 
 
 [25 <./fig/mobilizacaoresistenciacisalhamento.pdf>]
-<./fig/direcoesprincipais.pdf, id=469, 574.50359pt x 225.72389pt>
+<./fig/direcoesprincipais.pdf, id=475, 574.50359pt x 225.72389pt>
 File: ./fig/direcoesprincipais.pdf Graphic file (type pdf)
 <use ./fig/direcoesprincipais.pdf>
 Package pdftex.def Info: ./fig/direcoesprincipais.pdf  used on input line 146.
@@ -1427,7 +1432,7 @@ Overfull \hbox (4.35938pt too wide) in paragraph at lines 146--147
 pdfTeX warning: pdflatex.exe (file ./fig/direcoesprincipais.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-<./fig/metanalitico.pdf, id=556, 1006.17715pt x 330.60045pt>
+<./fig/metanalitico.pdf, id=562, 1006.17715pt x 330.60045pt>
 File: ./fig/metanalitico.pdf Graphic file (type pdf)
 <use ./fig/metanalitico.pdf>
 Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 176.
@@ -1437,7 +1442,7 @@ Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 176.
 [27]
 
 [28 <./fig/metanalitico.pdf>]
-<./fig/curvasNATM.png, id=574, 937.25156pt x 670.00313pt>
+<./fig/curvasNATM.png, id=580, 937.25156pt x 670.00313pt>
 File: ./fig/curvasNATM.png Graphic file (type png)
 <use ./fig/curvasNATM.png>
 Package pdftex.def Info: ./fig/curvasNATM.png  used on input line 214.
@@ -1447,7 +1452,7 @@ Package pdftex.def Info: ./fig/curvasNATM.png  used on input line 214.
 [29]
 
 [30 <./fig/curvasNATM.png>]
-<./fig/convergencia.pdf, id=587, 648.84038pt x 556.74876pt>
+<./fig/convergencia.pdf, id=593, 648.84038pt x 556.74876pt>
 File: ./fig/convergencia.pdf Graphic file (type pdf)
 <use ./fig/convergencia.pdf>
 Package pdftex.def Info: ./fig/convergencia.pdf  used on input line 235.
@@ -1455,7 +1460,7 @@ Package pdftex.def Info: ./fig/convergencia.pdf  used on input line 235.
 
 
 [31 <./fig/convergencia.pdf>]
-<./fig/metodocvcf.pdf, id=595, 284.66164pt x 269.62318pt>
+<./fig/metodocvcf.pdf, id=601, 284.66164pt x 269.62318pt>
 File: ./fig/metodocvcf.pdf Graphic file (type pdf)
 <use ./fig/metodocvcf.pdf>
 Package pdftex.def Info: ./fig/metodocvcf.pdf  used on input line 248.
@@ -1584,7 +1589,7 @@ bibitemlist
 
 
 ]
-<./pos/latex_symbols.pdf, id=693, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=699, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
@@ -1593,7 +1598,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=696, page=1, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=702, page=1, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 1>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page1 used on input line 130
@@ -1635,7 +1640,7 @@ File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf>
 Package pdftex.def Info: ./pos/latex_symbols.pdf  used on input line 130.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pos/latex_symbols.pdf, id=781, page=2, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=787, page=2, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 2>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 130
@@ -1666,7 +1671,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page2 used on input line 130
 [49
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=786, page=3, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=792, page=3, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 3>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
@@ -1687,7 +1692,7 @@ Package pdftex.def Info: ./pos/latex_symbols.pdf , page3 used on input line 130
 [50
 
  <./pos/latex_symbols.pdf>]
-<./pos/latex_symbols.pdf, id=791, page=4, 597.50829pt x 845.0471pt>
+<./pos/latex_symbols.pdf, id=797, page=4, 597.50829pt x 845.0471pt>
 File: ./pos/latex_symbols.pdf Graphic file (type pdf)
 <use ./pos/latex_symbols.pdf, page 4>
 Package pdftex.def Info: ./pos/latex_symbols.pdf , page4 used on input line 130
@@ -1735,10 +1740,10 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: 22A4BC81BE57DBCBBCA0E3AA0437A6C0;354.
  ) 
 Here is how much of TeX's memory you used:
- 24024 strings out of 473904
- 396822 string characters out of 5725657
+ 24030 strings out of 473904
+ 396870 string characters out of 5725657
  1939908 words of memory out of 5000000
- 45860 multiletter control sequences out of 15000+600000
+ 45862 multiletter control sequences out of 15000+600000
  662881 words of font info for 400 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,18n,121p,1582b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1776,9 +1781,9 @@ X/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (52 pages, 1226010 bytes).
+Output written on main.pdf (52 pages, 1227976 bytes).
 PDF statistics:
- 1100 PDF objects out of 1200 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 117281 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 117297 words of extra memory for PDF output out of 128383 (max. 10000000)
 
