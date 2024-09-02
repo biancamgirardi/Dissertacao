@@ -5,13 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2005]{NBR14724:2005}
-\abntrefinfo{ABNT}{ABNT}{2005}
-{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \textbf{{NBR} 14724}:
-  Informa{\c c}\~ao e documenta{\c c}\~ao --- trabalhos acad\^emicos ---
-  apresenta{\c c}\~ao.
-Rio de Janeiro, 2005. 9~p.}
-
 \bibitem[Benamar 1996]{Benamar1996}
 \abntrefinfo{Benamar}{BENAMAR}{1996}
 {BENAMAR, I.
@@ -19,10 +12,23 @@ Rio de Janeiro, 2005. 9~p.}
 205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
   1996.}
 
+\bibitem[Maidl et al. 2008]{Maidl2008}
+\abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
+{MAIDL, B.; SCHMID, L.; RITZ, W.; HERRENKNECHT, M. \textbf{Hardrock Tunnel
+  Boring Machines}. [S.l.]: Ernst & Sohn Verlag für Architektur und technische
+  Wissenschaften GmbH und Co.KG, 2008.
+ISBN 978-3-433-01676-3.}
+
 \bibitem[Moreira 2006]{Moreira2006}
 \abntrefinfo{Moreira}{MOREIRA}{2006}
 {MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
 \textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
   p. 92--115, 2006.}
+
+\bibitem[Silveira 1974]{Silveira1974}
+\abntrefinfo{Silveira}{SILVEIRA}{1974}
+{SILVEIRA, E. B.~S. Metrôs e túneis em solos.
+\textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
+  23--96, 1974.}
 
 \end{thebibliography}
