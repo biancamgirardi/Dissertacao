@@ -2,15 +2,16 @@
 \backcite {Moreira2006}{{7}{(document)}{Doc-Start}}
 \backcite {FederalHighwayAdministration2009}{{7}{(document)}{Doc-Start}}
 \backcite {Benamar1996}{{17}{2}{chapter.2}}
-\backcite {Benamar1996}{{18}{2.1}{figure.caption.16}}
+\backcite {Benamar1996}{{17}{2.1}{figure.caption.16}}
+\backcite {Quevedoetal2022}{{18}{2}{equation.2.0.1}}
 \backcite {Moreira2006}{{18}{2.1}{section.2.1}}
 \backcite {Silveira1974}{{18}{2.1}{section.2.1}}
 \backcite {Moreira2006}{{18}{2.1}{section.2.1}}
 \backcite {Moreira2006}{{19}{2.2}{figure.caption.17}}
 \backcite {Maidl2008}{{19}{2.1}{figure.caption.17}}
 \backcite {Silveira1974}{{19}{2.1}{figure.caption.17}}
-\backcite {Moreira2006}{{19}{2.1}{figure.caption.17}}
-\backcite {Silveira1974}{{19}{2.1}{figure.caption.17}}
+\backcite {Moreira2006,Silveira1974}{{19}{2.1}{figure.caption.17}}
+\backcite {Moreira2006,Silveira1974}{{19}{2.1}{figure.caption.17}}
 \backcite {Silveira1974}{{20}{2.1}{figure.caption.17}}
 \backcite {Moreira2006}{{20}{2.1}{figure.caption.17}}
 \backcite {Chapman2018, Moreira2006}{{20}{2.2}{section.2.2}}

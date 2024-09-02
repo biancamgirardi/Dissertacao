@@ -12,11 +12,25 @@
 205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
   1996.}
 
+\bibitem[Chapman, Metje e St{\"{a}}rk 2018]{Chapman2018}
+\abntrefinfo{Chapman, Metje e St{\"{a}}rk}{CHAPMAN; METJE; ST{\"{A}}RK}{2018}
+{CHAPMAN, D.; METJE, N.; ST{\"{A}}RK, A. \textbf{{Introduction to tunnel
+  construction}}. 2. ed. Boca Raton: CRC Press Taylor e Francis Group, 2018.
+ISBN 9781315120164.}
+
+\bibitem[{FEDERAL HIGHWAY ADMINISTRATION (U.S.)}
+  2009]{FederalHighwayAdministration2009}
+\abntrefinfo{{FEDERAL HIGHWAY ADMINISTRATION (U.S.)}}{{FEDERAL HIGHWAY
+  ADMINISTRATION (U.S.)}}{2009}
+{{FEDERAL HIGHWAY ADMINISTRATION (U.S.)}. \textbf{{Technical Manual for Design
+  and Construction of Road Tunnels — Civil Elements}}. Fhwa-nhi-1. New York:
+  Books Express Publishing, 2009. 702~p.
+ISBN 1782661727.}
+
 \bibitem[Maidl et al. 2008]{Maidl2008}
 \abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
 {MAIDL, B.; SCHMID, L.; RITZ, W.; HERRENKNECHT, M. \textbf{Hardrock Tunnel
-  Boring Machines}. [S.l.]: Ernst & Sohn Verlag für Architektur und technische
-  Wissenschaften GmbH und Co.KG, 2008.
+  Boring Machines}. 1. ed. Berlin, Germany: Ernst \& Sohn, 2008. 356~p.
 ISBN 978-3-433-01676-3.}
 
 \bibitem[Moreira 2006]{Moreira2006}
@@ -24,6 +38,20 @@ ISBN 978-3-433-01676-3.}
 {MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
 \textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
   p. 92--115, 2006.}
+
+\bibitem[Quevedo 2017]{Quevedo2017}
+\abntrefinfo{Quevedo}{QUEVEDO}{2017}
+{QUEVEDO, F. P. d.~M.
+\textbf{{Comportamento a longo prazo de t{\'{u}}neis profundos revestidos com
+  concreto : modelo em elementos finitos}}.
+210~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
+  Sul, Porto Alegre, 2017.}
+
+\bibitem[Quevedo, Bernaud e Maghous 2022]{Quevedoetal2022}
+\abntrefinfo{Quevedo, Bernaud e Maghous}{QUEVEDO; BERNAUD; MAGHOUS}{2022}
+{QUEVEDO, F. P. d.~M.; BERNAUD, D.; MAGHOUS, S. Numerical integration scheme
+  for coupled elastoplastic–viscoplastic constitutive law for tunnels.
+\textbf{International Journal of Geomechanics}, v.~22, 2022.}
 
 \bibitem[Silveira 1974]{Silveira1974}
 \abntrefinfo{Silveira}{SILVEIRA}{1974}

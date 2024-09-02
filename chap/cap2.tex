@@ -11,8 +11,6 @@
 \chapter{Problemática geral de túneis}\label{cap_exemplos}
 % ----------------------------------------------------------
 
-"O contínuo crescimento da população mundial está ligado ao aumento das obras subterrâneas, isto é devido a percepção da superfície como um espaço “mais nobre” para a moradia e lazer, deixando as outras infraestruturas subterrâneas como a construção de túneis rodoviários e ferroviários. Neste sentido os túneis em áreas urbanas e montanhosas, além de transpor as barreiras geográficas, eles também podem ter como objetivo a solução dos problemas de trânsito, em cidades com muita população. Existem outras alternativas como as vias elevadas, mas estas produzem impactos no ambiente urbano, tais como: deterioração do entorno, geração de poluição e desvalorização imobiliária." CAYRO, 2020 
-
 Conforme discutido durante o Congresso Internacional sobre Túneis, ocorrido em junho de 1970 na cidade de Washington, o conceito de túnel relaciona-se à execução de uma cavidade aberta de geometria predefinida, utilizando qualquer metodologia, destinada a ser implantada e utilizada abaixo da superfície terrestre, com uma área de seção transversal superior a 2 m².
 
 Os túneis podem ser classificados quanto à profundidade em superficiais (rasos) e profundos, conforme ilustra a \autoref{tunelrasoeprofundo}, contudo, não há um conceito único e absoluto a ser utilizado como parâmetro de definição. \citeonline{Benamar1996} propõe que um túnel é profundo quando o seu diâmetro é pequeno em relação à profundidade em que está situado, ou seja, $H/D > 10$, onde H representa a profundidade e D o diâmetro. Isso implica que a variação da tensão vertical entre as partes superior e inferior do túnel antes da escavação é insignificante quando comparada à tensão vertical inicial causada pelo peso do solo na profundidade média do túnel. 
@@ -23,6 +21,17 @@ Os túneis podem ser classificados quanto à profundidade em superficiais (rasos
 	\end{center}
 	\caption{\label{tunelrasoeprofundo} Distinção entre túnel raso e profundo (adaptado de \citeonline{Benamar1996})}
 \end{figure}
+
+A tensão vertical ($\sigma_v$) pode ser calculada pela \autoref{equacao}, e é dependente da profundidade e do peso específico do maciço ($\gamma_m$):
+
+\begin{equation}
+	\sigma_v(z = H) = \gamma_m * H.
+	\label{equacao}
+\end{equation}
+
+Os túneis profundos são caracterizados por uma escavação cujo campo de deformação não exerce influência significativa na superfície \cite{Quevedoetal2022}. O comportamento do campo de deformação e das tensões ao redor da cavidade de túneis profundos é influenciado por uma série de fatores interdependentes, incluindo a profundidade do túnel, a geometria da seção transversal, a anisotropia das tensões in situ, a heterogeneidade do maciço rochoso e a interação do mesmo com o revestimento durante a construção, além das propriedades mecânicas de ambos.
+
+O constante aumento da população mundial está diretamente relacionado ao crescimento das obras subterrâneas, visto que a superfície é cada vez mais valorizada para habitação e lazer, enquanto outras infraestruturas, como a de transporte ou saneamento básico, por exemplo, são relegadas para o subsolo.
 
 \section{Breve histórico}
 %---
@@ -50,7 +59,7 @@ Em 1818, o engenheiro francês Marc Brunel patenteou o escudo de tunelamento (\t
 
 %A primeira utilização do escudo de Brenel ocorreu no século XIX, em Londres .
 
-Uma das primeiras utilizações da técnica de perfuração por ar comprimido foi realizada em 1866, no túnel norte-americano \textit{Hoosac}. Desenvolvida por Thomas Cochrange, essa técnica revolucionou a escavação de túneis, trazendo maior segurança para os operários e uma melhora na ventilação do local, mostrando-se muito eficiente em comparação com a perfuração por explosivos utilizada até então. No ano seguinte, nesse mesmo túnel, também ocorreu a primeira escavação por nitroglicerina \cite{Moreira2006}, \cite{Silveira1974}.
+Uma das primeiras utilizações da técnica de perfuração por ar comprimido foi realizada em 1866, no túnel norte-americano \textit{Hoosac}. Desenvolvida por Thomas Cochrange, essa técnica revolucionou a escavação de túneis, trazendo maior segurança para os operários e uma melhora na ventilação do local, mostrando-se muito eficiente em comparação com a perfuração por explosivos utilizada até então. No ano seguinte, nesse mesmo túnel, também ocorreu a primeira escavação por nitroglicerina \cite{Moreira2006,Silveira1974}.
 
 Durante a construção do metrô de Chicago, no final da década de 1930, Karl Terzaghi introduziu a Mecânica dos Solos de forma mais elaborada. A partir de então iniciaram estudos importantes sobre as relações tensão-deformação do solo e aplicação da teoria da plasticidade, além da intensificação da utilização dos computadores e o surgimento do método dos elementos finitos \cite{Silveira1974}.
 
@@ -325,6 +334,7 @@ $V$ = velocidade de avanço do túnel.
 
 COLOCAR ESTADO DA ARTE AQUI TAMBÉM
 
+O projeto estrutural de túneis profundos envolve vários parâmetros geotécnicos. O campo de deformação e tensões ao redor da cavidade depende de vários fatores inter-relacionados, como a profundidade do túnel, a geometria da seção transversal, a anisotropia das tensões in situ, a heterogeneidade do maciço rochoso, o comportamento mecânico do maciço rochoso e do revestimento, bem como a interação entre ambos durante a construção do túnel. Dependendo da distância entre os túneis, a presença do túnel duplo afeta significativamente o campo de deformações e tensões no maciço rochoso. quevedo 2020
 
 
 
