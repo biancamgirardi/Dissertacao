@@ -47,6 +47,14 @@ ISBN 978-3-433-01676-3.}
 210~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
   Sul, Porto Alegre, 2017.}
 
+\bibitem[Quevedo 2021]{Quevedo2021}
+\abntrefinfo{Quevedo}{QUEVEDO}{2021}
+{QUEVEDO, F. P. d.~M.
+\textbf{Análise computacional das deformações em túneis profundos
+  considerando o acoplamento plasticidade-viscoplasticidade}.
+210~p. Tese (Doutorado) --- Universidade Federal do Rio Grande do Sul, Porto
+  Alegre, 2021.}
+
 \bibitem[Quevedo, Bernaud e Maghous 2022]{Quevedoetal2022}
 \abntrefinfo{Quevedo, Bernaud e Maghous}{QUEVEDO; BERNAUD; MAGHOUS}{2022}
 {QUEVEDO, F. P. d.~M.; BERNAUD, D.; MAGHOUS, S. Numerical integration scheme
@@ -58,5 +66,12 @@ ISBN 978-3-433-01676-3.}
 {SILVEIRA, E. B.~S. Metrôs e túneis em solos.
 \textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
   23--96, 1974.}
+
+\bibitem[Tsuji, Sawada e Takizawa 1996]{Tsujietal1996}
+\abntrefinfo{Tsuji, Sawada e Takizawa}{TSUJI; SAWADA; TAKIZAWA}{1996}
+{TSUJI, H.; SAWADA, T.; TAKIZAWA, M. Extraordinary inundation accidents in the
+  seikan undersea tunnel.
+\textbf{13th International Conference on Soil Mechanics \& Foundation
+  Engineering}, New Delhi, India, v.~119, p. 1--14, 1996.}
 
 \end{thebibliography}
