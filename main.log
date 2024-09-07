@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.23)  6 SEP 2024 01:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.23)  6 SEP 2024 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (C:\Users\bianc\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./fig/tunelrasoeprofundo.pdf, id=252, 634.89203pt x 318.02368pt>
+<./fig/tunelrasoeprofundo.pdf, id=255, 634.89203pt x 318.02368pt>
 File: ./fig/tunelrasoeprofundo.pdf Graphic file (type pdf)
 <use ./fig/tunelrasoeprofundo.pdf>
 Package pdftex.def Info: ./fig/tunelrasoeprofundo.pdf  used on input line 28.
@@ -1329,7 +1329,7 @@ Package pdftex.def Info: ./fig/tunelrasoeprofundo.pdf  used on input line 28.
 
 
  <./fig/tunelrasoeprofundo.pdf>]
-<./fig/cloacamassima.jpg, id=282, 991.705pt x 1003.75pt>
+<./fig/cloacamassima.jpg, id=285, 991.705pt x 1003.75pt>
 File: ./fig/cloacamassima.jpg Graphic file (type jpg)
 <use ./fig/cloacamassima.jpg>
 Package pdftex.def Info: ./fig/cloacamassima.jpg  used on input line 51.
@@ -1339,7 +1339,7 @@ Package pdftex.def Info: ./fig/cloacamassima.jpg  used on input line 51.
 [17]
 
 [18 <./fig/cloacamassima.jpg>]
-<./fig/valarecoberta.pdf, id=322, 509.94902pt x 263.4145pt>
+<./fig/valarecoberta.pdf, id=325, 509.94902pt x 263.4145pt>
 File: ./fig/valarecoberta.pdf Graphic file (type pdf)
 <use ./fig/valarecoberta.pdf>
 Package pdftex.def Info: ./fig/valarecoberta.pdf  used on input line 83.
@@ -1356,7 +1356,7 @@ Overfull \hbox (3.70576pt too wide) in paragraph at lines 83--84
 [20 <./fig/valarecoberta.pdf>]
 
 [21]
-<./fig/revestimento.pdf, id=476, 357.79332pt x 232.0466pt>
+<./fig/revestimento.pdf, id=479, 357.79332pt x 232.0466pt>
 File: ./fig/revestimento.pdf Graphic file (type pdf)
 <use ./fig/revestimento.pdf>
 Package pdftex.def Info: ./fig/revestimento.pdf  used on input line 114.
@@ -1364,7 +1364,7 @@ Package pdftex.def Info: ./fig/revestimento.pdf  used on input line 114.
 
 
 [22 <./fig/revestimento.pdf>]
-<./fig/mobilizacaoresistenciacisalhamento.pdf, id=500, 599.99156pt x 435.12563p
+<./fig/mobilizacaoresistenciacisalhamento.pdf, id=503, 599.99156pt x 435.12563p
 t>
 File: ./fig/mobilizacaoresistenciacisalhamento.pdf Graphic file (type pdf)
 <use ./fig/mobilizacaoresistenciacisalhamento.pdf>
@@ -1379,7 +1379,7 @@ Overfull \hbox (24.74979pt too wide) in paragraph at lines 136--137
 
 
 [23]
-<./fig/arqueamentotensoestrid.pdf, id=506, 291.5395pt x 181.9949pt>
+<./fig/arqueamentotensoestrid.pdf, id=509, 291.5395pt x 181.9949pt>
 File: ./fig/arqueamentotensoestrid.pdf Graphic file (type pdf)
 <use ./fig/arqueamentotensoestrid.pdf>
 Package pdftex.def Info: ./fig/arqueamentotensoestrid.pdf  used on input line 1
@@ -1388,7 +1388,7 @@ Package pdftex.def Info: ./fig/arqueamentotensoestrid.pdf  used on input line 1
 
 
 [24 <./fig/mobilizacaoresistenciacisalhamento.pdf>]
-<./fig/direcoesprincipais.pdf, id=521, 574.50359pt x 225.72389pt>
+<./fig/direcoesprincipais.pdf, id=524, 574.50359pt x 225.72389pt>
 File: ./fig/direcoesprincipais.pdf Graphic file (type pdf)
 <use ./fig/direcoesprincipais.pdf>
 Package pdftex.def Info: ./fig/direcoesprincipais.pdf  used on input line 154.
@@ -1405,7 +1405,7 @@ Overfull \hbox (4.35938pt too wide) in paragraph at lines 154--155
 pdfTeX warning: pdflatex.exe (file ./fig/direcoesprincipais.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-<./fig/metanalitico.pdf, id=608, 1006.17715pt x 330.60045pt>
+<./fig/metanalitico.pdf, id=611, 1006.17715pt x 330.60045pt>
 File: ./fig/metanalitico.pdf Graphic file (type pdf)
 <use ./fig/metanalitico.pdf>
 Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 184.
@@ -1415,7 +1415,7 @@ Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 184.
 [26]
 
 [27 <./fig/metanalitico.pdf>]
-<./fig/curvasNATM.png, id=625, 937.25156pt x 670.00313pt>
+<./fig/curvasNATM.png, id=628, 937.25156pt x 670.00313pt>
 File: ./fig/curvasNATM.png Graphic file (type png)
 <use ./fig/curvasNATM.png>
 Package pdftex.def Info: ./fig/curvasNATM.png  used on input line 222.
@@ -1425,7 +1425,7 @@ Package pdftex.def Info: ./fig/curvasNATM.png  used on input line 222.
 [28]
 
 [29 <./fig/curvasNATM.png>]
-<./fig/convergencia.pdf, id=637, 648.84038pt x 556.74876pt>
+<./fig/convergencia.pdf, id=640, 648.84038pt x 556.74876pt>
 File: ./fig/convergencia.pdf Graphic file (type pdf)
 <use ./fig/convergencia.pdf>
 Package pdftex.def Info: ./fig/convergencia.pdf  used on input line 243.
@@ -1433,7 +1433,7 @@ Package pdftex.def Info: ./fig/convergencia.pdf  used on input line 243.
 
 
 [30 <./fig/convergencia.pdf>]
-<./fig/metodocvcf.pdf, id=646, 284.66164pt x 269.62318pt>
+<./fig/metodocvcf.pdf, id=649, 284.66164pt x 269.62318pt>
 File: ./fig/metodocvcf.pdf Graphic file (type pdf)
 <use ./fig/metodocvcf.pdf>
 Package pdftex.def Info: ./fig/metodocvcf.pdf  used on input line 256.
@@ -1514,14 +1514,14 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: B7487356E2862FBA38ACC9FB63E63F45;1552.
+(rerunfilecheck)             Checksum: 5490548D757D7DD6B8DB1490F1600D59;1596.
  ) 
 Here is how much of TeX's memory you used:
- 23791 strings out of 473904
- 390723 string characters out of 5726600
+ 23807 strings out of 473904
+ 390896 string characters out of 5726600
  1938908 words of memory out of 5000000
- 45707 multiletter control sequences out of 15000+600000
- 650413 words of font info for 361 fonts, out of 8000000 for 9000
+ 45716 multiletter control sequences out of 15000+600000
+ 650667 words of font info for 365 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,17n,121p,1199b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bianc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1535,9 +1535,9 @@ ms/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/bianc/AppData/Local/Program
 s/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bianc/AppData/Local/Program
 s/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/bianc/AppData/Local/Program
 s/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (39 pages, 869665 bytes).
+Output written on main.pdf (39 pages, 870572 bytes).
 PDF statistics:
- 920 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  101788 words of extra memory for PDF output out of 106986 (max. 10000000)
 
