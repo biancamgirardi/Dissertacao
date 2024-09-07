@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  22 AUG 2024 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.23)  7 SEP 2024 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,7 +807,7 @@ If that doesn't work, type  X <return>  to quit.
  
 Here is how much of TeX's memory you used:
  34 strings out of 473904
- 528 string characters out of 5725657
+ 528 string characters out of 5726600
  1928908 words of memory out of 5000000
  23001 multiletter control sequences out of 15000+600000
  558415 words of font info for 37 fonts, out of 8000000 for 9000
