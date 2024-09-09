@@ -5,12 +5,26 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[{AFTES} 2001]{AFTES2001}
+\abntrefinfo{{AFTES}}{{AFTES}}{2001}
+{{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
+\textbf{Recommendations on the convergence-confinement method}, 2001.}
+
 \bibitem[Benamar 1996]{Benamar1996}
 \abntrefinfo{Benamar}{BENAMAR}{1996}
 {BENAMAR, I.
 \textbf{{Etude des effets diff{\'{e}}r{\'{e}}s dans les tunnels profonds}}.
 205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
   1996.}
+
+\bibitem[Bernaud e Rousset 1992]{Bernaud1992}
+\abntrefinfo{Bernaud e Rousset}{BERNAUD; ROUSSET}{1992}
+{BERNAUD, D.; ROUSSET, G. {La « nouvelle m{\'{e}}thode implicite » pour
+  l'{\'{e}}tude du dimensionnement des tunnels}.
+\textbf{Revue Fran{\c{c}}aise de G{\'{e}}otechnique}, n.~60, p. 5--26, 1992.
+Dispon{\'\i}vel em:
+  \url{https://www.geotech-fr.org/sites/default/files/rfg/article/60-1.pdf}.
+  Acesso em: 27 abr. 2021.}
 
 \bibitem[Bickel, Kuesel e King 1996]{Bickel1996}
 \abntrefinfo{Bickel, Kuesel e King}{BICKEL; KUESEL; KING}{1996}
@@ -29,6 +43,14 @@ ISBN 13: 978-1-4613-8053-5.}
   construction}}. 2. ed. Boca Raton: CRC Press Taylor e Francis Group, 2018.
 ISBN 9781315120164.}
 
+\bibitem[Couto 2011]{Couto2011}
+\abntrefinfo{Couto}{COUTO}{2011}
+{COUTO, E.~C.
+\textbf{{Um modelo tridimensional para t{\'{u}}neis escavados em rocha
+  refor{\c{c}}ada por tirantes passivos}}.
+141~p. Tese (Doutorado) --- Universidade Federal do Rio Grande do Sul, Porto
+  Alegre, 2011.}
+
 \bibitem[Deere et al. 1970]{Deere1970}
 \abntrefinfo{Deere et al.}{DEERE et al.}{1970}
 {DEERE, D.~U.; PECK, R.~B.; PARKER, H.~W.; MONSEES, J.~E.; SCHMIDT, B. Design
@@ -45,6 +67,23 @@ ISBN 9781315120164.}
   Books Express Publishing, 2009. 702~p.
 ISBN 1782661727.}
 
+\bibitem[Fran{\c{c}}a 2006]{Franca2006}
+\abntrefinfo{Fran{\c{c}}a}{FRAN{\c{C}}A}{2006}
+{FRAN{\c{C}}A, P.~T. \textbf{Estudo do comportamento de túneis: análise
+  numérica tridimensional com modelos elasto-plásticos}. S\~{a}o Paulo:
+  Biblioteca Digital de Teses e Disserta{\c{c}}{\~{o}}es da Universidade de
+  S{\~{a}}o Paulo, 2006. 185~p.
+Dispon{\'\i}vel em:
+  \url{http://www.teses.usp.br/teses/disponiveis/3/3145/tde-08122006-151549/}.}
+
+\bibitem[Gomes 2006]{Gomes2006}
+\abntrefinfo{Gomes}{GOMES}{2006}
+{GOMES, R. A. M.~P.
+\textbf{An{\'{a}}lise tridimensional de t{\'{u}}neis considerando o
+  comportamento dependente do tempo na intera{\c{c}}{\~{a}}o
+  maci{\c{c}}o-suporte.}
+306~p. Tese (Doutorado) --- Universidade de São Paulo, São Carlos, 2006.}
+
 \bibitem[{HEALTH AND SAFETY EXECUTIVE} 1996]{HSE1996}
 \abntrefinfo{{HEALTH AND SAFETY EXECUTIVE}}{{HEALTH AND SAFETY
   EXECUTIVE}}{1996}
@@ -52,11 +91,22 @@ ISBN 1782661727.}
   Method (NATM) Tunnels}. London: Crown, 1996. 137~p.
 ISBN 978-0-7176-1068-6.}
 
+\bibitem[Heini{\"{o}} 1999]{Heinio1999}
+\abntrefinfo{Heini{\"{o}}}{HEINI{\"{O}}}{1999}
+{HEINI{\"{O}}, M. \textbf{{Rock Excavation Handbook}}. London: Sandvik Tamrock
+  Corp., 1999. 364~p.}
+
 \bibitem[Hoek e Brown 1980]{HoekBrown1980}
 \abntrefinfo{Hoek e Brown}{HOEK; BROWN}{1980}
 {HOEK, E.; BROWN, E.~T. \textbf{{Underground Excavations in Rock}}. London: CRC
   Press, 1980. 532~p.
 ISBN 9781482288926.}
+
+\bibitem[Karakus e Fowell 2004]{Karakus2004}
+\abntrefinfo{Karakus e Fowell}{KARAKUS; FOWELL}{2004}
+{KARAKUS, M.; FOWELL, R.~J. An insight into the new austrian tunnelling method
+  (natm).
+\textbf{VIIth Regional Rock Mechanics Symposium}, p.~14, 2004.}
 
 \bibitem[Maidl et al. 2008]{Maidl2008}
 \abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
@@ -75,6 +125,21 @@ ISBN 978-3-433-01676-3.}
 {MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
 \textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
   p. 92--115, 2006.}
+
+\bibitem[Palmstr{\"{o}}m 1993]{Palmstrom1993}
+\abntrefinfo{Palmstr{\"{o}}m}{PALMSTR{\"{O}}M}{1993}
+{PALMSTR{\"{O}}M, A. The new austrian tunneling method (natm).
+\textbf{Anais da Conferência técnica de detonação de rochas, mecânica das
+  rochas e Geotecnia}, Instituto Geotécnico Norueguês, Oslo, 1993.
+Dispon{\'\i}vel em: \url{http://rockmass.net/ap/39\_Palmstrom\_on\_NATM.pdf}.}
+
+\bibitem[Panet 1995]{Panet1995}
+\abntrefinfo{Panet}{PANET}{1995}
+{PANET, M. \textbf{{Le Calcul des Tunnels par la M{\'{e}}thode
+  Convergence-Confinement}}. Presses De L'ecole Nationale Des Ponts Et
+  Chaussees, 1995. 161~p.
+ISBN 2859782303. Dispon{\'\i}vel em:
+  \url{https://pt.scribd.com/document/456649940/1995-Calcul-Des-Tunnels-Par-La-Methode-Convergence-Confinement-Panet}.}
 
 \bibitem[Quevedo 2017]{Quevedo2017}
 \abntrefinfo{Quevedo}{QUEVEDO}{2017}
@@ -110,5 +175,12 @@ ISBN 978-3-433-01676-3.}
   seikan undersea tunnel.
 \textbf{13th International Conference on Soil Mechanics \& Foundation
   Engineering}, New Delhi, India, v.~119, p. 1--14, 1996.}
+
+\bibitem[{WORLD HIGHWAYS} 2015]{Worldhighways2015}
+\abntrefinfo{{WORLD HIGHWAYS}}{{WORLD HIGHWAYS}}{2015}
+{{WORLD HIGHWAYS}. \textbf{{Improving tunneling method selection}}. 2015. 1~p.
+Dispon{\'\i}vel em:
+  \url{https://www.worldhighways.com/wh10/feature/improving-tunneling-method-selection}.
+  Acesso em: 08 set. 2024.}
 
 \end{thebibliography}

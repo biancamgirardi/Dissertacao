@@ -26,8 +26,10 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
+Warning--entry type for "Franca2006" isn't style-file defined
+--line 195 of file ./bib/referencias.bib
 Warning--entry type for "Marques2014" isn't style-file defined
---line 215 of file ./bib/referencias.bib
+--line 325 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -37,45 +39,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 20 entries,
+You've used 30 entries,
             6714 wiz_defined-function locations,
-            1328 strings with 12382 characters,
-and the built_in function-call counts, 13960 in all, are:
-= -- 1123
-> -- 498
-< -- 15
-+ -- 231
-- -- 150
-* -- 991
-:= -- 1939
-add.period$ -- 66
-call.type$ -- 20
-change.case$ -- 177
-chr.to.int$ -- 42
-cite$ -- 16
-duplicate$ -- 673
-empty$ -- 1083
-format.name$ -- 715
-if$ -- 3333
+            1404 strings with 14482 characters,
+and the built_in function-call counts, 27491 in all, are:
+= -- 2727
+> -- 682
+< -- 394
++ -- 673
+- -- 210
+* -- 1806
+:= -- 3637
+add.period$ -- 110
+call.type$ -- 30
+change.case$ -- 249
+chr.to.int$ -- 52
+cite$ -- 26
+duplicate$ -- 2150
+empty$ -- 1635
+format.name$ -- 993
+if$ -- 5969
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 340
-newline$ -- 90
-num.names$ -- 80
-pop$ -- 382
+missing$ -- 511
+newline$ -- 143
+num.names$ -- 130
+pop$ -- 569
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 106
 quote$ -- 0
-skip$ -- 819
+skip$ -- 2255
 stack$ -- 1
-substring$ -- 421
-swap$ -- 291
-text.length$ -- 7
+substring$ -- 995
+swap$ -- 805
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 12
 warning$ -- 0
-while$ -- 106
+while$ -- 175
 width$ -- 0
-write$ -- 264
-(There was 1 warning)
+write$ -- 426
+(There were 2 warnings)
