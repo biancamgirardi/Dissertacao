@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {2.2}Métodos de escavação}{20}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Suporte}{24}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{26}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Métodos de dimensionamento do suporte}{29}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Métodos de dimensionamento}{29}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Métodos analíticos}{29}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Métodos simplificados}{30}{subsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.2.1}\textit {New Austrian Tunneling Method} (NATM)}{30}{subsubsection.2.5.2.1}%
@@ -21,14 +21,9 @@
 \contentsline {subsubsection}{\numberline {2.5.2.3}\textit {New Implicit Method} (NIM)}{34}{subsubsection.2.5.2.3}%
 \contentsline {subsection}{\numberline {2.5.3}Métodos diretos}{35}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}Aspectos gerais de túneis gêmeos}{37}{section.2.6}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{38}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo elástico}{38}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo elastoplástico}{39}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Comportamento do material elastoplástico perfeito}{39}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Comportamento do material elastoplástico com endurecimento}{39}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Comportamento do material elastoplástico com amolecimento}{39}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Modelo viscoplástico}{39}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Modelo elastoplástico viscoplástico}{39}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do maciço}{39}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do revestimento}{39}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{40}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Verificações com soluções analíticas}{40}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Verificações com ...}{40}{section.4.2}%

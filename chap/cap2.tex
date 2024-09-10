@@ -144,7 +144,7 @@ Os sistemas de suporte são compostos por revestimento primário e, quando neces
 	\begin{center}
 		\includegraphics[scale=1]{revestimento.pdf}
 	\end{center}
-	\caption{\label{revestimento} Elementos de revestimento de túnel rodoviário \cite{Quevedo2021} (ou adaptado de DAER?)}
+	\caption{\label{revestimento} Elementos de revestimento de túnel rodoviário (adaptado de \citeonline{DAERSP2005})}
 \end{figure}
 
 Existem também elementos e técnicas que visam melhorar o maciço antes mesmo da escavação da abertura, denominados pré-suporte, e é comum utilizá-los em maciços com riscos iminentes de desabamento. Como exemplos, pode-se citar as enfilagens, tirantes, pré-confinamento com ar comprimido e injeções de cimento sobre pressão \cite{Quevedo2021}.
@@ -184,15 +184,26 @@ Normalmente, antes da realização da escavação, a direção das tensões prin
 	\begin{center}
 		\includegraphics[scale=0.8]{direcoesprincipais.pdf}
 	\end{center}
-	\caption{\label{direcoesprincipais} Direções das tensões principais (fonte: adaptado de França (2006) (fazer a citaçao))}
+	\caption{\label{direcoesprincipais} Direções das tensões principais (adaptado de \citeonline{Franca2006}}
 \end{figure}
 
 %Quevedo (2017) demonstrou com análises numéricas de túneis gêmeos que há influência da presença de outros túneis paralelos no campo de tensões e deformações no interior do maciço. Além da interação maciço-revestimento já citada, a reologia dos materiais envolvidos também influencia no comportamento do túnel, especialmente a longo prazo. (Dada, 2020 p.37)
 
 % ---
-\section{Métodos de dimensionamento do suporte}
+\section{Métodos de dimensionamento}
 % ---
-"A Fig. 4.1. dá uma indicação de vários modelos de projeto estrutural usados para representar o revestimento circular; eles são mostrados, tanto quanto possível, em sequência de evolução; a parte geral corresponde aos dois domínios da mecânica de meios deformáveis, resistência dos materiais e teoria da elasticidade. O modelo unidimensional trata o revestimento como uma barra curva, e as cargas são determinadas separadamente usando várias teorias, das quais as mais comumente usadas são as de Protodiakonov e Terzaghi. O modelo bidimensional ou tridimensional determina o estado de tensão e as deformações na estrutura do solo/forro de acordo com a teoria elástica, usando métodos analíticos ou numéricos. Há também alguns métodos empíricos, baseados na experiência, na observação e também na medição. O projetista de túneis que tiver de escolher um método de projeto entre esses métodos ficará um pouco confuso." IFTIMIE
+%"A Fig. 4.1. dá uma indicação de vários modelos de projeto estrutural usados para representar o revestimento circular; eles são mostrados, tanto quanto possível, em sequência de evolução; a parte geral corresponde aos dois domínios da mecânica de meios deformáveis, resistência dos materiais e teoria da elasticidade. O modelo unidimensional trata o revestimento como uma barra curva, e as cargas são determinadas separadamente usando várias teorias, das quais as mais comumente usadas são as de Protodiakonov e Terzaghi. O modelo bidimensional ou tridimensional determina o estado de tensão e as deformações na estrutura do solo/forro de acordo com a teoria elástica, usando métodos analíticos ou numéricos. Há também alguns métodos empíricos, baseados na experiência, na observação e também na medição. O projetista de túneis que tiver de escolher um método de projeto entre esses métodos ficará um pouco confuso." IFTIMIE
+
+%De fato, os métodos de projeto de suporte de túneis podem ser classificados em quatro tipos:
+
+%- Métodos puramente empíricos que indicam o tipo de suporte mais adequado para uma situação definida a partir de vários sistemas de classificação geotécnica.
+%- Métodos para determinar as cargas que atuam sobre o suporte, independentemente do tipo de suporte e da deformação.
+%- Métodos de projeto de suporte que consideram as cargas exercidas pelo solo como dados de entrada, mas permitem a rigidez e a deformação do suporte e as reações do solo circundante. 
+%- Métodos mais recentes que levam em conta totalmente a interação solo/suporte.
+
+O problema de dimensionamento de túneis sempre esteve entre os maiores desafios para os engenheiros projetistas, visto que a construção de uma obra subterrânea substitui os estados iniciais de tensão pré-existentes por um novo estado de tensões combinando o maciço, a abertura e o suporte \cite{Iftimie1996}. 
+
+Desse modo, durante muito tempo, o projeto de suporte de túneis permaneceu como uma arte empírica, pois os métodos analíticos eram considerados inadequados para tais obras \cite{AFTES2001}. As maiores dificuldades normalmente decorrem do conhecimento inadequado do comportamento do maciço, ou seja, a falta de dados sobre o estado natural de tensão, além de ser um problema completamente tridimensional.
 
 \subsection{Métodos analíticos}
 % ---
@@ -230,7 +241,7 @@ A convergência \(U_i\) é expressa pela equação:
 \subsection{Métodos simplificados}
 % ---
 
-Os métodos simplificados permitem aos projetistas fazer estimativas razoáveis nas fases iniciais do projeto de túneis. Embora apresentem restrições que simplificam e limitam significativamente a determinação do estado de equilíbrio final do túnel, também fornecem resultados rápidos que servem como base para modelos de cálculo mais detalhados que serão realizados posteriormente. Por essa razão, são amplamente utilizados no pré-dimensionamento de túneis, como na escolha do método de escavação e do tipo de suporte.
+Os métodos simplificados permitem aos projetistas realizar estimativas razoáveis nas fases iniciais do projeto de túneis. Embora apresentem restrições que simplificam e limitam significativamente a determinação do estado de equilíbrio final do túnel, também fornecem resultados rápidos que servem como base para modelos de cálculo mais detalhados que serão realizados posteriormente. Por essa razão, são amplamente utilizados no pré-dimensionamento de túneis, como na escolha do método de escavação e do tipo de suporte.
 
 Todos os três métodos simplificados apresentados a seguir possuem como base a análise das curvas características do maciço e do revestimento.
 
@@ -242,7 +253,7 @@ Em 1950, os austríacos Rabcewicz, Müller e Pacher reuniram técnicas já conhe
 
 Após o reconhecimento internacional do Novo Método Austríaco de Túneis (NATM, \textit{New Austrian Tunneling Method}), emergiram debates questionando se o método deve ser entendido como uma técnica ou uma filosofia. De acordo com Rabcewicz, o método consiste na aplicação de uma fina camada de concreto projetado que deve ser rapidamente fechada por um arco auxiliar, cuja deformação é monitorada até que o equilíbrio seja alcançado \cite{Karakus2004}. O monitoramento das deformações se fez necessário pois as ferramentas de cálculo disponíveis na época não eram capazes de confirmar a eficiência do revestimento fino (Schubert, 1999 apud \citeonline{Chapman2018}).
 
-O método é a concretização das ideias de Rabcewicz após observar que as dificuldades e os colapsos durante a escavação das aberturas eram consequências dos outros métodos conhecidos, que permitiam afrouxamentos iniciais do maciço sem controle e deixavam vazios entre o suporte e o terreno \cite{Gomes2006}. Assim, o principal escopo do NATM é controlar as transferências de tensões que ocorrem no maciço quando uma abertura é realizada, fazendo com que o estado de equilíbrio final seja atingido de forma econômica e segura.
+O método é a concretização das ideias de Rabcewicz após observar que as dificuldades e os colapsos durante a escavação das aberturas eram consequências dos outros métodos conhecidos, que permitiam afrouxamentos iniciais do maciço sem controle e deixavam vazios entre o suporte e o maciço \cite{Gomes2006}. Assim, o principal escopo do NATM é controlar as transferências de tensões que ocorrem no maciço quando uma abertura é realizada, fazendo com que o estado de equilíbrio final seja atingido de forma econômica e segura.
 
 Por outro lado, \citeonline{Moreira2006} reconhece o método como uma filosofia, afirmando que o NATM baseia-se em dois princípios. O primeiro trata-se de que o principal componente de suporte de um túnel resulta da capacidade resistente natural do maciço, ou seja, deve-se permitir a deformação do mesmo após a escavação a fim de atingir a máxima resistência possível. Já o segundo princípio aborda a necessidade de observar continuamente o processo construtivo do túnel.
 
@@ -250,17 +261,14 @@ Com o intuito de acabar com os conflitos na literatura, a definição do método
 
 Assim como os demais métodos simplificados presentes neste trabalho, a principal ferramenta de análise do NATM são as curvas características do maciço e do revestimento, representadas na \autoref{curvasNATM}. A curva de resposta do maciço apresenta as deformações e a interação com o revestimento conforme o tempo, atuando como um instrumento para estimar a rigidez do suporte e o momento para a sua instalação, que são parâmetros importantes para uma mobilização favorável da resistência inerente do maciço \cite{Palmstrom1993}.
 
-figura 3 artigo Karakus e Fowell página 5 - traduzir (inverter os casos 1 e 2?)
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.4]{curvasNATM.png}
+		\includegraphics[scale=1]{curvasNATM.pdf}
 	\end{center}
 	\caption{\label{curvasNATM} Curvas características do maciço e do revestimento}
 \end{figure}
 
-Os números 1 e 2 indicam dois sistemas de suporte instalados em momentos distintos. Quando o revestimento (2) é instalado de forma precoce estará sujeito a uma carga mais elevada proveniente do maciço, visto que o mesmo não se deformou o suficiente e, consequentemente, uma resistência maior será exigida para o revestimento. Se o revestimento (1) for instalado após a ocorrência de uma deformação (ponto A), o sistema atingirá o equilíbrio com um carregamento menor atuando no suporte. Contudo, após o ponto B, inicia-se o efeito de afrouxamento (dissociação do maciço) e a pressão de suporte necessária para conter esse efeito aumenta excessivamente.
-
-%Em suma, o suporte não deve ser instalado muito cedo, pois assim a capacidade do maciço de suportar cargas não seria mobilizada. Porém, não se deve instalar o suporte 
+O gráfico apresenta três curvas de confinamento, $CF_1$, $CF_2$ e $CF_3$, demonstrando três sistemas de suporte distintos interagindo com o maciço representado pela curva de convergência (CV). A curva de confinamento (1) representa um revestimento mais rígido instalado de forma precoce, ou seja, esse revestimento estará sujeito a uma carga mais elevada proveniente do maciço, visto que o mesmo não se deformou o suficiente e, consequentemente, uma resistência maior será exigida para o revestimento. Já o revestimento representado pela curva (2), também instalado de forma precoce, não receberá uma carga tão superior por ser um revestimento não tão rígido quanto o primeiro. Em um terceiro caso, como a curva (3), nota-se que ao instalar o revestimento após uma certa deformação do próprio maciço, um carregamento menor estará atuando nesse sistema de suporte. Em suma, é importante que haja a mobilização da capacidade de carga do maciço, respeitando as características geomecânicas do mesmo, antes do suporte surtir efeito.
 
 Maiores informações acerca do NATM podem ser encontradas nos estudos realizados por \citeonline{Gomes2006} e \citeonline{Karakus2004}.
 
@@ -268,7 +276,7 @@ Maiores informações acerca do NATM podem ser encontradas nos estudos realizado
 \subsubsection{Método convergência-confinamento (CV-CF)}
 % ---
 
-O método convergência-confinamento (CV-CF), também conhecido como método das curvas características, trata de uma abordagem aproximada para o cálculo de túneis considerando um problema bidimensional de deformação plana da interação entre o maciço e o revestimento. Esse método consiste em desacoplar o problema através dos conceitos de curva de confinamento do revestimento e curva de convergência do maciço \cite{AFTES2001}. Neste método, o impacto do avanço da face de corte é considerado através da aplicação de uma pressão fictícia nas paredes do túnel \cite{Bernaud1992}. 
+O método convergência-confinamento (CV-CF), também conhecido como método das curvas características, trata de uma abordagem aproximada para o cálculo de túneis considerando um problema bidimensional de deformação plana da interação entre o maciço e o revestimento. Esse método consiste em desacoplar o problema através dos conceitos de curva de confinamento do revestimento e curva de convergência do maciço \cite{AFTES2001}. O impacto do avanço da face de corte é considerado através da aplicação de uma pressão fictícia nas paredes do túnel \cite{Bernaud1992}. 
 
 A convergência na seção de um túnel é definida como o deslocamento relativo entre dois pontos em faces opostas ao longo de uma direção específica, como demonstrado na \autoref{convergencia}. Essa convergência é considerada positiva caso esses pontos tendam a se aproximar e negativa quando a tendência é se afastar \cite{Panet1995}.
 
@@ -293,14 +301,10 @@ As curvas de convergência e confinamento podem ser graficadas a partir de méto
 \end{figure}
 
 
-"a interação solo/suporte geralmente não é passível de ser tratada separadamente com as ações aplicadas à estrutura e com as tensões e deformações da estrutura. A abordagem desses dois fatores separadamente é o principal motivo da inadequação dos métodos propostos anteriormente. AFTES 2001"
+De acordo com as recomendações da \citeonline{AFTES2001}, a interação entre o maciço e o revestimento geralmente não pode ser tratada de forma independente com as ações aplicadas à estrutura e com as tensões e deformações que nela ocorrem. Separar essas duas abordagens é a principal razão pela qual os métodos propostos anteriormente se mostraram inadequados. 
 
+A determinação de $U_0$ só pode ser realizada por meio de um método que leve em conta a interação completa entre o maciço e o revestimento, como análises axissimétricas e tridimensionais, além de medidas \textit{in situ} \cite{Quevedo2021} . Portanto, apesar da curva de confinamento ser dependente da lei constitutiva do revestimento, a convergência $U_0$ em $d_0$ (ponto em que essa curva começa) depende da interação com o maciço e também do revestimento instalado anteriormente. Isso porque a seção distante de $d_0$ da face de escavação já apresenta essa convergência durante o progresso da construção do túnel.
 
-Apesar do comportamento da curva de confinamento depender exclusivamente da lei constitutiva
-do revestimento, a convergência U0 em d0, a partir da qual essa curva inicia, vai depender da
-interação entre o maciço e do revestimento que foi anteriormente instalado, uma vez que a seção
-do túnel, afastada de d0 da face de escavação, já possui essa convergência durante o avanço
-construtivo do túnel.
 
 % ---
 \subsubsection{\textit{New Implicit Method} (NIM)}
@@ -376,32 +380,21 @@ De acordo com \citeonline{Lietal2018}, os túneis gêmeos passaram a ser amplame
 
 Em túneis gêmeos, o suporte do túnel escavado primeiro é afetado pela construção do segundo, visto que ocorre em um campo de tensões já modificado. A interação entre os túneis tem sido amplamente observada e documentada, particularmente em condições geotécnicas desfavoráveis, pois a escavação do segundo túnel pode provocar convergência adicional, sobrecargas ou até comprometer a integridade estrutural do revestimento do primeiro túnel \cite{Fortsakis2012}. Todavia, é importante ressaltar que as metodologias utilizadas nos projetos, recentes ou não, normalmente foram desenvolvidas para túneis individuais, não levando a interação entre os dois túneis em consideração. De acordo com \citeonline{Quevedo2020}, a presença de um segundo túnel afeta de forma significativa o campo de deformações e tensões no maciço.
 
-%Mais especificamente, a influência da interação na convergência do túnel e na pressão de suporte é examinada para uma ampla gama de parâmetros geométricos (largura do pilar) e condições geotécnicas (parâmetros de resistência e deformabilidade do maciço rochoso, tensão no local). (Fortsakis, 2012)
+Para a resolução do problema de túneis gêmeos, geralmente há duas abordagens. A primeira considerando um modelo bidimensional em deformações planas, que implica em algumas limitações, como a dificuldade de obtenção de determinados parâmetros e a falta da modelagem correta da face de avanço dos túneis. A segunda abordagem é a utilização de um modelo numérico tridimensional que, através da ativação e desativação de elementos finitos, possibilita a correta modelagem do avanço da escavação e instalação do revestimento \cite{Dada2020}. No entanto, os métodos numéricos possuem a desvantagem relacionada à complexidade de elaboração das malhas, à simulação das etapas de escavação e colocação do revestimento e ao custo computacional. É de grande importância a definição dos parâmetros relacionados à defasagem da face de escavação, à distância entre os túneis, conforme \citeonline{Colombo2023}.
 
-%Com o intuito de ampliar a segurança dos usuários em túneis gêmeos de grande extensão, usualmente, empregam-se galerias transversais que interligam os dois túneis. Estas consistem em rotas de saída em circunstâncias de emergência, passagem de um túnel para o outro, fácil acesso para a realização de manutenções e podem, inclusive, contribuir para o melhoramento da qualidade de ar e da ventilação ao longo dos túneis, possibilitando a renovação de ar. (Colombo, 2023)
+Por razões de segurança, em projetos de túneis gêmeos de grandes extensões, é recomendável incluir galerias transversais que conectem os dois túneis. Essas galerias proporcionam uma rota de evacuação em situações de emergência, facilitam a manutenção entre os túneis e, em alguns casos, contribuem para a ventilação e renovação do ar em seu interior \cite{Dada2020}. A extensão máxima que os túneis longitudinais podem atingir sem galeria varia conforme os regulamentos de cada região. No Reino Unido, por exemplo, o comprimento máximo dos túneis principais deve ser de 500 m até que haja uma passagem transversal \cite{UKGovernment2019}. Como exemplos, o túnel Seikan, no Japão, apresenta galerias a cada 600 m dos túneis longitudinais (principal e de serviço) e o Gotthard Base Tunnel, na Suíça, possui uma distância de 333 m entre as galerias transversais, conforme \cite{Vetsch2016}
 
-%Em relação às análises numéricas para túneis gêmeos, comumente, busca-se a resolução através de duas perspectivas, sendo a primeira com a implementação de um modelo bidimensional, considerando deformações planas, o que implica em algumas limitações, como a ausência da correta modelagem da face de avanço dos túneis. A segunda alternativa refere-se ao emprego de um modelo numérico tridimensional que corresponde ao método que possibilita a correta modelagem do avanço da escavação e da colocação do revestimento, através do método da ativação e desativação dos elementos finitos. Assim, um dos parâmetros mais importantes no estudo de túneis gêmeos refere-se à definição da distância entre eixos de túneis e da distância de defasagem da face de escavação. A análise da interface entre as galerias transversais e os túneis principais configura-se como um fator importante na modelagem tridimensional. (Colombo, 2023)
-
-%Quando se trata deste tipo de túnel, geralmente se resolve o problema por duas abordagens: considerando um modelo bidimensional em deformações planas, que possui uma série de limitações, principalmente relacionadas à dificuldade de obtenção de alguns parâmetros; ou um modelo numérico tridimensional em elementos finitos, que apesar de ser uma ferramenta bastante precisa, ainda é pouco utilizada frente à complexidade de elaboração dos modelos e malhas, na simulação das fases da escavação e colocação do revestimento e pelo custo computacional envolvido. (Dada, 2020)
+Ainda, \citeonline{Dada2020} afirma que é de extrema importância que túneis gêmeos com galerias transversais sejam modelados de forma numérica e tridimensional, visto que a interface entre esses elementos é de significativa relevância e as soluções analíticas não contemplam esses casos.
 
 %citar alguns exemplos de túneis gêmeos em utilização, como o Gotthard Base Tunnel (Suíça - Itália), o Brenner Base Tunnel (Áustria - Itália)
 
 %Uma das principais questões no estudo de túneis gêmeos é quanto à distância ideal entre os dois túneis. Basicamente o problema a ser solucionado é posicionar estes túneis de forma que a zona de plastificação de um não interfira na do túnel adjacente (Dada, 2020)
 
-% GALERIAS - Essencialmente por questões de segurança, quando são construídos túneis gêmeos de comprimentos muito longos, é recomendável que seja previsto em projeto galerias transversais fazendo uma conexão entre os dois túneis, oferecendo uma rota de saída no caso de uma emergência, facilitando a manutenção entre os túneis e em alguns casos até melhorando a ventilação e a qualidade do ar no interior do túnel. (Dada, 2020) 
-
-%A distância mínima recomendada entre as galerias é bastante variada conforme os regulamentos de cada país ou região. No Reino Unido, por exemplo, o UK Government (2019) determina que a cada 500 metros do túnel principal seja posicionada uma galeria transversal fazendo a conexão entre os dois túneis, bem como rotas de saída ao longo do túnel conectadas à superfície nos portais de entrada e saída dos túneis. (Dada, 2020)
+%Mais especificamente, a influência da interação na convergência do túnel e na pressão de suporte é examinada para uma ampla gama de parâmetros geométricos (largura do pilar) e condições geotécnicas (parâmetros de resistência e deformabilidade do maciço rochoso, tensão no local). (Fortsakis, 2012)
 
 
 
-
-
-
-
-
-
-%\textbf{ESTADO DA ARTE}
-
+%ESTADO DA ARTE
 
 
 

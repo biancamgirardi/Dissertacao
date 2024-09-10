@@ -6,7 +6,8 @@
 \backcite {Worldhighways2015}{{7}{(document)}{Doc-Start}}
 \backcite {Heinio1999}{{7}{(document)}{Doc-Start}}
 \backcite {Chapman2018}{{7}{(document)}{Doc-Start}}
-\backcite {Quevedo2021}{{7}{(document)}{Doc-Start}}
+\backcite {DAERSP2005}{{7}{(document)}{Doc-Start}}
+\backcite {Franca2006}{{7}{(document)}{Doc-Start}}
 \backcite {Franca2006}{{7}{(document)}{Doc-Start}}
 \backcite {Bernaud1991}{{7}{(document)}{Doc-Start}}
 \backcite {Panet1995}{{7}{(document)}{Doc-Start}}
@@ -55,12 +56,15 @@
 \backcite {Deere1970}{{25}{2.3}{section.2.3}}
 \backcite {Deere1970, Quevedo2021}{{25}{2.3}{section.2.3}}
 \backcite {Deere1970, Quevedo2021}{{25}{2.3}{section.2.3}}
-\backcite {Quevedo2021}{{25}{2.8}{figure.caption.22}}
+\backcite {DAERSP2005}{{25}{2.8}{figure.caption.22}}
 \backcite {Quevedo2021}{{25}{2.3}{figure.caption.22}}
 \backcite {Franca2006}{{26}{2.4}{section.2.4}}
 \backcite {Marques2014}{{26}{2.4}{section.2.4}}
 \backcite {Franca2006}{{26}{2.4}{section.2.4}}
 \backcite {Franca2006}{{27}{2.9}{figure.caption.23}}
+\backcite {Franca2006}{{28}{2.11}{figure.caption.25}}
+\backcite {Iftimie1996}{{29}{2.5}{section.2.5}}
+\backcite {AFTES2001}{{29}{2.5}{section.2.5}}
 \backcite {Bernaud1991}{{30}{2.12}{figure.caption.26}}
 \backcite {Chapman2018}{{30}{2.5.2.1}{subsubsection.2.5.2.1}}
 \backcite {Karakus2004}{{31}{2.5.2.1}{subsubsection.2.5.2.1}}
@@ -78,6 +82,8 @@
 \backcite {Panet1995}{{33}{2.5.2.2}{figure.caption.28}}
 \backcite {Quevedo2021}{{33}{2.5.2.2}{figure.caption.28}}
 \backcite {Quevedo2021}{{34}{2.15}{figure.caption.29}}
+\backcite {AFTES2001}{{34}{2.5.2.2}{figure.caption.29}}
+\backcite {Quevedo2021}{{34}{2.5.2.2}{figure.caption.29}}
 \backcite {Bernaud1992}{{34}{2.5.2.3}{subsubsection.2.5.2.3}}
 \backcite {Marques2014}{{35}{2.5.3}{subsection.2.5.3}}
 \backcite {Couto2011}{{35}{2.5.3}{subsection.2.5.3}}
@@ -90,3 +96,9 @@
 \backcite {Colombo2023}{{37}{2.6}{section.2.6}}
 \backcite {Fortsakis2012}{{37}{2.6}{section.2.6}}
 \backcite {Quevedo2020}{{37}{2.6}{section.2.6}}
+\backcite {Dada2020}{{37}{2.6}{section.2.6}}
+\backcite {Colombo2023}{{38}{2.6}{section.2.6}}
+\backcite {Dada2020}{{38}{2.6}{section.2.6}}
+\backcite {UKGovernment2019}{{38}{2.6}{section.2.6}}
+\backcite {Vetsch2016}{{38}{2.6}{section.2.6}}
+\backcite {Dada2020}{{38}{2.6}{section.2.6}}
