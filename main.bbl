@@ -17,6 +17,14 @@
 205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
   1996.}
 
+\bibitem[Bernaud 1991]{Bernaud1991}
+\abntrefinfo{Bernaud}{BERNAUD}{1991}
+{BERNAUD, D.
+\textbf{{Tunnels profonds dans les milieux viscoplastiques: approches
+  exp{\'{e}}rimentale et num{\'{e}}rique}}.
+354~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1991.
+Dispon{\'\i}vel em: \url{https://pastel.archives-ouvertes.fr/tel-00529719}.}
+
 \bibitem[Bernaud e Rousset 1992]{Bernaud1992}
 \abntrefinfo{Bernaud e Rousset}{BERNAUD; ROUSSET}{1992}
 {BERNAUD, D.; ROUSSET, G. {La « nouvelle m{\'{e}}thode implicite » pour
@@ -42,6 +50,15 @@ ISBN 13: 978-1-4613-8053-5.}
 {CHAPMAN, D.; METJE, N.; ST{\"{A}}RK, A. \textbf{{Introduction to tunnel
   construction}}. 2. ed. Boca Raton: CRC Press Taylor e Francis Group, 2018.
 ISBN 9781315120164.}
+
+\bibitem[Colombo 2023]{Colombo2023}
+\abntrefinfo{Colombo}{COLOMBO}{2023}
+{COLOMBO, C. A. M.~M.
+\textbf{{Modelagem computacional de t{\'{u}}neis g{\^{e}}meos profundos
+  interligados por galerias transversais considerando o acoplamento
+  plasticidade-viscoplasticidade}}.
+180~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
+  Sul, Porto Alegre, 2023.}
 
 \bibitem[Couto 2011]{Couto2011}
 \abntrefinfo{Couto}{COUTO}{2011}
@@ -74,6 +91,13 @@ ISBN 9781315120164.}
   Construction of Road Tunnels — Civil Elements}}. Fhwa-nhi-1. New York:
   Books Express Publishing, 2009. 702~p.
 ISBN 1782661727.}
+
+\bibitem[Fortsakis et al. 2012]{Fortsakis2012}
+\abntrefinfo{Fortsakis et al.}{FORTSAKIS et al.}{2012}
+{FORTSAKIS, P.; BEKRI, E.; PROUNTZOPOULOS, G.; MARINOS, P. Numerical analysis
+  of twin tunnels interaction.
+\textbf{Proceedings of the 1st Eastern European Tunneling Conference},
+  Budapest, p.~8, 2012.}
 
 \bibitem[Fran{\c{c}}a 2006]{Franca2006}
 \abntrefinfo{Fran{\c{c}}a}{FRAN{\c{C}}A}{2006}
@@ -116,6 +140,12 @@ ISBN 9781482288926.}
 {KARAKUS, M.; FOWELL, R.~J. An insight into the new austrian tunnelling method
   (natm).
 \textbf{VIIth Regional Rock Mechanics Symposium}, p.~14, 2004.}
+
+\bibitem[Li et al. 2018]{Lietal2018}
+\abntrefinfo{Li et al.}{LI et al.}{2018}
+{LI, P.; WANG, F.; FAN, L.; WANG, H.; MA, G. Analytical scrutiny of loosening
+  pressure on deep twin-tunnels in rock formations.
+\textbf{Tunnelling and Underground Space Technology}, China, 2018.}
 
 \bibitem[Maidl et al. 2008]{Maidl2008}
 \abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
@@ -173,6 +203,14 @@ ISBN 2859782303. Dispon{\'\i}vel em:
 {QUEVEDO, F. P. d.~M.; BERNAUD, D.; MAGHOUS, S. Numerical integration scheme
   for coupled elastoplastic–viscoplastic constitutive law for tunnels.
 \textbf{International Journal of Geomechanics}, v.~22, 2022.}
+
+\bibitem[Quevedo, Bernaud e Filho 2020]{Quevedo2020}
+\abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2020}
+{QUEVEDO, F.~P. da M.; BERNAUD, D.; FILHO, A.~C. Numerical analysis of twin
+  tunnels including long-term effects considering the creep and shrinkage of
+  concrete.
+\textbf{XLI Ibero-Latin American Congress on Computational Methods in
+  Engineering (CILAMCE)}, Paran{\'{a}}, 2020.}
 
 \bibitem[Silveira 1974]{Silveira1974}
 \abntrefinfo{Silveira}{SILVEIRA}{1974}

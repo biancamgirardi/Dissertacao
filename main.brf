@@ -6,7 +6,9 @@
 \backcite {Worldhighways2015}{{7}{(document)}{Doc-Start}}
 \backcite {Heinio1999}{{7}{(document)}{Doc-Start}}
 \backcite {Chapman2018}{{7}{(document)}{Doc-Start}}
+\backcite {Quevedo2021}{{7}{(document)}{Doc-Start}}
 \backcite {Franca2006}{{7}{(document)}{Doc-Start}}
+\backcite {Bernaud1991}{{7}{(document)}{Doc-Start}}
 \backcite {Panet1995}{{7}{(document)}{Doc-Start}}
 \backcite {Quevedo2021}{{7}{(document)}{Doc-Start}}
 \backcite {Quevedo2021}{{14}{1.3}{section.1.3}}
@@ -38,6 +40,7 @@
 \backcite {Chapman2018}{{22}{2.2}{figure.caption.18}}
 \backcite {FederalHighwayAdministration2009}{{22}{2.5}{figure.caption.19}}
 \backcite {Worldhighways2015}{{22}{2.5}{figure.caption.19}}
+\backcite {Dada2020}{{23}{2.2}{figure.caption.19}}
 \backcite {Chapman2018}{{23}{2.2}{figure.caption.19}}
 \backcite {Heinio1999}{{23}{2.6}{figure.caption.20}}
 \backcite {Maidl2008}{{23}{2.2}{figure.caption.20}}
@@ -52,11 +55,13 @@
 \backcite {Deere1970}{{25}{2.3}{section.2.3}}
 \backcite {Deere1970, Quevedo2021}{{25}{2.3}{section.2.3}}
 \backcite {Deere1970, Quevedo2021}{{25}{2.3}{section.2.3}}
+\backcite {Quevedo2021}{{25}{2.8}{figure.caption.22}}
 \backcite {Quevedo2021}{{25}{2.3}{figure.caption.22}}
 \backcite {Franca2006}{{26}{2.4}{section.2.4}}
 \backcite {Marques2014}{{26}{2.4}{section.2.4}}
 \backcite {Franca2006}{{26}{2.4}{section.2.4}}
 \backcite {Franca2006}{{27}{2.9}{figure.caption.23}}
+\backcite {Bernaud1991}{{30}{2.12}{figure.caption.26}}
 \backcite {Chapman2018}{{30}{2.5.2.1}{subsubsection.2.5.2.1}}
 \backcite {Karakus2004}{{31}{2.5.2.1}{subsubsection.2.5.2.1}}
 \backcite {Chapman2018}{{31}{2.5.2.1}{subsubsection.2.5.2.1}}
@@ -81,3 +86,7 @@
 \backcite {Quevedo2017}{{36}{2.5.3}{subsection.2.5.3}}
 \backcite {Quevedo2017}{{36}{2.5.3}{subsection.2.5.3}}
 \backcite {Dada2020}{{37}{2.6}{section.2.6}}
+\backcite {Lietal2018}{{37}{2.6}{section.2.6}}
+\backcite {Colombo2023}{{37}{2.6}{section.2.6}}
+\backcite {Fortsakis2012}{{37}{2.6}{section.2.6}}
+\backcite {Quevedo2020}{{37}{2.6}{section.2.6}}
