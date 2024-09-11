@@ -13,4 +13,22 @@
 
 \section{Modelo constitutivo do maciço}
 
+%A complexidade de um modelo a ser usado para calcular estruturas depende muito da natureza da estrutura que está sendo estudada, bem como dos fenômenos de interesse primário (estabilidade, comportamento de longo prazo etc.).  Piepi 2010
+%No caso de argilas rígidas, estamos interessados em estruturas subterrâneas feitas com esses materiais, que apresentam efeitos retardados, resultando em um aumento da convergência e da pressão de suporte ao longo do tempo [Bernaud & Rousset, 1993]. piepi 
+
+%Os testes de compreensão realizados (triaxial em velocidade imposta, fluência, relaxamento) e a análise desses testes nos levaram a identificar o comportamento desses materiais, que é
+%-elastoplástico em curto prazo (com fratura e amolecimento)
+%-viscoplástico a longo prazo.
+% acho que é a argila rígida a que PIEPI se refere - página 47 no pdf
+
+Os efeitos temporais associados ao comportamento tardio do material constitutivo desempenham um papel essencial nas deformações de túneis profundos. Assim, costuma-se realizar análises computacionais através do comportamento constitutivo viscoplástico, eficaz para representar a deformação transitória a longo prazo. Contudo, o modelo viscoplástico não se adequa aos eventos de curto prazo sobre a estabilidade final da estrutura, como as fases de escavação e instalação do suporte.
+
+Ao analisar a deformação de um túnel a partir de um modelo viscoplástico, sugere-se que a pressão final de suporte no equilíbrio da estrutura do túnel depende principalmente da taxa de fechamento no momento em que ocorre o contato entre o maciço e o revestimento. Consequentemente, são desconsiderados os efeitos irreversíveis que se manifestam nos estágios iniciais da construção. Nesses estágios, o maciço no entorno é exposto a condições severas de carga e deformação, podendo resultar na cedência com altas deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto os componentes irreversíveis imediatos quanto os tardios do material rochoso.
+
+Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea para representar a cedência do material em curto prazo e também a viscoplasticidade para descrever o comportamento a longo prazo. A formulação plasticidade-viscoplasticidade é baseada no modelo proposto 
+
+
+% A formulação do modelo reológico de plasticidade-viscoplasticidade acoplada baseia-se no modelo originalmente proposto em [19] e [18]. Estudos anteriores implementaram esse modelo plástico-viscoplástico para análise computacional da deformação em túneis individuais (por exemplo, [26, 27, 25, 28].
+
+
 \section{Modelo constitutivo do revestimento}
