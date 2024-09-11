@@ -83,13 +83,12 @@ ISBN 9781315120164.}
 \textbf{49th Annual Meeting Committee on Soil and Rock Properties}, p. 26--33,
   1970.}
 
-\bibitem[{DEPARTAMENTO DE ESTRADAS E RODAGEM (S{\~{A}}O PAULO)}
-  2005]{DAERSP2005}
-\abntrefinfo{{DEPARTAMENTO DE ESTRADAS E RODAGEM (S{\~{A}}O
-  PAULO)}}{{DEPARTAMENTO DE ESTRADAS E RODAGEM (S{\~{A}}O PAULO)}}{2005}
-{{DEPARTAMENTO DE ESTRADAS E RODAGEM (S{\~{A}}O PAULO)}.
-  \textbf{{Instru{\c{c}}{\~{a}}o de Projeto para elabora{\c{c}}{\~{a}}o de
-  t{\'{u}}neis subterr{\^{a}}neos (NATM)}}.
+\bibitem[{DEPARTAMENTO DE ESTRADAS DE RODAGEM} 2005]{DAERSP2005}
+\abntrefinfo{{DEPARTAMENTO DE ESTRADAS DE RODAGEM}}{{DEPARTAMENTO DE ESTRADAS
+  DE RODAGEM}}{2005}
+{{DEPARTAMENTO DE ESTRADAS DE RODAGEM}. \textbf{{Instru{\c{c}}{\~{a}}o de
+  Projeto para elabora{\c{c}}{\~{a}}o de t{\'{u}}neis subterr{\^{a}}neos
+  (NATM)}}.
 S{\~{a}}o Paulo, 2005. 52~p.}
 
 \bibitem[{FEDERAL HIGHWAY ADMINISTRATION}
@@ -157,6 +156,15 @@ Tese (Doutorado) --- Technical University of Civil Engineering Bucharest -
 {KARAKUS, M.; FOWELL, R.~J. An insight into the new austrian tunnelling method
   (natm).
 \textbf{VIIth Regional Rock Mechanics Symposium}, p.~14, 2004.}
+
+\bibitem[Langer e Stockmann 1985]{LangerStockmann1985}
+\abntrefinfo{Langer e Stockmann}{LANGER; STOCKMANN}{1985}
+{LANGER, F.~T.; STOCKMANN, K. Stability analysis of tunnels using the program
+  adina.
+\textbf{Computers & Structures}, v.~21, n.~1, p. 341--351, 1985.
+ISSN 0045-7949.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/0045794985902548}.}
 
 \bibitem[Li et al. 2018]{Lietal2018}
 \abntrefinfo{Li et al.}{LI et al.}{2018}
