@@ -11,24 +11,141 @@
 \chapter{Modelos constitutivos}\label{modelosconstitutivos}
 % ----------------------------------------------------------
 
-\section{Modelo constitutivo do maciço}
+As características da estrutura e fenômenos como a estabilidade e comportamento a longo prazo, influenciam diretamente a complexidade do modelo a ser utilizado no cálculo estrutural \cite{Piepi1995}. Os modelos constitutivos desempenham um papel fundamental no estudo de túneis, pois são responsáveis por descrever o comportamento mecânico tanto do maciço rochoso quanto do revestimento de concreto. A precisão desses modelos é essencial para obter uma análise confiável das interações solo-estrutura e prever como esses materiais reagirão à abertura de um túnel, influenciando diretamente a segurança, estabilidade e desempenho da obra. 
 
-%A complexidade de um modelo a ser usado para calcular estruturas depende muito da natureza da estrutura que está sendo estudada, bem como dos fenômenos de interesse primário (estabilidade, comportamento de longo prazo etc.).  Piepi 2010
-%No caso de argilas rígidas, estamos interessados em estruturas subterrâneas feitas com esses materiais, que apresentam efeitos retardados, resultando em um aumento da convergência e da pressão de suporte ao longo do tempo [Bernaud & Rousset, 1993]. piepi 
-
-%Os testes de compreensão realizados (triaxial em velocidade imposta, fluência, relaxamento) e a análise desses testes nos levaram a identificar o comportamento desses materiais, que é
-%-elastoplástico em curto prazo (com fratura e amolecimento)
-%-viscoplástico a longo prazo.
-% acho que é a argila rígida a que PIEPI se refere - página 47 no pdf
-
-Os efeitos temporais associados ao comportamento tardio do material constitutivo desempenham um papel essencial nas deformações de túneis profundos. Assim, costuma-se realizar análises computacionais através do comportamento constitutivo viscoplástico, eficaz para representar a deformação transitória a longo prazo. Contudo, o modelo viscoplástico não se adequa aos eventos de curto prazo sobre a estabilidade final da estrutura, como as fases de escavação e instalação do suporte.
-
-Ao analisar a deformação de um túnel a partir de um modelo viscoplástico, sugere-se que a pressão final de suporte no equilíbrio da estrutura do túnel depende principalmente da taxa de fechamento no momento em que ocorre o contato entre o maciço e o revestimento. Consequentemente, são desconsiderados os efeitos irreversíveis que se manifestam nos estágios iniciais da construção. Nesses estágios, o maciço no entorno é exposto a condições severas de carga e deformação, podendo resultar na cedência com altas deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto os componentes irreversíveis imediatos quanto os tardios do material rochoso.
-
-Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea para representar a cedência do material em curto prazo e também a viscoplasticidade para descrever o comportamento a longo prazo. A formulação plasticidade-viscoplasticidade é baseada no modelo proposto 
-
-
-% A formulação do modelo reológico de plasticidade-viscoplasticidade acoplada baseia-se no modelo originalmente proposto em [19] e [18]. Estudos anteriores implementaram esse modelo plástico-viscoplástico para análise computacional da deformação em túneis individuais (por exemplo, [26, 27, 25, 28].
-
+A seguir, são apresentados os modelos adotados no presente trabalho para o revestimento de concreto e para o maciço.
 
 \section{Modelo constitutivo do revestimento}
+
+Na Teoria da Elasticidade, considera-se que a aplicação de tensões resulta imediatamente em deformações correspondentes, de maneira que, enquanto as tensões forem mantidas, as deformações permanecem proporcionais. Contudo, caso as tensões sejam removidas, o corpo tende a retornar à sua forma original, implicando que as deformações são reversíveis.
+
+Neste estudo, utiliza-se um modelo elástico linear para o revestimento de concreto. A lei do comportamento elástico linear é expressa por $\sigmall = \partial w / \partial \varepsilonll$ que, ao aplicar a regra da cadeia em relação aos invariantes do tensor de deformações e realizando uma aproximação em torno de $\sigmall_0$, se obtém a lei constitutiva da elasticidade linear isótropa, conforme \citeonline{Salencon2001}:
+
+\begin{equation}
+	\sigmall - \sigmall_0 = \Dllll : \varepsilon,
+\end{equation}
+
+onde $D$ é o tensor constitutivo elástico de quarta ordem simétrico e $\varepsilonll$ o tensor de deformações. O tensor constitutivo elástico é expresso por:
+
+\begin{equation}
+	\Dllll = \lambda^e \Umll \otimes \Umll + 2 \mu^e \Umllll,
+\end{equation}
+
+em que $\lambda^e$ e $\mu^e$ são constantes chamadas de coeficientes de Lamè, e representam relações com o módulo de Young ($E_c$) e com o coeficiente de Poisson ($\nu_c$) do revestimento de concreto:
+
+\begin{equation}
+	\lambda^e = \frac{E_c \nu}{(1 + \nu_c)(1-2 \nu_c)} ~~~ \text{e} ~~~ \mu^e = \frac{E_c}{2(1+\nu_c)}
+\end{equation}
+
+Nas análises, a rigidez do túnel será dada pela seguinte expressão:
+
+\begin{equation}
+	K_c = \frac{E_c}{1+\nu_c} \frac{R_t^2 - (R_t - e_t)^2}{(1-2\nu_c)R_t + (R_t - e_t)^2}
+\end{equation}
+
+
+\section{Modelo constitutivo do maciço}
+
+No comportamento de túneis, além das deformações instantâneas, que resultam da redistribuição das tensões e da possível plastificação do maciço no entorno da cavidade, podem ocorrer deformações diferidas, podendo levar o sistema à estabilização ou causar danos e colapso \cite{Quevedo2021}. Os efeitos temporais associados ao comportamento tardio do material constitutivo desempenham um papel essencial nas deformações de túneis profundos. Assim, costuma-se realizar análises computacionais através do comportamento constitutivo viscoplástico, eficaz para representar a deformação transitória a longo prazo. Contudo, esse modelo não se adequa aos eventos de curto prazo sobre a estabilidade final da estrutura, como as fases de escavação e instalação do suporte.
+
+Ao analisar a deformação de um túnel a partir de um modelo viscoplástico, sugere-se que a pressão final de suporte no equilíbrio da estrutura do túnel depende principalmente da taxa de fechamento no momento em que ocorre o contato entre o maciço e o revestimento. Consequentemente, são desconsiderados os efeitos irreversíveis que se manifestam nos estágios iniciais da construção. Conforme \citeonline{Quevedo2021}, nesses estágios, o maciço no entorno é exposto a condições severas de carga e deformação, podendo ceder com altas deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto às deformações imediatas quanto às tardias do maciço.
+
+Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea, representando a \colorbox{yellow}{cedência} do material a curto prazo, e também a viscoplasticidade para descrever o comportamento a longo prazo. O modelo elastoplástico viscoplástico proposto por \citeonline{Quevedo2021} na hipótese das transformações infinitesimais compreende a associação em série dos modelos constitutivos elástico, plástico e viscoplástico:
+
+\begin{equation}
+	\label{eq_modelo_elastoplastico_viscoplastico}
+	\dot{\varepsilonll} = \dot{\varepsilonll^e} + \dot{\varepsilonll^p} + \dot{\varepsilonll^{vp}},
+\end{equation}
+
+que pode ser visualizado no modelo reológico apresentado na \autoref{modeloreologicoepvp}. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1.1]{representacaoreologica.pdf}
+	\end{center}
+	\caption{\label{modeloreologicoepvp}Representação reológica do modelo elastoplástico viscoplástico (adaptado de \citeonline{Rousset1988})}
+\end{figure}
+Desse modo, a lei de evolução das tensões pode ser escrita da seguinte forma:
+
+\begin{equation}
+	\dot \sigmall = \Dllll : \dot \varepsilonll^e = \Dllll : (\dot \varepsilonll - \dot \varepsilonll^{ep} - \dot \varepsilonll^{vp})
+\end{equation}
+
+Na elastoplasticidade, há um domínio dentro do qual os materiais com essas características se comportam em elasticidade. Em problemas tridimensionais e isotrópicos, esse domínio é delimitado por uma superfície no espaço das tensões principais, que leva o nome de superfície de escoamento e é expressa por uma função de escomento $f$. Assim, quando o estado de tensões atinge essa superfície, dá início às deformações plásticas \cite{Quevedo2021}. No comportamento elastoplástico isotrópico, a função de escoamento pode ser descrita apenas em função dos invariantes do tensor de tensões e das forças associadas às variáveis internas.
+
+Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker-Prager, Tresca e Mohr-Coulomb, representadas na \autoref{funcoesescoamento}. Nas superfícies de plastificação de von-Mises e de Tresca, o escoamento é independente da componente hidrostática do estado de tensão, apresentando assim os formatos cilíndrico e prismático, respectivamente. Todavia, observa-se que nas superfícies de Drucker-Prager e Mohr-Coulomb, o escoamento depende da componente hidrostática, aplicáveis a materiais com ângulo de atrito interno e apresentando, respectivamente, formatos cônico e piramidal.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{funcoesescoamento.pdf}
+	\end{center}
+	\caption{\label{funcoesescoamento}Funções de escoamento de Drucker-Prager e Mohr-Coulomb (adaptado de \citeonline{Rousset1988})}
+\end{figure}
+
+No presente estudo, no contexto do espaço tridimensional, a componente de plasticidade do modelo constitutivo é descrita através de uma superfície de fluxo plástico de Drucker-Prager:
+
+\begin{equation}
+	\label{funcaodruckerprager}
+	f(\sigma,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
+\end{equation}
+
+onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras e $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. São dados pelas expressões:
+
+\begin{equation}
+	\begin{aligned}
+		& I_1 = tr(\sigmall) = \sigma_{11} + \sigma_{22} + \sigma_{33}, \\
+		& J_2 = \frac{1}{2} tr(\sll^2) = \frac{1}{6}[(\sigma_{11}-\sigma_{22})^2 + (\sigma_{22}-\sigma_{33})^2 + (\sigma_{33}-\sigma_{11})^2] + \sigma_{12}^2 + \sigma_{23}^2 + \sigma_{13}^2, \\
+		& \beta_1 = \frac{(k-1)}{3}, \\
+		& \beta_2 = \frac{(2k+1)}{\sqrt{3}}, \\
+		& q(\alpha) = 2 \sqrt{k} \ c(\alpha),
+	\end{aligned}
+\end{equation}
+
+onde $k = (1+\sin{\phi})/(1-\sin{\phi})$. A variável interna $\alpha$ representa a deformação plástica equivalente utilizada na simulação dos efeitos de endurecimento e amolecimento da deformação, contudo, adota-se a plasticidade perfeita, implicando que a coesão $c$ é uma constante. Na parcela viscoplástica, para a superfície $f^{vp}$, utiliza-se também a superfície de Drucker-Prager, com as seguintes expressões:
+
+\begin{equation}
+	\begin{aligned}
+		& \beta_1 = \frac{(k^{vp}-1)}{3}, \\
+		& \beta_2 = \frac{(2k^{vp}+1)}{\sqrt{3}}, \\
+		& q(\alpha) = 2 \sqrt{k^{vp}} \ c^{vp},
+	\end{aligned}
+\end{equation}
+
+sendo $k = (1+\sin{\phi^{vp}})/(1-\sin{\phi^{vp}})$ e $c^{vp}$ também constante, indicando a viscoplasticidade perfeita. A regra de fluxo plástico, que descreve a lei de evolução das deformações plásticas com relação às tensões, é dada por:
+
+\begin{equation}
+	\dot \varepsilon^p = \left\{ 
+	\begin{array}{ll} 
+		\dot \lambda \dfrac{\partial g}{\partial \sigma} &  \text{for } f > 0 \\ 
+		\zerol, & \text{for } f \le 0 \\
+	\end{array}\right.,
+	\end{equation}
+
+onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplicador plástico)e $g$ é uma função análoga à $f$, chamada de potencial plástico, que simula a dilatação durante a evolução das deformações plásticas. O multiplicador plástico é obtido através da condição de consistência $\dot f = 0$. Para o estudo, adota-se a plasticidade associada, que ocorre quando $f = g$. Já a regra de fluxo viscoplástica é expressa pela equação:
+
+\begin{equation}
+	\dot \varepsilon^{vp} = \dot \lambda^{vp} \frac{\partial f^{vp}}{\partial \sigma}
+\end{equation}
+
+em que o multiplicador viscoplástico $\dot \lambda^{vp}$ independe da condição de consistência para ser obtido, pois as deformações viscoplásticas ocorrem quando $f>0$, e é dado pela equação:
+
+\begin{equation}
+	\begin{aligned}
+		& \dot \lambda^{vp} = \frac{\Phi(\sigma q^{vp})}{\eta}, \\
+		& \Phi = \left\langle \frac{f^{vp}(\sigma, q^{vp})}{f_0} \right\rangle^n,
+	\end{aligned}
+\end{equation}
+
+onde $\eta$ é a constante de viscosidade dinâmica, $\Phi$ é a função de sobretensão, $n$ é o parâmetro adimensional que fornece a forma da lei de potência, $f_0$ é um parâmetro convenientemente adotado, dependendo da superfície adotada, e $\langle \ast \rangle$ é a função de McCauley, que resulta em zero quando $\ast<0$ e, assim, o fluxo viscoplástico só ocorrerá com funções de sobretensão positivas. 
+
+No modelo acoplado elastoplástico viscoplástico, quando $\phi = \phi^{vp}$, a evolução dos campos mecânicos locais é totalmente controlada pela coesão. Ainda, quando $c \rightarrow \infty$ e $ c^{vp} \rightarrow \infty$, o sistema obtém uma solução puramente elástica. É adotada a condição $c^{vp} < c$, com o intuito de permitir que o domínio viscoplástico ocorra sem a plasticidade, porém, na presença da plasticidade, os efeitos viscosos se tornam inevitáveis. A \autoref{dominiosEPVP} apresenta os domínios no espaço das tensões principais.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1.2]{dominiosEPVP.pdf}
+	\end{center}
+	\caption{\label{dominiosEPVP}Domínios e superfícies do modelo elastoplástico viscoplástico (adaptado de \citeonline{Debernardi2009})}
+\end{figure}
+
+
+

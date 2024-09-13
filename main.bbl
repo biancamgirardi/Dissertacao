@@ -76,6 +76,15 @@ ISBN 9781315120164.}
 143~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
   Sul, Porto Alegre, 2020.}
 
+\bibitem[Debernardi e Barla 2009]{Debernardi2009}
+\abntrefinfo{Debernardi e Barla}{DEBERNARDI; BARLA}{2009}
+{DEBERNARDI, D.; BARLA, G. {New Viscoplastic Model for Design Analysis of
+  Tunnels in Squeezing Conditions}.
+\textbf{Rock Mechanics and Rock Engineering}, v.~42, n.~2, p. 259--288, apr
+  2009.
+Dispon{\'\i}vel em:
+  \url{https://libgen.is/scimag/10.1007\%2Fs00603-009-0174-6}.}
+
 \bibitem[Deere et al. 1970]{Deere1970}
 \abntrefinfo{Deere et al.}{DEERE et al.}{1970}
 {DEERE, D.~U.; PECK, R.~B.; PARKER, H.~W.; MONSEES, J.~E.; SCHMIDT, B. Design
@@ -161,7 +170,7 @@ Tese (Doutorado) --- Technical University of Civil Engineering Bucharest -
 \abntrefinfo{Langer e Stockmann}{LANGER; STOCKMANN}{1985}
 {LANGER, F.~T.; STOCKMANN, K. Stability analysis of tunnels using the program
   adina.
-\textbf{Computers & Structures}, v.~21, n.~1, p. 341--351, 1985.
+\textbf{Computers \& Structures}, v.~21, n.~1, p. 341--351, 1985.
 ISSN 0045-7949.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/0045794985902548}.}
@@ -207,6 +216,15 @@ Dispon{\'\i}vel em: \url{http://rockmass.net/ap/39\_Palmstrom\_on\_NATM.pdf}.}
 ISBN 2859782303. Dispon{\'\i}vel em:
   \url{https://pt.scribd.com/document/456649940/1995-Calcul-Des-Tunnels-Par-La-Methode-Convergence-Confinement-Panet}.}
 
+\bibitem[Piepi 1995]{Piepi1995}
+\abntrefinfo{Piepi}{PIEPI}{1995}
+{PIEPI, G.~T.
+\textbf{{Comportement viscoplastique avec rupture des argiles raides:
+  applications aux ouvrages souterrains}}.
+155~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1995.
+Dispon{\'\i}vel em:
+  \url{https://pastel.archives-ouvertes.fr/tel-00523616/document}.}
+
 \bibitem[Quevedo 2017]{Quevedo2017}
 \abntrefinfo{Quevedo}{QUEVEDO}{2017}
 {QUEVEDO, F. P. d.~M.
@@ -236,6 +254,20 @@ ISBN 2859782303. Dispon{\'\i}vel em:
   concrete.
 \textbf{XLI Ibero-Latin American Congress on Computational Methods in
   Engineering (CILAMCE)}, Paran{\'{a}}, 2020.}
+
+\bibitem[Rousset 1988]{Rousset1988}
+\abntrefinfo{Rousset}{ROUSSET}{1988}
+{ROUSSET, G.
+\textbf{{Comportement Mecanique des Argiles Profondes: application au stockage
+  de dechets radioactifs}}.
+Tese (Doutorado) --- L'Ecole Nationale des Ponts et Chaussees, 1988.}
+
+\bibitem[Salen{\c{c}}on 2001]{Salencon2001}
+\abntrefinfo{Salen{\c{c}}on}{SALEN{\c{C}}ON}{2001}
+{SALEN{\c{C}}ON, J. \textbf{{Handbook of Continuum Mechanics}}. Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2001. 803~p.
+ISBN 978-3-642-62556-5. Dispon{\'\i}vel em:
+  \url{http://link.springer.com/10.1007/978-3-642-56542-7}.}
 
 \bibitem[Silveira 1974]{Silveira1974}
 \abntrefinfo{Silveira}{SILVEIRA}{1974}
