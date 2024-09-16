@@ -160,6 +160,21 @@ ISBN 9781482288926.}
 Tese (Doutorado) --- Technical University of Civil Engineering Bucharest -
   Faculty of Railways, Roads and Bridges, Bucharest, 1996.}
 
+\bibitem[Jensen 2019]{Jensen2019}
+\abntrefinfo{Jensen}{JENSEN}{2019}
+{JENSEN, B.~M.
+\textbf{Modelagem tridimensional em elementos finitos de túneis superficiais
+  revestidos em concreto armado}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do Sul,
+  Porto Alegre, 2019.}
+
+\bibitem[Jensen, Bernaud e Filho 2019]{Jensenetal2019}
+\abntrefinfo{Jensen, Bernaud e Filho}{JENSEN; BERNAUD; FILHO}{2019}
+{JENSEN, B.~M.; BERNAUD, D.; FILHO, A.~C. Influence of the cracking
+  consideration in the displacements of a shallow tunnel lined in
+  steel-reinforced concrete: numerical model.
+\textbf{Rev. IBRACON Estrut. Mater.}, v.~13, n.~6, 2019.}
+
 \bibitem[Karakus e Fowell 2004]{Karakus2004}
 \abntrefinfo{Karakus e Fowell}{KARAKUS; FOWELL}{2004}
 {KARAKUS, M.; FOWELL, R.~J. An insight into the new austrian tunnelling method
@@ -223,6 +238,14 @@ Dispon{\'\i}vel em: \url{http://rockmass.net/ap/39\_Palmstrom\_on\_NATM.pdf}.}
 ISBN 2859782303. Dispon{\'\i}vel em:
   \url{https://pt.scribd.com/document/456649940/1995-Calcul-Des-Tunnels-Par-La-Methode-Convergence-Confinement-Panet}.}
 
+\bibitem[Phutthananon et al. 2023]{Phutthananon2023}
+\abntrefinfo{Phutthananon et al.}{PHUTTHANANON et al.}{2023}
+{PHUTTHANANON, C.; LERTKULTANON, S.; JONGPRADIST, P.; DUANGSANO, O.;
+  LIKITLERSUANG, S.; JAMSAWANG, P. Numerical investigation on the responses of
+  existing single piles due to adjacent twin tunneling considering the lagging
+  distance.
+\textbf{Underground Space}, 2023.}
+
 \bibitem[Piepi 1995]{Piepi1995}
 \abntrefinfo{Piepi}{PIEPI}{1995}
 {PIEPI, G.~T.
@@ -231,6 +254,12 @@ ISBN 2859782303. Dispon{\'\i}vel em:
 155~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1995.
 Dispon{\'\i}vel em:
   \url{https://pastel.archives-ouvertes.fr/tel-00523616/document}.}
+
+\bibitem[Pinto e Whittle 2013]{PintoWhittle2013}
+\abntrefinfo{Pinto e Whittle}{PINTO; WHITTLE}{2013}
+{PINTO, F.; WHITTLE, A.~J. Ground movements due to shallow tunnels in soft
+  ground. i: Analytical solutions.
+\textbf{Journal of Geotechnical and Geoenvironmental Engineering}, 2013.}
 
 \bibitem[Quevedo 2017]{Quevedo2017}
 \abntrefinfo{Quevedo}{QUEVEDO}{2017}
