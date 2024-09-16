@@ -181,6 +181,13 @@ Dispon{\'\i}vel em:
   pressure on deep twin-tunnels in rock formations.
 \textbf{Tunnelling and Underground Space Technology}, China, 2018.}
 
+\bibitem[Maffei et al. 2008]{Maffei2008}
+\abntrefinfo{Maffei et al.}{MAFFEI et al.}{2008}
+{MAFFEI, C. E.~M.; MELLO, L.~G.; NIEBLE, C.~M.; SADOWSKI, G.~R.; TAKAHASHI, J.
+  As causas do acidente da estação pinheiros da linha 4 do metrô de são
+  paulo.
+\textbf{Téchne Educação}, 2008.}
+
 \bibitem[Maidl et al. 2008]{Maidl2008}
 \abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
 {MAIDL, B.; SCHMID, L.; RITZ, W.; HERRENKNECHT, M. \textbf{Hardrock Tunnel
@@ -275,13 +282,6 @@ ISBN 978-3-642-62556-5. Dispon{\'\i}vel em:
 \textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
   23--96, 1974.}
 
-\bibitem[Tsuji, Sawada e Takizawa 1996]{Tsujietal1996}
-\abntrefinfo{Tsuji, Sawada e Takizawa}{TSUJI; SAWADA; TAKIZAWA}{1996}
-{TSUJI, H.; SAWADA, T.; TAKIZAWA, M. Extraordinary inundation accidents in the
-  seikan undersea tunnel.
-\textbf{13th International Conference on Soil Mechanics \& Foundation
-  Engineering}, New Delhi, India, v.~119, p. 1--14, 1996.}
-
 \bibitem[{UK Government} 2019]{UKGovernment2019}
 \abntrefinfo{{UK Government}}{{UK Government}}{2019}
 {{UK Government}. \textbf{High Speed Two (HS2)}. Birmingham: [s.n.], 2019.
@@ -300,5 +300,10 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://www.worldhighways.com/wh10/feature/improving-tunneling-method-selection}.
   Acesso em: 08 set. 2024.}
+
+\bibitem[Zienkiewicz e Cormeau 1974]{Zienkiewicz1974}
+\abntrefinfo{Zienkiewicz e Cormeau}{ZIENKIEWICZ; CORMEAU}{1974}
+{ZIENKIEWICZ, O.; CORMEAU, I. \textbf{Visco-plasticity — plasticity and creep
+  in elastic solids — a unified numerical solution approach}. 1974.}
 
 \end{thebibliography}

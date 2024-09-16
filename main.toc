@@ -2,31 +2,32 @@
 \changetocdepth {3}
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{14}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{12}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivos}{14}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Metodologia}{14}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Justificativa}{15}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Delimitações}{15}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Delineamento do trabalho}{16}{section.1.5}%
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{18}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Breve histórico}{18}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Métodos de escavação}{20}{section.2.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Breve histórico}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Métodos de escavação}{19}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Suporte}{24}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{26}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{30}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{31}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{32}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{33}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}\textit {New Austrian Tunneling Method} (NATM)}{33}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}Método convergência-confinamento (CV-CF)}{35}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{37}{subsubsection.2.6.2.3}%
-\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{38}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{25}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{29}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{31}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{32}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Método convergência-confinamento (CV-CF)}{33}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{34}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{36}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{37}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{39}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{42}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{42}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{43}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{48}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{42}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discretização do domínio}{47}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modelo axissimétrico}{47}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{48}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Verificações com ...}{48}{section.4.3}%
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{49}{chapter.5}%

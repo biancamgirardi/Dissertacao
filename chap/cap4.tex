@@ -13,6 +13,59 @@
 
 \section{Discretização do domínio}
 % ---
+%O domínio desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado e adaptado por \citeonline{Colombo2023}, foi discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
+
+\subsection{Modelo axissimétrico}
+
+% no modelo axissimétrico o eixo longitudinal do túnel (eixo de rotação) está ao longo do eixo y, enquanto que o eixo x representa o eixo radial
+
+\begin{table}[H]
+	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento}
+	\label{parametros_dominio}
+	\centering
+	\small
+	\renewcommand{\arraystretch}{1.25}
+	\begin{tabular}{c c c c}
+		\hline
+		\multicolumn{1}{c}{\textbf{PARÂMETROS}} &
+		\multicolumn{1}{c}{\textbf{SÍMBOLO}} &
+		\multicolumn{1}{c}{\textbf{UNIDADE}} &
+		\multicolumn{1}{c}{\textbf{VALORES}} \\
+		\hline
+		\multicolumn{4}{c}{TÚNEIS LONGITUDINAIS} \\
+		\hline
+		Raio da interface entre o túnel e o maciço & $R_e$ & m & 1 \\		
+		Espessura do revestimento (se houver) & $e_{rev}$ & m & 0,1 \\
+		Comprimento do passo de escavação & $L_{p}$ & m & $\dfrac{1}{3}R_e$ \\
+		\makecell{Número de passos que representam a \\ dimensão não suportada} & $nd_0$ & Lp & 2 \\				
+		\makecell{Número de passos escavados na primeira \\ escavação} & $np_i$ & Lp & 3 \\	
+		Velocidade do passo de escavação & $V_p$ & m/dia & 12,5 \\
+		Tempo para um passo de escavação & $t_p$ & dia & $\dfrac{L_p}{V_p}$ \\ 						
+		\hline
+		\multicolumn{4}{c}{GALERIAS TRANSVERSAIS} \\
+		\hline
+		Raio externo & $R_{e_1}$ & m & $2*L_p$ \\
+		Espessura do revestimento & $e_{rev_1}$ & m & 0,1 \\
+		Comprimento do passo de escavação & $L_{p_1}$ & m & $0,3 R_{e_1}$ \\
+		Dimensão não suportada & $nd_{0_1}$ & $L_{p_1}$ & 2 \\
+		\makecell{Número de passos escavados na primeira \\ escavação} & $np_{i_1}$ & un & 3 \\	
+		Velocidade do passo de escavação & $V_{p_1}$ & m/dia & 12,5 \\
+		\makecell{Número de passos de escavação após a galeria \\ para iniciar a escavação da galeria} & $pig_1$ & $L_p$ & 15 \\
+		\hline
+		\multicolumn{4}{c}{DOMÍNIO} \\
+		\hline
+		Comprimento do trecho não escavado & $l_1$ & $R_e$ & 10 \\	
+		Comprimento do trecho escavado & $l_2$ & $L_p$ & 100 \\				
+		Altura do domínio & $d_3$ & $R_e$ & 20 \\
+		\makecell{Distância das bordas laterais do domínio até o \\ eixo do túnel longitudinal} & $d_4$ & $R_e$ & 20 \\
+		Distância entre os eixos dos túneis longitudinais & $d_1$ & $R_e$ & 4 \\
+		\makecell{Distância do revestimento instalado em relação à \\ frente de escavação} & $l_1$ & $L_p$ & 10 \\				
+		\hline
+	\end{tabular}
+	\normalsize
+\end{table}
+
+% ---
 \section{Verificações com soluções analíticas}
 % ---
 \section{Verificações com ...}
