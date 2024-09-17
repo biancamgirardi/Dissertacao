@@ -27,9 +27,8 @@
 \contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{44}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Discretização do domínio}{49}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Modelo axissimétrico}{49}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{50}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{51}{chapter.5}%
+\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{52}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Verificações com ...}{52}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{53}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{52}{section*.38}%
+\contentsline {chapter}{REFERÊNCIAS}{54}{section*.40}%

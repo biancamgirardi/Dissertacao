@@ -22,6 +22,7 @@
 \backcite {Rousset1988}{{6}{(document)}{Doc-Start}}
 \backcite {Zienkiewicz1974}{{6}{(document)}{Doc-Start}}
 \backcite {Debernardi2009}{{6}{(document)}{Doc-Start}}
+\backcite {Quevedo2021}{{6}{(document)}{Doc-Start}}
 \backcite {Maffei2008}{{12}{1}{chapter.1}}
 \backcite {HSE1996}{{13}{1}{figure.caption.12}}
 \backcite {Dailymirror}{{13}{1.2}{figure.caption.13}}
@@ -38,8 +39,7 @@
 \backcite {Moreira2006}{{20}{2.2}{figure.caption.15}}
 \backcite {Maidl2008}{{20}{2.1}{figure.caption.15}}
 \backcite {Silveira1974}{{20}{2.1}{figure.caption.15}}
-\backcite {Moreira2006,Silveira1974}{{21}{2.1}{figure.caption.15}}
-\backcite {Moreira2006,Silveira1974}{{21}{2.1}{figure.caption.15}}
+\backcite {Moreira2006}{{21}{2.1}{figure.caption.15}}
 \backcite {Silveira1974}{{21}{2.1}{figure.caption.15}}
 \backcite {Moreira2006}{{21}{2.1}{figure.caption.15}}
 \backcite {Chapman2018, Moreira2006}{{21}{2.2}{section.2.2}}
@@ -126,6 +126,10 @@
 \backcite {UKGovernment2019}{{42}{2.7}{section.2.7}}
 \backcite {Vetsch2016}{{42}{2.7}{section.2.7}}
 \backcite {Dada2020}{{42}{2.7}{section.2.7}}
+\backcite {Phutthananon2023}{{42}{2.7}{section.2.7}}
+\backcite {Changguietal2021}{{42}{2.7}{section.2.7}}
+\backcite {Nematollahietal2018}{{42}{2.7}{section.2.7}}
+\backcite {Doetal2015}{{42}{2.7}{section.2.7}}
 \backcite {Salencon2001}{{43}{3.1}{section.3.1}}
 \backcite {Quevedo2021}{{44}{3.2}{section.3.2}}
 \backcite {Quevedo2021}{{44}{3.2}{section.3.2}}
@@ -136,3 +140,7 @@
 \backcite {Rousset1988}{{45}{3.1}{figure.caption.34}}
 \backcite {Zienkiewicz1974}{{46}{3.2}{figure.caption.35}}
 \backcite {Debernardi2009}{{48}{3.3}{figure.caption.36}}
+\backcite {Quevedo2017}{{49}{4.1}{section.4.1}}
+\backcite {Quevedo2021}{{49}{4.1}{section.4.1}}
+\backcite {Colombo2023}{{49}{4.1}{section.4.1}}
+\backcite {Quevedo2021}{{50}{4.1}{figure.caption.37}}

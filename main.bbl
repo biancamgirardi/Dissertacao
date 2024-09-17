@@ -100,6 +100,13 @@ Dispon{\'\i}vel em:
   (NATM)}}.
 S{\~{a}}o Paulo, 2005. 52~p.}
 
+\bibitem[Do, Dias e Oreste 2015]{Doetal2015}
+\abntrefinfo{Do, Dias e Oreste}{DO; DIAS; ORESTE}{2015}
+{DO, N.-A.; DIAS, D.; ORESTE, P. 3d numerical investigation of mechanized twin
+  tunnels in soft ground – influence of lagging distance between two tunnel
+  faces.
+\textbf{Engineering Structures}, 2015.}
+
 \bibitem[{FEDERAL HIGHWAY ADMINISTRATION}
   2009]{FederalHighwayAdministration2009}
 \abntrefinfo{{FEDERAL HIGHWAY ADMINISTRATION}}{{FEDERAL HIGHWAY
@@ -190,6 +197,13 @@ ISSN 0045-7949.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/0045794985902548}.}
 
+\bibitem[Li et al. 2021]{Changguietal2021}
+\abntrefinfo{Li et al.}{LI et al.}{2021}
+{LI, C.; ZHAO, J.; HU, J.; JU, X.; TIAN, X. Numerical analysis of reasonable
+  distance between tunnel faces for twin tunnel.
+\textbf{6th International Conference on Hydraulic and Civil Engineering - IOP
+  Conf. Series: Earth and Environmental Science}, 2021.}
+
 \bibitem[Li et al. 2018]{Lietal2018}
 \abntrefinfo{Li et al.}{LI et al.}{2018}
 {LI, P.; WANG, F.; FAN, L.; WANG, H.; MA, G. Analytical scrutiny of loosening
@@ -222,6 +236,14 @@ ISBN 978-3-433-01676-3.}
 {MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
 \textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
   p. 92--115, 2006.}
+
+\bibitem[Nematollahi, Molladavoodi e Dias 2018]{Nematollahietal2018}
+\abntrefinfo{Nematollahi, Molladavoodi e Dias}{NEMATOLLAHI; MOLLADAVOODI;
+  DIAS}{2018}
+{NEMATOLLAHI, M.; MOLLADAVOODI, H.; DIAS, D. Three dimensional numerical
+  simulation of the shiraz subway second line - influence of the segmental
+  joints geometry and of the lagging distance between twin tunnels’ faces.
+\textbf{European Journal of Environmental and Civil Engineering}, 2018.}
 
 \bibitem[Palmstr{\"{o}}m 1993]{Palmstrom1993}
 \abntrefinfo{Palmstr{\"{o}}m}{PALMSTR{\"{O}}M}{1993}
@@ -311,16 +333,16 @@ ISBN 978-3-642-62556-5. Dispon{\'\i}vel em:
 \textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
   23--96, 1974.}
 
-\bibitem[{UK Government} 2019]{UKGovernment2019}
-\abntrefinfo{{UK Government}}{{UK Government}}{2019}
-{{UK Government}. \textbf{High Speed Two (HS2)}. Birmingham: [s.n.], 2019.
+\bibitem[UK 2019]{UKGovernment2019}
+\abntrefinfo{UK}{UK}{2019}
+{UK, G. \textbf{High Speed Two (HS2)}. Birmingham: [s.n.], 2019.
 Dispon{\'\i}vel em:
   \url{https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment\_data/file/960814/F2\_Phase\_2a\_Tunnels\_v1.2.pdf}.}
 
 \bibitem[Vetsch et al. 2016]{Vetsch2016}
 \abntrefinfo{Vetsch et al.}{VETSCH et al.}{2016}
-{VETSCH, H.-P.; ZBINDEN, P.; MäRKI, E.; EHRBAR, H. Gotthard base tunnel –
-  choice of the tunnel system from today’s point of view.
+{VETSCH, H.~P.; ZBINDEN, P.; M{\"{A}}RKI, E.; EHRBAR, H. Gotthard base tunnel
+  – choice of the tunnel system from today’s point of view.
 \textbf{Geomechanics and Tunnelling}, Berlin, 2016.}
 
 \bibitem[{WORLD HIGHWAYS} 2015]{Worldhighways2015}

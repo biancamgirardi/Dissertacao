@@ -13,15 +13,70 @@
 
 \section{Discretização do domínio}
 % ---
-%O domínio desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado e adaptado por \citeonline{Colombo2023}, foi discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
+O domínio utilizado no presente estudo foi primeiramente aplicado por \citeonline{Quevedo2017} e \citeonline{Quevedo2021} e atualizado por \citeonline{Colombo2023}, discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
 
-\subsection{Modelo axissimétrico}
+No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $y$, enquanto que o eixo $x$ representa o eixo radial. A \autoref{dominioaxi} apresenta a malha do modelo axissimétrico, as condições de contorno e seus parâmetros geométricos..
 
-% no modelo axissimétrico o eixo longitudinal do túnel (eixo de rotação) está ao longo do eixo y, enquanto que o eixo x representa o eixo radial
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{dominioaxi.pdf}
+	\end{center}
+	\caption{\label{dominioaxi}Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico \cite{Quevedo2021}}
+\end{figure}
+
 
 \begin{table}[H]
-	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento}
+	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo axissimétrico}
 	\label{parametros_dominio}
+	\centering
+	\small
+	\renewcommand{\arraystretch}{1.25}
+	\begin{tabular}{c c c c}
+		\hline
+		\multicolumn{1}{c}{\textbf{PARÂMETROS}} &
+		\multicolumn{1}{c}{\textbf{SÍMBOLO}} &
+		\multicolumn{1}{c}{\textbf{UNIDADE}} &
+		\multicolumn{1}{c}{\textbf{VALORES}} \\
+		\hline
+		\multicolumn{4}{c}{GEOMETRIA} \\
+		\hline
+		\makecell{Raio da interface entre o túnel e \\ o maciço} & $R_i$ & m & 1 \\		
+		\makecell{Espessura do revestimento \\ (se houver)} & $e_{rev}$ & m & 0,1 \\
+		\makecell{Raio total do domínio (dimensão da \\ base do domínio)} & $L_{x}$ & m & $20 R_i$ \\
+		\makecell{Raio da região de refinamento \\ próxima ao túnel} & $R_1$ & m & $10 R_i$ \\				
+		\makecell{Trecho do raio além da região \\ próxima ao túnel} & $L_{x_1}$ & m & $L_x - R_1$ \\	
+		Comprimento longitudinal do domínio & $L_y$ & m & $L_{y_1} + L_{y_2}$ \\
+		Comprimento do trecho escavado & $L_{y_1}$ & m & $n_p V_p$ \\
+		Comprimento do trecho não escavado & $L_{y_2}$ & m & $10 R_i$ \\				
+		\hline
+		\multicolumn{4}{c}{ESCAVAÇÃO E COLOCAÇÃO DO REVESTIMENTO} \\
+		\hline
+		Número de passos de escavação & $n_p$ & un & 38 \\
+		Número de passos na primeira escavação & $n_{p_i}$ & un & 3 \\
+		Tamanho do passo de escavação & $L_p$ & m & $\dfrac{1}{3} R_i$ \\
+		Dimensão não suportada & $d_0$ & m & ? \\
+		Cota da face do revestimento & $y_r$ & m & $(i_p - 1)L_p + n_{p_i}L_p - (L_p + d_0)$ \\	
+		Cota da face de escavação & $y_f$ & m & $(i_p - 1)L_p + n_{p_i}L_p$ \\
+		\hline
+		\multicolumn{4}{c}{DISCRETIZAÇÃO} \\
+		\hline
+		Elementos ao longo de $R_i$ & $nR_i$ & un & 10 \\	
+		\makecell{Elementos na espessura do \\ revestimento} & $n_rev$ & un & 2 \\				
+		Elementos ao longo de $R_1$ & $nR_1$ & un & 15 \\
+		\makecell{Razão entre o primeiro e o último \\ elemento em $R_1$} & $mR_1$ & adm & 15 \\
+		Elementos ao longo de $L_{x_1}$ & $nL_{x_1}$ & un & 5 \\
+		\makecell{Razão entre o primeiro e o último \\ elemento em $L_{x_1}$} & $mL_{x_1}$ & adm & 1,2 \\	
+		Elementos no passo escavado & $nL_p$ & un & 1 \\
+		Número de elementos ao longo de $L_y$ & $nL_{y_2}$ & un & 15 \\
+		\makecell{Razão entre o primeiro e o último \\ elemento em $L_{y_2}$} & $mL_{y_2}$ & adm & 5 \\			
+		\hline
+	\end{tabular}
+	\normalsize
+\end{table}
+
+\begin{table}[H]
+	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo tridimensional}
+	\label{parametros_dominio3D}
 	\centering
 	\small
 	\renewcommand{\arraystretch}{1.25}
@@ -34,7 +89,7 @@
 		\hline
 		\multicolumn{4}{c}{TÚNEIS LONGITUDINAIS} \\
 		\hline
-		Raio da interface entre o túnel e o maciço & $R_e$ & m & 1 \\		
+		Raio da interface entre o túnel e o maciço & $R_i$ & m & 1 \\		
 		Espessura do revestimento (se houver) & $e_{rev}$ & m & 0,1 \\
 		Comprimento do passo de escavação & $L_{p}$ & m & $\dfrac{1}{3}R_e$ \\
 		\makecell{Número de passos que representam a \\ dimensão não suportada} & $nd_0$ & Lp & 2 \\				
