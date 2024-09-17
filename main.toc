@@ -22,13 +22,13 @@
 \contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{38}{subsubsection.2.6.2.3}%
 \contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{39}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{41}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{43}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{44}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{52}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{53}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{44}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{44}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{45}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discretização do domínio}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{53}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Verificações com ...}{53}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{54}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{54}{section*.40}%
+\contentsline {chapter}{REFERÊNCIAS}{55}{section*.40}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  16 SEP 2024 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  17 SEP 2024 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,32 +1478,34 @@ Package pdftex.def Info: ./fig/influenciarigidezNIM.pdf  used on input line 351
 
 [40]
 
-[41])
+[41]
 
-[42]
+[42])
+
+[43]
 \openout2 = `./chap/cap3.aux'.
 
  (chap/cap3.tex
 
-[43
+[44
 
 
 
 
 ]
 
-LaTeX Warning: Citation `Giraud1996' on page 44 undefined on input line 53.
+LaTeX Warning: Citation `Giraud1996' on page 45 undefined on input line 53.
 
 
 
-[44]
-<./fig/representacaoreologica.pdf, id=1303, 333.75082pt x 187.78644pt>
+[45]
+<./fig/representacaoreologica.pdf, id=1314, 333.75082pt x 187.78644pt>
 File: ./fig/representacaoreologica.pdf Graphic file (type pdf)
 <use ./fig/representacaoreologica.pdf>
 Package pdftex.def Info: ./fig/representacaoreologica.pdf  used on input line 6
 4.
 (pdftex.def)             Requested size: 367.12703pt x 206.5657pt.
-<./fig/funcoesescoamento.pdf, id=1309, 450.29451pt x 172.72375pt>
+<./fig/funcoesescoamento.pdf, id=1320, 450.29451pt x 172.72375pt>
 File: ./fig/funcoesescoamento.pdf Graphic file (type pdf)
 <use ./fig/funcoesescoamento.pdf>
 Package pdftex.def Info: ./fig/funcoesescoamento.pdf  used on input line 80.
@@ -1516,30 +1518,30 @@ Underfull \hbox (badness 2173) in paragraph at lines 82--82
 
 
 
-[45 <./fig/representacaoreologica.pdf>]
+[46 <./fig/representacaoreologica.pdf>]
 
-[46 <./fig/funcoesescoamento.pdf>]
+[47 <./fig/funcoesescoamento.pdf>]
 
-[47]
-<./fig/dominiosEPVP.pdf, id=1408, 321.12228pt x 217.31194pt>
+[48]
+<./fig/dominiosEPVP.pdf, id=1420, 321.12228pt x 217.31194pt>
 File: ./fig/dominiosEPVP.pdf Graphic file (type pdf)
 <use ./fig/dominiosEPVP.pdf>
 Package pdftex.def Info: ./fig/dominiosEPVP.pdf  used on input line 145.
 (pdftex.def)             Requested size: 385.3448pt x 260.773pt.
 )
 
-[48 <./fig/dominiosEPVP.pdf>]
+[49 <./fig/dominiosEPVP.pdf>]
 \openout2 = `./chap/cap4.aux'.
 
  (chap/cap4.tex
-<./fig/dominioaxi.pdf, id=1456, 353.1859pt x 626.97507pt>
+<./fig/dominioaxi.pdf, id=1467, 353.1859pt x 626.97507pt>
 File: ./fig/dominioaxi.pdf Graphic file (type pdf)
 <use ./fig/dominioaxi.pdf>
 Package pdftex.def Info: ./fig/dominioaxi.pdf  used on input line 22.
 (pdftex.def)             Requested size: 353.18503pt x 626.97354pt.
 
 
-[49
+[50
 
 
 
@@ -1558,16 +1560,16 @@ Overfull \hbox (8.70663pt too wide) in paragraph at lines 34--75
 
 
 
-[50 <./fig/dominioaxi.pdf>]
+[51 <./fig/dominioaxi.pdf>]
 
-[51])
+[52])
 
-[52]
+[53]
 \openout2 = `./chap/cap5.aux'.
 
  (chap/cap5.tex)
 
-[53
+[54
 
 
 
@@ -1580,17 +1582,17 @@ Overfull \hbox (8.70663pt too wide) in paragraph at lines 34--75
 bibitemlist
 
 
-[54
+[55
 
 
 
 ]
 
-[55]
+[56]
 
-[56])
+[57])
 
-[57]
+[58]
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1611,16 +1613,16 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: E14B20ECF187291AB178A0D55BCE19DB;7836.
+(rerunfilecheck)             Checksum: 33245D26CF21F9BCD2D177349D563969;7995.
  ) 
 Here is how much of TeX's memory you used:
- 24579 strings out of 473899
- 404480 string characters out of 5726501
- 1956960 words of memory out of 5000000
+ 24580 strings out of 473899
+ 404487 string characters out of 5726501
+ 1957960 words of memory out of 5000000
  46380 multiletter control sequences out of 15000+600000
  657884 words of font info for 396 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,17n,121p,1160b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,17n,121p,1572b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bianc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1631,9 +1633,9 @@ eX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmr8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (58 pages, 9717714 bytes).
+Output written on main.pdf (59 pages, 9722563 bytes).
 PDF statistics:
- 2545 PDF objects out of 2984 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
+ 2558 PDF objects out of 2984 (max. 8388607)
+ 225 named destinations out of 1000 (max. 500000)
  96696 words of extra memory for PDF output out of 106986 (max. 10000000)
 
