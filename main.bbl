@@ -5,10 +5,28 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[]{Quevedoetal2018}
+\abntrefinfo{nada}{NADA}{a}
+{A. Giraud and G. Rousset.}
+
 \bibitem[{AFTES} 2001]{AFTES2001}
 \abntrefinfo{{AFTES}}{{AFTES}}{2001}
 {{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
 \textbf{Recommendations on the convergence-confinement method}, 2001.}
+
+\bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanA}
+\abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989a}
+{BA{\v{Z}}ANT, Z.~P.; PRASANNAN, S. Solidification theory for concrete creep.
+  {I}: Formulation.
+\textbf{Journal of Engineering Mechanics}, American Society of Civil Engineers
+  (ASCE), v.~115, n.~8, p. 1691--1703, 1989.}
+
+\bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanB}
+\abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989b}
+{\underline{\ \ \ \ \ \ \ \ }. Solidification theory for concrete creep. {II}:
+  Verification and application.
+\textbf{Journal of Engineering Mechanics}, American Society of Civil Engineers
+  (ASCE), v.~115, n.~8, p. 1704--1725, 1989.}
 
 \bibitem[Benamar 1996]{Benamar1996}
 \abntrefinfo{Benamar}{BENAMAR}{1996}
@@ -44,6 +62,11 @@ ISBN 13: 978-1-4613-8053-5.}
 \abntrefinfo{Bobet e Einstein}{BOBET; EINSTEIN}{2010}
 {BOBET, A.; EINSTEIN, H. Tunnel reinforcement with rockbolts.
 \textbf{Tunnelling and Underground Space Technology}, 2010.}
+
+\bibitem[CEB-FIP 1993]{CEB1993}
+\abntrefinfo{CEB-FIP}{CEB-FIP}{1993}
+{CEB-FIP. \textbf{CEB-FIP model code 1990: Design code}.
+[S.l.], 1993.}
 
 \bibitem[Chapman, Metje e St{\"{a}}rk 2018]{Chapman2018}
 \abntrefinfo{Chapman, Metje e St{\"{a}}rk}{CHAPMAN; METJE; ST{\"{A}}RK}{2018}
@@ -133,6 +156,12 @@ ISBN 1782661727.}
 Dispon{\'\i}vel em:
   \url{http://www.teses.usp.br/teses/disponiveis/3/3145/tde-08122006-151549/}.}
 
+\bibitem[Giraud e Rousset 1996]{Giraud1996}
+\abntrefinfo{Giraud e Rousset}{GIRAUD; ROUSSET}{1996}
+{GIRAUD, A.; ROUSSET, G. Time-dependent behaviour of deep clays.
+\textbf{Engineering Geology}, v.~41, n.~1, p. 181--195, 1996.
+ISSN 0013-7952.}
+
 \bibitem[Gomes 2006]{Gomes2006}
 \abntrefinfo{Gomes}{GOMES}{2006}
 {GOMES, R. A. M.~P.
@@ -197,12 +226,12 @@ ISSN 0045-7949.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/0045794985902548}.}
 
-\bibitem[Li et al. 2021]{Changguietal2021}
-\abntrefinfo{Li et al.}{LI et al.}{2021}
+\bibitem[Li et al. 2020]{Changguietal2020}
+\abntrefinfo{Li et al.}{LI et al.}{2020}
 {LI, C.; ZHAO, J.; HU, J.; JU, X.; TIAN, X. Numerical analysis of reasonable
   distance between tunnel faces for twin tunnel.
 \textbf{6th International Conference on Hydraulic and Civil Engineering - IOP
-  Conf. Series: Earth and Environmental Science}, 2021.}
+  Conf. Series: Earth and Environmental Science}, 2020.}
 
 \bibitem[Li et al. 2018]{Lietal2018}
 \abntrefinfo{Li et al.}{LI et al.}{2018}
@@ -307,11 +336,18 @@ Dispon{\'\i}vel em:
 
 \bibitem[Quevedo, Bernaud e Filho 2020]{Quevedo2020}
 \abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2020}
-{QUEVEDO, F.~P. da M.; BERNAUD, D.; FILHO, A.~C. Numerical analysis of twin
+{QUEVEDO, F. P.~M.; BERNAUD, D.; FILHO, A. C. Numerical analysis of twin
   tunnels including long-term effects considering the creep and shrinkage of
   concrete.
 \textbf{XLI Ibero-Latin American Congress on Computational Methods in
   Engineering (CILAMCE)}, Paran{\'{a}}, 2020.}
+
+\bibitem[Quevedo, Bernaud e Filho 2022]{Quevedoetal2022b}
+\abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2022}
+{\underline{\ \ \ \ \ \ \ \ }. Numerical analysis of deep tunnels in
+  viscoplastic rock mass considering the creep and shrinkage of the concrete
+  lining.
+\textbf{International Journal of Geomechanics}, v.~22, n.~4, 2022.}
 
 \bibitem[Rousset 1988]{Rousset1988}
 \abntrefinfo{Rousset}{ROUSSET}{1988}
@@ -319,13 +355,6 @@ Dispon{\'\i}vel em:
 \textbf{{Comportement Mecanique des Argiles Profondes: application au stockage
   de dechets radioactifs}}.
 Tese (Doutorado) --- L'Ecole Nationale des Ponts et Chaussees, 1988.}
-
-\bibitem[Salen{\c{c}}on 2001]{Salencon2001}
-\abntrefinfo{Salen{\c{c}}on}{SALEN{\c{C}}ON}{2001}
-{SALEN{\c{C}}ON, J. \textbf{{Handbook of Continuum Mechanics}}. Berlin,
-  Heidelberg: Springer Berlin Heidelberg, 2001. 803~p.
-ISBN 978-3-642-62556-5. Dispon{\'\i}vel em:
-  \url{http://link.springer.com/10.1007/978-3-642-56542-7}.}
 
 \bibitem[Silveira 1974]{Silveira1974}
 \abntrefinfo{Silveira}{SILVEIRA}{1974}

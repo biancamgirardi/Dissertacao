@@ -17,31 +17,53 @@ A seguir, são apresentados os modelos adotados no presente trabalho para o reve
 
 \section{Modelo constitutivo do revestimento}
 
-Na Teoria da Elasticidade, considera-se que a aplicação de tensões resulta imediatamente em deformações correspondentes, de maneira que, enquanto as tensões forem mantidas, as deformações permanecem proporcionais. Contudo, caso as tensões sejam removidas, o corpo tende a retornar à sua forma original, implicando que as deformações são reversíveis.
+Os fenômenos de retração e fluência são aspectos essenciais nos processos de deformação do concreto, influenciando o comportamento instantâneo, transitório e diferido das estruturas e o desempenho do revestimento no controle da convergência a longo prazo dos túneis. A fluência do concreto se refere à deformação dependente do tempo induzida pela carga, e a retração corresponde à diminuição do volume do concreto devido à secagem. 
 
-Neste estudo, utiliza-se um modelo elástico linear para o revestimento de concreto. A lei do comportamento elástico linear é expressa por $\sigmall = \partial w / \partial \varepsilonll$, em que $w$ representa a energia interna específica do material. Ao aplicar a regra da cadeia em relação aos invariantes do tensor de deformações e realizando uma aproximação em torno de $\sigmall_0$, se obtém a lei constitutiva da elasticidade linear isótropa, conforme \citeonline{Salencon2001}:
+% The time-dependent material behavior due to shrinkage and creep of shotcrete considerably influences the stress and strain state of tunnel linings throughout their service life. Shrinkage describes the time-dependent volume reduction of cement-based materials due to hydration and/or drying. If the volume reduction occurs without moisture exchange with the environment, it is referred to as autogenous shrinkage, whereas drying shrinkage describes additional shrinkage due to moisture release to the environment [17]. (Smaniotto et al)
 
-\begin{equation}
-	\sigmall - \sigmall_0 = \Dllll : \varepsilonll,
-\end{equation}
+A deformação por fluência do concreto é abordada por um modelo reológico viscoelástico de envelhecimento, baseado na Teoria de Solidificação de \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}. Os parâmetros mecânicos são a rigidez das molas e viscosidade dos ??,  calibrados conforme as formulações do CEB-FIP Model Code 1990 \cite{CEB1993}, e uma descrição detalhada desse processo de calibração pode ser encontrada em \citeonline{Quevedoetal2022b} e \citeonline{Quevedoetal2018}. Já a deformação associada à retração do concreto, adota-se a formulação isotrópica proposta na CEB-FIP Model Code 1990 \cite{CEB1993}. Mais informações sobre o modelo podem ser encontradas em \citeonline{Quevedoetal2022b} e \citeonline{Quevedo2017}.
 
-onde $\Dllll$ é o tensor constitutivo elástico de quarta ordem simétrico e $\varepsilonll$ o tensor de deformações. O tensor constitutivo elástico é expresso por:
+As equações constitutivas do revestimento de concreto, relacionando a tensão e a taxa de deformação são expressas por:
 
 \begin{equation}
-	\Dllll = \lambda^e \Umll \otimes \Umll + 2 \mu^e \Umllll,
+	\dot \sigmall = \Dllll : \dot \varepsilonll^e = \dot \varepsilonll - \Dllll : \dot \varepsilonll^{sh} - \Dllll^{\ast} : \dot \varepsilonll^{cr},
 \end{equation}
 
-em que $\lambda^e$ e $\mu^e$ são constantes chamadas de coeficientes de Lamè, e representam relações com o módulo de Young ($E_c$) e com o coeficiente de Poisson ($\nu_c$) do revestimento de concreto:
+onde $\dot \varepsilonll^{sh}$ corresponde à taxa de deformação por retração e $\dot \varepsilonll^{cr}$ à taxa de deformação por fluência. Ainda, os tensores de quarta ordem $\Dllll$ e $\Dllll^{\ast}$ se referem ao tensor constitutivo isotrópico elástico linear e ao tensor constitutivo modificado que incorpora as propriedades viscoelásticas de envelhecimento do concreto, respectivamente.
 
-\begin{equation}
-	\lambda^e = \frac{E_c \nu}{(1 + \nu_c)(1-2 \nu_c)} ~~~ \text{e} ~~~ \mu^e = \frac{E_c}{2(1+\nu_c)}
-\end{equation}
+O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin generalizada, apresentada na \autoref{modeloreologicoviscoelasticidade}.
 
-Nas análises subsequentes, a rigidez da parede do túnel $K_c$ será expressa pelos parâmetros que dependem das propriedades elásticas do material (módulo de elasticidade e coeficiente de Poisson), do raio do túnel $R_t$ e da espessura do revestimento $e_{rev}$, conforme Panet (1995):
+%\begin{figure}[H]
+%	\begin{center}
+%		\includegraphics[scale=0.96]{modeloreologicoviscoelasticidade.pdf}
+%	\end{center}
+%	\caption{\label{modeloreologicoviscoelasticidade}Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto %\cite{quem}}
+%\end{figure}
 
-\begin{equation}
-	K_c = \frac{E_c}{1+\nu_c} \frac{R_t^2 - (R_t - e_{rev})^2}{(1-2\nu_c)R_t + (R_t - e_{rev})^2}.
-\end{equation}
+%Na Teoria da Elasticidade, considera-se que a aplicação de tensões resulta imediatamente em deformações correspondentes, de maneira que, enquanto as tensões forem mantidas, as deformações permanecem proporcionais. Contudo, caso as tensões sejam removidas, o corpo tende a retornar à sua forma original, implicando que as deformações são reversíveis. A lei do comportamento elástico linear é expressa por $\sigmall = \partial w / \partial \varepsilonll$, em que $w$ representa a energia interna específica do material. Ao aplicar a regra da cadeia em relação aos invariantes do tensor de deformações e realizando uma aproximação em torno de $\sigmall_0$, se obtém a lei constitutiva da elasticidade linear isótropa, conforme \citeonline{Salencon2001}:
+
+%\begin{equation}
+%	\sigmall - \sigmall_0 = \Dllll : \varepsilonll,
+%\end{equation}
+
+%onde $\Dllll$ é o tensor constitutivo elástico de quarta ordem simétrico e $\varepsilonll$ o tensor de deformações. O tensor constitutivo elástico é expresso por:
+
+%\begin{equation}
+%	\Dllll = \lambda^e \Umll \otimes \Umll + 2 \mu^e \Umllll,
+%\end{equation}
+
+%em que $\lambda^e$ e $\mu^e$ são constantes chamadas de coeficientes de Lamè, e representam relações com o módulo de Young ($E_c$) e com o coeficiente de Poisson ($\nu_c$) do revestimento de concreto:
+
+%\begin{equation}
+%	\lambda^e = \frac{E_c \nu}{(1 + \nu_c)(1-2 \nu_c)} ~~~ \text{e} ~~~ \mu^e = \frac{E_c}{2(1+\nu_c)}
+%\end{equation}
+
+%Nas análises subsequentes, a rigidez da parede do túnel $K_c$ será expressa pelos parâmetros que dependem das propriedades elásticas do material (módulo de elasticidade e coeficiente de Poisson), do raio do túnel $R_t$ e da espessura do revestimento $e_{rev}$, conforme Panet (1995):
+
+%\begin{equation}
+%	K_c = \frac{E_c}{1+\nu_c} \frac{R_t^2 - (R_t - e_{rev})^2}{(1-2\nu_c)R_t + (R_t - e_{rev})^2}.
+%\end{equation}
+
 
 
 \section{Modelo constitutivo do maciço}
@@ -61,7 +83,7 @@ que pode ser visualizado no modelo reológico apresentado na \autoref{modeloreol
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1.1]{representacaoreologica.pdf}
+		\includegraphics[scale=1]{representacaoreologica.pdf}
 	\end{center}
 	\caption{\label{modeloreologicoepvp}Representação reológica do modelo elastoplástico viscoplástico (adaptado de \citeonline{Rousset1988})}
 \end{figure}
@@ -86,7 +108,7 @@ O modelo constitutivo adotado no presente estudo utiliza a superfície de escoam
 
 \begin{equation}
 	\label{funcaodruckerprager}
-	f(\sigma,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
+	f(\sigmall,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
 \end{equation}
 
 onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras e $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. São dados pelas expressões:
@@ -131,8 +153,8 @@ em que o multiplicador viscoplástico $\dot \lambda^{vp}$ é dado de forma expl�
 
 \begin{equation}
 	\begin{aligned}
-		& \dot \lambda^{vp} = \frac{\Phi(\sigma, q^{vp})}{\eta}, \\
-		& \Phi = \left\langle \frac{f^{vp}(\sigma, q^{vp})}{f_0} \right\rangle^n,
+		& \dot \lambda^{vp} = \frac{\Phi(\sigmall, q^{vp})}{\eta}, \\
+		& \Phi = \left\langle \frac{f^{vp}(\sigmall, q^{vp})}{f_0} \right\rangle^n,
 	\end{aligned}
 \end{equation}
 
