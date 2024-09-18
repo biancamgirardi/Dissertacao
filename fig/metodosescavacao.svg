@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="141.79544mm"
+   height="110.16128mm"
+   viewBox="0 0 141.79544 110.16128"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="metodosescavacao.svg"
+   inkscape:export-filename="..\..\..\..\..\..\..\gitprojects\Dissertacao\fig\metodosescavacao.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="306.53079"
+     inkscape:cy="201.87899"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="3"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="2.5"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <rect
+       x="522"
+       y="187.5"
+       width="106.5"
+       height="22"
+       id="rect14" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13" />
+    <rect
+       x="494.97476"
+       y="91.216774"
+       width="122.68303"
+       height="33.941128"
+       id="rect12" />
+    <rect
+       x="382.5"
+       y="78.5"
+       width="232.5"
+       height="91"
+       id="rect9" />
+    <rect
+       x="379.5"
+       y="59.5"
+       width="161.5"
+       height="54"
+       id="rect8" />
+    <rect
+       x="110.87952"
+       y="188.89247"
+       width="141.94023"
+       height="50.925121"
+       id="rect2" />
+    <rect
+       x="110.87952"
+       y="188.89247"
+       width="141.94023"
+       height="50.925121"
+       id="rect2-3" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-0" />
+    <rect
+       x="379.5"
+       y="59.5"
+       width="203.2193"
+       height="49.757359"
+       id="rect8-2" />
+    <rect
+       x="382.5"
+       y="78.5"
+       width="244.5"
+       height="119"
+       id="rect9-6" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-8" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-0-9" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-6" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-6-0" />
+    <rect
+       x="379.5"
+       y="59.5"
+       width="197.20889"
+       height="52.939339"
+       id="rect8-1" />
+    <rect
+       x="382.5"
+       y="78.5"
+       width="232.5"
+       height="91"
+       id="rect9-9" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-4" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-0-8" />
+    <rect
+       x="379.5"
+       y="59.5"
+       width="197.20889"
+       height="52.939339"
+       id="rect8-1-8" />
+    <rect
+       x="382.5"
+       y="78.5"
+       width="232.5"
+       height="91"
+       id="rect9-9-7" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="253.70702"
+       height="51.633514"
+       id="rect13-0-8-6" />
+    <rect
+       x="379.5"
+       y="59.5"
+       width="197.20889"
+       height="52.939339"
+       id="rect8-1-8-3" />
+    <rect
+       x="382.5"
+       y="78.5"
+       width="232.5"
+       height="91"
+       id="rect9-9-7-8" />
+    <rect
+       x="499.57095"
+       y="85.206367"
+       width="121.97592"
+       height="43.133514"
+       id="rect13-0-8-6-4" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.062689,-13.39624)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="36.202579"
+       height="12.206276"
+       x="25.312689"
+       y="45.312691" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.500862;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-3"
+       width="66.221596"
+       height="19.255215"
+       x="100.38041"
+       y="13.646671" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.4833251,-3.1816294)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="164.07227"
+         y="203.02598"
+         id="tspan11">NÃO </tspan><tspan
+         x="120.95508"
+         y="223.02598"
+         id="tspan13">MECANIZADOS</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7"
+       width="36.202579"
+       height="12.206276"
+       x="25.312689"
+       y="101.5624" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-5.0124913,55.713922)"
+       id="text1-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect2-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="118.95508"
+         y="203.02598"
+         id="tspan15"> MECANIZADOS</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 61.5,51.55 h 38.87769"
+       id="path2" />
+    <g
+       id="path3"
+       transform="matrix(1.0125171,0,0,1.1782707,-1.0861565,-9.0465969)"
+       style="stroke-width:0.366215;stroke-dasharray:none">
+      <path
+         style="color:#000000;fill:#000000;stroke-width:0.366215;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 86.97635,22.709266 V 80.427411"
+         id="path5" />
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 87,23.967311 h 13.23375"
+       id="path4" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 87,81.691667 h 13.23375"
+       id="path4-0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 87,98.625 h 13.23375"
+       id="path4-0-9" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0.39687497,-0.52916673)"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="387.25391"
+         y="73.701933"
+         id="tspan17"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
+           id="tspan16">VALA RECOBERTA</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,1.8520833,0.13229161)"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-101.72656"
+       y="0"><tspan
+         x="382.5"
+         y="92.701933"
+         id="tspan21"><tspan
+           style="text-align:start;text-anchor:start"
+           id="tspan18">Método direto</tspan><tspan
+           style="-inkscape-font-specification:'Times New Roman, '"
+           id="tspan19"> </tspan><tspan
+           style="text-align:start;text-anchor:start"
+           id="tspan20">
+</tspan></tspan><tspan
+         x="382.5"
+         y="112.70193"
+         id="tspan23"><tspan
+           style="text-align:start;text-anchor:start"
+           id="tspan22">Método indireto </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.188976;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,2.086886,-1.929578)"
+       id="text13"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan24">(cut and cover)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,12.129209,30.778267)"
+       id="text13-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan25">(roadheader)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,9.714889,41.328527)"
+       id="text13-9-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-6-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan26">(hammerhead)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,5.2533937,3.3412987)"
+       id="text13-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan27">(cover and cut)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.501368;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-3-6"
+       width="66.053741"
+       height="35.226948"
+       x="100.54722"
+       y="35.664661" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.5214864,21.338751)"
+       id="text8-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect8-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="395.37891"
+         y="73.701933"
+         id="tspan29"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
+           id="tspan28">ESCAVAÇÃO SIMPLES</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,1.8688069,22.000209)"
+       id="text9-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect9-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-102.00781"
+       y="0"><tspan
+         x="382.5"
+         y="92.701933"
+         id="tspan31"><tspan
+           style="-inkscape-font-specification:'Times New Roman, ';text-align:start"
+           id="tspan30">Equipamentos manuais
+</tspan></tspan><tspan
+         x="382.5"
+         y="112.70193"
+         id="tspan33"><tspan
+           style="-inkscape-font-specification:'Times New Roman, ';text-align:start"
+           id="tspan32">Escavadeiras
+</tspan></tspan><tspan
+         x="382.5"
+         y="132.70193"
+         id="tspan35"><tspan
+           style="-inkscape-font-specification:'Times New Roman, ';text-align:start"
+           id="tspan34">Escavadeira rotativa
+</tspan></tspan><tspan
+         x="382.5"
+         y="152.70193"
+         id="tspan37"><tspan
+           style="-inkscape-font-specification:'Times New Roman, ';text-align:start"
+           id="tspan36">Escarificadoras
+</tspan></tspan><tspan
+         x="382.5"
+         y="172.70193"
+         id="tspan39"><tspan
+   style="-inkscape-font-specification:'Times New Roman, ';text-align:start"
+   id="tspan38">Martelo hidráulico</tspan> </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text14"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect14);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-3-8"
+       width="66.075706"
+       height="14.181465"
+       x="100.53242"
+       y="74.223572" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0.59169714,60.090543)"
+       id="text8-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect8-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="387.42871"
+         y="73.701933"
+         id="tspan41"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
+           id="tspan40">DESMONTE DE ROCHA</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-12.240596,60.752002)"
+       id="text9-0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect9-9);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-101.72656"
+       y="0"><tspan
+         x="436.33203"
+         y="92.701933"
+         id="tspan43"><tspan
+   style="-inkscape-font-specification:'Times New Roman, '"
+   id="tspan42">Perfurar e explodir </tspan>
+</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,9.5641665,58.909615)"
+       id="text13-3-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-0-8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan44">(drill and blast)</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.199502,23.963855 V 81.866836"
+       id="path15" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-3-8-6"
+       width="66.075706"
+       height="14.181465"
+       x="100.47848"
+       y="91.576645" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,2.654426,77.443614)"
+       id="text8-4-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect8-1-8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-60.734375"
+       y="0"><tspan
+         x="379.5"
+         y="73.701933"
+         id="tspan46"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
+           id="tspan45">TUNELADORAS</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,-23.827281,76.262686)"
+       id="text13-3-2-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-0-8-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan47">(Tunnel Boring Machines - TBM)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-3-8-6-8"
+       width="66.075706"
+       height="14.181465"
+       x="100.46861"
+       y="109.12605" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.53043662,94.993009)"
+       id="text8-4-9-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect8-1-8-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="391.41309"
+         y="73.701933"
+         id="tspan49"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Times New Roman, Bold'"
+           id="tspan48">CRAVAÇÃO DE TUBOS</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,-0.05388463,0.26458333,-23.837143,93.812081)"
+       id="text13-3-2-1-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect13-0-8-6-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00377953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="499.57031"
+         y="99.408965"
+         id="tspan50">(Pipe-and-jack)</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.325143;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 61.5,107.53816 H 87.187939"
+       id="path2-4" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 87,116.61666 h 13.23375"
+       id="path4-0-5" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.2,98.630808 V 116.55624"
+       id="path16" />
+  </g>
+</svg>
