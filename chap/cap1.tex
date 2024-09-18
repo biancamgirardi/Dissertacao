@@ -82,24 +82,19 @@ Visando alcançar os objetivos, a metodologia consiste em uma abordagem teórica
 \section{Justificativa}
 % ---
 
-A análise de túneis gêmeos envolve diversos fatores críticos que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Um desses fatores fundamentais é a defasagem entre os túneis, uma característica inerente ao processo construtivo dessas estruturas. A distância de afastamento das faces de escavação entre os túneis gêmeos pode gerar impactos significativos nas deformações e na redistribuição de tensões no maciço circundante.
+A análise de túneis gêmeos envolve diversos fatores que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Um desses fatores fundamentais é a defasagem entre os túneis, uma característica inerente ao processo construtivo dessas estruturas. A distância de afastamento das faces de escavação entre os túneis gêmeos pode gerar impactos significativos nas deformações e na redistribuição de tensões no maciço circundante.
 
+De acordo com \citeonline{Changguietal2020}, é de grande importância estudar a distância de defasagem razoável para garantir a estabilidade, principalmente em túneis de pequena distância livre entre eles.
 
-Outro aspecto central para o comportamento de túneis gêmeos é o ângulo friccional do solo, frequentemente modelado em estudos com o critério de Drucker-Prager aplicado à plasticidade. No entanto, os trabalhos anteriores não exploraram de forma abrangente análises paramétricas envolvendo essa característica, o que evidencia uma lacuna importante no entendimento do comportamento do maciço em relação à variação desse parâmetro. Embora existam investigações baseadas em modelos elastoplásticos que consideram o ângulo de atrito, há uma ausência significativa de estudos que acoplem essa característica ao comportamento viscoso do solo. A consideração da viscosidade, especialmente em situações de longo prazo, é fundamental para uma compreensão mais precisa das deformações e da interação entre os túneis e o maciço ao longo do tempo.
+%Outro aspecto central para o comportamento de túneis gêmeos é o ângulo friccional do solo, frequentemente modelado em estudos com o critério de Drucker-Prager aplicado à plasticidade. No entanto, os trabalhos anteriores não exploraram de forma abrangente análises paramétricas envolvendo essa característica, o que evidencia uma lacuna importante no entendimento do comportamento do maciço em relação à variação desse parâmetro. Embora existam investigações baseadas em modelos elastoplásticos que consideram o ângulo de atrito, há uma ausência significativa de estudos que acoplem essa característica ao comportamento viscoso do solo. A consideração da viscosidade, especialmente em situações de longo prazo, é fundamental para uma compreensão mais precisa das deformações e da interação entre os túneis e o maciço ao longo do tempo.
 
-Este trabalho, portanto, se justifica pela necessidade de aprofundar o estudo sobre a influência da defasagem na escavação e o impacto do ângulo friccional e do comportamento viscoso, contribuindo para o desenvolvimento de modelos computacionais mais completos e representativos dessa problemática.
-
-
-Para garantir a estabilidade do túnel, a seleção da distância de defasagem do túnel é muito importante, por isso é de grande importância estudar a distância de defasagem razoável do túnel de pequena distância livre. CHANGGUI
-
-
-%Explicaria: 
+%Explicaria (Revisão Quevedo): 
 
 %1) que a defasagem é algo fundamental nos túneis gêmeos. Pois é uma realidade na execução desses túneis (citaria alguns túneis ou exemplos de estudos cujo o foco foi a distância de afastamento das faces). 
 
 %2) a questão friccional, já que os trabalhos anteriores, apesar de ter esse modelo implementado com DP na plasticidade, não fizeram análises paramétricas com essa característica. Além disso, apesar de haver estudos com modelos elastoplásticos com ângulo de atrito, há uma ausência de investigação, nessa problemática dos túneis gêmeos, sobre modelos envolvendo o acoplamento com a viscosidade.
 
-Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela colaboração com o estudo paramétrico e da interação de túneis gêmeos profundos interligados por galerias, considerando a defasagem construtiva. % e diferentes modelos constitutivos para o maciço e o revestimento.
+Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela pela necessidade de aprofundar o estudo sobre a influência da defasagem na escavação e também o impacto do parâmetro friccional, contribuindo para o desenvolvimento de modelos computacionais mais completos dessa problemática.
 
 % ---
 \section{Delimitações}
@@ -110,9 +105,9 @@ Foram adotadas as seguintes delimitações para o desenvolvimento deste trabalho
 
 \item por simplificação, somente os túneis de configuração profunda são considerados nas análises, ou seja, desprezam-se as deformações provenientes de cargas superficiais e assentamentos decorrentes do processo de escavação de túneis;
 
-\item apesar de a heterogeneidade do material e a anisotropia do comportamento sejam características inerentes aos solos e às rochas, o maciço rochoso é modelado como um meio contínuo, homogêneo e isotrópico. Na escala do túnel (macroescala), essa suposição significa que as possíveis micro-heterogeneidades são tratadas por um processo preliminar de homogeneização. Essa modelagem se tornaria questionável caso a massa rochosa apresentasse fraturas na macroescala;
+\item embora a heterogeneidade do material e a anisotropia do comportamento sejam características inerentes aos solos e às rochas, o maciço rochoso é modelado como um meio contínuo, homogêneo e isotrópico. Na escala do túnel (macroescala), essa suposição significa que as possíveis micro-heterogeneidades são tratadas por um processo preliminar de homogeneização. Essa modelagem se tornaria questionável caso a massa rochosa apresentasse fraturas na macroescala;
 	
-\item embora a distribuição de tensão no maciço rochoso antes da escavação do túnel seja complexa e influenciada principalmente pela história geológica, o presente estudo assume uma tensão inicial geostática representada por tensões verticais e horizontais;
+\item apesar da distribuição de tensão no maciço rochoso antes da escavação do túnel ser complexa e influenciada principalmente pela história geológica, o presente estudo assume uma tensão inicial geostática representada por tensões verticais e horizontais;
 	
 \item ao contrário da prática usual de execução de túneis, onde a velocidade de avanço da escavação e colocação do revestimento variam conforme o cronograma de obra e as características do maciço, adota-se uma taxa de avanço constante e um revestimento de concreto com espessura constante ao longo do túnel;
 

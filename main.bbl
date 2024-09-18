@@ -14,6 +14,12 @@
 {{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
 \textbf{Recommendations on the convergence-confinement method}, 2001.}
 
+\bibitem[{ANSYS Inc} 2024]{ANSYS}
+\abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2024}
+{{ANSYS Inc}. \textbf{Ansys Product Help - Mechanical APDL}. 2024.
+Dispon{\'\i}vel em:
+  \url{https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/prod\_page.html?pn=Mechanical\%20APDL&prodver=24.2&lang=en}.}
+
 \bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanA}
 \abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989a}
 {BA{\v{Z}}ANT, Z.~P.; PRASANNAN, S. Solidification theory for concrete creep.
@@ -129,6 +135,13 @@ S{\~{a}}o Paulo, 2005. 52~p.}
   tunnels in soft ground – influence of lagging distance between two tunnel
   faces.
 \textbf{Engineering Structures}, 2015.}
+
+\bibitem[Eisenstein, Heinz e Negro 1984]{Eisensteinetal1984}
+\abntrefinfo{Eisenstein, Heinz e Negro}{EISENSTEIN; HEINZ; NEGRO}{1984}
+{EISENSTEIN, Z.; HEINZ, H.; NEGRO, A. {On Three-Dimensional Ground Response to
+  Tunnelling}. In:  LO, K.~Y. (Ed.). \textbf{Tunnelling in Soil and Rock: Two
+  Sessions at GEOTECH '84}. New York: American Society of Civil Engineers
+  (ASCE), 1984. p. 107--127.}
 
 \bibitem[{FEDERAL HIGHWAY ADMINISTRATION}
   2009]{FederalHighwayAdministration2009}
@@ -361,6 +374,12 @@ Tese (Doutorado) --- L'Ecole Nationale des Ponts et Chaussees, 1988.}
 {SILVEIRA, E. B.~S. Metrôs e túneis em solos.
 \textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
   23--96, 1974.}
+
+\bibitem[Sousa 1998]{AlmeidaeSousa1998}
+\abntrefinfo{Sousa}{SOUSA}{1998}
+{SOUSA, J.~A. e.
+\textbf{Túneis em Maciços Terrosos: Comportamento e Modelação Numérica}.
+Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
 
 \bibitem[UK 2019]{UKGovernment2019}
 \abntrefinfo{UK}{UK}{2019}

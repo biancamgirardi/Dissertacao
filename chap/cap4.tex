@@ -15,7 +15,7 @@
 % ---
 O domínio utilizado no presente estudo foi primeiramente aplicado por \citeonline{Quevedo2017} e \citeonline{Quevedo2021} e atualizado por \citeonline{Colombo2023}, discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
 
-No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $y$, enquanto que o eixo $x$ representa o eixo radial. A \autoref{dominioaxi} apresenta a malha do modelo axissimétrico, as condições de contorno e seus parâmetros geométricos..
+No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $y$, enquanto que o eixo $x$ representa o eixo radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de solução. A \autoref{dominioaxi} apresenta a malha do modelo axissimétrico, as condições de contorno e seus parâmetros geométricos.
 
 \begin{figure}[H]
 	\begin{center}
@@ -23,6 +23,7 @@ No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $
 	\end{center}
 	\caption{\label{dominioaxi}Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico \cite{Quevedo2021}}
 \end{figure}
+
 
 
 \begin{table}[H]
@@ -74,6 +75,56 @@ No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $
 	\normalsize
 \end{table}
 
+O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando os elementos SOLID185 e SOLID186, ilustrados na \autoref{elementossolid}. O elemento SOLID185, utilizado  na região que não compreende a galeria, consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. Já na região da galeria, utilizou-se o SOLID186, um elemento quadrático de 20 nós, contudo, em sua forma colapsada de tetraedro. É importante ressaltar que em ambos os elementos, utiliza-se a integração completa.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.68]{solid185.pdf}
+		\includegraphics[scale=0.68]{solid186.pdf}
+	\end{center}
+	\caption{\label{elementossolid}Elementos SOLID 185 e SOLID 186 \cite{ANSYS}}
+\end{figure}
+
+A \autoref{dominio3D} apresenta a malha e as dimensões do domínio.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.63]{Mesh1.pdf}
+	\end{center}
+	\caption{\label{dominio3D}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos tridimensionais. (adaptado de \citeonline{Colombo2023})}
+\end{figure}
+
+Na figura, $L_p$ é o comprimento da etapa de escavação, $d_1$ representa a distância entre os eixos dos túneis longitudinais, $d_2$ caracteriza a localização da galeria transversal circular que intercepta o túnel longitudinal, $d_3$ consiste na espessura ao longo da direção vertical do domínio, $d_4$ a distância das bordas laterais do domínio até \colorbox{yellow}{a região dos elementos do túnel longitudinal}, $L_1$ representa o comprimento da região não escavada após o processo de escavação total, $L_2$ é o comprimento total ao longo da direção longitudinal do volume cilíndrico a ser escavado e $L_3$ é o comprimento total ao longo da direção transversal do domínio do material discretizado. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
+
+As figuras a seguir apresentam detalhamentos da geometria e discretização do túnel longitudinal e da galeria. A \autoref{detalhestunelegaleria} apresenta um detalhamento das seções transversais do túnel longitudinal e da galeria transversal. A seção transversal do túnel longitudinal consta no plano $xy$ e é possível verificar o raio da interface com o maciço $R_i$ e a espessura da camada de revestimento (em azul) $e_{rev}$. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{Mesh2.pdf}
+	\end{center}
+	\caption{\label{detalhestunelegaleria}Detalhes do túnel longitudinal (acima) e da galeria transversal (abaixo) (adaptado de \citeonline{Colombo2023})}
+\end{figure}
+
+Nos detalhamentos da galeria, apresentados na \autoref{detalhamentogaleria}, verifica-se a seção transversal, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio e à espessura do revestimento da galeria (em vermelho), respectivamente. A distância $d_5$ corresponde à distância adjacente à galeria com malha livre.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1.1]{Mesh4.pdf}
+	\end{center}
+	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista do túnel longitudinal e da galeria no plano de simetria $y = 0$; Direita: malha da galeria transversal (adaptado de \citeonline{Colombo2023})}
+\end{figure}
+
+A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção do túnel e da galeria.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{Mesh5e6.pdf}
+	\end{center}
+	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica das zonas de transição; Direita: vista isométrica da zona de interseção túnel/galeria (adaptado de \citeonline{Colombo2023})}
+\end{figure}
+
+
+
 \begin{table}[H]
 	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo tridimensional}
 	\label{parametros_dominio3D}
@@ -99,8 +150,8 @@ No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $
 		\hline
 		\multicolumn{4}{c}{GALERIAS TRANSVERSAIS} \\
 		\hline
-		Raio externo & $R_{e_1}$ & m & $2*L_p$ \\
-		Espessura do revestimento & $e_{rev_1}$ & m & 0,1 \\
+		Raio externo & $R_{g}$ & m & $2*L_p$ \\
+		Espessura do revestimento & $e_{g}$ & m & 0,1 \\
 		Comprimento do passo de escavação & $L_{p_1}$ & m & $0,3 R_{e_1}$ \\
 		Dimensão não suportada & $nd_{0_1}$ & $L_{p_1}$ & 2 \\
 		\makecell{Número de passos escavados na primeira \\ escavação} & $np_{i_1}$ & un & 3 \\	
@@ -114,6 +165,7 @@ No modelo axissimétrico, o eixo longitudinal do túnel está ao longo do eixo $
 		Altura do domínio & $d_3$ & $R_e$ & 20 \\
 		\makecell{Distância das bordas laterais do domínio até o \\ eixo do túnel longitudinal} & $d_4$ & $R_e$ & 20 \\
 		Distância entre os eixos dos túneis longitudinais & $d_1$ & $R_e$ & 4 \\
+		Distância adjacente à galeria & $d_5$ & $L_p$ & 2 \\
 		\makecell{Distância do revestimento instalado em relação à \\ frente de escavação} & $l_1$ & $L_p$ & 10 \\				
 		\hline
 	\end{tabular}

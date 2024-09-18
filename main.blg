@@ -26,12 +26,12 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
-I was expecting an "="---line 899 of file ./bib/referencias.bib
+I was expecting an "="---line 945 of file ./bib/referencias.bib
  :  author 
  :         {Quevedo, F. P. M. and Schmitz, R. J. and Morsch, I. B. and Campos Filho A. and Bernaud, D.},
 I'm skipping whatever remains of this entry
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1037 of file ./bib/referencias.bib
+--line 1083 of file ./bib/referencias.bib
 Warning--I didn't find a database entry for "Dailymirror"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in Quevedoetal2018
@@ -45,45 +45,45 @@ while executing---line 2146 of file abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 58 entries,
+You've used 61 entries,
             6714 wiz_defined-function locations,
-            1573 strings with 20220 characters,
-and the built_in function-call counts, 54907 in all, are:
-= -- 5217
-> -- 1580
-< -- 777
-+ -- 1377
-- -- 479
-* -- 3793
-:= -- 7252
-add.period$ -- 204
-call.type$ -- 58
-change.case$ -- 549
-chr.to.int$ -- 96
-cite$ -- 55
-duplicate$ -- 4224
-empty$ -- 3006
-format.name$ -- 2317
-if$ -- 11782
+            1592 strings with 20758 characters,
+and the built_in function-call counts, 59740 in all, are:
+= -- 5793
+> -- 1664
+< -- 911
++ -- 1540
+- -- 505
+* -- 4095
+:= -- 7842
+add.period$ -- 217
+call.type$ -- 61
+change.case$ -- 577
+chr.to.int$ -- 99
+cite$ -- 58
+duplicate$ -- 4732
+empty$ -- 3192
+format.name$ -- 2440
+if$ -- 12730
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 996
-newline$ -- 298
-num.names$ -- 265
-pop$ -- 1123
+missing$ -- 1048
+newline$ -- 313
+num.names$ -- 281
+pop$ -- 1186
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 227
 quote$ -- 0
-skip$ -- 4372
+skip$ -- 4883
 stack$ -- 1
-substring$ -- 1976
-swap$ -- 1587
-text.length$ -- 38
+substring$ -- 2193
+swap$ -- 1770
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 43
+type$ -- 46
 warning$ -- 1
-while$ -- 354
+while$ -- 377
 width$ -- 0
-write$ -- 864
+write$ -- 911
 (There were 2 error messages)
