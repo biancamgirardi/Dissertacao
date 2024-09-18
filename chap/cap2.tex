@@ -13,7 +13,7 @@
 
 Conforme discutido durante o Congresso Internacional sobre Túneis, ocorrido em junho de 1970 na cidade de Washington, o conceito de túnel relaciona-se à execução de uma cavidade aberta de geometria predefinida, utilizando qualquer metodologia, destinada a ser implantada e utilizada abaixo da superfície terrestre, com uma área de seção transversal superior a 2 m².
 
-Os túneis podem ser classificados quanto à profundidade ($H$) em superficiais (rasos) e profundos, contudo, não há um conceito único e absoluto a ser utilizado como parâmetro de definição. Túneis de configuração profunda caracterizam-se por apresentar uma escavação cujo campo de deformação não exerce influência significativa na superfície \cite{Quevedoetal2022}. A distribuição de tensões no maciço, a magnitude dos assentamentos da superfície e o grau de simetria dos deslocamentos acima e abaixo da seção transversal do túnel são características que ajudam a distinguir os túneis rasos e profundos \cite{Jensenetal2019}.
+Os túneis podem ser classificados quanto à profundidade em superficiais (rasos) e profundos, contudo, não há um conceito único e absoluto a ser utilizado como parâmetro de definição. Túneis de configuração profunda caracterizam-se por apresentar uma escavação cujo campo de deformação não exerce influência significativa na superfície \cite{Quevedoetal2022}. A distribuição de tensões no maciço, a magnitude dos assentamentos da superfície e o grau de simetria dos deslocamentos acima e abaixo da seção transversal do túnel são características que ajudam a distinguir os túneis rasos e profundos \cite{Jensenetal2019}.
 
 O comportamento do campo de deformação e das tensões ao redor da cavidade de túneis profundos é influenciado por uma série de fatores interdependentes, incluindo a profundidade do túnel, a geometria da seção transversal, a anisotropia das tensões \textit{in situ}, a heterogeneidade do maciço rochoso e a interação do mesmo com o revestimento durante a construção, além das propriedades mecânicas de ambos, de acordo com \citeonline{Quevedoetal2022}.
 
@@ -238,7 +238,7 @@ A profundidade do túnel é diretamente relacionada ao estado inicial de tensõe
 	\label{eq_tensao_vertical}
 \end{equation}
 
-onde$\gamma_m$ é o peso específico do maciço, que varia entre 20 e 30 kN/m³ e $H$ a profundidade do túnel. \citeonline{Benamar1996} definiu que um túnel é profundo quando o seu diâmetro (D) é pequeno em relação à profundidade (H) em que está situado, ou seja, $H/D > 10$. Isso implica que a variação da tensão vertical  entre as partes superior e inferior do túnel antes da escavação é insignificante quando comparada à tensão vertical inicial causada pelo peso do solo na profundidade média do túnel. A \autoref{tunelrasoeprofundo} demonstra a variação da tensão vertical em túneis rasos e profundos.
+onde $\gamma_m$ é o peso específico do maciço, que varia entre 20 e 30 kN/m³ e $H$ a profundidade do túnel. \citeonline{Benamar1996} define que um túnel é profundo quando o seu diâmetro (D) é pequeno em relação à profundidade em que está situado, ou seja, $H/D > 10$. Já \citeonline{Panet1995}, admite que um túnel é superficial quando a profundidade for inferior a duas vezes o diâmetro. Isso implica que a variação da tensão vertical entre as partes superior e inferior do túnel antes da escavação é insignificante quando comparada à tensão vertical inicial causada pelo peso do solo na profundidade média do túnel. A \autoref{tunelrasoeprofundo} demonstra a variação da tensão vertical em túneis rasos e profundos.
 
 \begin{figure}[H]
 	\begin{center}
@@ -246,6 +246,12 @@ onde$\gamma_m$ é o peso específico do maciço, que varia entre 20 e 30 kN/m³ 
 	\end{center}
 	\caption{\label{tunelrasoeprofundo}Variação da tensão vertical (adaptado de \citeonline{Benamar1996})}
 \end{figure}
+
+Contudo, podemos considerar, na realidade, que um túnel é pouco profundo quando a escavação
+produz recalques superficiais que não podem ser negligenciados e isso não depende apenas de
+uma relação entre altura e diâmetro, mas também, do tipo do maciço e de seu comportamento.
+Isto é o que ocorre quando a zona de plastificação circundante ao túnel atinge a superfície, por
+exemplo. FERRAO %parei aqui
 
 % ---
 \section{Métodos de dimensionamento}
@@ -259,7 +265,7 @@ Nos itens a seguir, serão apresentados os métodos analíticos, simplificados e
 
 \subsection{Métodos analíticos}
 % ---
-Os métodos analíticos são desenvolvidos com o objetivo de determinar a convergência nas paredes dos túneis e as tensões que ocorrem no maciço considerando o regime elástico ou elastoplástico, sendo que todos os casos se restringem a algumas hipóteses, como domínio infinito, homogêneo e isotrópico, seção transversal circular, túnel profundo, ausência da interação maciço e revestimento e o uso de leis constitutivas mais simples \cite{Quevedo2017}. 
+Os métodos analíticos são desenvolvidos com o objetivo de determinar a convergência nas paredes dos túneis e as tensões que ocorrem no maciço, em geral considerando o regime elástico ou elastoplástico, sendo que todos os casos se restringem a algumas hipóteses, como domínio infinito, homogêneo e isotrópico, seção transversal circular, túnel profundo, ausência da interação maciço e revestimento e o uso de leis constitutivas mais simples \cite{Quevedo2017}. 
 
 Com a hipótese de túnel profundo e tomando uma seção afastada da zona de influência da face de escavação, pode-se adotar um estado plano de deformações em um meio infinito. Considerando uma seção circular e um estado de tensões isotrópico, a solução analítica acaba dependendo apenas da coordenada radial, ou seja, uma solução unidimensional. A \autoref{metanalitico} apresenta a geometria e o carregamento associado a essa solução analítica.
 
@@ -306,7 +312,7 @@ O método convergência-confinamento (CV-CF), também conhecido como método das
 
 Para obter a curva de convergência do maciço (CV) realiza-se o traçado da convergência \(U_i\) em função de uma pressão interna fictícia (\(p_i\)) que atua no interior da cavidade. Esta pressão varia desde a tensão inicial geostática-hidrostática (\(p_\infty\)) até zero. A curva de convergência é independente do suporte e reflete o comportamento do maciço durante uma descompressão que é simulada pela variação de \(p_i\). No caso de um comportamento elastoplástico do maciço, a curva apresenta um trecho linear elástico até que a descompressão atinja um valor limite (\(p_{\text{lim}}\)), a partir do qual se torna não-linear.
 
-A curva de confinamento do revestimento (CF) é uma curva equivalente que, por sua vez, refere-se ao comportamento do suporte. Para uma primeira aproximação desta curva, \citeonline{Panet1995} apresenta soluções analíticas para tubos espessos ou cascas cilíndricas (espessura tende a zero) em elasticidade. A intersecção entre as curvas irá fornecer o ponto de equilíbrio ($p_{eq}$,$U_{eq}$) que corresponde à solução do problema da interação entre o maciço e o revestimento. 
+A curva de confinamento do revestimento (CF) é uma curva equivalente que, por sua vez, refere-se ao comportamento do suporte. Para uma primeira aproximação desta curva, \citeonline{Panet1995} apresenta soluções analíticas para tubos espessos ou cascas cilíndricas (em que a espessura tende a zero) em elasticidade. A intersecção entre as curvas irá fornecer o ponto de equilíbrio ($p_{eq}$,$U_{eq}$) que corresponde à solução do problema da interação entre o maciço e o revestimento. 
 
 As curvas de convergência e confinamento podem ser graficadas a partir de métodos analíticos ou numéricos, sendo que o último permite adotar leis de comportamento mais complexas \cite{Quevedo2021}. A \autoref{metodocvcf} apresenta o gráfico do método convergência-confinamento com as curva de convergência (em azul) e de confinamento (em vermelho).
 
@@ -316,7 +322,6 @@ As curvas de convergência e confinamento podem ser graficadas a partir de méto
 	\end{center}
 	\caption{\label{metodocvcf}Método convergência-confinamento \cite{Quevedo2021}}
 \end{figure}
-
 
 De acordo com as recomendações da \citeonline{AFTES2001}, a interação entre o maciço e o revestimento geralmente não pode ser tratada de forma independente com as ações aplicadas à estrutura e com as tensões e deformações que nela ocorrem. Separar essas duas abordagens é a principal razão pela qual os métodos propostos anteriormente se mostraram inadequados. 
 
@@ -349,7 +354,7 @@ Assim como os demais métodos simplificados presentes neste trabalho, a principa
 	\caption{\label{curvasNATM}Curvas características do maciço (CV) e do revestimento (CF)}
 \end{figure}
 
-O gráfico apresenta três curvas de confinamento, $CF_1$, $CF_2$ e $CF_3$, demonstrando três sistemas de suporte distintos interagindo com o maciço representado pela curva de convergência (CV). A curva de confinamento (1) representa um revestimento mais rígido instalado de forma precoce, ou seja, esse revestimento estará sujeito a uma carga mais elevada proveniente do maciço, visto que o mesmo não se deformou o suficiente e, consequentemente, uma resistência maior será exigida para o revestimento. Já o revestimento representado pela curva (2), também instalado de forma precoce, não receberá uma carga tão superior por ser um revestimento não tão rígido quanto o primeiro. Em um terceiro caso, como a curva (3), nota-se que ao instalar o revestimento após uma certa deformação do próprio maciço, um carregamento menor estará atuando nesse sistema de suporte. Em suma, é importante que haja a mobilização da capacidade de carga do maciço, respeitando as características geomecânicas do mesmo, antes do suporte surtir efeito.
+O gráfico apresenta três curvas de confinamento, $CF_1$, $CF_2$ e $CF_3$, demonstrando três sistemas de suporte distintos interagindo com o maciço representado pela curva de convergência (CV). A curva de confinamento (1) representa um revestimento mais rígido instalado de forma precoce, ou seja, esse revestimento estará sujeito a uma carga mais elevada proveniente do maciço, visto que o mesmo não se deformou o suficiente e, consequentemente, uma pressão maior será exigida para o revestimento. Já o revestimento representado pela curva (2), também instalado de forma precoce, não receberá uma carga tão superior por ser um revestimento não tão rígido quanto o primeiro. Em um terceiro caso, como a curva (3), nota-se que ao instalar o revestimento após uma certa deformação do próprio maciço, um carregamento menor estará atuando nesse sistema de suporte. Em suma, é importante que haja a mobilização da capacidade de carga do maciço, respeitando as características geomecânicas do mesmo, participando do equilíbrio junto com o revestimento. Contudo, em alguns casos, não se pode colocar o revestimento com uma convergência $U_0$ muito alta, pois o maciço pode se tornar instável.
 
 Maiores informações acerca do NATM podem ser encontradas nos estudos realizados por \citeonline{Gomes2006} e \citeonline{Karakus2004}.
 

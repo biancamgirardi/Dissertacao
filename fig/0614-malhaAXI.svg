@@ -40,15 +40,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
      id="namedview35602"
      showgrid="false"
-     inkscape:zoom="3.4275536"
-     inkscape:cx="170.82154"
-     inkscape:cy="722.52699"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="1.7137768"
+     inkscape:cx="244.19749"
+     inkscape:cy="245.94801"
+     inkscape:window-x="1912"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg35600"
      inkscape:document-rotation="0"
@@ -58,6 +58,12 @@
      inkscape:document-units="pt" />
   <defs
      id="defs29403">
+    <rect
+       x="180.71943"
+       y="831.70136"
+       width="28.67528"
+       height="22.792672"
+       id="rect1" />
     <marker
        style="overflow:visible"
        id="marker129133"
@@ -21655,7 +21661,7 @@
      ns2:scale="0.8221723437667003"
      ns2:alignment="middle center"
      ns2:inkscapeversion="0.92.1"
-     transform="matrix(1.19127,0,0,1.19127,19.106625,82.470877)"
+     transform="matrix(0,-1.19127,1.19127,0,20.422159,95.134449)"
      ns2:jacobian_sqrt="1.19127"
      id="g2016-0-5-9-5-4-1-5-7-0-3-3-9-8-8-3-9-4-8-1-57-6-4-9-77-9-6-35-3-0-6-9-9-1-5">
     <defs
@@ -22267,18 +22273,6 @@
              id="id-7eb6a341-4630-411b-a00a-6ec18d5eb5e0" />
         </g>
       </g>
-      <g
-         style="fill:#000000;fill-opacity:1"
-         id="id-98dc3257-c4bf-4f57-9096-e3f3739be532">
-        <g
-           transform="translate(154.799,136.259)"
-           id="g112189">
-          <path
-             style="stroke:none"
-             d="m 1.640625,-0.84375 c -0.1875,0.234375 -0.234375,0.296875 -0.3125,0.375 -0.125,0.125 -0.234375,0.203125 -0.296875,0.203125 -0.0625,0 -0.109375,-0.0625 -0.109375,-0.109375 0,-0.078125 0.015625,-0.1875 0.0625,-0.328125 0,-0.015625 0.03125,-0.078125 0.046875,-0.125 v -0.03125 L 1.6875,-3.234375 1.65625,-3.25 c -0.734375,0.140625 -0.890625,0.15625 -1.171875,0.1875 v 0.109375 C 0.875,-2.9375 0.9375,-2.921875 0.9375,-2.765625 c 0,0.046875 -0.015625,0.171875 -0.0625,0.3125 l -0.34375,1.3125 c -0.125,0.421875 -0.171875,0.65625 -0.171875,0.796875 0,0.28125 0.125,0.421875 0.34375,0.421875 0.34375,0 0.609375,-0.21875 1.03125,-0.84375 z m -0.0625,-3.984375 c -0.203125,0 -0.34375,0.171875 -0.34375,0.390625 0,0.234375 0.140625,0.390625 0.34375,0.390625 0.203125,0 0.375,-0.171875 0.375,-0.375 0,-0.203125 -0.171875,-0.40625 -0.375,-0.40625 z m 0,0"
-             id="id-d06465b9-6068-4bef-89f3-47d8ed651cc3" />
-        </g>
-      </g>
     </g>
   </g>
   <g
@@ -22517,6 +22511,16 @@
              id="id-9e9ca858-0800-456a-83a6-09b6deb86f7b" />
         </g>
       </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.6295802,0,0,0.6295802,-11.255688,-387.26792)"
+         id="text1"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1);fill:#000000;stroke:#ce0000;stroke-width:1.51181;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:13.3606"><tspan
+           x="180.71875"
+           y="841.17187"
+           id="tspan4"><tspan
+             style="stroke:none"
+             id="tspan1">t</tspan></tspan></text>
     </g>
   </g>
   <path
@@ -22759,7 +22763,7 @@
              id="id-63ac3bc0-ab5d-4d62-b16f-a9650a7387fa" />
         </g>
         <g
-           transform="translate(159.78, 134.765)"
+           transform="translate(159.26047,135.80406)"
            id="g15394">
           <path
              style="stroke:none"

@@ -26,12 +26,12 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
-I was expecting an "="---line 945 of file ./bib/referencias.bib
+I was expecting an "="---line 973 of file ./bib/referencias.bib
  :  author 
  :         {Quevedo, F. P. M. and Schmitz, R. J. and Morsch, I. B. and Campos Filho A. and Bernaud, D.},
 I'm skipping whatever remains of this entry
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1083 of file ./bib/referencias.bib
+--line 1111 of file ./bib/referencias.bib
 Warning--I didn't find a database entry for "Dailymirror"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in Quevedoetal2018

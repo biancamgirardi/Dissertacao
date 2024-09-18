@@ -18,18 +18,18 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Perfil de tensões verticais e de convergências ao longo de uma linha longitudinal situada na parte superior do túnel (adaptado de \citeonline {Eisensteinetal1984} apud \citeonline {Couto2011})}}{33}{figure.caption.27}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Variação da tensão vertical (adaptado de \citeonline {Benamar1996})}}{34}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Geometria e carregamento do túnel (adaptado de \citeonline {Bernaud1991})}}{35}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Delimitação das regiões plástica e elástica (adaptado de \citeonline {Bernaud1991})}}{35}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Delimitação das regiões plástica e elástica (adaptado de \citeonline {Bernaud1991})}}{36}{figure.caption.30}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Deslocamentos e tensões no entorno de um maciço submetido à pressão geostática-hidrostática $p_\infty $ e pressão interna $p_i$ no interior da seção do túnel. Esquerda: elasticidade. Direita: elastoplasticidade. \cite {Quevedo2021}}}{36}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Método convergência-confinamento \cite {Quevedo2021}}}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Curvas características do maciço (CV) e do revestimento (CF)}}{39}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Influência da rigidez do revestimento no perfil de convergências e no parâmetro ${U_0}$ (adaptado de \citeonline {Bernaud1992})}}{40}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (não sei quem citar)}}{47}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Método convergência-confinamento \cite {Quevedo2021}}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Curvas características do maciço (CV) e do revestimento (CF)}}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Influência da rigidez do revestimento no perfil de convergências e no parâmetro ${U_0}$ (adaptado de \citeonline {Bernaud1992})}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (adaptado de \citeonline {BazantPrasannanA})}}{47}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Representação reológica do modelo elastoplástico viscoplástico (adaptado de \citeonline {Rousset1988})}}{49}{figure.caption.36}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Funções de escoamento de Drucker-Prager e Mohr-Coulomb (adaptado de \citeonline {Zienkiewicz1974})}}{50}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Domínios e superfícies do modelo elastoplástico viscoplástico (adaptado de \citeonline {Debernardi2009})}}{52}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico \cite {Quevedo2021}}}{54}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Elementos SOLID 185 e SOLID 186 \cite {ANSYS}}}{56}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos tridimensionais. (adaptado de \citeonline {Colombo2023})}}{56}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Detalhes do túnel longitudinal (acima) e da galeria transversal (abaixo) (adaptado de \citeonline {Colombo2023})}}{57}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Detalhamento da galeria transversal. Esquerda: vista do túnel longitudinal e da galeria no plano de simetria $y = 0$; Direita: malha da galeria transversal (adaptado de \citeonline {Colombo2023})}}{58}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Esquerda: vista isométrica das zonas de transição; Direita: vista isométrica da zona de interseção túnel/galeria (adaptado de \citeonline {Colombo2023})}}{58}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (adaptado de \citeonline {Quevedo2021})}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Elementos SOLID 185 e SOLID 186 \cite {ANSYS}}}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos tridimensionais (adaptado de \citeonline {Colombo2023})}}{56}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Detalhes do túnel longitudinal (adaptado de \citeonline {Colombo2023})}}{57}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Detalhamento da galeria transversal. Esquerda: vista do túnel longitudinal e da galeria no plano de simetria $y = 0$; Direita: malha da galeria transversal (adaptado de \citeonline {Colombo2023})}}{57}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Esquerda: vista isométrica das zonas de transição; Direita: vista isométrica da zona de interseção túnel/galeria (adaptado de \citeonline {Colombo2023})}}{58}{figure.caption.44}%
