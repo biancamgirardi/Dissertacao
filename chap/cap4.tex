@@ -15,11 +15,11 @@ A partir dos scripts desenvolvidos por \citeonline{Quevedo2017} e \citeonline{Qu
 
 \section{Discretização do domínio}
 % ---
-O domínio utilizado no presente estudo foi primeiramente aplicado por \citeonline{Quevedo2017} e \citeonline{Quevedo2021} e atualizado por \citeonline{Colombo2023}, discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
+O domínio utilizado no presente estudo foi primeiramente aplicado por \citeonline{Quevedo2017} e \citeonline{Quevedo2021} e porteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. É discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
 
 No modelo axissimétrico, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa o eixo radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de solução. 
 
-A \autoref{dominioaxi} apresenta a malha do modelo axissimétrico, as condições de contorno e seus parâmetros geométricos. O domínio é delimitado pelos parâmetros $L_y$ e $L_x$, que correspondem aos comprimentos longitudinal do domínio e do raio (ao longo do eixo $x$) total do domínio, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, $L_{x_1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y_1}$ e $L_{y_2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{rev}$.
+A \autoref{dominioaxi} apresenta a malha em elementos finitos do modelo axissimétrico, as condições de contorno e seus parâmetros geométricos. O domínio é delimitado pelos parâmetros $L_y$ e $L_x$, que correspondem aos comprimentos longitudinal do domínio e do raio (ao longo do eixo $x$) total do domínio, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, $L_{x_1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y_1}$ e $L_{y_2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{rev}$.
 
 \begin{figure}[H]
 	\begin{center}
@@ -38,7 +38,7 @@ O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias q
 	\caption{\label{elementossolid}Elementos SOLID 185 e SOLID 186 \cite{ANSYS}}
 \end{figure}
 
-A \autoref{dominio3D} apresenta a malha e as dimensões do domínio.
+A \autoref{dominio3D} apresenta a malha em elementos finitos do domínio dos túneis gêmeos no modelo tridimensional, suas dimensões e condições de contorno.
 
 \begin{figure}[H]
 	\begin{center}
@@ -49,7 +49,7 @@ A \autoref{dominio3D} apresenta a malha e as dimensões do domínio.
 
 Na figura, $L_p$ é o comprimento da etapa de escavação, $d_1$ representa a distância entre os eixos dos túneis longitudinais, $d_2$ caracteriza a localização da galeria transversal circular que intercepta o túnel longitudinal, $d_3$ consiste na espessura ao longo da direção vertical do domínio, $d_4$ a distância das bordas laterais do domínio até a zona cujo estado mecânico é significativamente afetado pelo processo de escavação (indicada em cor cinza claro), $L_1$ representa o comprimento da região não escavada após o processo de escavação total, $L_2$ é o comprimento total ao longo da direção longitudinal do volume cilíndrico a ser escavado e $L_3$ é o comprimento total ao longo da direção transversal do domínio do material discretizado. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
 
-As figuras a seguir apresentam detalhamentos da geometria e discretização do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento das seções transversais do túnel longitudinal e da galeria transversal. A seção transversal do túnel longitudinal consta no plano $xy$ e é possível verificar o raio da interface com o maciço $R_t$ e a espessura da camada de revestimento $e_{rev}$ indicada pela cor azul. 
+As figuras a seguir apresentam detalhamentos da geometria e discretização do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento da seção transversal do túnel longitudinal, que consta no plano $xy$. É possível verificar o raio da interface com o maciço $R_t$ e a espessura da camada de revestimento $e_{rev}$ preenchida pela cor azul. 
 
 \begin{figure}[H]
 	\begin{center}
@@ -58,7 +58,7 @@ As figuras a seguir apresentam detalhamentos da geometria e discretização do t
 	\caption{\label{detalhestunelegaleria}Detalhes do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
-Nos detalhamentos da galeria, apresentados na \autoref{detalhamentogaleria}, verifica-se a seção transversal, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio e à espessura do revestimento da galeria (em vermelho), respectivamente. A distância $d_5$ corresponde à distância adjacente à galeria com malha livre.
+Nos detalhamentos da galeria, apresentados na \autoref{detalhamentogaleria}, verifica-se a seção transversal, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. A distância $d_5$ corresponde à distância adjacente à galeria com malha livre.
 
 \begin{figure}[H]
 	\begin{center}
@@ -81,7 +81,7 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 % ---
 \section{Verificações com soluções analíticas}
 
-introduzir esse item
+% introduzir esse item
 
 \subsection{Análises em elasticidade}
 
