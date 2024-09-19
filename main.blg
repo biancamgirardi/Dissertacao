@@ -26,12 +26,14 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
-I was expecting an "="---line 973 of file ./bib/referencias.bib
+Warning--entry type for "Ferrao2018" isn't style-file defined
+--line 417 of file ./bib/referencias.bib
+I was expecting an "="---line 1007 of file ./bib/referencias.bib
  :  author 
  :         {Quevedo, F. P. M. and Schmitz, R. J. and Morsch, I. B. and Campos Filho A. and Bernaud, D.},
 I'm skipping whatever remains of this entry
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1111 of file ./bib/referencias.bib
+--line 1145 of file ./bib/referencias.bib
 Warning--I didn't find a database entry for "Dailymirror"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in Quevedoetal2018
@@ -45,45 +47,45 @@ while executing---line 2146 of file abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 61 entries,
+You've used 63 entries,
             6714 wiz_defined-function locations,
-            1592 strings with 20758 characters,
-and the built_in function-call counts, 59740 in all, are:
-= -- 5793
-> -- 1664
-< -- 911
-+ -- 1540
-- -- 505
-* -- 4095
-:= -- 7842
-add.period$ -- 217
-call.type$ -- 61
-change.case$ -- 577
-chr.to.int$ -- 99
-cite$ -- 58
-duplicate$ -- 4732
-empty$ -- 3192
-format.name$ -- 2440
-if$ -- 12730
+            1603 strings with 21111 characters,
+and the built_in function-call counts, 61394 in all, are:
+= -- 5910
+> -- 1731
+< -- 914
++ -- 1564
+- -- 525
+* -- 4218
+:= -- 8061
+add.period$ -- 224
+call.type$ -- 63
+change.case$ -- 598
+chr.to.int$ -- 104
+cite$ -- 60
+duplicate$ -- 4814
+empty$ -- 3318
+format.name$ -- 2533
+if$ -- 13125
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 1048
-newline$ -- 313
-num.names$ -- 281
-pop$ -- 1186
+missing$ -- 1084
+newline$ -- 323
+num.names$ -- 291
+pop$ -- 1233
 preamble$ -- 1
-purify$ -- 227
+purify$ -- 235
 quote$ -- 0
-skip$ -- 4883
+skip$ -- 4970
 stack$ -- 1
-substring$ -- 2193
-swap$ -- 1770
-text.length$ -- 40
+substring$ -- 2256
+swap$ -- 1810
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 46
 warning$ -- 1
-while$ -- 377
+while$ -- 391
 width$ -- 0
-write$ -- 911
+write$ -- 942
 (There were 2 error messages)
