@@ -20,6 +20,12 @@
 Dispon{\'\i}vel em:
   \url{https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/prod\_page.html?pn=Mechanical\%20APDL&prodver=24.2&lang=en}.}
 
+\bibitem[Barton, Lien e Lude 1974]{Barton1974}
+\abntrefinfo{Barton, Lien e Lude}{BARTON; LIEN; LUDE}{1974}
+{BARTON, N.; LIEN, R.; LUDE, J. Engineering classification of rock masses for
+  the design of tunnel support.
+\textbf{Rock Mechanics}, v.~6, p. 189--236, 1974.}
+
 \bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanA}
 \abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989a}
 {BA{\v{Z}}ANT, Z.~P.; PRASANNAN, S. Solidification theory for concrete creep.
@@ -63,6 +69,12 @@ Dispon{\'\i}vel em:
 {BICKEL, J.~O.; KUESEL, T.~R.; KING, E.~H. \textbf{{Tunnel Engineering
   Handbook}}. 2. ed. [S.l.]: Chapman \& Hall, 1996.
 ISBN 13: 978-1-4613-8053-5.}
+
+\bibitem[Bieniawski 1989]{Bieniawski1989}
+\abntrefinfo{Bieniawski}{BIENIAWSKI}{1989}
+{BIENIAWSKI, Z.~T. \textbf{Engineering rock mass classifications: a complete
+  manual for engineers and geologists in mining, civil, and petroleum
+  engineering}. New York: John Wiley \& Sons, 1989.}
 
 \bibitem[Bobet e Einstein 2010]{BobetEinstein2010}
 \abntrefinfo{Bobet e Einstein}{BOBET; EINSTEIN}{2010}

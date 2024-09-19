@@ -21,16 +21,16 @@
 \contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{39}{subsubsection.2.6.2.2}%
 \contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{41}{subsubsection.2.6.2.3}%
 \contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{42}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{43}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{47}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{47}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{49}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{54}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{54}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{59}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Análises em elasticidade}{60}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Análises em elastoplasticidade}{60}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{60}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{62}{chapter.5}%
+\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{44}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{48}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{48}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{50}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discretização do domínio}{55}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Análises em elasticidade}{61}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Análises em elastoplasticidade}{61}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Verificações com ...}{61}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{63}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{63}{section*.48}%
+\contentsline {chapter}{REFERÊNCIAS}{64}{section*.49}%
