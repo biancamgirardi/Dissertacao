@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  19 SEP 2024 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  19 SEP 2024 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1703,8 +1703,13 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: C3806742AD63335F7EC7266E086F6AAC;11140.
+
+Package rerunfilecheck Warning: File `main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `main.brf':
+(rerunfilecheck)             Before: BF8FA98282926B42C52FCA78A665BF8C;11045
+(rerunfilecheck)             After:  C3806742AD63335F7EC7266E086F6AAC;11140.
  ) 
 Here is how much of TeX's memory you used:
  24835 strings out of 473899
@@ -1724,7 +1729,7 @@ eX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmr8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (70 pages, 10328159 bytes).
+Output written on main.pdf (70 pages, 10328161 bytes).
 PDF statistics:
  3407 PDF objects out of 3580 (max. 8388607)
  259 named destinations out of 1000 (max. 500000)
