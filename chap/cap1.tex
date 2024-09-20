@@ -30,7 +30,7 @@ Os incidentes que ocorrem durante a construção de túneis podem resultar em at
 
 %Outro acidente ocorreu no \textit{Gotthard Base Tunnel} (Túnel de São Gotardo) em 2005, na Suíça, quando um colapso parcial atingiu uma seção devido à instabilidade do solo. Felizmente, não houve vítimas fatais, mas o incidente causou atrasos significativos e exigiu técnicas de reforço adicionais. NÃO ENCONTREI REFERENCIA
 
-Outro acidente ocorreu no Reino Unido, em 1994, como aponta a \citeonline{HSE1996}, quando os três túneis paralelos que fariam parte da linha ferroviária Heathrow Express, abaixo do Aeroporto de Heathrow, desmoronaram e uma cratera se abriu na superfície (\autoref{desmoronamentoheathrow}).
+Outro acidente ocorreu no Reino Unido, em 1994, como aponta a \citeonline{HSE1996}, quando os três túneis paralelos que fariam parte da linha ferroviária \textit{Heathrow Express}, abaixo do Aeroporto de \textit{Heathrow}, desmoronaram e uma cratera se abriu na superfície (\autoref{desmoronamentoheathrow}).
 
 \begin{figure}[H]
 	\begin{center}
@@ -39,11 +39,13 @@ Outro acidente ocorreu no Reino Unido, em 1994, como aponta a \citeonline{HSE199
 	\caption{\label{desmoronamentoheathrow}Desabamento do teto do túnel na área central de Heathrow \cite{Dailymirror}}
 \end{figure}
 
+%https://www.getreading.co.uk/news/berkshire-history/remembering-day-heathrow-airport-almost-23180290
+
 Como fatores determinantes para os incidentes durante a construção de túneis, podem ser mencionadas as incertezas geológicas, o processo construtivo inadequado, a falta de monitoramento eficaz das deformações e a dificuldade em simular o comportamento mecânico dos túneis.
 
 Um dos maiores desafios na modelagem de túneis é a interação entre o comportamento instantâneo e o diferido dessas estruturas, sendo que esse último pode afetar significativamente na estabilidade e causar deformações excessivas na abertura. Durante o processo construtivo, fenômenos como a plastificação do maciço no entorno da abertura, o fechamento gradual da seção, a extrusão na face da escavação e o aumento das cargas sobre o revestimento podem ocorrer não apenas no curto prazo, como também continuar a evoluir meses e até anos após a conclusão da obra, afetando sua integridade no médio e longo prazo.
 
-O estudo de túneis gêmeos apresenta desafios significativos devido à complexa interação entre os túneis, pois sua proximidade pode gerar deformações acentuadas e mudanças nas propriedades geotécnicas do maciço, exigindo análises detalhadas da resposta do solo e do comportamento não-linear. Além disso, o processo construtivo impõe dificuldades adicionais em comparação a túneis isolados, como o controle dos efeitos da escavação do primeiro túnel sobre o segundo, o estudo da distância de defasagem das faces e o aumento das pressões sobre o revestimento. Do ponto de vista da engenharia, o mecanismo de interação entre o maciço circundante e os túneis gêmeos apresenta mais complexidade e risco do que a construção de um único túnel, o que pode levar essencialmente à perda da capacidade de manutenção das estruturas existentes próximas \cite{Phutthananon2023}. % túneis gêmeos superficiais
+Somado a essa complexidade, os túneis gêmeos apresentam desafios significativos devido à complexa interação entre os túneis, pois sua proximidade pode induzir deformações significativas e gerar um estado de tensões altamente perturbado, exigindo análises que consideram um comportamento não-linear do maciço. Além disso, o processo construtivo impõe dificuldades adicionais em comparação a túneis isolados, como o controle dos efeitos da escavação do primeiro túnel sobre o segundo, o estudo da distância de defasagem das faces de escavação e o aumento das pressões sobre o revestimento. Do ponto de vista da engenharia, o mecanismo de interação entre o maciço circundante e os túneis gêmeos apresenta mais complexidade e risco do que a construção de um único túnel, o que pode levar essencialmente à perda da capacidade de manutenção das estruturas existentes próximas \cite{Phutthananon2023}. % túneis gêmeos superficiais
 
 A necessidade da construção de galerias transversais para garantir a segurança e a circulação de ar dos túneis longitudinais também adiciona zonas de fragilidade estrutural que demandam estudos aprofundados. Outro ponto crítico é o caso de túneis gêmeos rasos em áreas urbanas, em que os assentamentos superficiais podem comprometer estruturas existentes. 
 
@@ -53,7 +55,7 @@ A necessidade da construção de galerias transversais para garantir a seguranç
 \section{Objetivos}
 % ---
 
-O objetivo principal do trabalho consiste na análise de túneis gêmeos profundos com galerias transversais considerando a defasagem construtiva entre os túneis longitudinais e um modelo constitutivo não-linear friccional para o maciço. % e modelos constitutivos não-lineares para o maciço e para o revestimento. 
+O objetivo principal do trabalho consiste na análise de túneis gêmeos profundos com galerias transversais considerando a defasagem construtiva entre os túneis longitudinais e modelos constitutivos não-lineares e dependentes do tempo para o maciço e o revestimento.
 
 Para alcançá-lo, foram definidos objetivos específicos que devem ser concluídos previamente:
 
@@ -67,7 +69,7 @@ Para alcançá-lo, foram definidos objetivos específicos que devem ser concluí
 	
 	\item implementar a superfície de Mohr-Coulomb na subrotina constitutiva elastoplástica-viscoplástica desenvolvida por Quevedo (2017) e Quevedo (2021);
 	
-	\item realizar verificações numéricas com modelo elastoplástico-viscoplástico.
+	\item realizar análises paramétricas na problemática de túneis gêmeos com modelo elastoplástico-viscoplástico.
 
 	
 \end{alineas}
@@ -80,15 +82,13 @@ Visando alcançar os objetivos, a metodologia consiste em uma abordagem teórica
 \section{Justificativa}
 % ---
 
-A análise de túneis gêmeos envolve diversos fatores que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Também se pode constatar que a interação entre os túneis gêmeos não depende apenas de suas localizações relativas, mas também da distância entre as duas faces do túnel \cite{Ngetal2004}. %Os autores verificaram que a distância defasada possui maior influência sobre o movimento horizontal do que sobre o movimento vertical de cada túnel, e que a magnitude do assentamento máximo é independente dessa distância.
+A análise de túneis gêmeos envolve diversos fatores que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Também se pode constatar que a interação entre os túneis gêmeos não depende apenas de suas localizações relativas, mas também da distância entre as duas faces de escavação do túnel \cite{Ngetal2004}. %Os autores verificaram que a distância defasada possui maior influência sobre o movimento horizontal do que sobre o movimento vertical de cada túnel, e que a magnitude do assentamento máximo é independente dessa distância.
 
 A defasagem entre as faces é uma característica inerente ao processo construtivo dessas estruturas, podendo gerar impactos significativos nas deformações e na redistribuição das tensões do maciço circundante. De acordo com \citeonline{Changguietal2020}, é de grande importância estudar a distância de defasagem razoável para garantir a estabilidade, principalmente em túneis de pequena distância livre entre eles. 
 
 %Em geral, a escavação simultânea de túneis gêmeos causa forças estruturais e deslocamentos de revestimento menores do que os induzidos no caso de túneis gêmeos escavados a uma grande distância defasada. No entanto, a escavação simultânea de túneis gêmeos pode resultar em um assentamento maior acima dos dois túneis. \cite{Doetal2014}. ?????????
 
-Outro aspecto importante dos maciços rochosos é o parâmetro friccional, relacionado à resistência ao cisalhamento nas superfícies de fratura ou descontinuidades dentro do maciço, que representa a capacidade do material rochoso de resistir ao movimento relativo entre suas partículas. 
-
-
+Outro aspecto importante dos maciços rochosos é o parâmetro friccional, relacionado à dependência da resistência frente à componente hidrostática das tensões. O modelo de Drucker-Prager foi implementado e verificado por \citeonline{Quevedo2021}, porém, não houve aplicações em túneis gêmeos com galerias transversais envolvendo a influência desse parâmetro friccional na resposta da estrutura.
 
 %Outro aspecto central para o comportamento de túneis gêmeos é o ângulo friccional do solo, frequentemente modelado em estudos com o critério de Drucker-Prager aplicado à plasticidade. No entanto, os trabalhos anteriores não exploraram de forma abrangente análises paramétricas envolvendo essa característica, o que evidencia uma lacuna importante no entendimento do comportamento do maciço em relação à variação desse parâmetro. Embora existam investigações baseadas em modelos elastoplásticos que consideram o ângulo de atrito, há uma ausência significativa de estudos que acoplem essa característica ao comportamento viscoso do solo. A consideração da viscosidade, especialmente em situações de longo prazo, é fundamental para uma compreensão mais precisa das deformações e da interação entre os túneis e o maciço ao longo do tempo.
 
@@ -98,7 +98,7 @@ Outro aspecto importante dos maciços rochosos é o parâmetro friccional, relac
 
 %2) a questão friccional, já que os trabalhos anteriores, apesar de ter esse modelo implementado com DP na plasticidade, não fizeram análises paramétricas com essa característica. Além disso, apesar de haver estudos com modelos elastoplásticos com ângulo de atrito, há uma ausência de investigação, nessa problemática dos túneis gêmeos, sobre modelos envolvendo o acoplamento com a viscosidade.
 
-Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela pela necessidade de aprofundar o estudo sobre a influência da defasagem na escavação e também o impacto do parâmetro friccional, contribuindo para o desenvolvimento de modelos computacionais mais completos dessa problemática.
+Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela necessidade de aprofundar o estudo considerando a influência da defasagem na escavação e também o impacto do parâmetro friccional, contribuindo para o desenvolvimento de modelos computacionais mais completos dessa problemática.
 
 % ---
 \section{Delimitações}
@@ -115,9 +115,9 @@ Foram adotadas as seguintes delimitações para o desenvolvimento deste trabalho
 	
 \item ao contrário da prática usual de execução de túneis, onde a velocidade de avanço da escavação e colocação do revestimento variam conforme o cronograma de obra e as características do maciço, adota-se uma taxa de avanço constante e um revestimento de concreto com espessura constante ao longo do túnel;
 
-\item o processo de escavação de túneis pode ser realizado por diferentes técnicas, porém, neste trabalho a escavação é executada à seção plena, plana e vertical, além de não ser utilizada nenhuma técnica de pré-suporte;
+\item o processo de escavação de túneis pode ser realizado por diferentes técnicas, porém, neste trabalho a escavação é executada à seção plena, plana e vertical, além de não ser simulada nenhuma técnica de pré-suporte;
 
-\item supõe-se que a ligação perfeita esteja na interface entre o revestimento de concreto e o maciço rochoso;
+\item considera-se uma ligação rígida na interface entre o revestimento de concreto e o maciço rochoso;
 
 \item adota-se uma análise em pequenas deformações com evolução quase-estática, não considerando, portanto, grandes deformações ou excitações dinâmicas, como as causadas por terremotos ou explosões, por exemplo.
 

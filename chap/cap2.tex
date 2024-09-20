@@ -17,7 +17,7 @@ Os túneis podem ser classificados quanto à profundidade em superficiais (rasos
 
 O comportamento do campo de deformação e das tensões ao redor da cavidade de túneis profundos é influenciado por uma série de fatores interdependentes, incluindo a profundidade do túnel, a geometria da seção transversal, a anisotropia das tensões \textit{in situ}, a heterogeneidade do maciço rochoso e a interação do mesmo com o revestimento durante a construção, além das propriedades mecânicas de ambos, de acordo com \citeonline{Quevedoetal2022}.
 
-Diferentemente do que ocorre em túneis profundos, o campo de tensões ao redor de um túnel raso não é estritamente radial, devido à influência da proximidade da superfície livre do solo. Isso porque em túneis rasos atuam pressões diferentes das geostáticas-hidrostáticas, influenciadas por parâmetros como o coeficiente de empuxo ($K$) que reduz as pressões horizontais em comparação com as verticais \cite{Jensen2019}. É possível verificar um formato oval na deformada e também uma translação vertical, característico de túneis rasos, de acordo com \citeonline{PintoWhittle2013}. A \autoref{diferencatunelrasoeprofundo} apresenta a diferença na forma da seção transversal deformada de túneis profundos e rasos.
+Em túneis rasos, o campo de deslocamentos ao redor do túnel raramente é radial, pois devido à influência da proximidade da superfície livre do solo, as tensões iniciais se afastam das condições geostáticas-hidrostáticas. Em geral, o coeficiente de empuxo ($K$) reduz as tensões horizontais em comparação com as verticais \cite{Jensen2019}. É possível verificar um formato oval na deformada e também uma translação vertical, característico de túneis rasos, de acordo com \citeonline{PintoWhittle2013}. A \autoref{diferencatunelrasoeprofundo} apresenta a diferença na forma da seção transversal deformada de túneis profundos e rasos.
 
 \begin{figure}[H]
 	\begin{center}
@@ -26,7 +26,7 @@ Diferentemente do que ocorre em túneis profundos, o campo de tensões ao redor 
 	\caption{\label{diferencatunelrasoeprofundo}Diferença no formato da seção transversal. Esquerda: túnel profundo. Direita: túnel raso. (adaptado de \citeonline{Jensenetal2019})}
 \end{figure}
 
-Os estudos de túneis rasos e profundos se diferem, principalmente, na preocupação com a bacia de assentamento e a interferência com as estruturas da superfície, que ocorrem apenas em túneis considerados rasos. Neste estudo, é dado enfoque nos túneis de configuração profunda.
+Os estudos de túneis rasos e profundos se diferem, principalmente, na preocupação com a bacia de assentamento e a interferência com as estruturas da superfície, que ocorrem apenas em túneis considerados rasos. Neste estudo, apesar dos modelos computacionais poderem abarcar a problemática de túneis rasos, será dado enfoque nos túneis de configuração profunda.
 
 \section{Breve histórico}
 %---
@@ -430,7 +430,7 @@ $p$ = tamanho do passo de escavação;
 
 $V$ = velocidade de avanço do túnel.
 
-A \autoref{ativacaodesativacao} ilustra as primeiras quatro escavações do túnel longitudinal para demonstrar o processo de ativação e desativação dos elementos.
+A \autoref{ativacaodesativacao} ilustra as primeiras quatro escavações do túnel longitudinal para demonstrar o processo de ativação e desativação dos elementos no \textit{software} ANSYS.
 
 \begin{figure}[H]
 	\begin{center}
@@ -438,6 +438,8 @@ A \autoref{ativacaodesativacao} ilustra as primeiras quatro escavações do tún
 	\end{center}
 	\caption{\label{ativacaodesativacao}Representação esquemática do processo de escavação (adaptado de \citeonline{Colombo2023})}
 \end{figure}
+
+É possível verificar, na figura, o comprimento $d_0$ que corresponde à dimensão não suportada, equivalente a três passos de escavação ($3 L_p$), a velocidade do passo de escavação ($V_p$), o raio do túnel longitudinal ($R_t$) e o raio da galeria transversal ($R_g$). A primeira escavação, dada por $n_{esc} = 1$, demonstra a desativação dos três primeiros passos (em verde), que é a escavação inicial do processo. A partir da segunda escavação, é possível verificar a desativação do passo realizada simultaneamente com a ativação do elemento de revestimento (em vermelho).
 
 \section{Aspectos gerais de túneis gêmeos}
 % ----------------------------------------------------------
