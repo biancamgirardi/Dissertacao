@@ -27,10 +27,10 @@
 \contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{50}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{55}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Discretização do domínio}{55}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{62}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Análises em elasticidade}{62}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Análises em elastoplasticidade}{62}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{62}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{64}{chapter.5}%
+\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{61}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Análises em elasticidade}{61}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Análises em elastoplasticidade}{61}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Verificações com ...}{61}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{63}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{65}{section*.49}%
+\contentsline {chapter}{REFERÊNCIAS}{64}{section*.49}%

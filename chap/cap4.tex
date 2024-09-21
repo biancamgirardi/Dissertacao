@@ -25,10 +25,10 @@ Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a
 	\begin{center}
 		\includegraphics[scale=1]{dominioaxi.pdf}
 	\end{center}
-	\caption{\label{dominioaxi}Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (adaptado de \citeonline{Quevedo2021})}
+	\caption{\label{dominioaxi}a) Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (b) Detalhe dos parâmetros que envolvem a escavação (adaptado de \citeonline{Quevedo2021})}
 \end{figure}
 
-O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando os elementos SOLID185 e SOLID186, ilustrados na \autoref{elementossolid}. O elemento SOLID185, utilizado  na região que não compreende a galeria, consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. Já na região da galeria, utilizou-se o SOLID186, um elemento quadrático de 20 nós, contudo, em sua forma colapsada de tetraedro. É importante ressaltar que em ambos os elementos, utiliza-se a integração completa.
+O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando os elementos SOLID185 e SOLID186, ilustrados na \autoref{elementossolid}. O elemento SOLID185, utilizado  na região que não compreende a galeria, consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. Já na região da galeria, utilizou-se o SOLID186 na sua forma colapsada tetraédrica de 10 nós. É importante ressaltar que em ambos os elementos, utiliza-se a integração completa.
 
 \begin{figure}[H]
 	\begin{center}
@@ -38,33 +38,33 @@ O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias q
 	\caption{\label{elementossolid}Elementos SOLID 185 e SOLID 186 \cite{ANSYS}}
 \end{figure}
 
-A \autoref{dominio3D} apresenta a malha em elementos finitos do domínio dos túneis gêmeos no modelo tridimensional, suas dimensões e condições de contorno.
+Para as análises considerando os túneis gêmeos, a \autoref{dominio3D} apresenta o domínio, a malha de elementos finitos e as condições de contorno utilizadas. Esse domínio trata-se de um volume paralelepipédico de dimensões ($L_1+L_2$) x $L_3$ x $d_3$. Devido à simetria, apenas o domínio material \{$x \leq 0$, $y \geq 0$\} é considerado na discretização. Referindo-se às notações da \autoref{dominio3D}, $d_1$ é a distância entre os eixos dos túneis longitudinais, $L_2$ representa o comprimento total ao longo da direção $e_z$ do túnel escavado, $d_3$ a espessura ao longo da direção vertical $e_y$ do domínio, $L_1$ o comprimento da região não escavada ao longo da direção $e_z$, $L_3$ o comprimento total transversal ao longo da direção $e_x$ do domínio, $d_2$ caracteriza a localização do eixo transversal da galeria que intersecta o túnel longitudinal em $z = L_1 + d_2$. O comprimento do passo de escavação é denotado por $L_{pt}$.
+
+% $d_4$ a distância das bordas laterais do domínio até a zona cujo estado mecânico é significativamente afetado pelo processo de escavação (indicada em cor cinza claro). Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.66]{Mesh1.pdf}
 	\end{center}
 	\caption{\label{dominio3D}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos tridimensionais (adaptado de \citeonline{Colombo2023})}
-\end{figure}
+\end{figure} 
 
-Na figura, $L_p$ é o comprimento da etapa de escavação, $d_1$ representa a distância entre os eixos dos túneis longitudinais, $d_2$ caracteriza a localização da galeria transversal circular que intercepta o túnel longitudinal, $d_3$ consiste na espessura ao longo da direção vertical do domínio, $d_4$ a distância das bordas laterais do domínio até a zona cujo estado mecânico é significativamente afetado pelo processo de escavação (indicada em cor cinza claro), $L_1$ representa o comprimento da região não escavada após o processo de escavação total, $L_2$ é o comprimento total ao longo da direção longitudinal do volume cilíndrico a ser escavado e $L_3$ é o comprimento total ao longo da direção transversal do domínio do material discretizado. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
-
-As figuras a seguir apresentam detalhamentos da geometria e discretização do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento da seção transversal do túnel longitudinal, que consta no plano $xy$. É possível verificar o raio da interface com o maciço $R_t$ e a espessura da camada de revestimento $e_{rev}$ preenchida pela cor azul. 
+As figuras a seguir apresentam detalhamentos da geometria e discretização da malha de elementos finitos do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento da região próxima à seção transversal do túnel longitudinal, que consta no plano $xy$, sendo $R_t$ o raio do túnel e $e_t$ a espessura da parede do revestimento, em azul. 
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.8]{Mesh2.pdf}
 	\end{center}
-	\caption{\label{detalhestunelegaleria}Detalhes do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
-Nos detalhamentos da galeria, apresentados na \autoref{detalhamentogaleria}, verifica-se a seção transversal, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. A distância $d_5$ corresponde à distância adjacente à galeria com malha livre.
+Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à seção transversal da galeria, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $e_z$ adjacente à galeria em que é feita a transição entre a malha livre e a malha mapeada do restante do domínio.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=1.1]{Mesh4.pdf}
 	\end{center}
-	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista do túnel longitudinal e da galeria no plano de simetria $y = 0$; Direita: malha da galeria transversal (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
 Ressalta-se que os elementos tetraédricos usados para a discretização da região do entorno da galeria transversal se encaixam nas etapas de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção do túnel e da galeria.
@@ -73,7 +73,7 @@ Ressalta-se que os elementos tetraédricos usados para a discretização da regi
 	\begin{center}
 		\includegraphics[scale=1]{Mesh5e6.pdf}
 	\end{center}
-	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica das zonas de transição; Direita: vista isométrica da zona de interseção túnel/galeria (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
 Inúmeros fatores influenciam no custo computacional de modelos tridimensionais como o demonstrado anteriormente, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado. 
@@ -109,9 +109,9 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		\hline
 		\multicolumn{4}{c}{GEOMETRIA} \\
 		\hline
-		\makecell{Raio da interface entre o túnel e \\ o maciço} & $R_t$ & m & 1 \\		
-		\makecell{Espessura do revestimento \\ (se houver)} & $e_{rev}$ & m & 0,1 \\
-		\makecell{Raio total do domínio (dimensão da \\ base do domínio)} & $L_{x}$ & m & $20 R_i$ \\
+		\makecell{Raio do túnel longitudinal} & $R_t$ & m & $R_t$ \\		
+		\makecell{Espessura do revestimento} & $e_t$ & m & $0,1 R_t$ \\
+		\makecell{Comprimento do domínio na direção radial} & $L_{x}$ & m & $20 R_i$ \\
 		\makecell{Raio da região de refinamento \\ próxima ao túnel} & $R_1$ & m & $10 R_i$ \\				
 		\makecell{Trecho do raio além da região \\ próxima ao túnel} & $L_{x_1}$ & m & $L_x - R_1$ \\	
 		Comprimento longitudinal do domínio & $L_y$ & m & $L_{y_1} + L_{y_2}$ \\

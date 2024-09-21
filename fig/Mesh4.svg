@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9939537"
-     inkscape:cx="354.32117"
-     inkscape:cy="98.547925"
+     inkscape:cx="307.68016"
+     inkscape:cy="80.493343"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -6937,24 +6937,24 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.227069;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="m -100.14918,244.49454 v -15.8362"
+       d="m -102.36413,244.49454 v -15.8362"
        id="path21202-3-5-0-1-6-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.227069;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="M -106.05382,244.42328 V 228.68107"
+       d="M -109.39471,244.42328 V 228.68107"
        id="path21202-3-5-0-9-5-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd;stroke:#000000;stroke-width:0.226781;stroke-miterlimit:10;stroke-dasharray:none;marker-start:url(#marker7);marker-end:url(#marker7)"
-       d="m -104.70012,242.46698 h 3.16363"
+       style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd;stroke:#000000;stroke-width:0.248053;stroke-miterlimit:10;stroke-dasharray:none;marker-start:url(#marker7);marker-end:url(#marker7)"
+       d="m -107.76526,242.46698 h 3.78498"
        id="path41423-2-47-3-2"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.217016;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1"
-       d="m -127.77801,252.23292 h 28.591367 l -4.089617,-9.65562"
+       d="m -130.4621,252.23292 h 28.59137 l -4.08962,-9.65562"
        id="path17499-0"
        sodipodi:nodetypes="ccc" />
     <path
@@ -7110,7 +7110,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.227069;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="m -108.93321,236.03466 v -7.42638"
+       d="m -112.90744,236.03466 v -7.42638"
        id="path21202-3-5-0-9-5-3-32"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -7184,12 +7184,12 @@
     </g>
     <path
        style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd;stroke:#000000;stroke-width:0.226781;stroke-miterlimit:10;stroke-dasharray:none;marker-start:url(#marker7-0-1)"
-       d="m -104.68627,233.89569 h 3.22275"
+       d="m -108.02716,233.89569 h 3.22275"
        id="path41423-2-47-3-4-0-1-2"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd;stroke:#000000;stroke-width:0.226781;stroke-miterlimit:10;stroke-dasharray:none;marker-start:url(#marker7-0-1-1)"
-       d="m -110.26938,233.92787 h -3.22274"
+       d="m -114.24361,233.92787 h -3.22274"
        id="path41423-2-47-3-4-0-1-2-5"
        sodipodi:nodetypes="cc" />
     <g
@@ -7251,7 +7251,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.55010795,0,0,0.53133196,-119.62029,231.32672)"
+       transform="matrix(0.55010795,0,0,0.53133196,-123.59452,231.32672)"
        ns2:version="1.10.2"
        ns2:texconverter="pdflatex"
        ns2:pdfconverter="inkscape"
@@ -7315,7 +7315,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.5572717,0,0,0.5382512,-127.01757,246.25415)"
+       transform="matrix(0.5572717,0,0,0.5382512,-128.8103,246.25415)"
        ns2:version="1.10.2"
        ns2:texconverter="pdflatex"
        ns2:pdfconverter="inkscape"
