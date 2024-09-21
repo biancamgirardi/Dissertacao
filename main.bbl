@@ -5,10 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[]{Quevedoetal2018}
-\abntrefinfo{nada}{NADA}{a}
-{A. Giraud and G. Rousset.}
-
 \bibitem[{AFTES} 2001]{AFTES2001}
 \abntrefinfo{{AFTES}}{{AFTES}}{2001}
 {{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
@@ -54,6 +50,13 @@ Dispon{\'\i}vel em:
   exp{\'{e}}rimentale et num{\'{e}}rique}}.
 354~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1991.
 Dispon{\'\i}vel em: \url{https://pastel.archives-ouvertes.fr/tel-00529719}.}
+
+\bibitem[Bernaud, Benamar e Rousset 1994]{Bernaud1994}
+\abntrefinfo{Bernaud, Benamar e Rousset}{BERNAUD; BENAMAR; ROUSSET}{1994}
+{BERNAUD, D.; BENAMAR, I.; ROUSSET, G. La « nouvelle m{\'{e}}thode implicite
+  » pour le calcul des tunnels dans les milieux {\'{e}}lastoplastiques et
+  viscoplastiques.
+\textbf{Revue Fran{\c{c}}aise de G{\'{e}}otechnique}, n.~68, 1994.}
 
 \bibitem[Bernaud e Rousset 1992]{Bernaud1992}
 \abntrefinfo{Bernaud e Rousset}{BERNAUD; ROUSSET}{1992}
@@ -116,6 +119,13 @@ ISBN 9781315120164.}
   transversais}}.
 143~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
   Sul, Porto Alegre, 2020.}
+
+\bibitem[{DAILY MIRROR} 2022]{Dailymirror}
+\abntrefinfo{{DAILY MIRROR}}{{DAILY MIRROR}}{2022}
+{{DAILY MIRROR}. \textbf{Remembering the day Heathrow Airport almost
+  disappeared into a hole}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.getreading.co.uk/news/berkshire-history/remembering-day-heathrow-airport-almost-23180290}.}
 
 \bibitem[Debernardi e Barla 2009]{Debernardi2009}
 \abntrefinfo{Debernardi e Barla}{DEBERNARDI; BARLA}{2009}
@@ -385,6 +395,13 @@ Dispon{\'\i}vel em:
   viscoplastic rock mass considering the creep and shrinkage of the concrete
   lining.
 \textbf{International Journal of Geomechanics}, v.~22, n.~4, 2022.}
+
+\bibitem[Quevedo et al. 2018]{Quevedoetal2018}
+\abntrefinfo{Quevedo et al.}{QUEVEDO et al.}{2018}
+{QUEVEDO, F. P.~M.; SCHMITZ, R.~J.; MORSCH, I.~B.; A., C.~F.; BERNAUD, D.
+  Customization of a software of finite elements to analysis of concrete
+  structures: long-term effects.
+\textbf{IBRACON Structures and Materials Journal}, v.~11, n.~4, 2018.}
 
 \bibitem[Rousset 1988]{Rousset1988}
 \abntrefinfo{Rousset}{ROUSSET}{1988}

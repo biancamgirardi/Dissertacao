@@ -11,9 +11,7 @@
 \chapter{Modelos constitutivos}\label{modelosconstitutivos}
 % ----------------------------------------------------------
 
-Os modelos constitutivos desempenham um papel fundamental no estudo de túneis, pois são responsáveis por descrever o comportamento mecânico tanto do maciço rochoso quanto do revestimento de concreto. A precisão desses modelos é essencial para obter uma análise confiável das interações solo-estrutura e prever como esses materiais reagirão à abertura de um túnel, influenciando diretamente a segurança, estabilidade e desempenho da obra. 
-
-A seguir, são apresentados os modelos adotados no presente trabalho para o revestimento de concreto e para o maciço.
+Os modelos constitutivos desempenham um papel fundamental no estudo de túneis, pois são responsáveis por descrever o comportamento mecânico tanto do maciço rochoso quanto do revestimento de concreto. A precisão desses modelos é essencial para obter uma análise confiável das interações solo-estrutura e prever como esses materiais reagirão à abertura de um túnel, influenciando diretamente a segurança, estabilidade e desempenho da obra. A seguir, são apresentados os modelos adotados no presente trabalho para o revestimento de concreto e para o maciço.
 
 \section{Modelo constitutivo do revestimento}
 
@@ -21,7 +19,7 @@ Os fenômenos de retração e fluência são aspectos essenciais nos processos d
 
 % The time-dependent material behavior due to shrinkage and creep of shotcrete considerably influences the stress and strain state of tunnel linings throughout their service life. Shrinkage describes the time-dependent volume reduction of cement-based materials due to hydration and/or drying. If the volume reduction occurs without moisture exchange with the environment, it is referred to as autogenous shrinkage, whereas drying shrinkage describes additional shrinkage due to moisture release to the environment [17]. (Smaniotto et al)
 
-A deformação por fluência do concreto é abordada por um modelo reológico viscoelástico de envelhecimento, baseado na Teoria de Solidificação de \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}. Os parâmetros mecânicos são a rigidez das molas e viscosidade dos amortecedores, calibrados conforme as formulações do CEB-FIP Model Code 1990 \cite{CEB1993}, e uma descrição detalhada desse processo de calibração pode ser encontrada em \citeonline{Quevedoetal2022b} e \citeonline{Quevedoetal2018}. Já a deformação associada à retração do concreto, adota-se a formulação isotrópica proposta na CEB-FIP Model Code 1990 \cite{CEB1993}. Mais informações sobre o modelo podem ser encontradas em \citeonline{Quevedoetal2022b} e \citeonline{Quevedo2017}.
+No presente estudo, deformação por fluência do concreto é abordada por um modelo reológico viscoelástico com envelhecimento, baseado na Teoria de Solidificação de \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}. Os parâmetros mecânicos são a rigidez das molas e viscosidade dos amortecedores, calibrados conforme as formulações do CEB-FIP Model Code 1990 \cite{CEB1993}, e uma descrição detalhada desse processo de calibração pode ser encontrada em \citeonline{Quevedoetal2022b} e \citeonline{Quevedoetal2018}. Já a deformação associada à retração do concreto, adota-se a formulação isotrópica proposta na CEB-FIP Model Code 1990 \cite{CEB1993}. Mais informações sobre o modelo podem ser encontradas em \citeonline{Quevedoetal2022b} e \citeonline{Quevedo2017}.
 
 O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin generalizada, apresentada na \autoref{modeloreologicoviscoelasticidade}.
 
@@ -32,19 +30,19 @@ O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin gen
 	\caption{\label{modeloreologicoviscoelasticidade}Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (adaptado de \citeonline{BazantPrasannanA})} %\cite{quem}}
 \end{figure}
 
-As equações constitutivas do revestimento de concreto, relacionando a tensão e a taxa de deformação, são expressas por:
+As equações constitutivas do revestimento de concreto, relacionando as taxas de tensão e deformação,, são expressas por:
 
 \begin{equation}
 	\dot \sigmall = \Dllll : \dot \varepsilonll^e = \dot \varepsilonll - \Dllll : \dot \varepsilonll^{sh} - \Dllll^{\ast} : \dot \varepsilonll^{cr},
 \end{equation}
 
-onde $\dot \varepsilonll^{sh}$ corresponde à taxa de deformação por retração e $\dot \varepsilonll^{cr}$ à taxa de deformação por fluência. Ainda, os tensores de quarta ordem $\Dllll$ e $\Dllll^{\ast}$ se referem ao tensor constitutivo isotrópico elástico linear e ao tensor constitutivo modificado que incorpora as propriedades viscoelásticas de envelhecimento do concreto, respectivamente. A relação acima pode ser escrita na forma incremental:
+onde $\dot \varepsilonll^{sh}$ corresponde à taxa de deformação por retração (\textit{shrinkage}) e $\dot \varepsilonll^{cr}$ à taxa de deformação por fluência (\textit{creep}). Ainda, os tensores de quarta ordem $\Dllll$ e $\Dllll^{\ast}$ se referem ao tensor constitutivo isotrópico elástico linear e ao tensor constitutivo modificado que incorpora as propriedades viscoelásticas de envelhecimento do concreto, respectivamente. A relação acima pode ser escrita na forma incremental:
 
 \begin{equation}
 	\Delta \sigmall = \Dllll : \Delta \varepsilonll - \Dllll : \Delta \varepsilonll^{sh} - \Dllll^{\ast} : \Delta \varepsilonll^{cr},
 \end{equation}
 
-onde $\Delta \varepsilonll^{sh}$ corresponde ao incremento de deformação de fluência e $\Delta \varepsilonll^{sh}$ é o incremento de deformação de retração, que, conforme a CEB-FIP MC90 \cite{CEB1993}, equivale a:
+onde $\Delta \varepsilonll^{sh}$ corresponde ao incremento de deformação de fluência e $\Delta \varepsilonll^{sh}$ é o incremento de deformação de retração, sendo esse último equivalente à CEB-FIP MC90 \cite{CEB1993}, equivale a:
 
 \begin{equation}
 	\Delta \varepsilonll^{sh} = \Delta \varepsilon_{sh}(t_s)\Umll.
@@ -52,13 +50,13 @@ onde $\Delta \varepsilonll^{sh}$ corresponde ao incremento de deformação de fl
 
 Na equação acima, $t_s$ representa o tempo de cura do concreto e $\Delta \varepsilon_{sh}$ corresponde à variação na magnitude da deformação do concreto associada à retração.
 
-O incremento da deformação de fluência é calculado através do algoritmo incremental desenvolvido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, além da calibração da CEB-FIP MC90 \cite{CEB1993}. O comportamento viscoelástico tridimensional de envelhecimento do concreto isotrópico é definido pelo modelo Kelvin generalizado para o módulo de relaxamento sob tensão uniaxial, assumindo que o coeficiente de Poisson permanece constante ao longo do período de análise. Para a identificação dos parâmetros do modelo, é realizada uma comparação das funções de fluência fornecidas por \citeonline{BazantPrasannanA}, \citeonline{BazantPrasannanB} e \citeonline{CEB1993}, levando à equivalência:
+O incremento da deformação de fluência é calculado através do algoritmo incremental desenvolvido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, além da calibração da CEB-FIP MC90 \cite{CEB1993}. O comportamento viscoelástico tridimensional com envelhecimento do concreto isotrópico é definido pelo modelo Kelvin generalizado para o módulo de relaxamento sob tensão uniaxial, assumindo que o coeficiente de Poisson permanece constante ao longo do período de análise. Para a identificação dos parâmetros do modelo, é realizada uma comparação das funções de fluência fornecidas por \citeonline{BazantPrasannanA}, \citeonline{BazantPrasannanB} e \citeonline{CEB1993}, levando à equivalência:
 
 \begin{equation}
 	E_0 = E_c(t_0), \gamma(t-t_0) = \beta_c (t-t_0), \dfrac{1}{v(t)} = \dfrac{\phi_0(t_0)}{E_{ci}} ~~~ \text{e} ~~~ \dfrac{1}{\eta(t)} \rightarrow 0,
 \end{equation}
 
-onde $t$ refere-se ao tempo atual e $t_0$ à idade do concreto no instante de aplicação da carga, ou seja, o intervalo $t-t_0$ representa o tempo de carregamento. No modelo Kelvin generalizado introduzido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, $E_0$ representa o módulo de elasticidade instantâneo dos agregados e das partículas de cimento, $\gamma(t-t_0) = \sum\limits_{i=1}^{N}\gamma_i$ é a deformação microviscoelástica da fração volumétrica $v(t)$ do concreto solidificado e $\eta(t)$ é a viscosidade macroscópica aparente. Ainda, na formulação CEB-FIP MC90 \cite{CEB1993}, $E_c(t_0)$ corresponde ao módulo de elasticidade tangente do concreto no instante da aplicação da carga, $\beta_c(t-t_0)$ e $\phi_0(t_0)$ são coeficientes, sendo o primeiro dependente da idade do carregamento, e o segundo define a deformação retardada quando carregado na idade $t_0$ e $E_{ci}$ é o módulo de elasticidade tangente do concreto na idade de 28 dias. 
+onde $t$ refere-se ao tempo atual e $t_0$ à idade do concreto no instante de aplicação da carga, ou seja, o intervalo $t-t_0$ representa o tempo de carregamento. No modelo Kelvin generalizado introduzido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, $E_0$ representa o módulo de elasticidade instantâneo dos agregados e das partículas de cimento, $\gamma(t-t_0) = \sum\limits_{i=1}^{N}\gamma_i$ é a deformação microviscoelástica da fração volumétrica $v(t)$ do concreto solidificado e $\eta(t)$ é a viscosidade macroscópica aparente. Ainda, na formulação CEB-FIP MC90 \cite{CEB1993}, $E_c(t_0)$ corresponde ao módulo de elasticidade tangente do concreto no instante da aplicação da carga, $\beta_c(t-t_0)$ e $\phi_0(t_0)$ são coeficientes, sendo o primeiro dependente da idade do carregamento, e o segundo dependente da idade do revestimento no instante do carregamento $t_0$ e $E_{ci}$ é o módulo de elasticidade tangente do concreto na idade de 28 dias. 
 
 
 %Na Teoria da Elasticidade, considera-se que a aplicação de tensões resulta imediatamente em deformações correspondentes, de maneira que, enquanto as tensões forem mantidas, as deformações permanecem proporcionais. Contudo, caso as tensões sejam removidas, o corpo tende a retornar à sua forma original, implicando que as deformações são reversíveis. A lei do comportamento elástico linear é expressa por $\sigmall = \partial w / \partial \varepsilonll$, em que $w$ representa a energia interna específica do material. Ao aplicar a regra da cadeia em relação aos invariantes do tensor de deformações e realizando uma aproximação em torno de $\sigmall_0$, se obtém a lei constitutiva da elasticidade linear isótropa, conforme \citeonline{Salencon2001}:
@@ -91,7 +89,9 @@ onde $t$ refere-se ao tempo atual e $t_0$ à idade do concreto no instante de ap
 
 No comportamento de túneis, além das deformações instantâneas, que resultam da redistribuição das tensões e da possível plastificação do maciço no entorno da cavidade, podem ocorrer deformações diferidas, podendo levar o sistema à estabilização ou causar danos e colapso \cite{Quevedo2021}. Os efeitos diferidos associados ao comportamento dependente do tempo do material desempenham um papel essencial nas deformações de túneis profundos. Uma forma de modelar esse comportamento é fazer uso de modelos constitutivos viscoelásticos ou ainda viscoplásticos. Contudo, esses modelos por si só não conseguem captar a resposta instantânea não linear que pode surgir devido às fases de escavação e instalação do suporte.
 
-Ao analisar a deformação de um túnel a partir de um modelo viscoplástico, sugere-se que a pressão final de suporte no equilíbrio da estrutura do túnel depende principalmente da taxa de fechamento no momento em que ocorre o contato entre o maciço e o revestimento. Consequentemente, são desconsiderados os efeitos irreversíveis que se manifestam nos estágios iniciais da construção. Conforme \citeonline{Quevedo2021}, nesses estágios, o maciço no entorno é exposto a condições severas de carga e deformação, podendo ceder com altas deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto às deformações instantâneas quanto às diferidas do maciço.
+% Ao analisar a deformação de um túnel a partir de um modelo viscoplástico, sugere-se que a pressão final de suporte no equilíbrio da estrutura do túnel depende principalmente da taxa de fechamento no momento em que ocorre o contato entre o maciço e o revestimento. Consequentemente, são desconsiderados os efeitos irreversíveis que se manifestam nos estágios iniciais da construção. 
+
+Conforme \citeonline{Quevedo2021}, nesses estágios iniciais, o maciço no entorno é exposto a condições severas de carga e deformação, podendo apresentar deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto às deformações instantâneas quanto às diferidas do maciço.
 
 Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea, representando a plastficação do material a curto prazo, e também a viscoplasticidade para descrever o comportamento a longo prazo. O modelo elastoplástico-viscoplástico proposto inicialmente por \citeonline{Rousset1988}, \citeonline{Piepi1995} e \citeonline{Giraud1996} e posteriormente implementado por \citeonline{Quevedo2021} dentro da hipótese das transformações infinitesimais compreende na associação das deformações elásticas, plásticas e viscoplásticas:
 
@@ -116,7 +116,7 @@ Desse modo, a lei de evolução das tensões pode ser escrita da seguinte forma:
 
 Na elastoplasticidade, há um domínio dentro do qual os materiais com essas características se comportam em elasticidade. Em problemas tridimensionais e isotrópicos, esse domínio é delimitado por uma superfície no espaço das tensões principais, que leva o nome de superfície de escoamento e é expressa por uma função de escomento $f$. Assim, quando o estado de tensões atinge essa superfície, dá início às deformações plásticas. No comportamento elastoplástico isotrópico, a função de escoamento pode ser descrita apenas em função dos invariantes do tensor de tensões e das forças termodinamicamente associadas às variáveis internas.
 
-Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker-Prager, Tresca e Mohr-Coulomb, representadas na \autoref{funcoesescoamento}. Nas superfícies de plastificação de von-Mises e de Tresca, o escoamento é independente da componente hidrostática do estado de tensão, apresentando assim os formatos cilíndrico e prismático, respectivamente. Todavia, observa-se que nas superfícies de Drucker-Prager e Mohr-Coulomb, o escoamento depende da componente hidrostática, aplicáveis a materiais com ângulo de atrito interno e apresentando, respectivamente, formatos cônico e piramidal.
+Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker-Prager, Tresca e Mohr-Coulomb, representadas na \autoref{funcoesescoamento}. Nas superfícies de plastificação de von-Mises e de Tresca, a plastificação é independente da componente hidrostática do estado de tensão, apresentando assim os formatos cilíndrico e prismático, respectivamente. Todavia, observa-se que nas superfícies de Drucker-Prager e Mohr-Coulomb, a função de escoamento depende da componente hidrostática, aplicáveis a materiais com ângulo de atrito interno e apresentando, respectivamente, formatos cônico e piramidal.
 
 \begin{figure}[H]
 	\begin{center}
@@ -132,7 +132,7 @@ O modelo constitutivo adotado no presente estudo utiliza a superfície de escoam
 	f(\sigmall,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
 \end{equation}
 
-onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras e $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. São dados pelas expressões:
+onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras e $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. Esses termos são dados pelas seguintes expressões:
 
 \begin{equation}
 	\begin{aligned}
@@ -144,7 +144,7 @@ onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo in
 	\end{aligned}
 \end{equation}
 
-onde $k = (1+\sin{\phi})/(1-\sin{\phi})$. Na expressão acima, $\alpha$ é a variável interna associada com o fenômeno de endurecimento e amolecimento do material. Apesar do modelo ter a capacidade de simular o endurecimento e amolecimento por deformação através da coesão, no presente estudo, será adotado a plasticidade perfeita, implicando em uma coesão constante. Na parcela viscoplástica, para a superfície $f^{vp}$, utiliza-se também a superfície de Drucker-Prager, com as seguintes expressões:
+onde $k = (1+\sin{\phi})/(1-\sin{\phi})$. Na expressão acima, $\alpha$ é a variável interna associada com o fenômeno de endurecimento e amolecimento do material. Apesar do modelo ter a capacidade de simular o endurecimento e amolecimento por deformações plásticas através do parâmetro coesivo, no presente estudo, será adotado a plasticidade perfeita, implicando em uma coesão constante. Na superfície que governa o início da viscoplasticidade $f^{vp}$, utiliza-se também a superfície de Drucker-Prager, com as seguintes expressões:
 
 \begin{equation}
 	\begin{aligned}
@@ -170,7 +170,7 @@ onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplica
 	\dot \varepsilonll^{vp} = \dot \lambda^{vp} \dfrac{\partial f^{vp}}{\partial \sigmall}
 \end{equation}
 
-em que o multiplicador viscoplástico $\dot \lambda^{vp}$ é dado de forma explícita através da seguinte expressão::
+em que o multiplicador viscoplástico $\dot \lambda^{vp}$ é dado de forma explícita através da seguinte expressão:
 
 \begin{equation}
 	\begin{aligned}
@@ -179,9 +179,11 @@ em que o multiplicador viscoplástico $\dot \lambda^{vp}$ é dado de forma expl�
 	\end{aligned}
 \end{equation}
 
-onde $\eta$ é a constante de viscosidade dinâmica, $\Phi$ é a função de sobretensão, $n$ é o parâmetro adimensional que fornece a forma da lei de potência, $f_0$ é um parâmetro convenientemente adotado, dependendo da superfície adotada, e $\langle \ast \rangle$ é a função de McCauley, que resulta em zero quando $\ast<0$ e, assim, o fluxo viscoplástico só ocorrerá com funções de sobretensão positivas. 
+onde $\eta$ é a constante de viscosidade dinâmica, $\Phi$ é a função de sobretensão, $n$ é o parâmetro adimensional que fornece a forma da lei de potência, $f_0$ é um parâmetro convenientemente adotado, e $\langle \ast \rangle$ é a função de McCauley, que resulta em zero quando $\ast<0$ e, assim, o fluxo viscoplástico só ocorrerá com funções de sobretensão positivas. 
 
 Nesse modelo acoplado elastoplástico-viscoplástico, quando $\phi = \phi^{vp}$, a evolução dos campos mecânicos locais é totalmente controlada pela coesão. Quando $c \rightarrow \infty$ e $ c^{vp} \rightarrow \infty$, o sistema obtém uma solução puramente elástica. É adotada a condição $c^{vp} < c$, com o intuito de permitir que o domínio viscoplástico ocorra sem a plasticidade, porém, na presença da plasticidade, os efeitos viscosos se tornam inevitáveis. A \autoref{dominiosEPVP} apresenta os domínios no espaço das tensões principais.
+
+% A solução se torna puramente elastoviscoplástica quando c -> inf e puramente elastoplástica quando cvp -> inf. Na análise acoplada, quando a condição cvp < c indica que a viscoplasticidade pode ocorrer sem a plasticidade, porém, na presença da plasticidade os efeitos viscosos são inevitáveis REVISAO QUEVEDO
 
 \begin{figure}[H]
 	\begin{center}

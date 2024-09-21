@@ -27,65 +27,57 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
---line 447 of file ./bib/referencias.bib
-I was expecting an "="---line 1037 of file ./bib/referencias.bib
- :  author 
- :         {Quevedo, F. P. M. and Schmitz, R. J. and Morsch, I. B. and Campos Filho A. and Bernaud, D.},
-I'm skipping whatever remains of this entry
+--line 473 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1175 of file ./bib/referencias.bib
-Warning--I didn't find a database entry for "Dailymirror"
+--line 1201 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in Quevedoetal2018
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
-`title' is a missing field, not a string, for entry Quevedoetal2018
-while executing---line 2146 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 65 entries,
+You've used 67 entries,
             6714 wiz_defined-function locations,
-            1614 strings with 21454 characters,
-and the built_in function-call counts, 63070 in all, are:
-= -- 6032
-> -- 1798
-< -- 917
-+ -- 1588
-- -- 545
-* -- 4340
-:= -- 8282
-add.period$ -- 230
-call.type$ -- 65
-change.case$ -- 619
-chr.to.int$ -- 109
-cite$ -- 62
-duplicate$ -- 4906
-empty$ -- 3442
-format.name$ -- 2626
-if$ -- 13524
-int.to.chr$ -- 5
+            1627 strings with 22083 characters,
+and the built_in function-call counts, 66961 in all, are:
+= -- 6458
+> -- 1918
+< -- 1022
++ -- 1731
+- -- 580
+* -- 4622
+:= -- 8775
+add.period$ -- 239
+call.type$ -- 67
+change.case$ -- 654
+chr.to.int$ -- 115
+cite$ -- 63
+duplicate$ -- 5293
+empty$ -- 3546
+format.name$ -- 2801
+if$ -- 14259
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1122
-newline$ -- 332
-num.names$ -- 301
-pop$ -- 1284
+missing$ -- 1161
+newline$ -- 343
+num.names$ -- 316
+pop$ -- 1332
 preamble$ -- 1
-purify$ -- 243
+purify$ -- 254
 quote$ -- 0
-skip$ -- 5057
+skip$ -- 5430
 stack$ -- 1
-substring$ -- 2319
-swap$ -- 1851
-text.length$ -- 44
+substring$ -- 2464
+swap$ -- 1991
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
-warning$ -- 1
-while$ -- 405
+type$ -- 43
+warning$ -- 0
+while$ -- 423
 width$ -- 0
-write$ -- 972
-(There were 2 error messages)
+write$ -- 1006
+(There were 2 warnings)
