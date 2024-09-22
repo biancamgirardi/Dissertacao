@@ -28,8 +28,10 @@ Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
 --line 473 of file ./bib/referencias.bib
+Warning--entry type for "Teixeira1994" isn't style-file defined
+--line 1145 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1201 of file ./bib/referencias.bib
+--line 1229 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -39,45 +41,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 67 entries,
+You've used 69 entries,
             6714 wiz_defined-function locations,
-            1627 strings with 22083 characters,
-and the built_in function-call counts, 66961 in all, are:
-= -- 6458
-> -- 1918
-< -- 1022
-+ -- 1731
-- -- 580
-* -- 4622
-:= -- 8775
-add.period$ -- 239
-call.type$ -- 67
-change.case$ -- 654
-chr.to.int$ -- 115
-cite$ -- 63
-duplicate$ -- 5293
-empty$ -- 3546
-format.name$ -- 2801
-if$ -- 14259
+            1638 strings with 22414 characters,
+and the built_in function-call counts, 68694 in all, are:
+= -- 6629
+> -- 1948
+< -- 1051
++ -- 1770
+- -- 590
+* -- 4722
+:= -- 9008
+add.period$ -- 246
+call.type$ -- 69
+change.case$ -- 666
+chr.to.int$ -- 117
+cite$ -- 65
+duplicate$ -- 5437
+empty$ -- 3666
+format.name$ -- 2847
+if$ -- 14634
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1161
-newline$ -- 343
-num.names$ -- 316
-pop$ -- 1332
+missing$ -- 1194
+newline$ -- 352
+num.names$ -- 326
+pop$ -- 1376
 preamble$ -- 1
-purify$ -- 254
+purify$ -- 260
 quote$ -- 0
-skip$ -- 5430
+skip$ -- 5584
 stack$ -- 1
-substring$ -- 2464
-swap$ -- 1991
-text.length$ -- 48
+substring$ -- 2528
+swap$ -- 2040
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 43
 warning$ -- 0
-while$ -- 423
+while$ -- 436
 width$ -- 0
-write$ -- 1006
-(There were 2 warnings)
+write$ -- 1034
+(There were 3 warnings)
