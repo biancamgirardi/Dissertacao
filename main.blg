@@ -28,10 +28,15 @@ Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
 --line 511 of file ./bib/referencias.bib
+You're missing a field name---line 975 of file ./bib/referencias.bib
+ :  
+ :  %author = {{O ANTAGONISTA}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "Teixeira1994" isn't style-file defined
---line 1205 of file ./bib/referencias.bib
+--line 1229 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1289 of file ./bib/referencias.bib
+--line 1313 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -41,45 +46,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 71 entries,
+You've used 72 entries,
             6714 wiz_defined-function locations,
-            1648 strings with 22773 characters,
-and the built_in function-call counts, 68356 in all, are:
-= -- 6393
-> -- 2049
-< -- 927
-+ -- 1679
-- -- 619
-* -- 4757
-:= -- 9003
-add.period$ -- 251
-call.type$ -- 71
-change.case$ -- 698
-chr.to.int$ -- 127
-cite$ -- 67
-duplicate$ -- 5167
-empty$ -- 3773
-format.name$ -- 2993
-if$ -- 14744
+            1654 strings with 23165 characters,
+and the built_in function-call counts, 74303 in all, are:
+= -- 7284
+> -- 2064
+< -- 1209
++ -- 1966
+- -- 624
+* -- 5074
+:= -- 9657
+add.period$ -- 255
+call.type$ -- 72
+change.case$ -- 704
+chr.to.int$ -- 128
+cite$ -- 68
+duplicate$ -- 6040
+empty$ -- 3830
+format.name$ -- 3016
+if$ -- 15734
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 1232
-newline$ -- 362
-num.names$ -- 336
-pop$ -- 1420
+missing$ -- 1248
+newline$ -- 367
+num.names$ -- 341
+pop$ -- 1456
 preamble$ -- 1
-purify$ -- 270
+purify$ -- 273
 quote$ -- 0
-skip$ -- 5322
+skip$ -- 6184
 stack$ -- 1
-substring$ -- 2495
-swap$ -- 1980
-text.length$ -- 53
+substring$ -- 2795
+swap$ -- 2271
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 43
 warning$ -- 0
-while$ -- 451
+while$ -- 458
 width$ -- 0
-write$ -- 1066
-(There were 3 warnings)
+write$ -- 1080
+(There was 1 error message)

@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{63}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Análise de túneis gêmeos não revestidos em elasticidade}{63}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Análise de túneis gêmeos não revestidos em elastoplasticidade}{64}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{65}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{67}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Aplicação considerando o parâmetro friccional}{65}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão parcial e cronograma}}{67}{chapter.5}%
 \vspace {\cftbeforepartskip }
 \contentsline {chapter}{REFERÊNCIAS}{68}{section*.53}%

@@ -19,7 +19,7 @@ O domínio utilizado no presente estudo foi primeiramente aplicado por \citeonli
 
 Para as análises considerando túneis isolados, é utilizado o modelo axissimétrico, apresentado na \autoref{dominioaxi} (a). Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxi} (b). Essa figura apresenta também a malha em elementos finitos, as condições de contorno e seus parâmetros geométricos. O domínio possui dimensões $L_y$ x $L_x$, sendo $L_y$ o comprimento longitudinal e $L_x$ a dimensão radial do domínio. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, $L_{x_1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y_1}$ e $L_{y_2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$.
 
-Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR1$, $mLx1$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v e_r \otimes e_r - \sigma_h (\Umll - e_y \otimes e_y)$. % VERIFICAR COM QUEVEDO
+Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR1$, $mLx1$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$. % VERIFICAR COM QUEVEDO
 
 \begin{figure}[H]
 	\begin{center}
@@ -206,9 +206,15 @@ As simulações numéricas desta seção também foram realizadas para os modelo
 RESULTADOS
 
 % ---
-\section{Verificações com ...}
+\section{Aplicação considerando o parâmetro friccional}
 
 Esta seção possui o objetivo de aplicar a modelagem computacional para avaliar a influência do parâmetro friccional na análise de túneis gêmeos profundos interligados por galerias transversais. Para o maciço rochoso, adotam-se o modelo elastoplástico e o modelo acoplado elastoplástico-viscoplástico pelos critérios de Von-Mises inscrito na superfície de Tresca e Drucker-Prager inscrito na superfície de Mohr-Coulomb. Para as análises com maciço elastoplástico, é empregado o modelo constitutivo elástico para o revestimento, enquanto que nas análises com o modelo acoplado elastoplástico-viscoplástico para o maciço, emprega-se o modelo constitutivo viscoelástico para o revestimento.
 
 Os parâmetros geométricos considerados nesta seção consistem em: raio dos túneis longitudinais $R_t$ = 1 m, espessura do revestimento $e_t$ = 0,1 m, distância entre os eixos dos túneis longitudinais $d_1$ = 4 m. Para o maciço rochoso, tem-se módulo de Young $E$ = 1500 MPa, coeficiente de Poisson $\nu$ = 0,498, a coesão $c$ = $\frac{4\sqrt{3}}{2}$ e ângulo de atrito $\phi$ = 30°, além da coesão viscoplástica $c_{vp} = \frac{2\sqrt{3}}{2}$. O revestimento possui módulo de Young $E$ = 30303 MPa e coeficiente de Poisson $\nu$ = 0,2. Adota-se um estado de tensão inicial hidrostático isotrópico com $\sigma_x = \sigma_y = 9$ MPa.
 
+
+GRÁFICO 1: todas as análises com revestimento elástico, que são 6 no total (2 axi e 4 3D)
+
+GRÁFICO 2: todas as análises sem revestimento, que são 6 no total (2 axi e 4 3D)
+
+GRÁFICO 3: todas as análises EPVP, que são 2 no total, porém, serão 4 pois é CP e LP

@@ -10,6 +10,13 @@
 {{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
 \textbf{Recommendations on the convergence-confinement method}, 2001.}
 
+\bibitem[{ALMEIDA E SOUSA} 1998]{AlmeidaeSousa1998}
+\abntrefinfo{{ALMEIDA E SOUSA}}{{ALMEIDA E SOUSA}}{1998}
+{{ALMEIDA E SOUSA}, J.
+\textbf{{T\'{u}neis em Maciços Terrosos: Comportamento e Modelaç\~{a}o
+  Num\'{e}rica}}.
+Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
+
 \bibitem[{ANSYS Inc} 2024]{ANSYS}
 \abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2024}
 {{ANSYS Inc}. \textbf{Ansys Product Help - Mechanical APDL}. 2024.
@@ -191,6 +198,12 @@ ISBN 1782661727.}
 {FERR{\~{A}}O, W.~C. \textbf{Estudo de túneis superficiais: influência na
   convergência e no perfil de assentamento.} Porto Alegre: [s.n.], 2018.}
 
+\bibitem[{FOLHAPRESS} 2007]{Folhapress2007}
+\abntrefinfo{{FOLHAPRESS}}{{FOLHAPRESS}}{2007}
+{{FOLHAPRESS}. \textbf{Desabamento da estação de metrô de São Paulo}. 2007.
+Dispon{\'\i}vel em:
+  \url{https://folhapress.folha.com.br/busca?site=folhapress&skin=folhapress&content\_search=desmoronamento+metr\%F4&content\_search\_type=content&content\_type=photo&content\_date\_at=&content\_date\_start=&content\_date\_end=&clean\_date=no&clean\_category=yes&orientation=&content\_category\_grouped=}.}
+
 \bibitem[Fortsakis et al. 2012]{Fortsakis2012}
 \abntrefinfo{Fortsakis et al.}{FORTSAKIS et al.}{2012}
 {FORTSAKIS, P.; BEKRI, E.; PROUNTZOPOULOS, G.; MARINOS, P. Numerical analysis
@@ -210,9 +223,9 @@ Dispon{\'\i}vel em:
 
 \bibitem[Fuente et al. 2018]{Fuente2018}
 \abntrefinfo{Fuente et al.}{FUENTE et al.}{2018}
-{FUENTE, M. D.~L.; TAHERZADEH, R.; SULEM, J.; SUBRIN, D. Analysis and
-  comparison of the measurements of fréjus road tunnel and of its safety
-  gallery.
+{FUENTE, M. D.~L.; TAHERZADEH, R.; SULEM, J.; SUBRIN, D. {Analysis and
+  comparison of the measurements of Fr\'{e}jus road tunnel and of its safety
+  gallery}.
 \textbf{Geomechanics and Geodynamics of Rock Masses}, Taylor \& Francis Group,
   London, v.~2, 2018.}
 
@@ -446,12 +459,6 @@ Tese (Doutorado) --- L'Ecole Nationale des Ponts et Chaussees, 1988.}
 {SILVEIRA, E. B.~S. Metrôs e túneis em solos.
 \textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
   23--96, 1974.}
-
-\bibitem[Sousa 1998]{AlmeidaeSousa1998}
-\abntrefinfo{Sousa}{SOUSA}{1998}
-{SOUSA, J.~A. e.
-\textbf{Túneis em Maciços Terrosos: Comportamento e Modelação Numérica}.
-Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
 
 \bibitem[Teixeira 1994]{Teixeira1994}
 \abntrefinfo{Teixeira}{TEIXEIRA}{1994}
