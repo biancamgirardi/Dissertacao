@@ -95,6 +95,18 @@ ISBN 13: 978-1-4613-8053-5.}
   construction}}. 2. ed. Boca Raton: CRC Press Taylor e Francis Group, 2018.
 ISBN 9781315120164.}
 
+\bibitem[Chortis e Kavvadas 2021]{ChortisKavvadas2021b}
+\abntrefinfo{Chortis e Kavvadas}{CHORTIS; KAVVADAS}{2021a}
+{CHORTIS, F.; KAVVADAS, M. Three-dimensional numerical analyses of
+  perpendicular tunnel intersections.
+\textbf{Geotechnical and Geological Engineering}, v.~39, p. 1771–1793, 2021.}
+
+\bibitem[Chortis e Kavvadas 2021]{ChortisKavvadas2021a}
+\abntrefinfo{Chortis e Kavvadas}{CHORTIS; KAVVADAS}{2021b}
+{\underline{\ \ \ \ \ \ \ \ }. Three-dimensional numerical investigation of the
+  interaction between twin tunnels.
+\textbf{Geotechnical and Geological Engineering}, v.~39, p. 5559--5585, 2021.}
+
 \bibitem[Colombo 2023]{Colombo2023}
 \abntrefinfo{Colombo}{COLOMBO}{2023}
 {COLOMBO, C. A. M.~M.
@@ -196,6 +208,14 @@ ISBN 1782661727.}
 Dispon{\'\i}vel em:
   \url{http://www.teses.usp.br/teses/disponiveis/3/3145/tde-08122006-151549/}.}
 
+\bibitem[Fuente et al. 2018]{Fuente2018}
+\abntrefinfo{Fuente et al.}{FUENTE et al.}{2018}
+{FUENTE, M. D.~L.; TAHERZADEH, R.; SULEM, J.; SUBRIN, D. Analysis and
+  comparison of the measurements of fréjus road tunnel and of its safety
+  gallery.
+\textbf{Geomechanics and Geodynamics of Rock Masses}, Taylor \& Francis Group,
+  London, v.~2, 2018.}
+
 \bibitem[Giraud e Rousset 1996]{Giraud1996}
 \abntrefinfo{Giraud e Rousset}{GIRAUD; ROUSSET}{1996}
 {GIRAUD, A.; ROUSSET, G. Time-dependent behaviour of deep clays.
@@ -209,6 +229,12 @@ ISSN 0013-7952.}
   comportamento dependente do tempo na intera{\c{c}}{\~{a}}o
   maci{\c{c}}o-suporte.}
 306~p. Tese (Doutorado) --- Universidade de São Paulo, São Carlos, 2006.}
+
+\bibitem[Guo, Liu e Zhu 2021]{Guoetal2021}
+\abntrefinfo{Guo, Liu e Zhu}{GUO; LIU; ZHU}{2021}
+{GUO, Z.; LIU, X.; ZHU, Z. An elastic solution for twin circular tunnels’
+  stress in hydrostatic stress field.
+\textbf{Geotech Geol Eng}, 2021.}
 
 \bibitem[{HEALTH AND SAFETY EXECUTIVE} 1996]{HSE1996}
 \abntrefinfo{{HEALTH AND SAFETY EXECUTIVE}}{{HEALTH AND SAFETY
@@ -285,6 +311,12 @@ Dispon{\'\i}vel em:
 {LI, P.; WANG, F.; FAN, L.; WANG, H.; MA, G. Analytical scrutiny of loosening
   pressure on deep twin-tunnels in rock formations.
 \textbf{Tunnelling and Underground Space Technology}, China, 2018.}
+
+\bibitem[Ma et al. 2020]{Maetal2020}
+\abntrefinfo{Ma et al.}{MA et al.}{2020}
+{MA, Y.; LU, A.; ZENG, X.; CAI, H. Analytical solution for determining the
+  plastic zones around twin circular tunnels excavated at great depth.
+\textbf{International Journal of Rock Mechanics and Mining Sciences}, 2020.}
 
 \bibitem[Maffei et al. 2008]{Maffei2008}
 \abntrefinfo{Maffei et al.}{MAFFEI et al.}{2008}
@@ -388,19 +420,11 @@ Dispon{\'\i}vel em:
   for coupled elastoplastic–viscoplastic constitutive law for tunnels.
 \textbf{International Journal of Geomechanics}, v.~22, 2022.}
 
-\bibitem[Quevedo, Bernaud e Filho 2020]{Quevedo2020}
-\abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2020}
-{QUEVEDO, F. P.~M.; BERNAUD, D.; FILHO, A. C. Numerical analysis of twin
-  tunnels including long-term effects considering the creep and shrinkage of
-  concrete.
-\textbf{XLI Ibero-Latin American Congress on Computational Methods in
-  Engineering (CILAMCE)}, Paran{\'{a}}, 2020.}
-
 \bibitem[Quevedo, Bernaud e Filho 2022]{Quevedoetal2022b}
 \abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2022}
-{\underline{\ \ \ \ \ \ \ \ }. Numerical analysis of deep tunnels in
-  viscoplastic rock mass considering the creep and shrinkage of the concrete
-  lining.
+{QUEVEDO, F. P.~M.; BERNAUD, D.; FILHO, A. C. Numerical analysis of deep
+  tunnels in viscoplastic rock mass considering the creep and shrinkage of the
+  concrete lining.
 \textbf{International Journal of Geomechanics}, v.~22, n.~4, 2022.}
 
 \bibitem[Quevedo et al. 2018]{Quevedoetal2018}
@@ -434,18 +458,6 @@ Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
 {TEIXEIRA, A. N.~S. \textbf{Estudo do comportamento do túnel do metrô do
   Distrito Federal escavado em solos porosos colapsíveis}. Brasília: [s.n.],
   1994.}
-
-\bibitem[UK 2019]{UKGovernment2019}
-\abntrefinfo{UK}{UK}{2019}
-{UK, G. \textbf{High Speed Two (HS2)}. Birmingham: [s.n.], 2019.
-Dispon{\'\i}vel em:
-  \url{https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment\_data/file/960814/F2\_Phase\_2a\_Tunnels\_v1.2.pdf}.}
-
-\bibitem[Vetsch et al. 2016]{Vetsch2016}
-\abntrefinfo{Vetsch et al.}{VETSCH et al.}{2016}
-{VETSCH, H.~P.; ZBINDEN, P.; M{\"{A}}RKI, E.; EHRBAR, H. Gotthard base tunnel
-  – choice of the tunnel system from today’s point of view.
-\textbf{Geomechanics and Tunnelling}, Berlin, 2016.}
 
 \bibitem[{WORLD HIGHWAYS} 2015]{Worldhighways2015}
 \abntrefinfo{{WORLD HIGHWAYS}}{{WORLD HIGHWAYS}}{2015}

@@ -28,9 +28,9 @@
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{57}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Discretização do domínio}{57}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Análises em elasticidade}{63}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Análises em elastoplasticidade}{63}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Verificações com ...}{63}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{65}{chapter.5}%
+\contentsline {subsection}{\numberline {4.2.1}Análise de túneis gêmeos não revestidos em elasticidade}{63}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Análise de túneis gêmeos não revestidos em elastoplasticidade}{64}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Verificações com ...}{65}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{67}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{66}{section*.51}%
+\contentsline {chapter}{REFERÊNCIAS}{68}{section*.53}%
