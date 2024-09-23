@@ -1,0 +1,85 @@
+! ARQUIVO DE PÓS-PROCESSAMENTO - MODELOS AXI !
+! VERSÃO 01: 23/09/2024	       		     !
+! SITUAÇÃO: OK		       		     !	
+
+! Acessando o arquivo de dados
+RESUME,file,db
+
+/POST1 
+
+! Parâmetros
+theta = 90		! Coordenada polar do perfil de convergências
+npoints = 200		! Número de pontos de discretização do caminho
+
+! Definindo o sistema de coordenadas cilíndrico
+CSYS,0
+
+! Selecionando o primeiro e último nó do caminho
+ALLSEL,ALL
+no1 = node(Re,0,0)
+no2 = node(Re,lt,0)
+
+! Criando o caminho
+ALLSEL,ALL
+PATH,path1,2,20,npoints
+PPATH,1,no1
+PPATH,2,no2
+
+! Definindo o sistema de coordenadas (cilíndrico) para os resultados
+RSYS,5			! Sistema cilíndrico - eixo y
+
+! Número de análises
+*GET,nanalises,ACTIVE,0,SET,NSET
+
+! Dimensionando a tabela de resultados
+*DIM,tabela,TABLE,npoints,nanalises+1
+*DIM,tabelasr,TABLE,npoints,nanalises+1
+
+! Preenchendo as tabelas de resultados
+subpasso = 1
+*DO,subpasso,1,nanalises,1
+
+	! Definindo o conjunto de dados o último loadstep
+	SUBSET,subpasso
+	
+	! Escrevendo a convergência
+	PDEF,ur,U,X,AVG
+	PCALC,ADD,Ur_theta,ur,,-1/Re*100,, , 
+	*DO,i,1,npoints,1
+		*GET,tabela(i,1),PATH,0,ITEM,Yg,PATHPT,i
+		*GET,tabela(i,subpasso+1),PATH,0,ITEM,Ur_theta,PATHPT,i
+	*ENDDO
+	
+	! Escrevendo as tensões radiais
+	PDEF,sr_theta,S,X,AVG
+	*DO,i,1,npoints,1
+		*GET,tabelasr(i,1),PATH,0,ITEM,Xg,PATHPT,i
+		*GET,tabelasr(i,subpasso+1),PATH,0,ITEM,sr_theta,PATHPT,i
+	*ENDDO
+	
+*ENDDO
+
+! Escrevendo no arquivo
+*CREATE,ansuitmp
+*MWRITE,tabela,tabela_%theta%,txt
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp
+
+! Escrevendo no arquivo
+*CREATE,ansuitmp
+*MWRITE,tabelasr,tabelasr_%theta%,txt
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp
+
+! Cria arquivo com os parâmetros
+PARSAV,ALL,parametros_postproc,txt
+
+
+! Lixo
+! Plotando o caminho
+!PLPATH,Ur_theta
+
+! Printando o caminho
+!PRPATH,Ur_theta
