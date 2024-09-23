@@ -68,6 +68,7 @@ def graficar(x,y,                       # eixo x e y
              alpha = alpha, 
              label = lbldata,
              marker = marker,
+             markersize = 10,
              fillstyle = 'none')
 
     # Formatando a legenda
@@ -88,18 +89,18 @@ def graficar(x,y,                       # eixo x e y
                 pad_inches=0.2)
 
 Rt = 4
-x = np.array([2.5, 3, 4, 5, 6, 8, 10])/(2)
+x = np.array([3, 4, 5, 6])/(2)
 q0 = 2.2
-sttA = np.array([7.879, 6.272, 5.240, 4.881, 4.689, 4.548, 4.466])/q0
-sttB = np.array([3.645, 3.804, 3.980, 4.093, 4.154, 4.247, 4.277])/q0
-UA   = np.array([0.1465, 0.2199, 0.3157, 0.3715, 0.4063, 0.4467, 0.4681])
-UB   = np.array([0.7947, 0.7117, 0.6401, 0.6072, 0.5884, 0.5696, 0.5602])
+sttA = np.array([6.272, 5.240, 4.881, 4.689])/q0
+sttB = np.array([3.804, 3.980, 4.093, 4.154])/q0
+UA   = np.array([0.2199, 0.3157, 0.3715, 0.4063])
+UB   = np.array([0.7117, 0.6401, 0.6072, 0.5884])
 
-x_analitycal = np.array([2.5, 3, 3.5, 4, 4.5, 5, 5.5,6])/(2)
-sttA_analitycal = [3.874, 3.077, 2.761, 2.576, 2.456, 2.383, 2.317, 2.283]
+x_analitycal = np.array([3, 3.5, 4, 4.5, 5, 5.5,6])/(2)
+sttA_analitycal = [3.077, 2.761, 2.576, 2.456, 2.383, 2.317, 2.283]
 
-x_numerical = np.array([2.5, 3, 3.5, 4, 4.5, 5, 5.5,6])/(2)
-sttA_numerical = [3.854, 2.965, 2.616, 2.411, 2.285, 2.199, 2.132, 2.079]
+x_numerical = np.array([3, 3.5, 4, 4.5, 5, 5.5,6])/(2)
+sttA_numerical = [2.965, 2.616, 2.411, 2.285, 2.199, 2.132, 2.079]
 
 x_Ling = np.array([3, 4, 6])/(2)
 sttA_Ling = [2.867, 2.372, 2.112]
@@ -110,10 +111,10 @@ titulo      = 'Tangencial stress concentration factor in A'
 eixoy       = r'$\sigma_{\theta \theta}/\sigma_v$'
 eixox       = r'$d_1/2R_t$'
 xmin        = 1.25
-xmax        = 5.0
+xmax        = 3.25
 xstep       = 0.25
 ymin        = 1.75
-ymax        = 4
+ymax        = 3.25
 ystep       = 0.25
 
 lbldata     = '3D F.E. Solution'
