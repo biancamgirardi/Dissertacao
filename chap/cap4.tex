@@ -171,7 +171,7 @@ Esta seção tem o objetivo de aplicar a modelagem computacional para simular a 
 
 \subsection{Análise de túneis gêmeos não revestidos em elasticidade}
 
-Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma atrás da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioGuo}.
+Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma atrás da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioGuo}. Os pontos A $(x = -d_1/2 + R_t,~ y = 0,~ z)$ e B $(x = -d_1/2,~ y = R_t,~ z)$ representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
@@ -180,18 +180,21 @@ Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram 
 	\caption{\label{dominioGuo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
 \end{figure}
 
-Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_x = \sigma_y = 2,2 ~\text{MPa}$ e duas diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
+Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_x = \sigma_y = 2,2 ~\text{MPa}$ e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$, $d_1 = 4R_t$, $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
 
-\autoref{GUOperfilconvergenciaUB}
+A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel. As curvas de convergência, dadas por $U_B = -u_y(B)/R_t$, referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único, a convergência longe da face é obtida através de uma análise elástica, sendo $U = \sigma_v(1 + \nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.8]{GUOperfilconvergenciaUB.pdf}
+		\includegraphics[scale=0.82]{GUOperfilconvergenciaUB.pdf}
 	\end{center}
-	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no ponto B}
+	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
 \end{figure}
 
-\autoref{GUOrelacaoUBUA}
+É possível verificar a anisotropia da deformação induzida pela proximidade dos túneis gêmeos na \autoref{GUOrelacaoUBUA}, que ilustra a razão $U_B/U_A = u_y(B)/u_y(A)$, sendo $u_y(A)$ e $u_y(B)$ os deslocamentos verticais na parede lateral e no teto do túnel, respectivamente. É importante ressaltar que os resultados apresentados nessa figura correspondem a uma seção do túnel localizada longe da face de escavação, na distância normalizada $z/R_t = -25$. Destaca-se a ovalização significativa causada pela proximidade entre os túneis, que aumenta à medida que a distância $d_1/R_t$ diminui.
+
+Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução pelo Método dos Elementos Finitos no modelo tridimensional utilizado nesse estudo. A solução analítica apresentada por \apudonline{Ling1948}{Guoetal2021} refere-se ao estudo de uma placa com dois orifícios circulares iguais. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = 25$, considerada suficiente para que as condições de deformação plana se estabeleçam. O fator de concentração de tensão tangencial $\sigma_{\theta\theta}/\sigma_v$ calculado na parede do túnel (ponto A) é plotado para cada distância $d_1/2R_t$ entre os túneis gêmeos. Nota-se que, para o túnel profundo isolado, a concentração de tensão tangencial sob a condição de deformação plana é constante, sendo $\sigma_{\theta\theta}/\sigma_v = 2,00$. As soluções apresentaram resultados muito próximos, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima sutilmente a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
+
 
 \begin{figure}[H]
 	\begin{center}
@@ -201,19 +204,17 @@ Para fins de comparação, as simulações numéricas foram realizadas no modelo
 \end{figure}
 
 
-\autoref{GUOfatordeconcentracaotangencialA}
-
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.8]{GUOfatordeconcentracaotangencialA.pdf}
 	\end{center}
-	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial no ponto A \textit{versus} distância dos túneis gêmeos $d_1/2R_t$}
+	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}
 \end{figure}
 
 
 \subsection{Análise de túneis gêmeos não revestidos em elastoplasticidade}
 
-\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, foram consideradas distribuições de tensão inicial anisotrópicas ($\sigma_h \neq \sigma_v$). 
+\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, são consideradas distribuições de tensão inicial anisotrópicas ($\sigma_h \neq \sigma_v$). Os pontos A $(x = -d_1/2 + R_t,~ y = 0,~ z)$ e B $(x = -d_1/2,~ y = R_t,~ z)$ representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
@@ -222,7 +223,7 @@ Para fins de comparação, as simulações numéricas foram realizadas no modelo
 	\caption{\label{dominioMa}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Maetal2020})}
 \end{figure}
 
-Para o maciço rochoso, adotou-se um comportamento elastoplástico perfeito definido pelos critérios de Mohr-Coulomb e Drucker-Prager, com regra de fluxo plástico associada. Ainda, a formulação da solução de tensões para a configuração de túneis gêmeos considerou a hipótese de que a zona plástica no entorno de cada túnel circunda completamente suas bordas, sem que as zonas plásticas de ambos os túneis se conectem.
+Para o maciço rochoso, adotou-se um comportamento elastoplástico perfeito definido pelo critério de Drucker-Prager, com regra de fluxo plástico associada. Ainda, a formulação da solução de tensões para a configuração de túneis gêmeos considerou a hipótese de que a zona plástica no entorno de cada túnel circunda completamente suas bordas, sem que as zonas plásticas de ambos os túneis se conectem.
 
 As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 metros e as tensões iniciais anisotrópicas, sendo $\sigma_h = 40$ MPa e $\sigma_v = 30$ MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0,3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
 
@@ -236,23 +237,28 @@ As simulações numéricas desta seção também foram realizadas para os modelo
 % ---
 \section{Aplicação considerando o parâmetro friccional}
 
-Esta seção possui o objetivo de aplicar a modelagem computacional para avaliar a influência do parâmetro friccional na análise de túneis gêmeos profundos interligados por galerias transversais. Para o maciço rochoso, adotam-se o modelo elastoplástico e o modelo acoplado elastoplástico-viscoplástico pelos critérios de Von-Mises inscrito na superfície de Tresca e Drucker-Prager inscrito na superfície de Mohr-Coulomb. Para as análises com maciço elastoplástico, é empregado o modelo constitutivo elástico para o revestimento, enquanto que nas análises com o modelo acoplado elastoplástico-viscoplástico para o maciço, emprega-se o modelo constitutivo viscoelástico para o revestimento.
+Esta seção possui o objetivo de aplicar a modelagem computacional para avaliar a influência do parâmetro friccional na análise de túneis gêmeos profundos interligados por galerias transversais. Para o maciço rochoso, adotam-se o modelo elastoplástico (EP) e o modelo acoplado elastoplástico-viscoplástico (EPVP) pelos critérios de Von-Mises inscrito na superfície de Tresca (VM) e Drucker-Prager  inscrito na superfície de Mohr-Coulomb (DPII). Dessa maneira, é possível comparar os efeitos do parâmetro friccional (relacionado ao ângulo de atrito) nas análises de túneis, visto que, neste estudo, só é considerado na superfície de Drucker-Prager.
 
-Os parâmetros geométricos considerados nesta seção consistem em: raio dos túneis longitudinais $R_t$ = 1 m, espessura do revestimento $e_t$ = 0,1 m, distância entre os eixos dos túneis longitudinais $d_1$ = 4 m. Para o maciço rochoso, tem-se módulo de Young $E$ = 1500 MPa, coeficiente de Poisson $\nu$ = 0,498, a coesão $c$ = $\frac{4\sqrt{3}}{2}$ e ângulo de atrito $\phi$ = 30°, além da coesão viscoplástica $c_{vp} = \frac{2\sqrt{3}}{2}$. O revestimento possui módulo de Young $E$ = 30303 MPa e coeficiente de Poisson $\nu$ = 0,2. Adota-se um estado de tensão inicial hidrostático isotrópico com $\sigma_x = \sigma_y = 9$ MPa.
+Para os casos com maciço elastoplástico, considera-se as situações sem revestimento (SR) e com revestimento elástico (CRE), enquanto que nas análises com o modelo acoplado elastoplástico-viscoplástico para o maciço, emprega-se um revestimento viscoelástico (CRVE). Ademais, são analisadas as situações nas condições com a presença e a ausência da galeria transversal (CG e SG, respectivamente). Análises em axissimetria, representando o túnel isolado ($d_1 \rightarrow \infty$), também foram realizadas para efeitos de comparação. 
 
+Os parâmetros geométricos considerados nesta seção consistem em: raio dos túneis longitudinais $R_t$ = 1 m, espessura do revestimento $e_t$ = 0,1 m, distância entre os eixos dos túneis longitudinais $d_1$ = 4 m. Para o maciço rochoso, tem-se módulo de Young $E$ = 1500 MPa, coeficiente de Poisson $\nu$ = 0,498, coesão $c$ = $\frac{4\sqrt{3}}{2}$, coesão viscoplástica $c_{vp} = \frac{2\sqrt{3}}{2}$ e ângulo de atrito $\phi$ = 30°. O revestimento possui módulo de Young $E$ = 30303 MPa e coeficiente de Poisson $\nu$ = 0,2. Adota-se um estado de tensão inicial hidrostático isotrópico com $\sigma_x = \sigma_y = 9$ MPa. Os resultados apresentados a seguir são obtidos no ponto B, localizado no teto do túnel $(x = -d_1/2,~ y = R_t,~ z)$.
+
+A \autoref{FRICperfilconvergenciaCRE} apresenta os resultados das análises de túneis gêmeos e do túnel isolado realizadas em elastoplasticidade com o revestimento elástico considerando as superfícies de Drucker-Prager e Von-Mises. Para os túneis gêmeos, considerou-se as situações com e sem a presença de galeria transversal. A convergência é graficada em função da distância normalizada da face $z/R_t$. 
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.8]{FRICperfilconvergenciaCRE.pdf}
 	\end{center}
-	\caption{\label{FRICperfilconvergenciaCRE}Perfis de convergência dos túneis gêmeos para maciço elastoplástico e com revestimento elástico}
+	\caption{\label{FRICperfilconvergenciaCRE}Perfis=l de convergência dos túneis gêmeos para maciço elastoplástico e com revestimento elástico}
 \end{figure}
+
+As análises realizadas com ângulo de atrito $\phi = 0°$, representadas pelas curvas tracejadas (VM), apresentaram uma disparidade em comparação com os resultados obtidos considerando $\phi = 30°$. Esse comportamento era esperado, visto que a presença do parâmetro friccional torna o maciço mais rígido e, portanto, as deformações são menores. É possível verificar, também, nos túneis com galeria transversal, um pico no deslocamento 
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.8]{FRICperfilconvergenciaSR.pdf}
 	\end{center}
-	\caption{\label{FRICperfilconvergenciaSR}Perfis de convergência dos túneis gêmeos para maciço elastoplástico e sem revestimento}
+	\caption{\label{FRICperfilconvergenciaSR}Perfil de convergência dos túneis gêmeos para maciço elastoplástico e sem revestimento}
 \end{figure}
 
 GRÁFICO 3: todas as análises EPVP, que são 2 no total, porém, serão 4 pois é CP e LP

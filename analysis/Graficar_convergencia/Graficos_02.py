@@ -135,7 +135,7 @@ poly        = 10
 modelo      = 'GUO_AXI_EL_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, SR, D1, INF'
+lblcoluna   = 'EL, SR, $d_1 = \infty$'
 cor         = 'k'
 tamanho     = 2
 ordem       = 1
@@ -155,7 +155,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'GUO_EL_SR_D1_3RE'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, SR, D1, 3RE'
+lblcoluna   = 'EL, SR, $d_1 = 3R_t$'
 cor         = 'g'
 tamanho     = 2
 ordem       = 1
@@ -175,7 +175,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'GUO_EL_SR_D1_6RE'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, SR, D1, 6RE'
+lblcoluna   = 'EL, SR, $d_1 = 6R_t$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -221,7 +221,7 @@ poly        = 10
 modelo      = 'MA_AXI_EL_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, $D_1$ = $\infty$'
+lblcoluna   = 'EL, $d_1$ = $\infty$'
 cor         = 'k'
 tamanho     = 2
 ordem       = 1
@@ -241,7 +241,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_AXI_EP_DPII_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+lblcoluna   = 'EP, DPII, $d_1$ = $\infty$'
 cor         = 'b'
 tamanho     = 2
 ordem       = 1
@@ -261,7 +261,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_AXI_EP_MC_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, MC, $D_1$ = $\infty$'
+lblcoluna   = 'EP, MC, $d_1$ = $\infty$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -281,7 +281,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EL_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, $D_1$ = 5$R_t$'
+lblcoluna   = 'EL, $d_1$ = 5$R_t$'
 cor         = 'k'
 tamanho     = 2
 ordem       = 1
@@ -301,7 +301,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EP_DPII_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, DPII, $D_1$ = 5$R_t$'
+lblcoluna   = 'EP, DPII, $d_1$ = 5$R_t$'
 cor         = 'b'
 tamanho     = 2
 ordem       = 1
@@ -321,7 +321,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EP_MC_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, MC, $D_1$ = 5$R_t$'
+lblcoluna   = 'EP, MC, $d_1$ = 5$R_t$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -366,7 +366,7 @@ poly        = 10
 modelo      = 'AXI_EP_CRE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+lblcoluna   = 'EP, DPII, $d_1$ = $\infty$'
 cor         = '#0C0A3E'
 tamanho     = 2
 ordem       = 1
@@ -386,7 +386,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_CRE_CG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, CG, DPII, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, CG, DPII, $d_1$ = $4R_t$'
 cor         = '#7B1E7A'
 tamanho     = 2
 ordem       = 1
@@ -406,7 +406,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_CRE_SG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SG, DPII, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, SG, DPII, $d_1$ = $4R_t$'
 cor         = 'b'
 tamanho     = 2
 ordem       = 1
@@ -426,7 +426,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'AXI_EP_CRE_VM'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, VM, $D_1$ = $\infty$'
+lblcoluna   = 'EP, VM, $d_1$ = $\infty$'
 cor         = '#3d1308'
 tamanho     = 2
 ordem       = 1
@@ -446,7 +446,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_CRE_CG_D1_4RE_VM_DALG_1'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, CG, VM, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, CG, VM, $d_1$ = $4R_t$'
 cor         = '#F3B700'
 tamanho     = 2
 ordem       = 1
@@ -466,7 +466,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_CRE_SG_D1_4RE_VM'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SG, VM, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, SG, VM, $d_1$ = $4R_t$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -511,7 +511,7 @@ poly        = 10
 modelo      = 'AXI_EP_SR_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+lblcoluna   = 'EP, DPII, $d_1$ = $\infty$'
 cor         = '#0C0A3E'
 tamanho     = 2
 ordem       = 1
@@ -531,7 +531,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_SR_CG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, CG, DPII, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, CG, DPII, $d_1$ = $4R_t$'
 cor         = '#7B1E7A'
 tamanho     = 2
 ordem       = 1
@@ -551,7 +551,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_SR_SG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SG, DPII, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, SG, DPII, $d_1$ = $4R_t$'
 cor         = 'b'
 tamanho     = 2
 ordem       = 1
@@ -572,7 +572,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'AXI_EP_SR_VM'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, VM, $D_1$ = $\infty$'
+lblcoluna   = 'EP, VM, $d_1$ = $\infty$'
 cor         = '#3d1308'
 tamanho     = 2
 ordem       = 1
@@ -593,7 +593,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_SR_CG_D1_4RE_VM'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, CG, VM, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, CG, VM, $d_1$ = $4R_t$'
 cor         = '#F3B700'
 tamanho     = 2
 ordem       = 1
@@ -614,7 +614,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'EP_SR_SG_D1_4RE_VM'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SG, VM, $D_1$ = $4R_t$'
+lblcoluna   = 'EP, SG, VM, $d_1$ = $4R_t$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -659,7 +659,7 @@ poly        = 10
 modelo      = 'EPVP_CRVE_CG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 100
-lblcoluna   = 'EPVP, CG, DPII, $D_1$ = $4R_t$, CP'
+lblcoluna   = 'EPVP, CG, DPII, $d_1$ = $4R_t$, CP'
 cor         = '#0C0A3E'
 tamanho     = 2
 ordem       = 1
@@ -678,8 +678,8 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 # Plotagem da segunda curva
 modelo      = 'EPVP_CRVE_CG_D1_4RE_DPII'
 arquivo     = modelo + '\\tabela_90.txt'
-ncoluna     = 105
-lblcoluna   = 'EPVP, CG, DPII, $D_1$ = $4R_t$, LP'
+ncoluna     = 130
+lblcoluna   = 'EPVP, CG, DPII, $d_1$ = $4R_t$, LP'
 cor         = '#7B1E7A'
 tamanho     = 2
 ordem       = 1
@@ -699,7 +699,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 # modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
 # arquivo     = modelo + '\\tabela_90.txt'
 # ncoluna     = 100
-# lblcoluna   = 'EPVP, CG, VM, $D_1$ = $4R_t$, CP'
+# lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, CP'
 # cor         = 'r'
 # tamanho     = 2
 # ordem       = 1
@@ -719,8 +719,8 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 # # Plotagem da quarta curva
 # modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
 # arquivo     = modelo + '\\tabela_90.txt'
-# ncoluna     = 105
-# lblcoluna   = 'EPVP, CG, VM, $D_1$ = $4R_t$, LP'
+# ncoluna     = 130
+# lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, LP'
 # cor         = '#E57C04'
 # tamanho     = 2
 # ordem       = 1
