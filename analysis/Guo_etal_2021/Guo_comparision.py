@@ -107,7 +107,7 @@ sttA_Ling = [2.867, 2.372, 2.112]
 
 
 figura      = 1
-titulo      = 'Tangencial stress concentration factor in A'
+titulo      = 'Fator de concentração de tensão tangencial em A'
 eixoy       = r'$\sigma_{\theta \theta}/\sigma_v$'
 eixox       = r'$d_1/2R_t$'
 xmin        = 1.25
@@ -117,13 +117,13 @@ ymin        = 1.75
 ymax        = 3.25
 ystep       = 0.25
 
-lbldata     = '3D F.E. Solution'
+lbldata     = 'Solução numérica 3D (MEF)'
 cor         = 'r'
 tamanho     = 1.5
 ordem       = 1
 alpha       = 1
 estilo      = 'solid'
-marker      = "D"
+marker      = "s"
 
 graficar(x,sttA,titulo,eixox,eixoy,
           xmin,xmax,xstep,ymin,ymax,ystep,
@@ -131,13 +131,13 @@ graficar(x,sttA,titulo,eixox,eixoy,
           cor,tamanho,ordem,alpha,estilo,marker,
           figura)
 
-lbldata     = 'Analytical Solution [6]'
-cor         = 'b'
+lbldata     = 'Solução analítica (Guo et al, 2021)'
+cor         = '#fc4f30'
 tamanho     = 1.5
 ordem       = 1
 alpha       = 1
 estilo      = 'solid'
-marker      = "s"
+marker      = "D"
 
 graficar(x_analitycal,sttA_analitycal,titulo,eixox,eixoy,
           xmin,xmax,xstep,ymin,ymax,ystep,
@@ -145,8 +145,8 @@ graficar(x_analitycal,sttA_analitycal,titulo,eixox,eixoy,
           cor,tamanho,ordem,alpha,estilo,marker,
           figura)
 
-lbldata     = 'Numerical Solution [6] '
-cor         = 'g'
+lbldata     = 'Solução numérica (Guo et al, 2021)'
+cor         = 'b'
 tamanho     = 1.5
 ordem       = 1
 alpha       = 1
@@ -159,13 +159,13 @@ graficar(x_numerical,sttA_numerical,titulo,eixox,eixoy,
           cor,tamanho,ordem,alpha,estilo,marker,
           figura)
 
-lbldata     = 'Analytical Solution [37]'
-cor         = 'k'
+lbldata     = 'Solução analítica (Ling, 1948)'
+cor         = 'g'
 tamanho     = 1.5
 ordem       = 1
 alpha       = 1
 estilo      = 'solid'
-marker      = "^"
+marker      = "o"
 
 graficar(x_Ling,sttA_Ling,titulo,eixox,eixoy,
           xmin,xmax,xstep,ymin,ymax,ystep,
@@ -173,7 +173,7 @@ graficar(x_Ling,sttA_Ling,titulo,eixox,eixoy,
           cor,tamanho,ordem,alpha,estilo,marker,
           figura)
 
-lbldata     = 'Single Tunnel'
+lbldata     = 'Túnel isolado'
 cor         = 'k'
 tamanho     = 1.5
 ordem       = 1
@@ -189,23 +189,23 @@ graficar([1.25,5.0],[2,2],titulo,eixox,eixoy,
 
 
 figura      = 2
-titulo      = 'Relationship between Convergence in B and A'
+titulo      = 'Relação da convergência B e A'
 eixoy       = r'$U_B/U_A$'
 eixox       = r'$d_1/2R_t$'
 xmin        = 1.25
-xmax        = 5
+xmax        = 3.25
 xstep       = 0.25
 ymin        = 0
-ymax        = 6
-ystep       = 1
+ymax        = 4.25
+ystep       = 0.5
 
-lbldata     = '3D F.E. Solution'
+lbldata     = 'Solução numérica 3D (MEF)'
 cor         = 'r'
 tamanho     = 1.5
 ordem       = 1
 alpha       = 1
 estilo      = 'solid'
-marker      = "D"
+marker      = "s"
 
 graficar(x,UB/UA,titulo,eixox,eixoy,
           xmin,xmax,xstep,ymin,ymax,ystep,
@@ -213,7 +213,7 @@ graficar(x,UB/UA,titulo,eixox,eixoy,
           cor,tamanho,ordem,alpha,estilo,marker,
           figura)
 
-lbldata     = 'Single Tunnel'
+lbldata     = 'Túnel isolado'
 cor         = 'k'
 tamanho     = 1.5
 ordem       = 1

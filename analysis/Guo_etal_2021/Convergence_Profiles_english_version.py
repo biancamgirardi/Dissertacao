@@ -197,7 +197,7 @@ CONVERGENCE PROFILES IN POINT B
 
 # Formatação do gráfico
 figura      = figura+1
-titulo      = 'Convergence Profiles in B'
+titulo      = 'Perfis de convergência no ponto B'
 eixox       = r'$z/R_t$'  
 eixoy       = r'$U_B$ [\%]'
 ymin        = ymin_twin_convergence_profile
@@ -216,30 +216,30 @@ wl          = wl_twin_convergence_profile
 poly        = poly_twin_convergence_profile
 
 
-modelo      = 'GUO_D1_25RE'
-arquivo     = modelo + '\convergencex_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1/2R_t = 1.25$'
-cor         = '#6a040f'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_25RE'
+# arquivo     = modelo + '\convergencex_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1/2R_t = 1.25$'
+# cor         = '#6a040f'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
 
 modelo      = 'GUO_D1_3RE'
 arquivo     = modelo + '\convergencex_90.txt'
 ncoluna     = dicncolunalongterm[modelo]
 lblcoluna   = r'$d_1/2R_t = 1.5$'
-cor         = '#f94144'
+cor         = 'r'
 tamanho     = 1.5
 ordem       = 4
 alpha       = 1
@@ -257,7 +257,7 @@ modelo      = 'GUO_D1_4RE'
 arquivo     = modelo + '\convergencex_90.txt'
 ncoluna     = dicncolunalongterm[modelo]
 lblcoluna   = r'$d_1/2R_t = 2.0$'
-cor         = '#f3722c'
+cor         = 'b'
 tamanho     = 1.5
 ordem       = 4
 alpha       = 1
@@ -293,7 +293,7 @@ modelo      = 'GUO_D1_6RE'
 arquivo     = modelo + '\convergencex_90.txt'
 ncoluna     = dicncolunalongterm[modelo]
 lblcoluna   = r'$d_1/2R_t = 3.0$'
-cor         = '#F9C74F'
+cor         = 'g'
 tamanho     = 1.5
 ordem       = 4
 alpha       = 1
@@ -307,47 +307,47 @@ graficar(arquivo,titulo,eixox,eixoy,
           suavizar,filterx1,filterx2,wl,poly,
           figura)
 
-modelo      = 'GUO_D1_8RE'
-arquivo     = modelo + '\convergencex_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1/2R_t = 4.0$'
-cor         = '#90BE6D'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_8RE'
+# arquivo     = modelo + '\convergencex_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1/2R_t = 4.0$'
+# cor         = '#90BE6D'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_10RE'
-arquivo     = modelo + '\convergencex_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1/2R_t = 5.0$'
-cor         = '#43AA8B'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_10RE'
+# arquivo     = modelo + '\convergencex_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1/2R_t = 5.0$'
+# cor         = '#43AA8B'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
 modelo      = 'GUO_AXI'
 arquivo     = modelo + '\convergencias.txt'
 ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = 'Single Tunnel'
-cor         = '#577590'
+lblcoluna   = 'Túnel isolado'
+cor         = 'k'
 tamanho     = 1.5
 ordem       = 4
 alpha       = 1
@@ -363,521 +363,521 @@ graficar(arquivo,titulo,eixox,eixoy,
 
 
 
-#%% #.  CONVERGENCE PROFILES - IN POINT A
-""" ********************************************
-CONVERGENCE PROFILES IN POINT A
-******************************************** """ 
+# #%% #.  CONVERGENCE PROFILES - IN POINT A
+# """ ********************************************
+# CONVERGENCE PROFILES IN POINT A
+# ******************************************** """ 
 
-# Formatação do gráfico
-figura      = figura+1
-titulo      = 'Convergence Profiles in A'
-eixox       = r'$z/R_t$'  
-eixoy       = r'$U_A=-u(r = R_t,\theta = 0^\circ)/R_{t}$ [%]'
-ymin        = ymin_twin_convergence_profile
-ymax        = ymax_twin_convergence_profile
-xmin        = xmin_twin_profile
-xmax        = xmax_twin_profile
-invertx     = True
-inserirx0   = True
-x0          = x0_twin_profile
-suavizar    = suavizar_twin
+# # Formatação do gráfico
+# figura      = figura+1
+# titulo      = 'Convergence Profiles in A'
+# eixox       = r'$z/R_t$'  
+# eixoy       = r'$U_A=-u(r = R_t,\theta = 0^\circ)/R_{t}$ [%]'
+# ymin        = ymin_twin_convergence_profile
+# ymax        = ymax_twin_convergence_profile
+# xmin        = xmin_twin_profile
+# xmax        = xmax_twin_profile
+# invertx     = True
+# inserirx0   = True
+# x0          = x0_twin_profile
+# suavizar    = suavizar_twin
 
-# parametros para o filtro de suavização
-filterx1    = filterx1_twin_convergence_profile
-filterx2    = filterx2_twin_convergence_profile
-wl          = wl_twin_convergence_profile
-poly        = poly_twin_convergence_profile
-
-
-modelo      = 'GUO_D1_25RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 2.5R_t$'
-cor         = '#6a040f'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_3RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 3R_t$'
-cor         = '#f94144'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_4RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 4R_t$'
-cor         = '#f3722c'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_5RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 5R_t$'
-cor         = '#f8961e'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_6RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 6R_t$'
-cor         = '#F9C74F'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_8RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 8R_t$'
-cor         = '#90BE6D'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_10RE'
-arquivo     = modelo + '\convergencex_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 10R_t$'
-cor         = '#43AA8B'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_AXI'
-arquivo     = modelo + '\convergencias.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = \infty R_t$'
-cor         = '#577590'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'dashed'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# # parametros para o filtro de suavização
+# filterx1    = filterx1_twin_convergence_profile
+# filterx2    = filterx2_twin_convergence_profile
+# wl          = wl_twin_convergence_profile
+# poly        = poly_twin_convergence_profile
 
 
+# modelo      = 'GUO_D1_25RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 2.5R_t$'
+# cor         = '#6a040f'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
+# modelo      = 'GUO_D1_3RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 3R_t$'
+# cor         = '#f94144'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
+# modelo      = 'GUO_D1_4RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 4R_t$'
+# cor         = '#f3722c'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-#%% #.  ORTHORADIAL STRESS PROFILES - IN POINT B
-""" ********************************************
-ORTHORADIAL STRESS PROFILES IN POINT B
-******************************************** """ 
+# modelo      = 'GUO_D1_5RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 5R_t$'
+# cor         = '#f8961e'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-# Formatação do gráfico
-figura      = figura+1
-titulo      = 'Orthoradial Stress Profiles in B'
-eixox       = r'$z/R_t$'  
-eixoy       = r'$\sigma_{\theta \theta}(r = R_t,\theta = 90^\circ)$ [MPa]'
-ymin        = ymin_twin_pressure_profile
-ymax        = ymax_twin_pressure_profile
-xmin        = xmin_twin_profile
-xmax        = xmax_twin_profile
-invertx     = True
-inserirx0   = True
-x0          = x0_twin_profile
-suavizar    = suavizar_twin
+# modelo      = 'GUO_D1_6RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 6R_t$'
+# cor         = '#F9C74F'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-# parametros para o filtro de suavização
-filterx1    = filterx1_twin_convergence_profile
-filterx2    = filterx2_twin_convergence_profile
-wl          = wl_twin_convergence_profile
-poly        = poly_twin_convergence_profile
+# modelo      = 'GUO_D1_8RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 8R_t$'
+# cor         = '#90BE6D'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
+# modelo      = 'GUO_D1_10RE'
+# arquivo     = modelo + '\convergencex_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 10R_t$'
+# cor         = '#43AA8B'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_25RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 2.5R_t$'
-cor         = '#6a040f'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-
-modelo      = 'GUO_D1_3RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 3R_t$'
-cor         = '#f94144'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_4RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 4R_t$'
-cor         = '#f3722c'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_5RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 5R_t$'
-cor         = '#f8961e'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_6RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 6R_t$'
-cor         = '#F9C74F'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_8RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 8R_t$'
-cor         = '#90BE6D'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_D1_10RE'
-arquivo     = modelo + '\stressy_90.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 10R_t$'
-cor         = '#43AA8B'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
-
-modelo      = 'GUO_AXI'
-arquivo     = modelo + '\pressurey.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = \infty R_t$'
-cor         = '#577590'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'dashed'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_AXI'
+# arquivo     = modelo + '\convergencias.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = \infty R_t$'
+# cor         = '#577590'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'dashed'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
 
 
 
-#%% #.  ORTHORADIAL STRESS PROFILES - IN POINT A
-""" ********************************************
-ORTHORADIAL STRESS PROFILES IN POINT A
-******************************************** """ 
 
-# Formatação do gráfico
-figura      = figura+1
-titulo      = 'Orthoradial Stress Profiles in A'
-eixox       = r'$z/R_t$'  
-eixoy       = r'$\sigma_{\theta \theta}(r = R_t,\theta = 0^\circ)$ [MPa]'
-ymin        = ymin_twin_pressure_profile
-ymax        = ymax_twin_pressure_profile
-xmin        = xmin_twin_profile
-xmax        = xmax_twin_profile
-invertx     = True
-inserirx0   = True
-x0          = x0_twin_profile
-suavizar    = suavizar_twin
+# #%% #.  ORTHORADIAL STRESS PROFILES - IN POINT B
+# """ ********************************************
+# ORTHORADIAL STRESS PROFILES IN POINT B
+# ******************************************** """ 
 
-# parametros para o filtro de suavização
-filterx1    = filterx1_twin_convergence_profile
-filterx2    = filterx2_twin_convergence_profile
-wl          = wl_twin_convergence_profile
-poly        = poly_twin_convergence_profile
+# # Formatação do gráfico
+# figura      = figura+1
+# titulo      = 'Orthoradial Stress Profiles in B'
+# eixox       = r'$z/R_t$'  
+# eixoy       = r'$\sigma_{\theta \theta}(r = R_t,\theta = 90^\circ)$ [MPa]'
+# ymin        = ymin_twin_pressure_profile
+# ymax        = ymax_twin_pressure_profile
+# xmin        = xmin_twin_profile
+# xmax        = xmax_twin_profile
+# invertx     = True
+# inserirx0   = True
+# x0          = x0_twin_profile
+# suavizar    = suavizar_twin
 
-
-modelo      = 'GUO_D1_25RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 2.5R_t$'
-cor         = '#6a040f'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# # parametros para o filtro de suavização
+# filterx1    = filterx1_twin_convergence_profile
+# filterx2    = filterx2_twin_convergence_profile
+# wl          = wl_twin_convergence_profile
+# poly        = poly_twin_convergence_profile
 
 
-modelo      = 'GUO_D1_3RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 3R_t$'
-cor         = '#f94144'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_25RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 2.5R_t$'
+# cor         = '#6a040f'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_4RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 4R_t$'
-cor         = '#f3722c'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
 
-modelo      = 'GUO_D1_5RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 5R_t$'
-cor         = '#f8961e'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_3RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 3R_t$'
+# cor         = '#f94144'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_6RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 6R_t$'
-cor         = '#F9C74F'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_4RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 4R_t$'
+# cor         = '#f3722c'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_8RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 8R_t$'
-cor         = '#90BE6D'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_5RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 5R_t$'
+# cor         = '#f8961e'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_D1_10RE'
-arquivo     = modelo + '\stressy_0.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = 10R_t$'
-cor         = '#43AA8B'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'solid'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_6RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 6R_t$'
+# cor         = '#F9C74F'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
 
-modelo      = 'GUO_AXI'
-arquivo     = modelo + '\pressurey.txt'
-ncoluna     = dicncolunalongterm[modelo]
-lblcoluna   = r'$d_1 = \infty R_t$'
-cor         = '#577590'
-tamanho     = 1.5
-ordem       = 4
-alpha       = 1
-estilo      = 'dashed'
-graficar(arquivo,titulo,eixox,eixoy,
-          xmin,xmax,ymin,ymax,
-          ncoluna,lblcoluna,
-          cor,tamanho,ordem,alpha,estilo,
-          invertx,
-          inserirx0,x0,
-          suavizar,filterx1,filterx2,wl,poly,
-          figura)
+# modelo      = 'GUO_D1_8RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 8R_t$'
+# cor         = '#90BE6D'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_10RE'
+# arquivo     = modelo + '\stressy_90.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 10R_t$'
+# cor         = '#43AA8B'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_AXI'
+# arquivo     = modelo + '\pressurey.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = \infty R_t$'
+# cor         = '#577590'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'dashed'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+
+
+
+# #%% #.  ORTHORADIAL STRESS PROFILES - IN POINT A
+# """ ********************************************
+# ORTHORADIAL STRESS PROFILES IN POINT A
+# ******************************************** """ 
+
+# # Formatação do gráfico
+# figura      = figura+1
+# titulo      = 'Orthoradial Stress Profiles in A'
+# eixox       = r'$z/R_t$'  
+# eixoy       = r'$\sigma_{\theta \theta}(r = R_t,\theta = 0^\circ)$ [MPa]'
+# ymin        = ymin_twin_pressure_profile
+# ymax        = ymax_twin_pressure_profile
+# xmin        = xmin_twin_profile
+# xmax        = xmax_twin_profile
+# invertx     = True
+# inserirx0   = True
+# x0          = x0_twin_profile
+# suavizar    = suavizar_twin
+
+# # parametros para o filtro de suavização
+# filterx1    = filterx1_twin_convergence_profile
+# filterx2    = filterx2_twin_convergence_profile
+# wl          = wl_twin_convergence_profile
+# poly        = poly_twin_convergence_profile
+
+
+# modelo      = 'GUO_D1_25RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 2.5R_t$'
+# cor         = '#6a040f'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+
+# modelo      = 'GUO_D1_3RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 3R_t$'
+# cor         = '#f94144'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_4RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 4R_t$'
+# cor         = '#f3722c'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_5RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 5R_t$'
+# cor         = '#f8961e'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_6RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 6R_t$'
+# cor         = '#F9C74F'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_8RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 8R_t$'
+# cor         = '#90BE6D'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_D1_10RE'
+# arquivo     = modelo + '\stressy_0.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = 10R_t$'
+# cor         = '#43AA8B'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'solid'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)
+
+# modelo      = 'GUO_AXI'
+# arquivo     = modelo + '\pressurey.txt'
+# ncoluna     = dicncolunalongterm[modelo]
+# lblcoluna   = r'$d_1 = \infty R_t$'
+# cor         = '#577590'
+# tamanho     = 1.5
+# ordem       = 4
+# alpha       = 1
+# estilo      = 'dashed'
+# graficar(arquivo,titulo,eixox,eixoy,
+#           xmin,xmax,ymin,ymax,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           invertx,
+#           inserirx0,x0,
+#           suavizar,filterx1,filterx2,wl,poly,
+#           figura)

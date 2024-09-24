@@ -38,4 +38,10 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline {Colombo2023})}}{61}{figure.caption.48}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline {Colombo2023})}}{62}{figure.caption.49}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Guoetal2021})}}{64}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Maetal2020})}}{65}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Perfis de convergência no ponto B}}{65}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}}{65}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Fator de concentração de tensão tangencial no ponto A \textit {versus} distância dos túneis gêmeos $d_1/2R_t$}}{66}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Maetal2020})}}{67}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Perfis de convergência no ponto B}}{68}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Perfis de convergência dos túneis gêmeos para maciço elastoplástico e com revestimento elástico}}{69}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Perfis de convergência dos túneis gêmeos para maciço elastoplástico e sem revestimento}}{69}{figure.caption.58}%

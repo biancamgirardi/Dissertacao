@@ -202,7 +202,7 @@ figura      = 2
 titulo      = 'Perfil de convergências - MA_2021'
 lbleixox    = r'$z/R_t$'
 lbleixoy    = r'$U_B$ [\%]'
-xmin        = 3
+xmin        = 2
 xmax        = 40
 ymin        = 0
 ymax        = 1
@@ -213,7 +213,7 @@ x0          = 100*1/3
 # Opção de suavização
 suavizar    = False
 filterx1    = 40
-filterx2    = 100
+filterx2    = 400
 wl          = 30
 poly        = 10
 
@@ -221,7 +221,7 @@ poly        = 10
 modelo      = 'MA_AXI_EL_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, SR, D1, INF'
+lblcoluna   = 'EL, $D_1$ = $\infty$'
 cor         = 'k'
 tamanho     = 2
 ordem       = 1
@@ -241,8 +241,8 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_AXI_EP_DPII_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SR, DPII, D1, INF'
-cor         = 'g'
+lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+cor         = 'b'
 tamanho     = 2
 ordem       = 1
 alpha       = 1
@@ -261,7 +261,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_AXI_EP_MC_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SR, MC, D1, INF'
+lblcoluna   = 'EP, MC, $D_1$ = $\infty$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -281,7 +281,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EL_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EL, SR, D1, 5RE'
+lblcoluna   = 'EL, $D_1$ = 5$R_t$'
 cor         = 'k'
 tamanho     = 2
 ordem       = 1
@@ -301,8 +301,8 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EP_DPII_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SR, DPII, D1, 5RE'
-cor         = 'g'
+lblcoluna   = 'EP, DPII, $D_1$ = 5$R_t$'
+cor         = 'b'
 tamanho     = 2
 ordem       = 1
 alpha       = 1
@@ -321,7 +321,7 @@ graficar(figura,titulo,lbleixox,lbleixoy,
 modelo      = 'MA_EP_MC_SR'
 arquivo     = modelo + '\\tabela_90.txt'
 ncoluna     = 98
-lblcoluna   = 'EP, SR, MC, D1, 5RE'
+lblcoluna   = 'EP, MC, $D_1$ = 5$R_t$'
 cor         = 'r'
 tamanho     = 2
 ordem       = 1
@@ -336,3 +336,402 @@ graficar(figura,titulo,lbleixox,lbleixoy,
           ncoluna,lblcoluna,
           cor,tamanho,ordem,alpha,estilo,
           suavizar,filterx1,filterx2,wl,poly)
+#%% PERFIL DE CONVERGENCIAS - PARAMETRO FRICCIONAL - EP CRE
+
+""" ********************************************
+PERFIL DE CONVERGENCIAS - GRÁFICOS PARÂMETRO FRICCIONAL - EP CRE
+************************************************ """ 
+
+# Dados gerais da plotagem
+figura      = 3
+titulo      = 'FRICperfilconvergenciaCRE'
+lbleixox    = r'$z/R_t$'
+lbleixoy    = r'$U_B$ [\%]'
+xmin        = 2
+xmax        = 40
+ymin        = 0
+ymax        = 1.2
+invertx     = True
+inserirx0   = True
+x0          = 100*1/3
+
+# Opção de suavização
+suavizar    = True
+filterx1    = 100
+filterx2    = 200
+wl          = 30
+poly        = 10
+
+# Plotagem da primeira curva
+modelo      = 'AXI_EP_CRE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+cor         = '#0C0A3E'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da segunda curva
+modelo      = 'EP_CRE_CG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, CG, DPII, $D_1$ = $4R_t$'
+cor         = '#7B1E7A'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da terceira curva
+modelo      = 'EP_CRE_SG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, SG, DPII, $D_1$ = $4R_t$'
+cor         = 'b'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da quarta curva
+modelo      = 'AXI_EP_CRE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, VM, $D_1$ = $\infty$'
+cor         = '#3d1308'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da quinta curva
+modelo      = 'EP_CRE_CG_D1_4RE_VM_DALG_1'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, CG, VM, $D_1$ = $4R_t$'
+cor         = '#F3B700'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da sexta curva
+modelo      = 'EP_CRE_SG_D1_4RE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, SG, VM, $D_1$ = $4R_t$'
+cor         = 'r'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+#%% PERFIL DE CONVERGENCIAS - PARAMETRO FRICCIONAL - EP SR
+
+""" ********************************************
+PERFIL DE CONVERGENCIAS - GRÁFICOS PARÂMETRO FRICCIONAL - EP SR
+************************************************ """ 
+
+# Dados gerais da plotagem
+figura      = 4
+titulo      = 'FRICperfilconvergenciaSR'
+lbleixoy    = r'$U_B$ [\%]'
+xmin        = 2
+xmax        = 40
+ymin        = 0
+ymax        = 2.4
+invertx     = True
+inserirx0   = True
+x0          = 100*1/3
+
+# Opção de suavização
+suavizar    = True
+filterx1    = 100
+filterx2    = 200
+wl          = 30
+poly        = 10
+
+# Plotagem da primeira curva
+modelo      = 'AXI_EP_SR_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, DPII, $D_1$ = $\infty$'
+cor         = '#0C0A3E'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da segunda curva
+modelo      = 'EP_SR_CG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, CG, DPII, $D_1$ = $4R_t$'
+cor         = '#7B1E7A'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da terceira curva
+modelo      = 'EP_SR_SG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, SG, DPII, $D_1$ = $4R_t$'
+cor         = 'b'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+
+# Plotagem da quarta curva
+modelo      = 'AXI_EP_SR_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, VM, $D_1$ = $\infty$'
+cor         = '#3d1308'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+
+# Plotagem da quinta curva
+modelo      = 'EP_SR_CG_D1_4RE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, CG, VM, $D_1$ = $4R_t$'
+cor         = '#F3B700'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+
+# Plotagem da sexta curva
+modelo      = 'EP_SR_SG_D1_4RE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 98
+lblcoluna   = 'EP, SG, VM, $D_1$ = $4R_t$'
+cor         = 'r'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+#%% PERFIL DE CONVERGENCIAS - PARAMETRO FRICCIONAL - EPVP CRVE
+
+""" ********************************************
+PERFIL DE CONVERGENCIAS - GRÁFICOS PARÂMETRO FRICCIONAL - EPVP CRVE
+************************************************ """ 
+
+# Dados gerais da plotagem
+figura      = 5
+titulo      = 'FRICperfilconvergenciaEPVP'
+lbleixoy    = r'$U_B$ [\%]'
+xmin        = 2
+xmax        = 40
+ymin        = 0
+ymax        = 2.4
+invertx     = True
+inserirx0   = True
+x0          = 100*1/3
+
+# Opção de suavização
+suavizar    = True
+filterx1    = 100
+filterx2    = 200
+wl          = 30
+poly        = 10
+
+# Plotagem da primeira curva
+modelo      = 'EPVP_CRVE_CG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 100
+lblcoluna   = 'EPVP, CG, DPII, $D_1$ = $4R_t$, CP'
+cor         = '#0C0A3E'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da segunda curva
+modelo      = 'EPVP_CRVE_CG_D1_4RE_DPII'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 105
+lblcoluna   = 'EPVP, CG, DPII, $D_1$ = $4R_t$, LP'
+cor         = '#7B1E7A'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# # Plotagem da terceira curva
+# modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
+# arquivo     = modelo + '\\tabela_90.txt'
+# ncoluna     = 100
+# lblcoluna   = 'EPVP, CG, VM, $D_1$ = $4R_t$, CP'
+# cor         = 'r'
+# tamanho     = 2
+# ordem       = 1
+# alpha       = 1
+# estilo      = 'solid'
+
+# graficar(figura,titulo,lbleixox,lbleixoy,
+#           xmin,xmax,ymin,ymax,
+#           invertx,
+#           inserirx0,x0,
+#           arquivo,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           suavizar,filterx1,filterx2,wl,poly)
+
+
+# # Plotagem da quarta curva
+# modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
+# arquivo     = modelo + '\\tabela_90.txt'
+# ncoluna     = 105
+# lblcoluna   = 'EPVP, CG, VM, $D_1$ = $4R_t$, LP'
+# cor         = '#E57C04'
+# tamanho     = 2
+# ordem       = 1
+# alpha       = 1
+# estilo      = 'dashed'
+
+# graficar(figura,titulo,lbleixox,lbleixoy,
+#           xmin,xmax,ymin,ymax,
+#           invertx,
+#           inserirx0,x0,
+#           arquivo,
+#           ncoluna,lblcoluna,
+#           cor,tamanho,ordem,alpha,estilo,
+#           suavizar,filterx1,filterx2,wl,poly)

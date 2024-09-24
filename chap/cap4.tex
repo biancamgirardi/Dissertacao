@@ -182,8 +182,33 @@ Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram 
 
 Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_x = \sigma_y = 2,2 ~\text{MPa}$ e duas diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
 
+\autoref{GUOperfilconvergenciaUB}
 
-RESULTADOS
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{GUOperfilconvergenciaUB.pdf}
+	\end{center}
+	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no ponto B}
+\end{figure}
+
+\autoref{GUOrelacaoUBUA}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{GUOrelacaoUBUA.pdf}
+	\end{center}
+	\caption{\label{GUOrelacaoUBUA}Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}
+\end{figure}
+
+
+\autoref{GUOfatordeconcentracaotangencialA}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{GUOfatordeconcentracaotangencialA.pdf}
+	\end{center}
+	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial no ponto A \textit{versus} distância dos túneis gêmeos $d_1/2R_t$}
+\end{figure}
 
 
 \subsection{Análise de túneis gêmeos não revestidos em elastoplasticidade}
@@ -201,7 +226,12 @@ Para o maciço rochoso, adotou-se um comportamento elastoplástico perfeito defi
 
 As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 metros e as tensões iniciais anisotrópicas, sendo $\sigma_h = 40$ MPa e $\sigma_v = 30$ MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0,3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
 
-RESULTADOS
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{MAperfilconvergenciaUB.pdf}
+	\end{center}
+	\caption{\label{MAperfilconvergenciaUB}Perfis de convergência no ponto B}
+\end{figure}
 
 % ---
 \section{Aplicação considerando o parâmetro friccional}
@@ -211,8 +241,18 @@ Esta seção possui o objetivo de aplicar a modelagem computacional para avaliar
 Os parâmetros geométricos considerados nesta seção consistem em: raio dos túneis longitudinais $R_t$ = 1 m, espessura do revestimento $e_t$ = 0,1 m, distância entre os eixos dos túneis longitudinais $d_1$ = 4 m. Para o maciço rochoso, tem-se módulo de Young $E$ = 1500 MPa, coeficiente de Poisson $\nu$ = 0,498, a coesão $c$ = $\frac{4\sqrt{3}}{2}$ e ângulo de atrito $\phi$ = 30°, além da coesão viscoplástica $c_{vp} = \frac{2\sqrt{3}}{2}$. O revestimento possui módulo de Young $E$ = 30303 MPa e coeficiente de Poisson $\nu$ = 0,2. Adota-se um estado de tensão inicial hidrostático isotrópico com $\sigma_x = \sigma_y = 9$ MPa.
 
 
-GRÁFICO 1: todas as análises com revestimento elástico, que são 6 no total (2 axi e 4 3D)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{FRICperfilconvergenciaCRE.pdf}
+	\end{center}
+	\caption{\label{FRICperfilconvergenciaCRE}Perfis de convergência dos túneis gêmeos para maciço elastoplástico e com revestimento elástico}
+\end{figure}
 
-GRÁFICO 2: todas as análises sem revestimento, que são 6 no total (2 axi e 4 3D)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{FRICperfilconvergenciaSR.pdf}
+	\end{center}
+	\caption{\label{FRICperfilconvergenciaSR}Perfis de convergência dos túneis gêmeos para maciço elastoplástico e sem revestimento}
+\end{figure}
 
 GRÁFICO 3: todas as análises EPVP, que são 2 no total, porém, serão 4 pois é CP e LP
