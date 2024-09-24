@@ -1,0 +1,1427 @@
+/BATCH  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       04:32:29
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       04:32:29
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       04:42:25
+/BATCH  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       07:51:04
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       07:51:04
+/BATCH  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       15:38:18
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+RESUME  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       15:38:25
+/POST1  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+SET,LIST,999
+SET,,, ,,, ,102 
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+ESEL,S,LIVE 
+EPLOT   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/ZOOM,1,SCRN,0.525394,-0.318925,0.643180,-0.380257  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+SET,LIST,999
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!*  
+!*  
+/DSCALE,ALL,1   
+PLESOL, NL,SRAT, 0,1.0  
+PLESOL, NL,SRAT, 0,1.0  
+/VIEW,1,,,1 
+/ANG,1  
+/REP,FAST   
+/ZOOM,1,SCRN,0.130319,-0.110397,0.280005,-0.183995  
+/AUTO,1 
+/REP,FAST   
+/AUTO,1 
+/REP,FAST   
+/ZOOM,1,SCRN,0.716797,-0.762967,0.972001,-0.789953  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/VIEW,  1, -0.193659139752E-05, -0.209409130858E-01,  0.999780715035
+/ANG,   1,  0.156940294515E-02  
+/REPLO  
+/REPLOT,RESIZE  
+/REPLOT,RESIZE  
+/REPLOT,RESIZE  
+/REPLOT,RESIZE  
+/VIEW,1,,,1 
+/ANG,1  
+/REP,FAST   
+ALLSEL,ALL  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!*  
+/EFACET,1   
+PLNSOL, U,SUM, 0,1.0
+/EFACET,1   
+PLNSOL, U,SUM, 0,1.0
+ESEL,S,LIVE 
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!*  
+PLESOL, NL,SRAT, 0,1.0  
+!*  
+/CONT,1,9,1, ,1 
+/REPLOT 
+!*  
+!*  
+/CONT,1,9,0.9, ,1   
+/REPLOT 
+!*  
+/REPLOT,RESIZE  
+!   
+*SET,teta  , 135   ! ângulo
+*SET,zf  , l1+l2   ! cota ao longo dez  
+!   
+! selecionando os nós na interface entre revestimento e o maciço  
+*IF,teta,EQ,0,THEN  
+CSYS,0, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,-d4,d1/2   
+NSEL,R,LOC,Y,0,0
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'x' 
+*SET,localizacao , 'x'  
+*ELSEIF,teta,EQ,90,THEN 
+CSYS,0, 
+ALLSEL,ALL  
+ESEL,S,LIVE 
+NSEL,S,LOC,X,0,0
+NSEL,R,LOC,Y,0,d3   
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'y' 
+*SET,localizacao , 'y'  
+*ELSEIF,teta,EQ,45,THEN 
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,10   
+NSEL,R,LOC,Y,45,45  
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ELSEIF,teta,EQ,135,THEN
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,d3   
+NSEL,R,LOC,Y,135,135
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ENDIF  
+!   
+! sistemas de referencias dos resultados
+RSYS,1  
+!   
+! dimensionando arrays  
+*SET,nanalises , 0  
+*GET,nanalises,ACTIVE,0,SET,NSET ! pegando o número de análises   
+*GET,ncount,NODE,,COUNT     ! pegando numero máximo de nós selecionados   
+*GET,ntotal,NODE,,NUM,MAX    ! pegando numero total de nós 
+*DIM,convergencex,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,convergencey,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,stressx,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em x
+*DIM,stressy,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em y
+*DIM,coordz,ARRAY,ntotal    ! dimensionando vetor de coordenadas nodais 
+*DIM,ORDER,ARRAY,ncount     ! array auxiliar para ordenamento   
+*DIM,u_x,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em x   
+*DIM,u_y,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em y   
+*DIM,s_x,ARRAY,ntotal     ! dimensionando vetor de pressões em x   
+*DIM,s_y,ARRAY,ntotal     ! dimensionando vetor de pressões em y   
+*DIM,n_sel,ARRAY,ntotal     ! dimensionando vetor que indica se o nó está selecionado 
+!   
+! coloca lista de nós em ordem na primeira coluna  
+*VGET,convergencex(1,1),NODE,,NLIST 
+*VGET,convergencey(1,1),NODE,,NLIST 
+*VGET,stressx(1,1),NODE,,NLIST  
+*VGET,stressy(1,1),NODE,,NLIST  
+!   
+! criando vetor de coordenadas  
+*VGET,n_sel(1),NODE,1,NSEL  
+*VGET,coordz(1),NODE,1,LOC,localizacao  
+*VOPER,coordz(1),coordz(1),MULT,1 !1/Re 
+!   
+! Preenchendo o convergence e pressure com as coordenadas   
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2),COMP,coordz(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2),COMP,coordz(1)   
+!   
+! preenchendo o convergence com a convergência 
+*DO,i,1,nanalises,1 
+! identifica o passo
+*IF,i,EQ,nanalises,THEN 
+SUBSET,LAST 
+*ELSE   
+*IF,matmacico,LE,1,AND,matrev,EQ,0,THEN 
+SUBSET,LAST 
+*ELSE   
+SUBSET,i,,,,,,  
+*ENDIF  
+*ENDIF  
+!   
+! Preenchendo o array com os deslocamentos radiais e tensões radiais   
+*VMASK,n_sel(1) 
+*VGET,u_x(1),NODE,1,U,X 
+*VOPER,u_x(1),u_x(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,u_y(1),NODE,1,U,Y 
+*VOPER,u_y(1),u_y(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_x(1),NODE,1,S,X 
+*VOPER,s_x(1),s_x(1),MULT,1 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_y(1),NODE,1,S,Y 
+*VOPER,s_y(1),s_y(1),MULT,1 
+!   
+! Preenchendo o convergence e pressure  
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2+i),COMP,u_x(1)   
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2+i),COMP,u_y(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2+i),COMP,s_x(1)
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2+i),COMP,s_y(1)
+*ENDDO  
+!   
+! ordena a tabela de acordo com a segunda coluna (das coordenadas)  
+*MOPER,ORDER,convergencex,SORT,convergencex(1,2)
+*MOPER,ORDER,convergencey,SORT,convergencey(1,2)
+*MOPER,ORDER,stressx,SORT,stressx(1,2)  
+*MOPER,ORDER,stressy,SORT,stressy(1,2)  
+!   
+! Coleta o maior valor das convergências   
+*VSCFUN,uxmaximofinal,max,convergencex(1,2+nanalises)   
+*VSCFUN,uymaximofinal,max,convergencey(1,2+nanalises)   
+!   
+*VSCFUN,sxmaximofinal,max,stressx(1,2+nanalises)
+*VSCFUN,sxminimofinal,min,stressx(1,2+nanalises)
+!   
+*VSCFUN,symaximofinal,max,stressy(1,2+nanalises)
+*VSCFUN,syminimofinal,min,stressy(1,2+nanalises)
+!   
+! formatando grafico de convergencia x  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Ux=-ux(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencex(1,2),convergencex(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico de convergencia y  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Uy=-uy(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencey(1,2),convergencey(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+!   
+! formatando grafico do stress x
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sx(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressx(1,2),stressx(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico do stress y
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sy(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressy(1,2),stressy(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! Escrevendo em arquivo as convergências   
+*CREATE,ansuitmp
+*MWRITE,convergencex,convergencex_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,convergencey,convergencey_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+!   
+! Escrevendo em arquivo stress  
+*CREATE,ansuitmp
+*MWRITE,stressx,stressx_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,stressy,stressy_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+! Cria arquivo com os parâmetros   
+PARSAV,SCALAR,parametros,txt
+!   
+*SET,teta  , 90   ! ângulo 
+*SET,zf  , l1+l2   ! cota ao longo dez  
+!   
+! selecionando os nós na interface entre revestimento e o maciço  
+*IF,teta,EQ,0,THEN  
+CSYS,0, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,-d4,d1/2   
+NSEL,R,LOC,Y,0,0
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'x' 
+*SET,localizacao , 'x'  
+*ELSEIF,teta,EQ,90,THEN 
+CSYS,0, 
+ALLSEL,ALL  
+ESEL,S,LIVE 
+NSEL,S,LOC,X,0,0
+NSEL,R,LOC,Y,0,d3   
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'y' 
+*SET,localizacao , 'y'  
+*ELSEIF,teta,EQ,45,THEN 
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,10   
+NSEL,R,LOC,Y,45,45  
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ELSEIF,teta,EQ,135,THEN
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,d3   
+NSEL,R,LOC,Y,135,135
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ENDIF  
+!   
+! sistemas de referencias dos resultados
+RSYS,1  
+!   
+! dimensionando arrays  
+*SET,nanalises , 0  
+*GET,nanalises,ACTIVE,0,SET,NSET ! pegando o número de análises   
+*GET,ncount,NODE,,COUNT     ! pegando numero máximo de nós selecionados   
+*GET,ntotal,NODE,,NUM,MAX    ! pegando numero total de nós 
+*DIM,convergencex,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,convergencey,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,stressx,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em x
+*DIM,stressy,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em y
+*DIM,coordz,ARRAY,ntotal    ! dimensionando vetor de coordenadas nodais 
+*DIM,ORDER,ARRAY,ncount     ! array auxiliar para ordenamento   
+*DIM,u_x,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em x   
+*DIM,u_y,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em y   
+*DIM,s_x,ARRAY,ntotal     ! dimensionando vetor de pressões em x   
+*DIM,s_y,ARRAY,ntotal     ! dimensionando vetor de pressões em y   
+*DIM,n_sel,ARRAY,ntotal     ! dimensionando vetor que indica se o nó está selecionado 
+!   
+! coloca lista de nós em ordem na primeira coluna  
+*VGET,convergencex(1,1),NODE,,NLIST 
+*VGET,convergencey(1,1),NODE,,NLIST 
+*VGET,stressx(1,1),NODE,,NLIST  
+*VGET,stressy(1,1),NODE,,NLIST  
+!   
+! criando vetor de coordenadas  
+*VGET,n_sel(1),NODE,1,NSEL  
+*VGET,coordz(1),NODE,1,LOC,localizacao  
+*VOPER,coordz(1),coordz(1),MULT,1 !1/Re 
+!   
+! Preenchendo o convergence e pressure com as coordenadas   
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2),COMP,coordz(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2),COMP,coordz(1)   
+!   
+! preenchendo o convergence com a convergência 
+*DO,i,1,nanalises,1 
+! identifica o passo
+*IF,i,EQ,nanalises,THEN 
+SUBSET,LAST 
+*ELSE   
+*IF,matmacico,LE,1,AND,matrev,EQ,0,THEN 
+SUBSET,LAST 
+*ELSE   
+SUBSET,i,,,,,,  
+*ENDIF  
+*ENDIF  
+!   
+! Preenchendo o array com os deslocamentos radiais e tensões radiais   
+*VMASK,n_sel(1) 
+*VGET,u_x(1),NODE,1,U,X 
+*VOPER,u_x(1),u_x(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,u_y(1),NODE,1,U,Y 
+*VOPER,u_y(1),u_y(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_x(1),NODE,1,S,X 
+*VOPER,s_x(1),s_x(1),MULT,1 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_y(1),NODE,1,S,Y 
+*VOPER,s_y(1),s_y(1),MULT,1 
+!   
+! Preenchendo o convergence e pressure  
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2+i),COMP,u_x(1)   
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2+i),COMP,u_y(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2+i),COMP,s_x(1)
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2+i),COMP,s_y(1)
+*ENDDO  
+!   
+! ordena a tabela de acordo com a segunda coluna (das coordenadas)  
+*MOPER,ORDER,convergencex,SORT,convergencex(1,2)
+*MOPER,ORDER,convergencey,SORT,convergencey(1,2)
+*MOPER,ORDER,stressx,SORT,stressx(1,2)  
+*MOPER,ORDER,stressy,SORT,stressy(1,2)  
+!   
+! Coleta o maior valor das convergências   
+*VSCFUN,uxmaximofinal,max,convergencex(1,2+nanalises)   
+*VSCFUN,uymaximofinal,max,convergencey(1,2+nanalises)   
+!   
+*VSCFUN,sxmaximofinal,max,stressx(1,2+nanalises)
+*VSCFUN,sxminimofinal,min,stressx(1,2+nanalises)
+!   
+*VSCFUN,symaximofinal,max,stressy(1,2+nanalises)
+*VSCFUN,syminimofinal,min,stressy(1,2+nanalises)
+!   
+! formatando grafico de convergencia x  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Ux=-ux(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencex(1,2),convergencex(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico de convergencia y  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Uy=-uy(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencey(1,2),convergencey(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+!   
+! formatando grafico do stress x
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sx(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressx(1,2),stressx(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico do stress y
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sy(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressy(1,2),stressy(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! Escrevendo em arquivo as convergências   
+*CREATE,ansuitmp
+*MWRITE,convergencex,convergencex_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,convergencey,convergencey_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+!   
+! Escrevendo em arquivo stress  
+*CREATE,ansuitmp
+*MWRITE,stressx,stressx_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,stressy,stressy_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+! Cria arquivo com os parâmetros   
+PARSAV,SCALAR,parametros,txt
+!   
+*SET,teta  , 45   ! ângulo 
+*SET,zf  , l1+l2   ! cota ao longo dez  
+!   
+! selecionando os nós na interface entre revestimento e o maciço  
+*IF,teta,EQ,0,THEN  
+CSYS,0, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,-d4,d1/2   
+NSEL,R,LOC,Y,0,0
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'x' 
+*SET,localizacao , 'x'  
+*ELSEIF,teta,EQ,90,THEN 
+CSYS,0, 
+ALLSEL,ALL  
+ESEL,S,LIVE 
+NSEL,S,LOC,X,0,0
+NSEL,R,LOC,Y,0,d3   
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,0  
+*SET,eixo , 'y' 
+*SET,localizacao , 'y'  
+*ELSEIF,teta,EQ,45,THEN 
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,10   
+NSEL,R,LOC,Y,45,45  
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ELSEIF,teta,EQ,135,THEN
+CSYS,1, 
+ALLSEL,ALL  
+NSEL,S,LOC,X,0,d3   
+NSEL,R,LOC,Y,135,135
+NSEL,R,LOC,Z,zf 
+NSLE,R,CORNER   
+CSYS,1  
+*SET,eixo , 'r' 
+*SET,localizacao , 'X'  
+*ENDIF  
+!   
+! sistemas de referencias dos resultados
+RSYS,1  
+!   
+! dimensionando arrays  
+*SET,nanalises , 0  
+*GET,nanalises,ACTIVE,0,SET,NSET ! pegando o número de análises   
+*GET,ncount,NODE,,COUNT     ! pegando numero máximo de nós selecionados   
+*GET,ntotal,NODE,,NUM,MAX    ! pegando numero total de nós 
+*DIM,convergencex,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,convergencey,TABLE,ncount,2+nanalises ! dimensionando tabela de convergencias  
+*DIM,stressx,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em x
+*DIM,stressy,TABLE,ncount,2+nanalises   ! dimensionando tabela de pressões em y
+*DIM,coordz,ARRAY,ntotal    ! dimensionando vetor de coordenadas nodais 
+*DIM,ORDER,ARRAY,ncount     ! array auxiliar para ordenamento   
+*DIM,u_x,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em x   
+*DIM,u_y,ARRAY,ntotal     ! dimensionando vetor de deslocamentos em y   
+*DIM,s_x,ARRAY,ntotal     ! dimensionando vetor de pressões em x   
+*DIM,s_y,ARRAY,ntotal     ! dimensionando vetor de pressões em y   
+*DIM,n_sel,ARRAY,ntotal     ! dimensionando vetor que indica se o nó está selecionado 
+!   
+! coloca lista de nós em ordem na primeira coluna  
+*VGET,convergencex(1,1),NODE,,NLIST 
+*VGET,convergencey(1,1),NODE,,NLIST 
+*VGET,stressx(1,1),NODE,,NLIST  
+*VGET,stressy(1,1),NODE,,NLIST  
+!   
+! criando vetor de coordenadas  
+*VGET,n_sel(1),NODE,1,NSEL  
+*VGET,coordz(1),NODE,1,LOC,localizacao  
+*VOPER,coordz(1),coordz(1),MULT,1 !1/Re 
+!   
+! Preenchendo o convergence e pressure com as coordenadas   
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2),COMP,coordz(1)  
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2),COMP,coordz(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2),COMP,coordz(1)   
+!   
+! preenchendo o convergence com a convergência 
+*DO,i,1,nanalises,1 
+! identifica o passo
+*IF,i,EQ,nanalises,THEN 
+SUBSET,LAST 
+*ELSE   
+*IF,matmacico,LE,1,AND,matrev,EQ,0,THEN 
+SUBSET,LAST 
+*ELSE   
+SUBSET,i,,,,,,  
+*ENDIF  
+*ENDIF  
+!   
+! Preenchendo o array com os deslocamentos radiais e tensões radiais   
+*VMASK,n_sel(1) 
+*VGET,u_x(1),NODE,1,U,X 
+*VOPER,u_x(1),u_x(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,u_y(1),NODE,1,U,Y 
+*VOPER,u_y(1),u_y(1),MULT,-1/Re*100 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_x(1),NODE,1,S,X 
+*VOPER,s_x(1),s_x(1),MULT,1 
+!   
+*VMASK,n_sel(1) 
+*VGET,s_y(1),NODE,1,S,Y 
+*VOPER,s_y(1),s_y(1),MULT,1 
+!   
+! Preenchendo o convergence e pressure  
+*VMASK,n_sel(1) 
+*VFUN,convergencex(1,2+i),COMP,u_x(1)   
+*VMASK,n_sel(1) 
+*VFUN,convergencey(1,2+i),COMP,u_y(1)   
+*VMASK,n_sel(1) 
+*VFUN,stressx(1,2+i),COMP,s_x(1)
+*VMASK,n_sel(1) 
+*VFUN,stressy(1,2+i),COMP,s_y(1)
+*ENDDO  
+!   
+! ordena a tabela de acordo com a segunda coluna (das coordenadas)  
+*MOPER,ORDER,convergencex,SORT,convergencex(1,2)
+*MOPER,ORDER,convergencey,SORT,convergencey(1,2)
+*MOPER,ORDER,stressx,SORT,stressx(1,2)  
+*MOPER,ORDER,stressy,SORT,stressy(1,2)  
+!   
+! Coleta o maior valor das convergências   
+*VSCFUN,uxmaximofinal,max,convergencex(1,2+nanalises)   
+*VSCFUN,uymaximofinal,max,convergencey(1,2+nanalises)   
+!   
+*VSCFUN,sxmaximofinal,max,stressx(1,2+nanalises)
+*VSCFUN,sxminimofinal,min,stressx(1,2+nanalises)
+!   
+*VSCFUN,symaximofinal,max,stressy(1,2+nanalises)
+*VSCFUN,syminimofinal,min,stressy(1,2+nanalises)
+!   
+! formatando grafico de convergencia x  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Ux=-ux(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencex(1,2),convergencex(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico de convergencia y  
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Uy=-uy(r,theta=%teta%)/Re (%)  
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,convergencey(1,2),convergencey(1,2+i)
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+!   
+! formatando grafico do stress x
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sx(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressx(1,2),stressx(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! formatando grafico do stress y
+/RGB,INDEX,100,100,100,0
+/RGB,INDEX,0,0,0,15 
+/AXLAB,X,%eixo% 
+/AXLAB,Y,Sy(r,theta=%teta%)(MPa)
+/XRANGE,DEFAULT 
+/YRANGE,DEFAULT 
+/GROPT,DIVY,20  
+/GROPT,DIVX,10  
+/GROPT,DIG1,3   
+/GTHK,CURVE,1   
+/PLOPTS,INFO,on 
+!   
+! graficando na tela do Ansys   
+/ERASE  
+/SHOW,JPEG,,iso 
+*DO,i,1,nanalises,1 
+*IF,i,EQ,nanalises,THEN 
+/COLOR,CURVE,MAGE,1 
+*ELSEIF,i,EQ,nesc+nesc1-1,THEN  
+/COLOR,CURVE,YELL,1 
+*ELSE   
+/COLOR,CURVE,LGRA,1 
+*ENDIF  
+*VPLOT,stressy(1,2),stressy(1,2+i)  
+/NOERASE
+*ENDDO  
+/SHOW,CLOSE 
+/ERASE  
+!   
+! Escrevendo em arquivo as convergências   
+*CREATE,ansuitmp
+*MWRITE,convergencex,convergencex_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,convergencey,convergencey_zf_%teta%,txt 
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+!   
+! Escrevendo em arquivo stress  
+*CREATE,ansuitmp
+*MWRITE,stressx,stressx_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+*CREATE,ansuitmp
+*MWRITE,stressy,stressy_zf_%teta%,txt   
+(1000(E10.4,3X))
+*END
+/INPUT,ansuitmp 
+!   
+! Cria arquivo com os parâmetros   
+PARSAV,SCALAR,parametros,txt
+/EXPAND, ,RECT,FULL,-0.00001,,, ,RECT,FULL,,-0.1,, ,RECT,FULL,,,,   
+/REPLOT 
+!*  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+!*  
+/DSCALE,ALL,1   
+PLESOL, NL,SRAT, 0,1.0  
+/FOC,   1, -0.339337797626    ,  0.532119283737    ,   38.3333727674
+/REPLO  
+/REPLO  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+PLESOL, NL,SRAT, 0,1.0  
+PLESOL, NL,SRAT, 0,1.0  
+!*  
+/EFACET,1   
+PLNSOL, U,SUM, 0,1.0
+/REPLO  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/FOC,   1, -0.461399380741    ,   1.74163860733    ,   38.3333727674
+/REPLO  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/FOC,   1,  -1.51215310309    ,   3.85444447916    ,   38.3333727674
+/REPLO  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+!*  
+PLESOL, NL,SRAT, 0,1.0  
+/DSCALE,ALL,1   
+PLESOL, NL,SRAT, 0,1.0  
+PLESOL, NL,SRAT, 0,1.0  
+SET,LIST,999
+SET,,, ,,, ,103 
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/FOC,   1,  -7.44056359846    ,   7.65401666028    ,   38.3333727674
+/REPLO  
+RESUME  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       16:26:13
+/REPLOT,RESIZE  
+/USER,  1   
+/FOC,   1,  -10.5791004958    ,   15.9931250663    ,   43.0128660342
+/REPLO  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       16:26:50
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+RESUME  
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       16:26:57
+/POST1  
+SET,LIST,999
+SET,,, ,,, ,103 
+!*  
+/DSCALE,ALL,1   
+PLESOL, NL,SRAT, 0,1.0  
+PLESOL, NL,SRAT, 0,1.0  
+/VIEW,1,,,1 
+/ANG,1  
+/REP,FAST   
+/ZOOM,1,SCRN,0.574472,-0.264953,0.726612,-0.358178  
+!*  
+PLESOL, NL,SRAT, 0,1.0  
+SET,LIST
+SET,LIST,999
+SET,,, ,,, ,102 
+ESEL,S,LIVE 
+EPLOT   
+!*  
+/DSCALE,ALL,1   
+PLESOL, NL,SRAT, 0,1.0  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,   1, -0.217836690381    ,  0.842782696169    ,   38.3333333333
+/REPLO  
+/EXPAND, ,RECT,FULL,-0.1,,, ,RECT,FULL,,,, ,RECT,FULL,,,,   
+/REPLOT 
+!*  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/EXPAND, ,RECT,FULL,0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND, ,RECT,HALF,0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND, ,RECT,HALF,0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND, ,RECT,HALF,-0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,, 
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,-0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,, 
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,0.1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,0.2,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,0.3,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,0.5,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,1,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,3,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,2.5,0,0, ,RECT,FULL,,,, ,RECT,FULL,,,,  
+/REPLOT 
+!*  
+/EXPAND,1,RECT,HALF,2.5,0,0,1,RECT,HALF,0,-0.00001,, ,RECT,FULL,,,, 
+/REPLOT 
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/EXPAND,1,RECT,HALF,2.5,0,0,1,RECT,HALF,0,-1e-05,, ,RECT,FULL,,,,   
+/REPLOT 
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,   1,   1.66984702911    ,  0.670303980683    ,   38.3333333333
+/REPLO  
+/FOC,   1,   1.93814725320    ,  0.689468282404    ,   38.3333333333
+/REPLO  
+/FOC,   1,   2.21602962815    ,  0.660721829823    ,   38.3333333333
+/REPLO  
+/REPLOT,RESIZE  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,   1,  0.833986160890    ,  0.708932648448    ,   38.3333333333
+/REPLO  
+/FOC,   1,  0.267509042042    ,  0.708932648448    ,   38.3333333333
+/REPLO  
+/EXPAND,0,RECT,HALF,2.5,0,0,0,RECT,HALF,0,-1e-05,, ,RECT,FULL,,,,   
+/REPLOT 
+!*  
+/EXPAND,0,RECT,HALF,2.5,0,0,0,RECT,HALF,0,-1e-05,, ,RECT,FULL,,,,   
+/REPLOT 
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,   1,  0.548329692168E-01,   1.04852831312    ,   38.3333333333
+/REPLO  
+FINISH  
+! /EXIT,NOSAV   

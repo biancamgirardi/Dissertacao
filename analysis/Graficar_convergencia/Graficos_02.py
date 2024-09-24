@@ -640,10 +640,10 @@ PERFIL DE CONVERGENCIAS - GRÁFICOS PARÂMETRO FRICCIONAL - EPVP CRVE
 figura      = 5
 titulo      = 'FRICperfilconvergenciaEPVP'
 lbleixoy    = r'$U_B$ [\%]'
-xmin        = 2
+xmin        = 5
 xmax        = 40
 ymin        = 0
-ymax        = 2.4
+ymax        = 1.6
 invertx     = True
 inserirx0   = True
 x0          = 100*1/3
@@ -684,6 +684,26 @@ cor         = '#7B1E7A'
 tamanho     = 2
 ordem       = 1
 alpha       = 1
+estilo      = 'dashed'
+
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)
+
+# Plotagem da terceira curva
+modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 100
+lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, CP'
+cor         = 'r'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
 estilo      = 'solid'
 
 graficar(figura,titulo,lbleixox,lbleixoy,
@@ -695,43 +715,23 @@ graficar(figura,titulo,lbleixox,lbleixoy,
           cor,tamanho,ordem,alpha,estilo,
           suavizar,filterx1,filterx2,wl,poly)
 
-# # Plotagem da terceira curva
-# modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
-# arquivo     = modelo + '\\tabela_90.txt'
-# ncoluna     = 100
-# lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, CP'
-# cor         = 'r'
-# tamanho     = 2
-# ordem       = 1
-# alpha       = 1
-# estilo      = 'solid'
 
-# graficar(figura,titulo,lbleixox,lbleixoy,
-#           xmin,xmax,ymin,ymax,
-#           invertx,
-#           inserirx0,x0,
-#           arquivo,
-#           ncoluna,lblcoluna,
-#           cor,tamanho,ordem,alpha,estilo,
-#           suavizar,filterx1,filterx2,wl,poly)
+# Plotagem da quarta curva
+modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
+arquivo     = modelo + '\\tabela_90.txt'
+ncoluna     = 130
+lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, LP'
+cor         = '#E57C04'
+tamanho     = 2
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
 
-
-# # Plotagem da quarta curva
-# modelo      = 'EPVP_CRVE_CG_D1_4RE_VM'
-# arquivo     = modelo + '\\tabela_90.txt'
-# ncoluna     = 130
-# lblcoluna   = 'EPVP, CG, VM, $d_1$ = $4R_t$, LP'
-# cor         = '#E57C04'
-# tamanho     = 2
-# ordem       = 1
-# alpha       = 1
-# estilo      = 'dashed'
-
-# graficar(figura,titulo,lbleixox,lbleixoy,
-#           xmin,xmax,ymin,ymax,
-#           invertx,
-#           inserirx0,x0,
-#           arquivo,
-#           ncoluna,lblcoluna,
-#           cor,tamanho,ordem,alpha,estilo,
-#           suavizar,filterx1,filterx2,wl,poly)
+graficar(figura,titulo,lbleixox,lbleixoy,
+          xmin,xmax,ymin,ymax,
+          invertx,
+          inserirx0,x0,
+          arquivo,
+          ncoluna,lblcoluna,
+          cor,tamanho,ordem,alpha,estilo,
+          suavizar,filterx1,filterx2,wl,poly)

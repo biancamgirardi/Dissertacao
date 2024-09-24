@@ -1,0 +1,415 @@
+
+ Ansys Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2022 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2022 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2022 R1 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. License Manager 2022 R1 
+ Additive 2022 R1
+ Customization Files for User Programmable Features 2022 R1  
+ Mechanical Products 2022 R1 
+ SpaceClaim 2022 R1  
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = file                                                                                                                                                                                                                                                    
+  BATCH MODE REQUESTED (-b)    = LIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  SHARED MEMORY PARALLEL REQUESTED
+    SINGLE PROCESS WITH   8 THREADS REQUESTED
+    TOTAL OF     8 CORES REQUESTED
+  INPUT FILE NAME              = C:\gitprojects\tunnel_analysis\ANALYSIS\ANALISES_02\EPVP_CRVE_CG_D1_4RE_DPII\postproc.txt
+  OUTPUT FILE NAME             = C:\gitprojects\tunnel_analysis\ANALYSIS\ANALISES_02\EPVP_CRVE_CG_D1_4RE_DPII\postproc.out
+  START-UP FILE MODE           = READ  
+  STOP FILE MODE               = READ  
+  LANGUAGE                     = en-us               
+  INITIAL DIRECTORY = C:\gitprojects\tunnel_analysis\ANALYSIS\ANALISES_02\EPVP_CRVE_CG_D1_4RE_DPII
+
+ User Link path (ANS_USER_PATH): C:\usermat                                                                                                                                                                                                                                              
+
+ RELEASE= 2022 R1              BUILD= 22.1      UP20211129   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file  10:59:33  SEP 24, 2024 CP=      0.062
+ Note - This ANSYS version was linked by Licensee
+     1  ! ARQUIVO DE PÓS-PROCESSAMENTO - MODELOS 3D !  
+     2  ! VERSÃO 01: 23/09/2024	       		    ! 
+     3  ! SITUAÇÃO: OK		       		    !	   
+     4      
+     5  ! Acessando o arquivo de dados  
+     6  RESUME,file,db  
+     7      
+     8  /POST1  
+     9      
+    10  ! Parâmetros   
+    11  theta = 90		! Coordenada polar do perfil de convergências  
+    12  npoints = 200		! Número de pontos de discretização do caminho
+    13      
+    14  ! Definindo o sistema de coordenadas cilindrico 
+    15  CSYS,1  
+    16      
+    17  ! Selecionando o primeiro e último nó do caminho  
+    18  ALLSEL,ALL  
+    19  no1 = node(Re,theta,0)  
+    20  no2 = node(Re,theta,lt) 
+    21      
+    22  ! Criando o caminho:
+    23  ALLSEL,ALL  
+    24  PATH,path1,2,20,npoints 
+    25  PPATH,1,no1 
+    26  PPATH,2,no2 
+    27      
+    28  ! Definindo o sistema de coordenadas (cilíndrico) para os resultados   
+    29  RSYS,1		! Sistema cilíndrico - eixo z  
+    30      
+    31  ! Número de análises  
+    32  *GET,nanalises,ACTIVE,0,SET,NSET
+    33      
+    34  ! Dimensionando a tabela de resultados  
+    35  *DIM,tabela,TABLE,npoints,nanalises+1   
+    36  *DIM,tabelasr,TABLE,npoints,nanalises+1 
+    37      
+    38  ! Preenchendo as tabelas de resultados  
+    39  subpasso = 1
+    40  *DO,subpasso,1,nanalises,1  
+    41      
+    42  	! Definindo o conjunto de dados o último loadstep 
+    43  	SUBSET,subpasso
+    44  	   
+    45  	! Escrevendo a convergência   
+    46  	PDEF,ur,U,X,AVG
+    47  	PCALC,ADD,Ur_theta,ur,,-1/Re*100,, ,   
+    48  	*DO,i,1,npoints,1  
+    49  		*GET,tabela(i,1),PATH,0,ITEM,Zg,PATHPT,i  
+    50  		*GET,tabela(i,subpasso+1),PATH,0,ITEM,Ur_theta,PATHPT,i   
+    51  	*ENDDO 
+    52  	   
+    53  	! Escrevendo as tensões radiais   
+    54  	PDEF,sr_theta,S,X,AVG  
+    55  	*DO,i,1,npoints,1  
+    56  		*GET,tabelasr(i,1),PATH,0,ITEM,Zg,PATHPT,i
+    57  		*GET,tabelasr(i,subpasso+1),PATH,0,ITEM,sr_theta,PATHPT,i 
+    58  	*ENDDO 
+    59  	   
+    60  *ENDDO  
+    61      
+    62  ! Escrevendo no arquivo 
+    63  *CREATE,ansuitmp
+    64  *MWRITE,tabela,tabela_%theta%,txt   
+    65  (1000(E10.4,3X))
+    66  *END
+    67  /INPUT,ansuitmp 
+    68      
+    69  ! Escrevendo no arquivo 
+    70  *CREATE,ansuitmp
+    71  *MWRITE,tabelasr,tabelasr_%theta%,txt   
+    72  (1000(E10.4,3X))
+    73  *END
+    74  /INPUT,ansuitmp 
+    75      
+    76  ! Cria arquivo com os parâmetros   
+    77  PARSAV,ALL,parametros_postproc,txt  
+    78      
+    79  ! Lixo  
+    80  ! Plotando o caminho
+    81  !PLPATH,Ur_theta
+    82      
+    83  ! Printando o caminho   
+    84  !PRPATH,Ur_theta
+
+ RUN SETUP PROCEDURE FROM FILE= C:\Program Files\ANSYS Inc\v221\ANSYS\apdl\start.ans
+
+ /INPUT FILE= C:\Program Files\ANSYS Inc\v221\ANSYS\apdl\start.ans  LINE=       0
+
+ RESUME ANSYS DATA FROM FILE NAME=file.db                                                                                                                                                                                                                                                             
+
+ *** NOTE ***                            CP =       0.469   TIME= 10:59:34
+ The initial memory allocation (-m) has been exceeded.                   
+  Supplemental memory allocations are being used.                        
+
+ Memory resident data base increased from      1024 MB to      2048 MB.
+
+ *** ANSYS GLOBAL STATUS *** 
+
+ TITLE =  Re=1 matmacico=8 E1=1500 pr=%pr% matrev=2 E2=30303.3845 vp=12.5      
+ ANALYSIS TYPE =  STATIC (STEADY-STATE)
+ NUMBER OF ELEMENT TYPES =      2
+    113488 ELEMENTS CURRENTLY SELECTED.  MAX ELEMENT NUMBER =      113488
+    123580 NODES CURRENTLY SELECTED.     MAX NODE NUMBER =         123580
+       180 KEYPOINTS CURRENTLY SELECTED. MAX KEYPOINT NUMBER =        180
+       437 LINES CURRENTLY SELECTED.     MAX LINE NUMBER =            437
+       337 AREAS CURRENTLY SELECTED.     MAX AREA NUMBER =            337
+        84 VOLUMES CURRENTLY SELECTED.   MAX VOL. NUMBER =             84
+       248 COMPONENTS CURRENTLY DEFINED
+ MAXIMUM LINEAR PROPERTY NUMBER        =     101
+ ACTIVE COORDINATE SYSTEM              =       0  (CARTESIAN)  
+ NUMBER OF SPECIFIED CONSTRAINTS       =   11655
+ NUMBER OF SPECIFIED SURFACE LOADS     =    3447
+ CURRENT LOAD CASE =      0 OF      0
+ LOAD SET   =     129
+ SUBSTEP    =       2
+ TIME/FREQ  =    2902.7    
+
+ INITIAL JOBNAME = file
+ CURRENT JOBNAME = file
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
+ Ansys Mechanical Enterprise                       
+ 00000000  VERSION=WINDOWS x64   10:59:34  SEP 24, 2024 CP=      0.625
+
+  Re=1 matmacico=8 E1=1500 pr=%pr% matrev=2 E2=30303.3845 vp=12.5              
+
+ Note - This ANSYS version was linked by Licensee
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       0.625   TIME= 10:59:34
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ PARAMETER THETA =     90.00000000    
+
+ PARAMETER NPOINTS =     200.0000000    
+
+ ACTIVE COORDINATE SYSTEM SET TO          1  (CYLINDRICAL) Z- CYL. AXIS
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ PARAMETER NO1 =     110970.0000    
+
+ PARAMETER NO2 =     2183.000000    
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ Define Path  Name= PATH1     nPts=    2  nSets=  20  nDiv= 200
+ PPATH  Point=  1  Node=  110970  X,Y,Z= 0.1388E-14  1.000      0.000     cs=  1
+ PPATH  Point=  2  Node=    2183  X,Y,Z=-0.1221E-14  1.000      43.33     cs=  1
+
+ RSYS KEY SET TO   1
+
+ USE COORDINATE SYSTEM   1 FOR SOLUTION RESULTS
+
+ *GET  NANALISES  FROM  ACTI  ITEM=SET  NSET  VALUE=  130.000000    
+
+ SET PARAMETER DIMENSIONS ON  TABELA TYPE=TABL  DIMENSIONS=   200   131     1
+                              
+
+ SET PARAMETER DIMENSIONS ON  TABELASR TYPE=TABL  DIMENSIONS=   200   131     1
+                              
+
+ PARAMETER SUBPASSO =     1.000000000    
+
+ *DO LOOP ON PARAMETER= SUBPASSO FROM  1.0000     TO  130.00     BY  1.0000    
+
+ STORE RESULTS DATA FOR THE CURRENTLY SELECTED MODEL
+ USE LOAD STEP     1  SUBSTEP  LAST    FOR LOAD CASE 0 
+
+ SET COMMAND GOT LOAD STEP=     1  SUBSTEP=     6  CUMULATIVE ITERATION=     8
+   TIME/FREQUENCY= 0.80000E-01
+ TITLE=  Re=1 matmacico=8 E1=1500 pr=%pr% matrev=2 E2=30303.3845 vp=12.5        
+
+ DEFINE PATH IN PATH COORDINATE SYSTEM   1
+  DIRECTION       MAX             MIN 
+     X         0.0000         0.0000    
+     Y         1.0000         1.0000    
+     Z         43.333         0.0000    
+  TOTAL PATH LENGTH =    43.333    
+
+
+ DEFINE PATH VARIABLE UR       AS THE DEGREE OF FREEDOM ITEM=U    COMP=X   
+  ROTATED INTO COORDINATE SYSTEM  1 AND MOVED TO THE PATH 
+  NUMBER OF PATH VARIABLES DEFINED IS   5
+ SUMMARY OF VARIABLE UR       MAX =   0.84915E-07 MIN =  -0.64881E-02
+
+
+ DEFINE PATH VARIABLE UR_THETA AS 
+  PATH VARIABLE UR       TIMES  -100.00     PLUS   0.0000    
+  NUMBER OF PATH VARIABLES DEFINED IS   6
+
+ *DO LOOP ON PARAMETER= I FROM  1.0000     TO  200.00     BY  1.0000    
+
+ *GET  TABELA    FROM  PATH  ITEM=ITEM ZG    VALUE=  0.00000000    
+
+ *GET  TABELA    FROM  PATH  ITEM=ITEM UR_T  VALUE=-0.849153568E-05
+
+ *ENDDO  INDEX= I                               
+
+ DEFINE PATH VARIABLE SR_THETA AS THE NODAL DATA ITEM=S    COMP=X    AVGLAB=AVG 
+  ROTATED INTO COORDINATE SYSTEM  1 AND MOVED TO THE PATH 
+  NUMBER OF PATH VARIABLES DEFINED IS   7
+ SUMMARY OF VARIABLE SR_THETA MAX =  -0.50766     MIN =   -9.9323    
+
+
+ *DO LOOP ON PARAMETER= I FROM  1.0000     TO  200.00     BY  1.0000    
+
+ *GET  TABELASR  FROM  PATH  ITEM=ITEM ZG    VALUE=  0.00000000    
+
+ *GET  TABELASR  FROM  PATH  ITEM=ITEM SR_T  VALUE= -8.99980021    
+
+ *ENDDO  INDEX= I                               
+
+ *ENDDO  INDEX= SUBPASSO                        
+
+ START CREATE BY COPY FROM INPUT TO  ansuitmp
+
+ END FILE CREATE
+
+ /INPUT FILE= ansuitmp  LINE=       0
+
+ MATRIX WRITE OPERATION  *MWRITE 
+  tabela WRITE TO FILE tabela_90.txt
+ LOOP DIRECTIONS=JIK   COUNTS=     131     200       1       1       1
+ FORMAT=(1000(E10.4,3X))                                                      
+
+ START CREATE BY COPY FROM INPUT TO  ansuitmp
+
+ END FILE CREATE
+
+ /INPUT FILE= ansuitmp  LINE=       0
+
+ MATRIX WRITE OPERATION  *MWRITE 
+  tabelasr WRITE TO FILE tabelasr_90.txt
+ LOOP DIRECTIONS=JIK   COUNTS=     131     200       1       1       1
+ FORMAT=(1000(E10.4,3X))                                                      
+
+ *** NOTE ***                            CP =     542.000   TIME= 11:02:44
+ Write parameters to file= parametros_postproc.txt.                      
+
+ *** NOTE ***                            CP =     542.000   TIME= 11:02:44
+ Parameters written.  Lines= 13542.                                      
+
+ ***** END OF INPUT ENCOUNTERED *****
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          0
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
+
+
+ ***** PROBLEM TERMINATED BY INDICATED ERROR(S) OR BY END OF INPUT DATA *****
+
++--------------------- A N S Y S   S T A T I S T I C S ------------------------+
+
+Release: 2022 R1            Build: 22.1       Update: UP20211129   Platform: WINDOWS x64 
+Date Run: 09/24/2024   Time: 11:02     Process ID: 42080
+Operating System: Windows 10  (Build: 22631)
+
+Processor Model: AMD Ryzen 7 7700 8-Core Processor
+
+Compiler: Intel(R) Fortran Compiler Version 19.0.5  (Build: 20190815)
+          Intel(R) C/C++ Compiler Version 19.0.5  (Build: 20190815)
+          Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
+          BLAS Library supplied by AMD BLIS
+
+Number of machines requested            :    1
+Total number of cores available         :   16
+Number of physical cores available      :    8
+Number of processes requested           :    1
+Number of threads per process requested :    8
+Total number of cores requested         :    8 (Shared Memory Parallel)                    
+
+GPU Acceleration: Not Requested
+
+Job Name: file
+Input File: C:\gitprojects\tunnel_analysis\ANALYSIS\ANALISES_02\EPVP_CRVE_CG_D1_4RE_DPII\postproc.txt
+Working Directory: C:\gitprojects\tunnel_analysis\ANALYSIS
+
+Total CPU time for main thread                    :      190.3 seconds
+Total CPU time summed for all threads             :      542.5 seconds
+
+Elapsed time spent obtaining a license            :        1.5 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
+Elapsed time spent solution - preprocessing       :        0.0 seconds
+Elapsed time spent computing solution             :        0.0 seconds
+Elapsed time spent solution - postprocessing      :        0.0 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+
+Sum of memory used on all processes               :     2416.0 MB
+Sum of memory allocated on all processes          :     4160.0 MB
+Physical memory available                         :         31 GB
+
+Total amount of I/O written to disk               :        0.0 GB
+Total amount of I/O read from disk                :       17.7 GB
+
++------------------ E N D   A N S Y S   S T A T I S T I C S -------------------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                            ANSYS RUN COMPLETED                            |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2022 R1               Build 22.1         UP20211129     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used    1390 MB    Maximum Scratch Memory Used   1026 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =        542.484       Time  =  11:02:44        |
+ |        Elapsed Time (sec) =        199.000       Date  =  09/24/2024      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

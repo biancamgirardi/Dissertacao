@@ -186,7 +186,7 @@ dtpmax1		= dtp1		! [dias] incremento máximo de tempo dentro de cada passo
 !
 ! Discretização do tempo nos passos após a escavação
 tp2 		= 100 		! [dias] tempo de cada passo de solução após a escavação do túnel
-np2max 		= 5 		! [un] número máximo de passos de solução após a escavação do túnel
+np2max 		= 30 		! [un] número máximo de passos de solução após a escavação do túnel
 dtp2		= 0.5*tp2	! [dias] incremento de tempo de cada passo
 !
 tp2autots	= 1		! Especifica quando usar incremento de tempo automático

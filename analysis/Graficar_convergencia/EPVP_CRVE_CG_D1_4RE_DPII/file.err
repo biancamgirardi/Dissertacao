@@ -1,0 +1,490 @@
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       09:33:30
+
+ *** WARNING ***                         CP =       0.297   TIME= 09:33:32
+ Assembly A0 is deleted.                                                 
+
+ *** WARNING ***                         CP =       2.141   TIME= 09:33:34
+ Assembly VD8 is deleted.                                                
+
+ *** WARNING ***                         CP =       2.141   TIME= 09:33:34
+ Assembly VD7 is deleted.                                                
+
+ *** WARNING ***                         CP =       2.188   TIME= 09:33:34
+ Assembly VD52 is deleted.                                               
+
+ *** WARNING ***                         CP =       2.188   TIME= 09:33:34
+ Assembly VD51 is deleted.                                               
+
+ *** WARNING ***                         CP =       2.188   TIME= 09:33:34
+ Assembly VD62 is deleted.                                               
+
+ *** WARNING ***                         CP =       2.188   TIME= 09:33:34
+ Assembly VD61 is deleted.                                               
+
+ *** WARNING ***                         CP =       4.828   TIME= 09:33:35
+ Structural elements without mid nodes usually produce much more         
+ accurate results in quad or brick shape.                                
+
+ *** WARNING ***                         CP =       6.203   TIME= 09:33:35
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+
+ *** WARNING ***                         CP =       7.219   TIME= 09:33:35
+ Shape testing revealed that 1 of the 6917 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       8.875   TIME= 09:33:36
+ Shape testing revealed that 1 of the 8274 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       8.875   TIME= 09:33:36
+ Concatenation of line 237 is not transferred for symm operation.        
+
+ *** WARNING ***                         CP =       8.922   TIME= 09:33:36
+ Concatenation of area 164 is not transferred for symm operation.        
+
+ *** WARNING ***                         CP =       8.922   TIME= 09:33:36
+ Concatenation of line 225 is not transferred for symm operation.        
+
+ *** WARNING ***                         CP =       9.312   TIME= 09:33:36
+ Concatenation of line 222 is not transferred for symm operation.        
+
+ *** WARNING ***                         CP =      10.188   TIME= 09:33:36
+ Shape testing revealed that 2 of the 15191 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      10.750   TIME= 09:33:36
+ After NUMMRG,NODE, node 57628 (and possibly others) is associated with  
+ more than one solid model entity.  Future commands which depend on the  
+ node to solid model connectivity (meshing, mesh clearing, solid         
+ boundary condition transfer, etc.) may not operate properly.            
+ NUMMRG,KP may correct this problem.                                     
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 173 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 177 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 148 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 175 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 176 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 171 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 170 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 172 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 42 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 168 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 55 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 45 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 54 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.234   TIME= 09:33:36
+ Due to merge, line 41 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 99 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 111 is now meshed.                                   
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 58 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 53 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 28 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.250   TIME= 09:33:36
+ Due to merge, area 18 is now meshed.                                    
+
+ *** WARNING ***                         CP =      11.969   TIME= 09:33:36
+ Shape testing revealed that 40 of the 10195 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      13.594   TIME= 09:33:36
+ Shape testing revealed that 24 of the 13664 new or modified elements    
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      16.344   TIME= 09:33:37
+ Overlapping elements will be generated due to zero node increment.      
+
+ *** WARNING ***                         CP =      16.344   TIME= 09:33:37
+ Shape testing revealed that 2 of the 6494 new or modified elements      
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      16.969   TIME= 09:33:37
+ Overlapping elements will be generated due to zero node increment.      
+
+ *** WARNING ***                         CP =      22.344   TIME= 09:33:38
+ Overlapping elements will be generated due to zero node increment.      
+
+ *** WARNING ***                         CP =      24.594   TIME= 09:33:38
+ SOLID185 wedges are recommended only in regions of relatively low       
+ stress gradients.                                                       
+
+ *** WARNING ***                         CP =      24.703   TIME= 09:33:38
+ Previous testing revealed that 70 of the 113488 selected elements       
+ violate shape warning limits.  To review warning messages, please see   
+ the output or error file, or issue the CHECK command.                   
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =      25.469   TIME= 09:33:38
+ ANSYS,INC.-supplied version of coding for USERCK has been used.         
+
+ *** WARNING ***                         CP =     666.656   TIME= 09:35:07
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    
+
+ *** WARNING ***                         CP =     667.094   TIME= 09:35:07
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    
+
+ *** WARNING ***                         CP =   34775.219   TIME= 10:56:18
+ The view for graph plots is currently NOT changeable.                   
+  To enable graph view manipulation, issue /GROPTS,VIEW,1.               
+
+ *** WARNING ***                         CP =   34867.922   TIME= 10:57:53
+ Parameter N_SEL already exists.  It is deleted and redefined by the     
+ *DIM command.                                                           
+
+ *** WARNING ***                         CP =   34959.438   TIME= 10:59:26
+ During this session a solution was performed using 8 CPU cores in       
+ shared-memory parallel (SMP) mode (-np 8).  It is strongly recommended  
+ to use distributed memory parallel (DMP) mode instead (-dis -np 8).     
+ DMP mode typically outperforms SMP mode, even when running on a single  
+ system.  For more information, see the ANSYS Parallel Processing Guide  
+ in the ANSYS Help system.                                               
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       10:59:32
