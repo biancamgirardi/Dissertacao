@@ -22,15 +22,12 @@
 \contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{43}{subsubsection.2.6.2.3}%
 \contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{44}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{47}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{50}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{50}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{52}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{57}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{57}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Análise de túneis gêmeos não revestidos em elasticidade}{63}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Análise de túneis gêmeos não revestidos em elastoplasticidade}{67}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Aplicação considerando o parâmetro friccional}{68}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{71}{chapter.5}%
-\vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{72}{section*.59}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{49}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{51}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discretização do domínio}{56}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{62}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Análise de túneis gêmeos não revestidos em elasticidade}{62}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Análise de túneis gêmeos não revestidos em elastoplasticidade}{66}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Aplicação considerando o parâmetro friccional}{70}{section.4.3}%

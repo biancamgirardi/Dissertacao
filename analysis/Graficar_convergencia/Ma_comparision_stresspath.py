@@ -84,9 +84,10 @@ def graficar(x,y,                       # eixo x e y
                 dpi = fig.dpi, 
                 bbox_inches='tight', 
                 pad_inches=0.2)
+    plt.savefig(str(titulo) + '.svg', format='svg')
     
 
-
+#%% #. MOHR-COULOMB
 #%% #.  STRESS IN PATH 1
 """ ********************************************
 STRESS IN PATH 1
@@ -101,7 +102,7 @@ x = data_array[:,0]
 y = data_array[:,1]
 
 figura      = 1
-titulo      = 'MA_sigmaRR_sigmaTT_theta45'
+titulo      = 'MA_sigmaRR_sigmaTT_theta45_MC'
 eixoy       = r'$\sigma_{ii}$ [MPa]'
 eixox       = r'$r$ [m], $\theta = 45^\circ$'
 xmin        = 1.0
@@ -111,7 +112,7 @@ ymin        = 0
 ymax        = 100
 ystep       = 10
 
-lbldata     = r'$\sigma_{rr}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{rr}$ Solução analítica (Ma et al., 2020)'
 cor         = 'r'
 tamanho     = 2
 ordem       = 2
@@ -135,7 +136,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{rr}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{rr}$ Solução numérica 3D (MEF)'
 cor         = 'k'
 tamanho     = 1
 ordem       = 2
@@ -159,7 +160,7 @@ x = data_array[:,0]
 y = data_array[:,1]
 
 
-lbldata     = r'$\sigma_{\theta \theta}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução analítica (Ma et al., 2020)'
 cor         = 'orange'
 tamanho     = 2
 ordem       = 1
@@ -183,7 +184,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{\theta \theta}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução numérica 3D (MEF)'
 cor         = 'b'
 tamanho     = 1
 ordem       = 2
@@ -214,7 +215,7 @@ x = data_array[:,0]
 y = data_array[:,1]
 
 figura      = 2
-titulo      = 'MA_sigmaRR_sigmaTT_theta90'
+titulo      = 'MA_sigmaRR_sigmaTT_theta90_MC'
 eixoy       = r'$\sigma_{ii}$ [MPa]'
 eixox       = r'$r$ [m], $\theta = 90^\circ$'
 xmin        = 1.0
@@ -224,7 +225,7 @@ ymin        = 0
 ymax        = 100
 ystep       = 10
 
-lbldata     = r'$\sigma_{rr}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{rr}$ Solução analítica (Ma et al., 2020)'
 cor         = 'r'
 tamanho     = 2
 ordem       = 2
@@ -248,7 +249,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{rr}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{rr}$ Solução numérica 3D (MEF)'
 cor         = 'k'
 tamanho     = 1
 ordem       = 2
@@ -271,7 +272,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,0]
 y = data_array[:,1]
 
-lbldata     = r'$\sigma_{\theta \theta}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução analítica (Ma et al., 2020)'
 cor         = 'orange'
 tamanho     = 2
 ordem       = 1
@@ -295,7 +296,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{\theta \theta}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução numérica 3D (MEF)'
 cor         = 'b'
 tamanho     = 1
 ordem       = 2
@@ -325,7 +326,7 @@ x = data_array[:,0]
 y = data_array[:,1]
 
 figura      = 3
-titulo      = 'MA_sigmaRR_sigmaTT_theta135'
+titulo      = 'MA_sigmaRR_sigmaTT_theta135_MC'
 eixoy       = r'$\sigma_{ii}$ [MPa]'
 eixox       = r'$r$ [m], $\theta = 135^\circ$'
 xmin        = 1.0
@@ -335,7 +336,7 @@ ymin        = 0
 ymax        = 100
 ystep       = 10
 
-lbldata     = r'$\sigma_{rr}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{rr}$ Solução analítica (Ma et al., 2020)'
 cor         = 'r'
 tamanho     = 2
 ordem       = 2
@@ -359,7 +360,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{rr}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{rr}$ Solução numérica 3D (MEF)'
 cor         = 'k'
 tamanho     = 1
 ordem       = 2
@@ -382,7 +383,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,0]
 y = data_array[:,1]
 
-lbldata     = r'$\sigma_{\theta \theta}$ Analytical Solution [9]'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução analítica (Ma et al., 2020)'
 cor         = 'orange'
 tamanho     = 2
 ordem       = 1
@@ -406,7 +407,7 @@ data_array = np.loadtxt(file_path)
 x = data_array[:,1]
 y = -data_array[:,-1]
 
-lbldata     = r'$\sigma_{\theta \theta}$ 3D F.E. Solution'
+lbldata     = r'$\sigma_{\theta \theta}$ Solução numérica 3D (MEF)'
 cor         = 'b'
 tamanho     = 1
 ordem       = 2
