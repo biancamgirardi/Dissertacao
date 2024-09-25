@@ -98,7 +98,7 @@ def graficar( figura,                    # numero da figura que será plotado
     plt.legend(loc = 'lower left', ncol = 2, fontsize = 'medium', columnspacing = 1.0)
     
     # Salvando em arquivo    
-    #plt.savefig(str(titulo) + '.svg', format='svg')
+    plt.savefig(str(titulo) + '.svg', format='svg')
     plt.savefig(str(titulo) + '.pdf', 
                 dpi = fig.dpi, 
                 bbox_inches='tight', 
@@ -495,7 +495,7 @@ lbleixoy    = r'$U_B$ [\%]'
 xmin        = 2
 xmax        = 40
 ymin        = 0
-ymax        = 2.4
+ymax        = 2.5
 invertx     = True
 inserirx0   = True
 x0          = 100*1/3

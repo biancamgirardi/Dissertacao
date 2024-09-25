@@ -120,7 +120,8 @@ def graficar(arquivo,                   # nome do arquivo de leitura
        # bbox_to_anchor=(0.5, -0.2),
         #fontsize="11")
     
-    # Salvando em arquivo    
+    # Salvando em arquivo   
+    plt.savefig(str(titulo) + '.svg', format='svg')
     plt.savefig(str(titulo) + '.pdf', 
                 dpi = fig.dpi,
                 format = 'pdf',

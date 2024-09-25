@@ -5,4 +5,527 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[{AFTES} 2001]{AFTES2001}
+\abntrefinfo{{AFTES}}{{AFTES}}{2001}
+{{AFTES}. {Association Fran{\c{c}}aise des Tunnels et de l'Espace Souterrain}.
+\textbf{Recommendations on the convergence-confinement method}, 2001.}
+
+\bibitem[{ALMEIDA E SOUSA} 1998]{AlmeidaeSousa1998}
+\abntrefinfo{{ALMEIDA E SOUSA}}{{ALMEIDA E SOUSA}}{1998}
+{{ALMEIDA E SOUSA}, J.
+\textbf{{T\'{u}neis em Maciços Terrosos: Comportamento e Modelaç\~{a}o
+  Num\'{e}rica}}.
+Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
+
+\bibitem[{ANSYS Inc} 2024]{ANSYS}
+\abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2024}
+{{ANSYS Inc}. \textbf{Ansys Product Help - Mechanical APDL}. 2024.
+Dispon{\'\i}vel em:
+  \url{https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/prod\_page.html?pn=Mechanical\%20APDL&prodver=24.2&lang=en}.}
+
+\bibitem[Barton, Lien e Lude 1974]{Barton1974}
+\abntrefinfo{Barton, Lien e Lude}{BARTON; LIEN; LUDE}{1974}
+{BARTON, N.; LIEN, R.; LUDE, J. Engineering classification of rock masses for
+  the design of tunnel support.
+\textbf{Rock Mechanics}, v.~6, p. 189--236, 1974.}
+
+\bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanA}
+\abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989a}
+{BA{\v{Z}}ANT, Z.~P.; PRASANNAN, S. Solidification theory for concrete creep.
+  {I}: Formulation.
+\textbf{Journal of Engineering Mechanics}, American Society of Civil Engineers
+  (ASCE), v.~115, n.~8, p. 1691--1703, 1989.}
+
+\bibitem[Ba{\v{z}}ant e Prasannan 1989]{BazantPrasannanB}
+\abntrefinfo{Ba{\v{z}}ant e Prasannan}{BA{\v{Z}}ANT; PRASANNAN}{1989b}
+{\underline{\ \ \ \ \ \ \ \ }. Solidification theory for concrete creep. {II}:
+  Verification and application.
+\textbf{Journal of Engineering Mechanics}, American Society of Civil Engineers
+  (ASCE), v.~115, n.~8, p. 1704--1725, 1989.}
+
+\bibitem[Benamar 1996]{Benamar1996}
+\abntrefinfo{Benamar}{BENAMAR}{1996}
+{BENAMAR, I.
+\textbf{{Etude des effets diff{\'{e}}r{\'{e}}s dans les tunnels profonds}}.
+205~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es,
+  1996.}
+
+\bibitem[Bernaud 1991]{Bernaud1991}
+\abntrefinfo{Bernaud}{BERNAUD}{1991}
+{BERNAUD, D.
+\textbf{{Tunnels profonds dans les milieux viscoplastiques: approches
+  exp{\'{e}}rimentale et num{\'{e}}rique}}.
+354~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1991.
+Dispon{\'\i}vel em: \url{https://pastel.archives-ouvertes.fr/tel-00529719}.}
+
+\bibitem[Bernaud, Benamar e Rousset 1994]{Bernaud1994}
+\abntrefinfo{Bernaud, Benamar e Rousset}{BERNAUD; BENAMAR; ROUSSET}{1994}
+{BERNAUD, D.; BENAMAR, I.; ROUSSET, G. La « nouvelle m{\'{e}}thode implicite
+  » pour le calcul des tunnels dans les milieux {\'{e}}lastoplastiques et
+  viscoplastiques.
+\textbf{Revue Fran{\c{c}}aise de G{\'{e}}otechnique}, n.~68, 1994.}
+
+\bibitem[Bernaud e Rousset 1992]{Bernaud1992}
+\abntrefinfo{Bernaud e Rousset}{BERNAUD; ROUSSET}{1992}
+{BERNAUD, D.; ROUSSET, G. {La « nouvelle m{\'{e}}thode implicite » pour
+  l'{\'{e}}tude du dimensionnement des tunnels}.
+\textbf{Revue Fran{\c{c}}aise de G{\'{e}}otechnique}, n.~60, p. 5--26, 1992.
+Dispon{\'\i}vel em:
+  \url{https://www.geotech-fr.org/sites/default/files/rfg/article/60-1.pdf}.
+  Acesso em: 27 abr. 2021.}
+
+\bibitem[Bickel, Kuesel e King 1996]{Bickel1996}
+\abntrefinfo{Bickel, Kuesel e King}{BICKEL; KUESEL; KING}{1996}
+{BICKEL, J.~O.; KUESEL, T.~R.; KING, E.~H. \textbf{{Tunnel Engineering
+  Handbook}}. 2. ed. [S.l.]: Chapman \& Hall, 1996.
+ISBN 13: 978-1-4613-8053-5.}
+
+\bibitem[Bieniawski 1989]{Bieniawski1989}
+\abntrefinfo{Bieniawski}{BIENIAWSKI}{1989}
+{BIENIAWSKI, Z.~T. \textbf{Engineering rock mass classifications: a complete
+  manual for engineers and geologists in mining, civil, and petroleum
+  engineering}. New York: John Wiley \& Sons, 1989.}
+
+\bibitem[Bobet e Einstein 2010]{BobetEinstein2010}
+\abntrefinfo{Bobet e Einstein}{BOBET; EINSTEIN}{2010}
+{BOBET, A.; EINSTEIN, H. Tunnel reinforcement with rockbolts.
+\textbf{Tunnelling and Underground Space Technology}, 2010.}
+
+\bibitem[CEB-FIP 1993]{CEB1993}
+\abntrefinfo{CEB-FIP}{CEB-FIP}{1993}
+{CEB-FIP. \textbf{CEB-FIP model code 1990: Design code}.
+[S.l.], 1993.}
+
+\bibitem[Chapman, Metje e St{\"{a}}rk 2018]{Chapman2018}
+\abntrefinfo{Chapman, Metje e St{\"{a}}rk}{CHAPMAN; METJE; ST{\"{A}}RK}{2018}
+{CHAPMAN, D.; METJE, N.; ST{\"{A}}RK, A. \textbf{{Introduction to tunnel
+  construction}}. 2. ed. Boca Raton: CRC Press Taylor e Francis Group, 2018.
+ISBN 9781315120164.}
+
+\bibitem[Chen, Lin e Li 2019]{Chen2019}
+\abntrefinfo{Chen, Lin e Li}{CHEN; LIN; LI}{2019}
+{CHEN, F. quan; LIN, L. bin; LI, D. yong. Analytic solutions for twin tunneling
+  at great depth considering liner installation and mutual interaction between
+  geomaterial and liners.
+\textbf{Applied Mathematical Modelling}, v.~73, p. 412--441, 2019.
+ISSN 0307-904X.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0307904X19302161}.}
+
+\bibitem[Chen, Lee e Gui 2009]{Chen2009}
+\abntrefinfo{Chen, Lee e Gui}{CHEN; LEE; GUI}{2009}
+{CHEN, S.; LEE, S.; GUI, M. Effects of rock pillar width on the excavation
+  behavior of parallel tunnels.
+\textbf{Tunnelling and Underground Space Technology}, v.~24, n.~2, p. 148--154,
+  2009.
+ISSN 0886-7798.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0886779808000606}.}
+
+\bibitem[Chortis e Kavvadas 2021]{ChortisKavvadas2021b}
+\abntrefinfo{Chortis e Kavvadas}{CHORTIS; KAVVADAS}{2021a}
+{CHORTIS, F.; KAVVADAS, M. Three-dimensional numerical analyses of
+  perpendicular tunnel intersections.
+\textbf{Geotechnical and Geological Engineering}, v.~39, p. 1771–1793, 2021.}
+
+\bibitem[Chortis e Kavvadas 2021]{ChortisKavvadas2021a}
+\abntrefinfo{Chortis e Kavvadas}{CHORTIS; KAVVADAS}{2021b}
+{\underline{\ \ \ \ \ \ \ \ }. Three-dimensional numerical investigation of the
+  interaction between twin tunnels.
+\textbf{Geotechnical and Geological Engineering}, v.~39, p. 5559--5585, 2021.}
+
+\bibitem[Colombo 2023]{Colombo2023}
+\abntrefinfo{Colombo}{COLOMBO}{2023}
+{COLOMBO, C. A. M.~M.
+\textbf{{Modelagem computacional de t{\'{u}}neis g{\^{e}}meos profundos
+  interligados por galerias transversais considerando o acoplamento
+  plasticidade-viscoplasticidade}}.
+180~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
+  Sul, Porto Alegre, 2023.}
+
+\bibitem[Couto 2011]{Couto2011}
+\abntrefinfo{Couto}{COUTO}{2011}
+{COUTO, E.~C.
+\textbf{{Um modelo tridimensional para t{\'{u}}neis escavados em rocha
+  refor{\c{c}}ada por tirantes passivos}}.
+141~p. Tese (Doutorado) --- Universidade Federal do Rio Grande do Sul, Porto
+  Alegre, 2011.}
+
+\bibitem[Dada 2020]{Dada2020}
+\abntrefinfo{Dada}{DADA}{2020}
+{DADA, T.~W.
+\textbf{{Modelagem num{\'{e}}rica de t{\'{u}}neis g{\^{e}}meos com galerias
+  transversais}}.
+143~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
+  Sul, Porto Alegre, 2020.}
+
+\bibitem[{DAILY MIRROR} 2022]{Dailymirror}
+\abntrefinfo{{DAILY MIRROR}}{{DAILY MIRROR}}{2022}
+{{DAILY MIRROR}. \textbf{Remembering the day Heathrow Airport almost
+  disappeared into a hole}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.getreading.co.uk/news/berkshire-history/remembering-day-heathrow-airport-almost-23180290}.}
+
+\bibitem[Debernardi e Barla 2009]{Debernardi2009}
+\abntrefinfo{Debernardi e Barla}{DEBERNARDI; BARLA}{2009}
+{DEBERNARDI, D.; BARLA, G. {New Viscoplastic Model for Design Analysis of
+  Tunnels in Squeezing Conditions}.
+\textbf{Rock Mechanics and Rock Engineering}, v.~42, n.~2, p. 259--288, apr
+  2009.
+Dispon{\'\i}vel em:
+  \url{https://libgen.is/scimag/10.1007\%2Fs00603-009-0174-6}.}
+
+\bibitem[Deere et al. 1970]{Deere1970}
+\abntrefinfo{Deere et al.}{DEERE et al.}{1970}
+{DEERE, D.~U.; PECK, R.~B.; PARKER, H.~W.; MONSEES, J.~E.; SCHMIDT, B. Design
+  of tunnel support systems.
+\textbf{49th Annual Meeting Committee on Soil and Rock Properties}, p. 26--33,
+  1970.}
+
+\bibitem[{DEPARTAMENTO DE ESTRADAS DE RODAGEM} 2005]{DAERSP2005}
+\abntrefinfo{{DEPARTAMENTO DE ESTRADAS DE RODAGEM}}{{DEPARTAMENTO DE ESTRADAS
+  DE RODAGEM}}{2005}
+{{DEPARTAMENTO DE ESTRADAS DE RODAGEM}. \textbf{{Instru{\c{c}}{\~{a}}o de
+  Projeto para elabora{\c{c}}{\~{a}}o de t{\'{u}}neis subterr{\^{a}}neos
+  (NATM)}}.
+S{\~{a}}o Paulo, 2005. 52~p.}
+
+\bibitem[Do, Dias e Oreste 2015]{Doetal2015}
+\abntrefinfo{Do, Dias e Oreste}{DO; DIAS; ORESTE}{2015}
+{DO, N.-A.; DIAS, D.; ORESTE, P. 3d numerical investigation of mechanized twin
+  tunnels in soft ground – influence of lagging distance between two tunnel
+  faces.
+\textbf{Engineering Structures}, 2015.}
+
+\bibitem[Eisenstein, Heinz e Negro 1984]{Eisensteinetal1984}
+\abntrefinfo{Eisenstein, Heinz e Negro}{EISENSTEIN; HEINZ; NEGRO}{1984}
+{EISENSTEIN, Z.; HEINZ, H.; NEGRO, A. {On Three-Dimensional Ground Response to
+  Tunnelling}. In:  LO, K.~Y. (Ed.). \textbf{Tunnelling in Soil and Rock: Two
+  Sessions at GEOTECH '84}. New York: American Society of Civil Engineers
+  (ASCE), 1984. p. 107--127.}
+
+\bibitem[{FEDERAL HIGHWAY ADMINISTRATION}
+  2009]{FederalHighwayAdministration2009}
+\abntrefinfo{{FEDERAL HIGHWAY ADMINISTRATION}}{{FEDERAL HIGHWAY
+  ADMINISTRATION}}{2009}
+{{FEDERAL HIGHWAY ADMINISTRATION}. \textbf{{Technical Manual for Design and
+  Construction of Road Tunnels — Civil Elements}}. Fhwa-nhi-1. New York:
+  Books Express Publishing, 2009. 702~p.
+ISBN 1782661727.}
+
+\bibitem[Ferr{\~{a}}o 2018]{Ferrao2018}
+\abntrefinfo{Ferr{\~{a}}o}{FERR{\~{A}}O}{2018}
+{FERR{\~{A}}O, W.~C. \textbf{Estudo de túneis superficiais: influência na
+  convergência e no perfil de assentamento.} Porto Alegre: [s.n.], 2018.}
+
+\bibitem[{FOLHAPRESS} 2007]{Folhapress2007}
+\abntrefinfo{{FOLHAPRESS}}{{FOLHAPRESS}}{2007}
+{{FOLHAPRESS}. \textbf{Desabamento da estação de metrô de São Paulo}. 2007.
+Dispon{\'\i}vel em:
+  \url{https://folhapress.folha.com.br/busca?site=folhapress&skin=folhapress&content\_search=desmoronamento+metr\%F4&content\_search\_type=content&content\_type=photo&content\_date\_at=&content\_date\_start=&content\_date\_end=&clean\_date=no&clean\_category=yes&orientation=&content\_category\_grouped=}.}
+
+\bibitem[Fortsakis et al. 2012]{Fortsakis2012}
+\abntrefinfo{Fortsakis et al.}{FORTSAKIS et al.}{2012}
+{FORTSAKIS, P.; BEKRI, E.; PROUNTZOPOULOS, G.; MARINOS, P. Numerical analysis
+  of twin tunnels interaction.
+\textbf{Proceedings of the 1st Eastern European Tunneling Conference},
+  Budapest, p.~8, 2012.}
+
+\bibitem[Fran{\c{c}}a 2006]{Franca2006}
+\abntrefinfo{Fran{\c{c}}a}{FRAN{\c{C}}A}{2006}
+{FRAN{\c{C}}A, P.~T.
+\textbf{Estudo do comportamento de túneis: análise numérica tridimensional
+  com modelos elasto-plásticos}.
+185~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade de São Paulo, S\~{a}o
+  Paulo, 2006.
+Dispon{\'\i}vel em:
+  \url{http://www.teses.usp.br/teses/disponiveis/3/3145/tde-08122006-151549/}.}
+
+\bibitem[Fuente et al. 2018]{Fuente2018}
+\abntrefinfo{Fuente et al.}{FUENTE et al.}{2018}
+{FUENTE, M. D.~L.; TAHERZADEH, R.; SULEM, J.; SUBRIN, D. {Analysis and
+  comparison of the measurements of Fr\'{e}jus road tunnel and of its safety
+  gallery}.
+\textbf{Geomechanics and Geodynamics of Rock Masses}, Taylor \& Francis Group,
+  London, v.~2, 2018.}
+
+\bibitem[Giraud e Rousset 1996]{Giraud1996}
+\abntrefinfo{Giraud e Rousset}{GIRAUD; ROUSSET}{1996}
+{GIRAUD, A.; ROUSSET, G. Time-dependent behaviour of deep clays.
+\textbf{Engineering Geology}, v.~41, n.~1, p. 181--195, 1996.
+ISSN 0013-7952.}
+
+\bibitem[Gomes 2006]{Gomes2006}
+\abntrefinfo{Gomes}{GOMES}{2006}
+{GOMES, R. A. M.~P.
+\textbf{An{\'{a}}lise tridimensional de t{\'{u}}neis considerando o
+  comportamento dependente do tempo na intera{\c{c}}{\~{a}}o
+  maci{\c{c}}o-suporte.}
+306~p. Tese (Doutorado) --- Universidade de São Paulo, São Carlos, 2006.}
+
+\bibitem[Guo, Liu e Zhu 2021]{Guoetal2021}
+\abntrefinfo{Guo, Liu e Zhu}{GUO; LIU; ZHU}{2021}
+{GUO, Z.; LIU, X.; ZHU, Z. An elastic solution for twin circular tunnels’
+  stress in hydrostatic stress field.
+\textbf{Geotech Geol Eng}, 2021.}
+
+\bibitem[{HEALTH AND SAFETY EXECUTIVE} 1996]{HSE1996}
+\abntrefinfo{{HEALTH AND SAFETY EXECUTIVE}}{{HEALTH AND SAFETY
+  EXECUTIVE}}{1996}
+{{HEALTH AND SAFETY EXECUTIVE}. \textbf{Safety of New Austrian Tunnelling
+  Method (NATM) Tunnels}. London: Crown, 1996. 137~p.
+ISBN 978-0-7176-1068-6.}
+
+\bibitem[Heini{\"{o}} 1999]{Heinio1999}
+\abntrefinfo{Heini{\"{o}}}{HEINI{\"{O}}}{1999}
+{HEINI{\"{O}}, M. \textbf{{Rock Excavation Handbook}}. London: Sandvik Tamrock
+  Corp., 1999. 364~p.}
+
+\bibitem[{HERRENKNECHT TUNNELING SYSTEMS} 2015]{Herrenknecht2015}
+\abntrefinfo{{HERRENKNECHT TUNNELING SYSTEMS}}{{HERRENKNECHT TUNNELING
+  SYSTEMS}}{2015}
+{{HERRENKNECHT TUNNELING SYSTEMS}. \textbf{Herrenknecht - Tunnelling
+  Technology}. 2015.
+Dispon{\'\i}vel em: \url{https://www.herrenknecht.com}.}
+
+\bibitem[Hoek e Brown 1980]{HoekBrown1980}
+\abntrefinfo{Hoek e Brown}{HOEK; BROWN}{1980}
+{HOEK, E.; BROWN, E.~T. \textbf{{Underground Excavations in Rock}}. London: CRC
+  Press, 1980. 532~p.
+ISBN 9781482288926.}
+
+\bibitem[Iftimie 1996]{Iftimie1996}
+\abntrefinfo{Iftimie}{IFTIMIE}{1996}
+{IFTIMIE, T.
+\textbf{Contributions to the concept and structural analysis of precast
+  circular linings for shield driven tunnels}.
+Tese (Doutorado) --- Technical University of Civil Engineering Bucharest -
+  Faculty of Railways, Roads and Bridges, Bucharest, 1996.}
+
+\bibitem[Jensen 2019]{Jensen2019}
+\abntrefinfo{Jensen}{JENSEN}{2019}
+{JENSEN, B.~M.
+\textbf{Modelagem tridimensional em elementos finitos de túneis superficiais
+  revestidos em concreto armado}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do Sul,
+  Porto Alegre, 2019.}
+
+\bibitem[Jensen, Bernaud e Filho 2019]{Jensenetal2019}
+\abntrefinfo{Jensen, Bernaud e Filho}{JENSEN; BERNAUD; FILHO}{2019}
+{JENSEN, B.~M.; BERNAUD, D.; FILHO, A.~C. Influence of the cracking
+  consideration in the displacements of a shallow tunnel lined in
+  steel-reinforced concrete: numerical model.
+\textbf{Rev. IBRACON Estrut. Mater.}, v.~13, n.~6, 2019.}
+
+\bibitem[Karakus e Fowell 2004]{Karakus2004}
+\abntrefinfo{Karakus e Fowell}{KARAKUS; FOWELL}{2004}
+{KARAKUS, M.; FOWELL, R.~J. An insight into the new austrian tunnelling method
+  (natm).
+\textbf{VIIth Regional Rock Mechanics Symposium}, p.~14, 2004.}
+
+\bibitem[Langer e Stockmann 1985]{LangerStockmann1985}
+\abntrefinfo{Langer e Stockmann}{LANGER; STOCKMANN}{1985}
+{LANGER, F.~T.; STOCKMANN, K. Stability analysis of tunnels using the program
+  adina.
+\textbf{Computers \& Structures}, v.~21, n.~1, p. 341--351, 1985.
+ISSN 0045-7949.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/0045794985902548}.}
+
+\bibitem[Li et al. 2020]{Changguietal2020}
+\abntrefinfo{Li et al.}{LI et al.}{2020}
+{LI, C.; ZHAO, J.; HU, J.; JU, X.; TIAN, X. Numerical analysis of reasonable
+  distance between tunnel faces for twin tunnel.
+\textbf{6th International Conference on Hydraulic and Civil Engineering - IOP
+  Conf. Series: Earth and Environmental Science}, 2020.}
+
+\bibitem[Li et al. 2018]{Lietal2018}
+\abntrefinfo{Li et al.}{LI et al.}{2018}
+{LI, P.; WANG, F.; FAN, L.; WANG, H.; MA, G. Analytical scrutiny of loosening
+  pressure on deep twin-tunnels in rock formations.
+\textbf{Tunnelling and Underground Space Technology}, China, 2018.}
+
+\bibitem[Ling 1948]{Ling1948}
+\abntrefinfo{Ling}{LING}{1948}
+{LING, C.~B. On the stresses in a plate containing two circular holes.
+\textbf{Journal of Applied Physics}, v.~19, 1948.}
+
+\bibitem[Ma et al. 2020]{Maetal2020}
+\abntrefinfo{Ma et al.}{MA et al.}{2020}
+{MA, Y.; LU, A.; ZENG, X.; CAI, H. Analytical solution for determining the
+  plastic zones around twin circular tunnels excavated at great depth.
+\textbf{International Journal of Rock Mechanics and Mining Sciences}, 2020.}
+
+\bibitem[Maffei et al. 2008]{Maffei2008}
+\abntrefinfo{Maffei et al.}{MAFFEI et al.}{2008}
+{MAFFEI, C. E.~M.; MELLO, L.~G.; NIEBLE, C.~M.; SADOWSKI, G.~R.; TAKAHASHI, J.
+  As causas do acidente da estação pinheiros da linha 4 do metrô de são
+  paulo.
+\textbf{Téchne Educação}, 2008.}
+
+\bibitem[Maidl et al. 2008]{Maidl2008}
+\abntrefinfo{Maidl et al.}{MAIDL et al.}{2008}
+{MAIDL, B.; SCHMID, L.; RITZ, W.; HERRENKNECHT, M. \textbf{Hardrock Tunnel
+  Boring Machines}. 1. ed. Berlin, Germany: Ernst \& Sohn, 2008. 356~p.
+ISBN 978-3-433-01676-3.}
+
+\bibitem[Marques 2014]{Marques2014}
+\abntrefinfo{Marques}{MARQUES}{2014}
+{MARQUES, E. O.~R.
+\textbf{Simula\c{c}\~ao Num\'erica da Constru\c{c}\~ao de T\'uneis: An\'alises
+  Bidimensionais versus An\'alises Tridimensionais}.
+86~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Coimbra, Coimbra,
+  2014.}
+
+\bibitem[Moreira 2006]{Moreira2006}
+\abntrefinfo{Moreira}{MOREIRA}{2006}
+{MOREIRA, C. M. d.~C. Túneis: uma herança ancestral rumo ao futuro.
+\textbf{A obra nasce: revista de Arquitetura da Universidade Fernando Pessoa},
+  p. 92--115, 2006.}
+
+\bibitem[Nematollahi, Molladavoodi e Dias 2018]{Nematollahietal2018}
+\abntrefinfo{Nematollahi, Molladavoodi e Dias}{NEMATOLLAHI; MOLLADAVOODI;
+  DIAS}{2018}
+{NEMATOLLAHI, M.; MOLLADAVOODI, H.; DIAS, D. Three dimensional numerical
+  simulation of the shiraz subway second line - influence of the segmental
+  joints geometry and of the lagging distance between twin tunnels’ faces.
+\textbf{European Journal of Environmental and Civil Engineering}, 2018.}
+
+\bibitem[Ng, Lee e Tang 2004]{Ngetal2004}
+\abntrefinfo{Ng, Lee e Tang}{NG; LEE; TANG}{2004}
+{NG, C.; LEE, K.; TANG, D. Three-dimensional numerical investigations of new
+  austrian tunnelling method (natm) twin tunnel interactions.
+\textbf{Canadian Geotechnical Journal}, v.~41, p. 523--539, 2004.
+ISSN 00083674.}
+
+\bibitem[Palmstr{\"{o}}m 1993]{Palmstrom1993}
+\abntrefinfo{Palmstr{\"{o}}m}{PALMSTR{\"{O}}M}{1993}
+{PALMSTR{\"{O}}M, A. The new austrian tunneling method (natm).
+\textbf{Anais da Conferência técnica de detonação de rochas, mecânica das
+  rochas e Geotecnia}, Instituto Geotécnico Norueguês, Oslo, 1993.
+Dispon{\'\i}vel em: \url{http://rockmass.net/ap/39\_Palmstrom\_on\_NATM.pdf}.}
+
+\bibitem[Panet 1995]{Panet1995}
+\abntrefinfo{Panet}{PANET}{1995}
+{PANET, M. \textbf{{Le Calcul des Tunnels par la M{\'{e}}thode
+  Convergence-Confinement}}. Presses De L'ecole Nationale Des Ponts Et
+  Chaussees, 1995. 161~p.
+ISBN 2859782303. Dispon{\'\i}vel em:
+  \url{https://pt.scribd.com/document/456649940/1995-Calcul-Des-Tunnels-Par-La-Methode-Convergence-Confinement-Panet}.}
+
+\bibitem[Phutthananon et al. 2023]{Phutthananon2023}
+\abntrefinfo{Phutthananon et al.}{PHUTTHANANON et al.}{2023}
+{PHUTTHANANON, C.; LERTKULTANON, S.; JONGPRADIST, P.; DUANGSANO, O.;
+  LIKITLERSUANG, S.; JAMSAWANG, P. Numerical investigation on the responses of
+  existing single piles due to adjacent twin tunneling considering the lagging
+  distance.
+\textbf{Underground Space}, 2023.}
+
+\bibitem[Piepi 1995]{Piepi1995}
+\abntrefinfo{Piepi}{PIEPI}{1995}
+{PIEPI, G.~T.
+\textbf{{Comportement viscoplastique avec rupture des argiles raides:
+  applications aux ouvrages souterrains}}.
+155~p. Tese (Doutorado) --- Ecole Nationale des Ponts et Chauss{\'{e}}es, 1995.
+Dispon{\'\i}vel em:
+  \url{https://pastel.archives-ouvertes.fr/tel-00523616/document}.}
+
+\bibitem[Pinto e Whittle 2013]{PintoWhittle2013}
+\abntrefinfo{Pinto e Whittle}{PINTO; WHITTLE}{2013}
+{PINTO, F.; WHITTLE, A.~J. Ground movements due to shallow tunnels in soft
+  ground. i: Analytical solutions.
+\textbf{Journal of Geotechnical and Geoenvironmental Engineering}, 2013.}
+
+\bibitem[Quevedo 2017]{Quevedo2017}
+\abntrefinfo{Quevedo}{QUEVEDO}{2017}
+{QUEVEDO, F. P. d.~M.
+\textbf{{Comportamento a longo prazo de t{\'{u}}neis profundos revestidos com
+  concreto : modelo em elementos finitos}}.
+210~p. Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal do Rio Grande do
+  Sul, Porto Alegre, 2017.}
+
+\bibitem[Quevedo 2021]{Quevedo2021}
+\abntrefinfo{Quevedo}{QUEVEDO}{2021}
+{QUEVEDO, F. P. d.~M.
+\textbf{Análise computacional das deformações em túneis profundos
+  considerando o acoplamento plasticidade-viscoplasticidade}.
+210~p. Tese (Doutorado) --- Universidade Federal do Rio Grande do Sul, Porto
+  Alegre, 2021.}
+
+\bibitem[Quevedo, Bernaud e Maghous 2022]{Quevedoetal2022}
+\abntrefinfo{Quevedo, Bernaud e Maghous}{QUEVEDO; BERNAUD; MAGHOUS}{2022}
+{QUEVEDO, F. P. d.~M.; BERNAUD, D.; MAGHOUS, S. Numerical integration scheme
+  for coupled elastoplastic–viscoplastic constitutive law for tunnels.
+\textbf{International Journal of Geomechanics}, v.~22, 2022.}
+
+\bibitem[Quevedo, Bernaud e Filho 2022]{Quevedoetal2022b}
+\abntrefinfo{Quevedo, Bernaud e Filho}{QUEVEDO; BERNAUD; FILHO}{2022}
+{QUEVEDO, F. P.~M.; BERNAUD, D.; FILHO, A. C. Numerical analysis of deep
+  tunnels in viscoplastic rock mass considering the creep and shrinkage of the
+  concrete lining.
+\textbf{International Journal of Geomechanics}, v.~22, n.~4, 2022.}
+
+\bibitem[Quevedo et al. 2018]{Quevedoetal2018}
+\abntrefinfo{Quevedo et al.}{QUEVEDO et al.}{2018}
+{QUEVEDO, F. P.~M.; SCHMITZ, R.~J.; MORSCH, I.~B.; A., C.~F.; BERNAUD, D.
+  Customization of a software of finite elements to analysis of concrete
+  structures: long-term effects.
+\textbf{IBRACON Structures and Materials Journal}, v.~11, n.~4, 2018.}
+
+\bibitem[Rousset 1988]{Rousset1988}
+\abntrefinfo{Rousset}{ROUSSET}{1988}
+{ROUSSET, G.
+\textbf{{Comportement Mecanique des Argiles Profondes: application au stockage
+  de dechets radioactifs}}.
+Tese (Doutorado) --- L'Ecole Nationale des Ponts et Chaussees, 1988.}
+
+\bibitem[Shaofeng et al. 2018]{Shaofeng2018}
+\abntrefinfo{Shaofeng et al.}{SHAOFENG et al.}{2018}
+{SHAOFENG, L.; JINCAI, F.; PINGHUA, Z.; XIANG, L. Stability analysis of two
+  parallel closely spaced tunnels based on convergence–confinement principle.
+\textbf{Journal of Construction Engineering and Management}, v.~144, n.~6,
+  2018.}
+
+\bibitem[Silveira 1974]{Silveira1974}
+\abntrefinfo{Silveira}{SILVEIRA}{1974}
+{SILVEIRA, E. B.~S. Metrôs e túneis em solos.
+\textbf{V Congresso Brasileiro de Mecânica dos Solos}, São Paulo, v.~3, p.
+  23--96, 1974.}
+
+\bibitem[Teixeira 1994]{Teixeira1994}
+\abntrefinfo{Teixeira}{TEIXEIRA}{1994}
+{TEIXEIRA, A. N.~S. \textbf{Estudo do comportamento do túnel do metrô do
+  Distrito Federal escavado em solos porosos colapsíveis}. Brasília: [s.n.],
+  1994.}
+
+\bibitem[UK 2019]{UKGovernment2019}
+\abntrefinfo{UK}{UK}{2019}
+{UK, G. \textbf{High Speed Two (HS2)}. Birmingham: [s.n.], 2019.
+Dispon{\'\i}vel em:
+  \url{https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment\_data/file/960814/F2\_Phase\_2a\_Tunnels\_v1.2.pdf}.}
+
+\bibitem[Vetsch et al. 2016]{Vetsch2016}
+\abntrefinfo{Vetsch et al.}{VETSCH et al.}{2016}
+{VETSCH, H.~P.; ZBINDEN, P.; M{\"{A}}RKI, E.; EHRBAR, H. Gotthard base tunnel
+  – choice of the tunnel system from today’s point of view.
+\textbf{Geomechanics and Tunnelling}, Berlin, 2016.}
+
+\bibitem[Vlachopoulos e Diederichs 2014]{Vlachopoulos2014}
+\abntrefinfo{Vlachopoulos e Diederichs}{VLACHOPOULOS; DIEDERICHS}{2014}
+{VLACHOPOULOS, N.; DIEDERICHS, M. Appropriate uses and practical limitations of
+  2d numerical analysis of tunnels and tunnel support response.
+\textbf{Geotechnical and Geological Engineering}, v.~32, 2014.}
+
+\bibitem[{WORLD HIGHWAYS} 2015]{Worldhighways2015}
+\abntrefinfo{{WORLD HIGHWAYS}}{{WORLD HIGHWAYS}}{2015}
+{{WORLD HIGHWAYS}. \textbf{{Improving tunneling method selection}}. 2015. 1~p.
+Dispon{\'\i}vel em:
+  \url{https://www.worldhighways.com/wh10/feature/improving-tunneling-method-selection}.
+  Acesso em: 08 set. 2024.}
+
+\bibitem[Zienkiewicz e Cormeau 1974]{Zienkiewicz1974}
+\abntrefinfo{Zienkiewicz e Cormeau}{ZIENKIEWICZ; CORMEAU}{1974}
+{ZIENKIEWICZ, O.; CORMEAU, I. \textbf{Visco-plasticity — plasticity and creep
+  in elastic solids — a unified numerical solution approach}. 1974.}
+
 \end{thebibliography}

@@ -82,7 +82,8 @@ def graficar(x,y,                       # eixo x e y
     #    bbox_to_anchor=(0.5, -0.22),
     #    fontsize="11")
 
-    # Salvando em arquivo    
+    # Salvando em arquivo   
+    plt.savefig(str(titulo) + '.svg', format='svg')
     plt.savefig(str(titulo) + '.pdf', 
                 dpi = fig.dpi, 
                 bbox_inches='tight', 
@@ -222,6 +223,88 @@ estilo      = 'dashed'
 marker      = ""
 
 graficar([0,5.0],[1,1],titulo,eixox,eixoy,
+          xmin,xmax,xstep,ymin,ymax,ystep,
+          lbldata,
+          cor,tamanho,ordem,alpha,estilo,marker,
+          figura)
+
+
+figura      = 3
+titulo      = 'Fator de concentração de tensão tangencial em A - teste'
+eixoy       = r'$\sigma_{\theta \theta}/\sigma_v$'
+eixox       = r'$d_1/2R_t$'
+xmin        = 1.25
+xmax        = 3.25
+xstep       = 0.25
+ymin        = 1.75
+ymax        = 3.25
+ystep       = 0.25
+
+lbldata     = 'Solução numérica 3D (MEF)'
+cor         = 'r'
+tamanho     = 1.5
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+marker      = "s"
+
+graficar(x,sttA,titulo,eixox,eixoy,
+          xmin,xmax,xstep,ymin,ymax,ystep,
+          lbldata,
+          cor,tamanho,ordem,alpha,estilo,marker,
+          figura)
+
+lbldata     = 'Solução analítica (Guo et al, 2021)'
+cor         = '#fc4f30'
+tamanho     = 1.5
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+marker      = "D"
+
+graficar(x_analitycal,sttA_analitycal,titulo,eixox,eixoy,
+          xmin,xmax,xstep,ymin,ymax,ystep,
+          lbldata,
+          cor,tamanho,ordem,alpha,estilo,marker,
+          figura)
+
+lbldata     = 'Solução numérica (Guo et al, 2021)'
+cor         = 'b'
+tamanho     = 1.5
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+marker      = "x"
+
+graficar(x_numerical,sttA_numerical,titulo,eixox,eixoy,
+          xmin,xmax,xstep,ymin,ymax,ystep,
+          lbldata,
+          cor,tamanho,ordem,alpha,estilo,marker,
+          figura)
+
+lbldata     = 'Solução analítica (Ling, 1948)'
+cor         = 'g'
+tamanho     = 1.5
+ordem       = 1
+alpha       = 1
+estilo      = 'solid'
+marker      = "o"
+
+graficar(x_Ling,sttA_Ling,titulo,eixox,eixoy,
+          xmin,xmax,xstep,ymin,ymax,ystep,
+          lbldata,
+          cor,tamanho,ordem,alpha,estilo,marker,
+          figura)
+
+lbldata     = 'Túnel isolado'
+cor         = 'k'
+tamanho     = 1.5
+ordem       = 1
+alpha       = 1
+estilo      = 'dashed'
+marker      = ""
+
+graficar([1.25,5.0],[2,2],titulo,eixox,eixoy,
           xmin,xmax,xstep,ymin,ymax,ystep,
           lbldata,
           cor,tamanho,ordem,alpha,estilo,marker,

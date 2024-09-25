@@ -11,9 +11,10 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: ./chap/cap4.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: ./chap/cap5.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 18 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
-I found no \bibdata command---while reading file main.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -23,80 +24,20 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10037 items.
-Warning--I didn't find a database entry for "abnt-url-package=url"
-Warning--I didn't find a database entry for "abnt-emphasize=bf"
-Warning--I didn't find a database entry for "abnt-repeated-author-omit=yes"
-Warning--I didn't find a database entry for "abnt-etal-list=0"
-Warning--I didn't find a database entry for "Quevedo2017"
-Warning--I didn't find a database entry for "Quevedo2021"
-Warning--I didn't find a database entry for "Folhapress2007"
-Warning--I didn't find a database entry for "Dailymirror"
-Warning--I didn't find a database entry for "Jensenetal2019"
-Warning--I didn't find a database entry for "Moreira2006"
-Warning--I didn't find a database entry for "FederalHighwayAdministration2009"
-Warning--I didn't find a database entry for "Worldhighways2015"
-Warning--I didn't find a database entry for "Heinio1999"
-Warning--I didn't find a database entry for "Chapman2018"
-Warning--I didn't find a database entry for "Herrenknecht2015"
-Warning--I didn't find a database entry for "DAERSP2005"
-Warning--I didn't find a database entry for "Franca2006"
-Warning--I didn't find a database entry for "Panet1995"
-Warning--I didn't find a database entry for "Eisensteinetal1984"
-Warning--I didn't find a database entry for "Couto2011"
-Warning--I didn't find a database entry for "Benamar1996"
-Warning--I didn't find a database entry for "PintoWhittle2013"
-Warning--I didn't find a database entry for "Bernaud1991"
-Warning--I didn't find a database entry for "Bernaud1992"
-Warning--I didn't find a database entry for "Colombo2023"
-Warning--I didn't find a database entry for "BazantPrasannanA"
-Warning--I didn't find a database entry for "Rousset1988"
-Warning--I didn't find a database entry for "Zienkiewicz1974"
-Warning--I didn't find a database entry for "Debernardi2009"
-Warning--I didn't find a database entry for "ANSYS"
-Warning--I didn't find a database entry for "Guoetal2021"
-Warning--I didn't find a database entry for "Maetal2020"
-Warning--I didn't find a database entry for "Maffei2008"
-Warning--I didn't find a database entry for "HSE1996"
-Warning--I didn't find a database entry for "Phutthananon2023"
-Warning--I didn't find a database entry for "Ngetal2004"
-Warning--I didn't find a database entry for "Changguietal2020"
-Warning--I didn't find a database entry for "Teixeira1994"
-Warning--I didn't find a database entry for "Quevedoetal2022"
-Warning--I didn't find a database entry for "Jensen2019"
-Warning--I didn't find a database entry for "Silveira1974"
-Warning--I didn't find a database entry for "Maidl2008"
-Warning--I didn't find a database entry for "Dada2020"
-Warning--I didn't find a database entry for "Bickel1996"
-Warning--I didn't find a database entry for "HoekBrown1980"
-Warning--I didn't find a database entry for "Marques2014"
-Warning--I didn't find a database entry for "BobetEinstein2010"
-Warning--I didn't find a database entry for "Deere1970"
-Warning--I didn't find a database entry for "LangerStockmann1985"
-Warning--I didn't find a database entry for "AlmeidaeSousa1998"
-Warning--I didn't find a database entry for "Ferrao2018"
-Warning--I didn't find a database entry for "Iftimie1996"
-Warning--I didn't find a database entry for "AFTES2001"
-Warning--I didn't find a database entry for "Bieniawski1989"
-Warning--I didn't find a database entry for "Barton1974"
-Warning--I didn't find a database entry for "Karakus2004"
-Warning--I didn't find a database entry for "Gomes2006"
-Warning--I didn't find a database entry for "Palmstrom1993"
-Warning--I didn't find a database entry for "Bernaud1994"
-Warning--I didn't find a database entry for "Fuente2018"
-Warning--I didn't find a database entry for "Lietal2018"
-Warning--I didn't find a database entry for "Fortsakis2012"
-Warning--I didn't find a database entry for "ChortisKavvadas2021b"
-Warning--I didn't find a database entry for "ChortisKavvadas2021a"
-Warning--I didn't find a database entry for "Nematollahietal2018"
-Warning--I didn't find a database entry for "Doetal2015"
-Warning--I didn't find a database entry for "BazantPrasannanB"
-Warning--I didn't find a database entry for "CEB1993"
-Warning--I didn't find a database entry for "Quevedoetal2022b"
-Warning--I didn't find a database entry for "Quevedoetal2018"
-Warning--I didn't find a database entry for "Piepi1995"
-Warning--I didn't find a database entry for "Giraud1996"
-Warning--I didn't find a database entry for "Ling1948"
+Reallocating 'field_info' (item size: 4) to 10451 items.
+Database file #1: abntex2-options.bib
+Database file #2: ./bib/referencias.bib
+Warning--entry type for "Ferrao2018" isn't style-file defined
+--line 557 of file ./bib/referencias.bib
+You're missing a field name---line 1059 of file ./bib/referencias.bib
+ :  
+ :  %author = {{O ANTAGONISTA}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Teixeira1994" isn't style-file defined
+--line 1331 of file ./bib/referencias.bib
+Warning--entry type for "Zienkiewicz1974" isn't style-file defined
+--line 1431 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -106,45 +47,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 0 entries,
+You've used 79 entries,
             6714 wiz_defined-function locations,
-            1340 strings with 11146 characters,
-and the built_in function-call counts, 679 in all, are:
-= -- 182
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 27
-:= -- 155
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 139
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 25
+            1702 strings with 24634 characters,
+and the built_in function-call counts, 85213 in all, are:
+= -- 8480
+> -- 2331
+< -- 1491
++ -- 2334
+- -- 702
+* -- 5809
+:= -- 10990
+add.period$ -- 281
+call.type$ -- 79
+change.case$ -- 790
+chr.to.int$ -- 150
+cite$ -- 75
+duplicate$ -- 7127
+empty$ -- 4211
+format.name$ -- 3399
+if$ -- 17895
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 1374
+newline$ -- 406
+num.names$ -- 376
+pop$ -- 1621
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 303
 quote$ -- 0
-skip$ -- 40
+skip$ -- 7260
 stack$ -- 1
-substring$ -- 44
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3246
+swap$ -- 2666
+text.length$ -- 66
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 43
 warning$ -- 0
-while$ -- 2
+while$ -- 507
 width$ -- 0
-write$ -- 8
+write$ -- 1193
 (There was 1 error message)

@@ -8,28 +8,32 @@
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\chapter{Cronograma}
+\chapter{Conclusão parcial e cronograma}
 % ----------------------------------------------------------
+
+No presente trabalho, foram apresentados os principais conceitos que envolvem os túneis, dando ênfase para os túneis gêmeos e profundos interligados por galerias transversais. Nesse contexto, através da aplicação de um modelo constitutivo e computacional para analisar os processos de deformação e as interações mecânicas entre esses túneis, foram realizadas verificações preliminares com soluções analíticas e numéricas encontradas em outros estudos.
+
+Entre os objetivos mais relevantes do presente trabalho, a influência do parâmetro friccional pôde ser verificada através das análises realizadas considerando os critérios de Drucker-Prager e Mohr-Coulomb. Ao empregar um ângulo de atrito para o maciço rochoso, constatou-se uma diminuição da convergência da seção em comparação com critérios que não consideram a presença do ângulo de atrito, demonstrando um aumento na rigidez desse material.
+
+A influência da proximidade entre os túneis gêmeos também pôde ser analisada através das verificações do modelo numérico com as soluções analíticas em elasticidade. Constatou-se que, quanto maior a proximidade entre os túneis, maior a influência de um túnel sobre o outro e, consequentemente, maior a deformação da seção.
+
 \begin{table}[H]
-%	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo axissimétrico}
 	\label{cronograma}
 	\centering
 	\small
-	\renewcommand{\arraystretch}{1.25}
+	\renewcommand{\arraystretch}{2}
 	\begin{tabular}{|l|c|c|c|c|c|c|}
 		\hline
-		\textbf{Atividades} & \textbf{Out} & \textbf{Nov} & \textbf{Dez} & \textbf{Jan} & \textbf{Fev} & \textbf{Mar} \\ \hline	
-		Revisão dos resultados preliminares                         &  &  &  &  &  &  \\ \hline
-		Aprimorar os resultados do capítulo 3                       &  &  &  &  &  &  \\ \hline
-		Incluir apêndices fundamentais                              &  &  &  &  &  &  \\ \hline
-		Ampliar o caso de duas famílias ao caso genérico            &  &  &  &  &  &  \\ \hline
-		Formular a propagação de dano contínuo                      &  &  &  &  &  &  \\ \hline
-		Avaliar a propagação de dano contínuo                       &  &  &  &  &  &  \\ \hline
-		Aplicações numéricas do trabalho                            &  &  &  &  &  &  \\ \hline
-		Finalização do texto da dissertação                         &  &  &  \cellcolor{blue!30} & \\ \hline
-		Desenvolvimento do artigo                                   &  &  &  &  \cellcolor{blue!30} & \cellcolor{blue!30} \\ \hline
-		Defesa da dissertação                                       &  &  &  &  &  & \cellcolor{blue!30} \\ \hline
+		\multirow{2}{*}{\textbf{Atividades a serem desenvolvidas}} & \multicolumn{3}{c|}{2024} & \multicolumn{3}{c|}{2025} \\ \cline{2-7}
+		 & \textbf{OUT} & \textbf{NOV} & \textbf{DEZ} & \textbf{JAN} &  \textbf{FEV} & \textbf{MAR} \\ \hline	
+		Revisão do texto apresentado no Seminário & \cellcolor{gray!50} &  &  &  &  &  \\ \hline
+		\makecell[l]{Adaptação do \textit{script} APDL para considerar a \\ defasagem construtiva} & \cellcolor{gray!50} & \cellcolor{gray!50} &  &  &  &  \\ \hline
+		\makecell[l]{Realização de análises para investigar os efeitos \\ do parâmetro friccional e da rigidez do revestimento} &  & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} &  &  \\ \hline
+		\makecell[l]{Implementação da superfície de Mohr-Coulomb na \\ subrotina constitutiva elastoplástica-viscoplástica} &  &  & \cellcolor{gray!50} & \cellcolor{gray!50} &  &  \\ \hline
+		Desenvolvimento do texto final para a dissertação &  &  &  & \cellcolor{gray!50} & \cellcolor{gray!50} &  \\ \hline
+		Desenvolvimento do artigo &  &  &  &  & \cellcolor{gray!50} & \cellcolor{gray!50} \\ \hline
+		Defesa da dissertação &  &  &  &  &  & \cellcolor{gray!50} \\ \hline
 	\end{tabular}
+	\caption{Cronograma proposto para a continuidade do estudo}
 \end{table}
 
-\end{document}

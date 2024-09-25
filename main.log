@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  24 SEP 2024 21:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  25 SEP 2024 04:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,6 +1010,12 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks45
 \minrowclearance=\skip281
 \rownum=\count387
+) (C:\Users\bianc\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip282
+\multirow@cntb=\count388
+\multirow@dima=\skip283
+\bigstrutjot=\dimen288
 ))
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 76
 .
@@ -1040,7 +1046,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 Package hyperref Info: Link coloring ON on input line 76.
 \myptabbox=\box72
-\myptabboxwidth=\skip282
+\myptabboxwidth=\skip284
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1053,16 +1059,16 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\bianc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count388
-\scratchdimen=\dimen288
+\scratchcounter=\count389
+\scratchdimen=\dimen289
 \scratchbox=\box73
-\nofMPsegments=\count389
-\nofMParguments=\count390
+\nofMPsegments=\count390
+\nofMParguments=\count391
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count391
-\MPscratchDim=\dimen289
-\MPnumerator=\count392
-\makeMPintoPDFobject=\count393
+\MPscratchCnt=\count392
+\MPscratchDim=\dimen290
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
 \everyMPtoPDFconversion=\toks47
 )
 (C:\Users\bianc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1212,14 +1218,7 @@ l.80 \imprimirfolhaderosto
 [2
 
 
-] (pre/resumo.tex
-
-LaTeX Warning: Citation `Quevedo2017' on page 3 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 3 undefined on input line 10.
-
-)
+] (pre/resumo.tex)
 
 [3
 
@@ -1234,167 +1233,46 @@ Package babel Info: Importing basic data for english
 
 ] (main.lof
 
-LaTeX Warning: Citation `Folhapress2007' on page 5 undefined on input line 3.
-
-
-LaTeX Warning: Citation `Dailymirror' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Jensenetal2019' on page 5 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 5 undefined on input line 7.
-
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 5 undefined 
-on input line 8.
-
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 5 undefined 
-on input line 9.
-
-
-LaTeX Warning: Citation `Worldhighways2015' on page 5 undefined on input line 9
-.
-
-
-LaTeX Warning: Citation `Heinio1999' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 5 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Herrenknecht2015' on page 5 undefined on input line 12
-.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 5 undefined on input line 13.
-
-
-LaTeX Warning: Citation `DAERSP2005' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Franca2006' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Franca2006' on page 5 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Franca2006' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Franca2006' on page 5 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Panet1995' on page 5 undefined on input line 19.
-
-
-LaTeX Warning: Citation `Eisensteinetal1984' on page 5 undefined on input line 
-20.
-
-
-LaTeX Warning: Citation `Couto2011' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Benamar1996' on page 5 undefined on input line 21.
-
-
-
 [5
 
 ]
 
-LaTeX Warning: Citation `PintoWhittle2013' on page 6 undefined on input line 22
-.
-
-
-LaTeX Warning: Citation `Bernaud1991' on page 6 undefined on input line 23.
-
-
-LaTeX Warning: Citation `Bernaud1991' on page 6 undefined on input line 24.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 6 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 6 undefined on input line 28.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 6 undefined on input line 29.
-
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 6 undefined on input line 30
-.
-
-
-LaTeX Warning: Citation `Rousset1988' on page 6 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Zienkiewicz1974' on page 6 undefined on input line 32.
-
-
-
-LaTeX Warning: Citation `Debernardi2009' on page 6 undefined on input line 33.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 6 undefined on input line 34.
-
-
-LaTeX Warning: Citation `ANSYS' on page 6 undefined on input line 35.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 6 undefined on input line 36.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 6 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 6 undefined on input line 38.
-
-
-
 [6]
 
-LaTeX Warning: Citation `Colombo2023' on page 7 undefined on input line 39.
+[7])
 
-
-LaTeX Warning: Citation `Guoetal2021' on page 7 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Maetal2020' on page 7 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Maetal2020' on page 7 undefined on input line 46.
-
-)
-
-[7] (main.lot)
-
-[8
-
-] (pre/siglas.tex)
+[8] (main.lot)
 
 [9
 
-
-] (pre/simbolos.tex)
+] (pre/siglas.tex
 
 [10
 
 
-] (main.toc
+])
 
-[11
+[11] (pre/simbolos.tex
+
+[12
+
+
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 85.
+
+Missing character: There is no á in font zptmcm7t!
+
+
+[13])
+
+[14] (main.toc
+
+[15
 
 ])
 
-[12]
+[16]
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
@@ -1405,888 +1283,286 @@ ine 97.
 
 (chap/cap1.tex
 
-LaTeX Warning: Citation `Maffei2008' on page 13 undefined on input line 20.
-
-
-
-[13
+[17
 
 
 
 ]
-<./fig/desmoronamentoSP.jpg, id=283, 1204.5pt x 630.355pt>
-File: ./fig/desmoronamentoSP.jpg Graphic file (type jpg)
-<use ./fig/desmoronamentoSP.jpg>
-Package pdftex.def Info: ./fig/desmoronamentoSP.jpg  used on input line 24.
-(pdftex.def)             Requested size: 409.52458pt x 214.31786pt.
-
-
-LaTeX Warning: Citation `Folhapress2007' on page 14 undefined on input line 26.
-
-
-
-LaTeX Warning: Citation `Folhapress2007' on page 14 undefined on input line 26.
-
-
-
-LaTeX Warning: Citation `HSE1996' on page 14 undefined on input line 31.
-
-<./fig/desmoronamentoheathrow.png, id=285, 715.473pt x 463.7325pt>
-File: ./fig/desmoronamentoheathrow.png Graphic file (type png)
-<use ./fig/desmoronamentoheathrow.png>
-Package pdftex.def Info: ./fig/desmoronamentoheathrow.png  used on input line 3
-5.
+<./fig/desmoronamentoSPPB.jpg, id=447, 903.375pt x 472.76625pt>
+File: ./fig/desmoronamentoSPPB.jpg Graphic file (type jpg)
+<use ./fig/desmoronamentoSPPB.jpg>
+Package pdftex.def Info: ./fig/desmoronamentoSPPB.jpg  used on input line 24.
+(pdftex.def)             Requested size: 397.48624pt x 208.01779pt.
+<./fig/desmoronamentoheathrowPB.png, id=455, 715.473pt x 463.7325pt>
+File: ./fig/desmoronamentoheathrowPB.png Graphic file (type png)
+<use ./fig/desmoronamentoheathrowPB.png>
+Package pdftex.def Info: ./fig/desmoronamentoheathrowPB.png  used on input line
+ 35.
 (pdftex.def)             Requested size: 357.73563pt x 231.86568pt.
 
-LaTeX Warning: Citation `Dailymirror' on page 14 undefined on input line 37.
 
+[18 <./fig/desmoronamentoSPPB.jpg> <./fig/desmoronamentoheathrowPB.png>]
 
-LaTeX Warning: Citation `Dailymirror' on page 14 undefined on input line 37.
+[19]
 
+[20]
 
+[21])
 
-[14 <./fig/desmoronamentoSP.jpg> <./fig/desmoronamentoheathrow.png>]
-
-LaTeX Warning: Citation `Phutthananon2023' on page 15 undefined on input line 4
-6.
-
-
-
-[15]
-Overfull \hbox (26.12631pt too wide) in paragraph at lines 66--67
-[]\T1/ptm/m/n/12 (-20) realizar aná-li-ses pa-ra-mé-tri-cas na pro-ble-má-tica 
-de tú-neis gê-meos com mo-delo elastoplástico-
- []
-
-
-LaTeX Warning: Citation `Ngetal2004' on page 16 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Changguietal2020' on page 16 undefined on input line 8
-1.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 16 undefined on input line 85.
-
-
-
-[16]
-
-[17])
-
-[18]
+[22]
 \openout2 = `./chap/cap2.aux'.
 
  (chap/cap2.tex
-
-LaTeX Warning: Citation `Teixeira1994' on page 19 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Teixeira1994' on page 19 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Couto2011' on page 19 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Couto2011' on page 19 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Quevedoetal2022' on page 19 undefined on input line 16
-.
-
-
-LaTeX Warning: Citation `Jensenetal2019' on page 19 undefined on input line 16.
-
-
-
-LaTeX Warning: Citation `Quevedoetal2022' on page 19 undefined on input line 18
-.
-
-
-LaTeX Warning: Citation `Jensen2019' on page 19 undefined on input line 20.
-
-
-LaTeX Warning: Citation `PintoWhittle2013' on page 19 undefined on input line 2
-0.
-
-<./fig/tunelrasoeprofundo2.pdf, id=328, 388.93652pt x 279.63103pt>
+<./fig/tunelrasoeprofundo2.pdf, id=535, 388.93652pt x 279.63103pt>
 File: ./fig/tunelrasoeprofundo2.pdf Graphic file (type pdf)
 <use ./fig/tunelrasoeprofundo2.pdf>
 Package pdftex.def Info: ./fig/tunelrasoeprofundo2.pdf  used on input line 24.
 (pdftex.def)             Requested size: 311.14963pt x 223.70512pt.
 
-LaTeX Warning: Citation `Jensenetal2019' on page 19 undefined on input line 26.
 
-
-
-LaTeX Warning: Citation `Jensenetal2019' on page 19 undefined on input line 26.
-
-
-
-
-[19
+[23
 
 
 
 
 ]
 
-LaTeX Warning: Citation `Moreira2006' on page 20 undefined on input line 34.
+[24 <./fig/tunelrasoeprofundo2.pdf>]
+<./fig/cloacamassimaPB.jpg, id=573, 743.77875pt x 752.8125pt>
+File: ./fig/cloacamassimaPB.jpg Graphic file (type jpg)
+<use ./fig/cloacamassimaPB.jpg>
+Package pdftex.def Info: ./fig/cloacamassimaPB.jpg  used on input line 46.
+(pdftex.def)             Requested size: 297.50623pt x 301.11966pt.
 
 
-LaTeX Warning: Citation `Silveira1974' on page 20 undefined on input line 36.
+[25 <./fig/cloacamassimaPB.jpg>]
 
-
-LaTeX Warning: Citation `Silveira1974' on page 20 undefined on input line 36.
-
-
-LaTeX Warning: Citation `Couto2011' on page 20 undefined on input line 36.
-
-
-LaTeX Warning: Citation `Couto2011' on page 20 undefined on input line 36.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 20 undefined on input line 38.
-
-
-
-[20 <./fig/tunelrasoeprofundo2.pdf>]
-<./fig/cloacamassima.jpg, id=346, 991.705pt x 1003.75pt>
-File: ./fig/cloacamassima.jpg Graphic file (type jpg)
-<use ./fig/cloacamassima.jpg>
-Package pdftex.def Info: ./fig/cloacamassima.jpg  used on input line 46.
-(pdftex.def)             Requested size: 277.6755pt x 281.04808pt.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 21 undefined on input line 48.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 21 undefined on input line 48.
-
-
-LaTeX Warning: Citation `Maidl2008' on page 21 undefined on input line 51.
-
-
-LaTeX Warning: Citation `Silveira1974' on page 21 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Silveira1974' on page 21 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Couto2011' on page 21 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Couto2011' on page 21 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 21 undefined on input line 57.
-
-
-
-[21 <./fig/cloacamassima.jpg>]
-
-LaTeX Warning: Citation `Silveira1974' on page 22 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Silveira1974' on page 22 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Couto2011' on page 22 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Couto2011' on page 22 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 22 undefined on input line 61.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 22 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 22 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 22 undefined on input line 76.
-
-
-
-[22]
-<./fig/metodosescavacao.pdf, id=356, 403.4471pt x 313.43916pt>
+[26]
+<./fig/metodosescavacao.pdf, id=609, 403.4471pt x 313.43916pt>
 File: ./fig/metodosescavacao.pdf Graphic file (type pdf)
 <use ./fig/metodosescavacao.pdf>
 Package pdftex.def Info: ./fig/metodosescavacao.pdf  used on input line 80.
 (pdftex.def)             Requested size: 383.27257pt x 297.7655pt.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 23 undefined on input line 82.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 23 undefined on input line 82.
-
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 23 undefined
- on input line 85.
-
-<./fig/valarecoberta.pdf, id=358, 509.94902pt x 263.4145pt>
-File: ./fig/valarecoberta.pdf Graphic file (type pdf)
-<use ./fig/valarecoberta.pdf>
-Package pdftex.def Info: ./fig/valarecoberta.pdf  used on input line 89.
+<./fig/valarecobertaPB.pdf, id=617, 509.94902pt x 263.4145pt>
+File: ./fig/valarecobertaPB.pdf Graphic file (type pdf)
+<use ./fig/valarecobertaPB.pdf>
+Package pdftex.def Info: ./fig/valarecobertaPB.pdf  used on input line 89.
 (pdftex.def)             Requested size: 433.45871pt x 223.90337pt.
 
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 23 undefined
- on input line 91.
 
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 23 undefined
- on input line 91.
-
-
-
-[23 <./fig/metodosescavacao.pdf>]
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 24 undefined
- on input line 94.
-
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 24 undefined
- on input line 98.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 24 undefined on input line 98.
-
-<./fig/roadheader.png, id=377, 554.82281pt x 366.61969pt>
-File: ./fig/roadheader.png Graphic file (type png)
-<use ./fig/roadheader.png>
-Package pdftex.def Info: ./fig/roadheader.png  used on input line 103.
+[27 <./fig/metodosescavacao.pdf>]
+<./fig/roadheaderPB.png, id=646, 554.82281pt x 366.61969pt>
+File: ./fig/roadheaderPB.png Graphic file (type png)
+<use ./fig/roadheaderPB.png>
+Package pdftex.def Info: ./fig/roadheaderPB.png  used on input line 103.
 (pdftex.def)             Requested size: 221.92519pt x 146.64526pt.
-<./fig/hammerhead.jpg, id=378, 1025.2704pt x 682.2288pt>
-File: ./fig/hammerhead.jpg Graphic file (type jpg)
-<use ./fig/hammerhead.jpg>
-Package pdftex.def Info: ./fig/hammerhead.jpg  used on input line 104.
+<./fig/hammerheadPB.jpg, id=647, 1025.2704pt x 682.2288pt>
+File: ./fig/hammerheadPB.jpg Graphic file (type jpg)
+<use ./fig/hammerheadPB.jpg>
+Package pdftex.def Info: ./fig/hammerheadPB.jpg  used on input line 104.
 (pdftex.def)             Requested size: 220.42883pt x 146.67633pt.
 
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 24 undefined
- on input line 106.
+
+[28 <./fig/valarecobertaPB.pdf>]
+<./fig/sequenciadetonacaoPB.pdf, id=787, 458.17pt x 226.30978pt>
+File: ./fig/sequenciadetonacaoPB.pdf Graphic file (type pdf)
+<use ./fig/sequenciadetonacaoPB.pdf>
+Package pdftex.def Info: ./fig/sequenciadetonacaoPB.pdf  used on input line 115
+.
+(pdftex.def)             Requested size: 412.34918pt x 203.67691pt.
 
 
-LaTeX Warning: Citation `Worldhighways2015' on page 24 undefined on input line 
-106.
-
-
-LaTeX Warning: Citation `FederalHighwayAdministration2009' on page 24 undefined
- on input line 106.
-
-
-LaTeX Warning: Citation `Worldhighways2015' on page 24 undefined on input line 
-106.
-
-
-LaTeX Warning: Citation `Dada2020' on page 24 undefined on input line 109.
-
-
-
-[24 <./fig/valarecoberta.pdf> <./fig/roadheader.png> <./fig/hammerhead.jpg>]
-
-LaTeX Warning: Citation `Chapman2018' on page 25 undefined on input line 111.
-
-<./fig/sequenciadetonacao.pdf, id=510, 458.17pt x 226.30978pt>
-File: ./fig/sequenciadetonacao.pdf Graphic file (type pdf)
-<use ./fig/sequenciadetonacao.pdf>
-Package pdftex.def Info: ./fig/sequenciadetonacao.pdf  used on input line 115.
-(pdftex.def)             Requested size: 458.16887pt x 226.30922pt.
-
-Overfull \hbox (2.92476pt too wide) in paragraph at lines 115--116
- [] 
- []
-
-
-LaTeX Warning: Citation `Heinio1999' on page 25 undefined on input line 117.
-
-
-LaTeX Warning: Citation `Heinio1999' on page 25 undefined on input line 117.
-
-
-LaTeX Warning: Citation `Bickel1996' on page 25 undefined on input line 120.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 25 undefined on input line 120.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 25 undefined on input line 122.
-
-
-LaTeX Warning: Citation `Maidl2008' on page 25 undefined on input line 124.
-
-
-
-[25 <./fig/sequenciadetonacao.pdf>]
-
-LaTeX Warning: Citation `Maidl2008' on page 26 undefined on input line 126.
-
-<./fig/TBMgarras.png, id=671, 820.86674pt x 333.6465pt>
+[29 <./fig/roadheaderPB.png> <./fig/hammerheadPB.jpg> <./fig/sequenciadetonacao
+PB.pdf>]
+<./fig/TBMgarras.png, id=963, 820.86674pt x 333.6465pt>
 File: ./fig/TBMgarras.png Graphic file (type png)
 <use ./fig/TBMgarras.png>
 Package pdftex.def Info: ./fig/TBMgarras.png  used on input line 130.
 (pdftex.def)             Requested size: 451.4781pt x 183.50613pt.
 
-LaTeX Warning: Citation `Chapman2018' on page 26 undefined on input line 132.
+
+pdfTeX warning: pdflatex.exe (file ./fig/TBMblindadaPB.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<./fig/TBMblindadaPB.pdf, id=968, 1927.2pt x 1084.05pt>
+File: ./fig/TBMblindadaPB.pdf Graphic file (type pdf)
+<use ./fig/TBMblindadaPB.pdf>
+Package pdftex.def Info: ./fig/TBMblindadaPB.pdf  used on input line 137.
+(pdftex.def)             Requested size: 443.24669pt x 249.32625pt.
 
 
-LaTeX Warning: Citation `Chapman2018' on page 26 undefined on input line 132.
-
-
-
-pdfTeX warning: pdflatex.exe (file ./fig/TBMblindada.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<./fig/TBMblindada.pdf, id=672, 1445.4pt x 813.0375pt>
-File: ./fig/TBMblindada.pdf Graphic file (type pdf)
-<use ./fig/TBMblindada.pdf>
-Package pdftex.def Info: ./fig/TBMblindada.pdf  used on input line 137.
-(pdftex.def)             Requested size: 448.06937pt x 252.03902pt.
-
-LaTeX Warning: Citation `Herrenknecht2015' on page 26 undefined on input line 1
-39.
-
-
-LaTeX Warning: Citation `Herrenknecht2015' on page 26 undefined on input line 1
-39.
-
-
-
-[26 <./fig/TBMgarras.png>]
-
-LaTeX Warning: Citation `Chapman2018' on page 27 undefined on input line 142.
-
-<./fig/TBMsoftground.png, id=679, 479.54156pt x 334.24875pt>
+[30 <./fig/TBMgarras.png>]
+<./fig/TBMsoftground.png, id=984, 479.54156pt x 334.24875pt>
 File: ./fig/TBMsoftground.png Graphic file (type png)
 <use ./fig/TBMsoftground.png>
 Package pdftex.def Info: ./fig/TBMsoftground.png  used on input line 146.
-(pdftex.def)             Requested size: 455.5619pt x 317.5345pt.
-
-LaTeX Warning: Citation `Chapman2018' on page 27 undefined on input line 148.
+(pdftex.def)             Requested size: 335.6768pt x 233.97252pt.
 
 
-LaTeX Warning: Citation `Chapman2018' on page 27 undefined on input line 148.
-
-
-
-[27 <./fig/TBMblindada.pdf>]
-
-LaTeX Warning: Citation `Bickel1996' on page 28 undefined on input line 151.
-
-
-LaTeX Warning: Citation `Maidl2008' on page 28 undefined on input line 153.
-
-
-LaTeX Warning: Citation `Maidl2008' on page 28 undefined on input line 155.
-
-
-LaTeX Warning: Citation `HoekBrown1980' on page 28 undefined on input line 161.
-
-
-
-LaTeX Warning: Citation `Marques2014' on page 28 undefined on input line 161.
-
-
-
-[28 <./fig/TBMsoftground.png>]
-
-LaTeX Warning: Citation `BobetEinstein2010' on page 29 undefined on input line 
-163.
-
-
-LaTeX Warning: Citation `Deere1970' on page 29 undefined on input line 165.
-
-<./fig/revestimento.pdf, id=691, 357.79332pt x 232.0466pt>
+[31 <./fig/TBMblindadaPB.pdf> <./fig/TBMsoftground.png>]
+<./fig/revestimento.pdf, id=1011, 357.79332pt x 232.0466pt>
 File: ./fig/revestimento.pdf Graphic file (type pdf)
 <use ./fig/revestimento.pdf>
 Package pdftex.def Info: ./fig/revestimento.pdf  used on input line 169.
 (pdftex.def)             Requested size: 357.79243pt x 232.04602pt.
 
-LaTeX Warning: Citation `DAERSP2005' on page 29 undefined on input line 171.
 
+[32]
 
-LaTeX Warning: Citation `DAERSP2005' on page 29 undefined on input line 171.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 29 undefined on input line 174.
-
-
-
-[29 <./fig/revestimento.pdf>]
-
-LaTeX Warning: Citation `Franca2006' on page 30 undefined on input line 186.
-
-
-LaTeX Warning: Citation `LangerStockmann1985' on page 30 undefined on input lin
-e 186.
-
-
-LaTeX Warning: Citation `Marques2014' on page 30 undefined on input line 188.
-
-
-LaTeX Warning: Citation `AlmeidaeSousa1998' on page 30 undefined on input line 
-191.
-
-
-LaTeX Warning: Citation `Marques2014' on page 30 undefined on input line 191.
-
-
-LaTeX Warning: Citation `Franca2006' on page 30 undefined on input line 193.
-
-<./fig/mobilizacaoresistenciacisalhamento.pdf, id=715, 599.99156pt x 435.12563p
-t>
+[33 <./fig/revestimento.pdf>]
+<./fig/mobilizacaoresistenciacisalhamento.pdf, id=1064, 599.99156pt x 435.12563
+pt>
 File: ./fig/mobilizacaoresistenciacisalhamento.pdf Graphic file (type pdf)
 <use ./fig/mobilizacaoresistenciacisalhamento.pdf>
 Package pdftex.def Info: ./fig/mobilizacaoresistenciacisalhamento.pdf  used on 
 input line 197.
-(pdftex.def)             Requested size: 449.99257pt x 326.34341pt.
-
-LaTeX Warning: Citation `Franca2006' on page 30 undefined on input line 199.
+(pdftex.def)             Requested size: 431.99359pt x 313.2902pt.
 
 
-LaTeX Warning: Citation `Franca2006' on page 30 undefined on input line 199.
-
-
-
-[30]
-<./fig/arqueamentotensoestrid.pdf, id=722, 291.5395pt x 181.9949pt>
+[34 <./fig/mobilizacaoresistenciacisalhamento.pdf>]
+<./fig/arqueamentotensoestrid.pdf, id=1083, 291.5395pt x 181.9949pt>
 File: ./fig/arqueamentotensoestrid.pdf Graphic file (type pdf)
 <use ./fig/arqueamentotensoestrid.pdf>
 Package pdftex.def Info: ./fig/arqueamentotensoestrid.pdf  used on input line 2
 06.
 (pdftex.def)             Requested size: 320.69443pt x 200.19499pt.
-
-
-LaTeX Warning: Citation `Franca2006' on page 31 undefined on input line 208.
-
-
-LaTeX Warning: Citation `Franca2006' on page 31 undefined on input line 208.
-
-
-
-[31 <./fig/mobilizacaoresistenciacisalhamento.pdf>]
-<./fig/direcoesprincipais.pdf, id=736, 574.50359pt x 225.72389pt>
+<./fig/direcoesprincipais.pdf, id=1089, 574.50359pt x 225.72389pt>
 File: ./fig/direcoesprincipais.pdf Graphic file (type pdf)
 <use ./fig/direcoesprincipais.pdf>
 Package pdftex.def Info: ./fig/direcoesprincipais.pdf  used on input line 215.
 (pdftex.def)             Requested size: 448.111pt x 176.06392pt.
 
 
-LaTeX Warning: Citation `Franca2006' on page 32 undefined on input line 217.
-
-
-LaTeX Warning: Citation `Franca2006' on page 32 undefined on input line 217.
-
-<./fig/zonasmacico.pdf, id=738, 375.02695pt x 201.94638pt>
-File: ./fig/zonasmacico.pdf Graphic file (type pdf)
-<use ./fig/zonasmacico.pdf>
-Package pdftex.def Info: ./fig/zonasmacico.pdf  used on input line 224.
-(pdftex.def)             Requested size: 450.03009pt x 242.33443pt.
-
-LaTeX Warning: Citation `Franca2006' on page 32 undefined on input line 226.
-
-
-LaTeX Warning: Citation `Franca2006' on page 32 undefined on input line 226.
-
-
-
-[32 <./fig/arqueamentotensoestrid.pdf> <./fig/direcoesprincipais.pdf
+[35 <./fig/arqueamentotensoestrid.pdf> <./fig/direcoesprincipais.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/direcoesprincipais.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Citation `Panet1995' on page 33 undefined on input line 229.
-
-<./fig/convergencia.pdf, id=825, 648.84038pt x 556.74876pt>
+<./fig/zonasmacico.pdf, id=1180, 375.02695pt x 201.94638pt>
+File: ./fig/zonasmacico.pdf Graphic file (type pdf)
+<use ./fig/zonasmacico.pdf>
+Package pdftex.def Info: ./fig/zonasmacico.pdf  used on input line 224.
+(pdftex.def)             Requested size: 450.03009pt x 242.33443pt.
+<./fig/convergencia.pdf, id=1188, 648.84038pt x 556.74876pt>
 File: ./fig/convergencia.pdf Graphic file (type pdf)
 <use ./fig/convergencia.pdf>
 Package pdftex.def Info: ./fig/convergencia.pdf  used on input line 233.
 (pdftex.def)             Requested size: 324.41939pt x 278.3737pt.
 
-LaTeX Warning: Citation `Panet1995' on page 33 undefined on input line 235.
 
-
-LaTeX Warning: Citation `Panet1995' on page 33 undefined on input line 235.
-
-
-
-[33 <./fig/zonasmacico.pdf>]
-<./fig/perfilconvergencia.pdf, id=853, 326.25305pt x 115.68109pt>
+[36 <./fig/zonasmacico.pdf>]
+<./fig/perfilconvergencia.pdf, id=1221, 326.25305pt x 115.68109pt>
 File: ./fig/perfilconvergencia.pdf Graphic file (type pdf)
 <use ./fig/perfilconvergencia.pdf>
 Package pdftex.def Info: ./fig/perfilconvergencia.pdf  used on input line 248.
 (pdftex.def)             Requested size: 391.50171pt x 138.8166pt.
 
 
-LaTeX Warning: Citation `Eisensteinetal1984' on page 34 undefined on input line
- 250.
-
-
-LaTeX Warning: Citation `Couto2011' on page 34 undefined on input line 250.
-
-
-LaTeX Warning: Citation `Eisensteinetal1984' on page 34 undefined on input line
- 250.
-
-
-LaTeX Warning: Citation `Couto2011' on page 34 undefined on input line 250.
-
-
-
-[34 <./fig/convergencia.pdf>]
-
-LaTeX Warning: Citation `HoekBrown1980' on page 35 undefined on input line 258.
-
-
+[37 <./fig/convergencia.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 65.
+
 (C:\Users\bianc\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation `Benamar1996' on page 35 undefined on input line 265.
-
-
-LaTeX Warning: Citation `Panet1995' on page 35 undefined on input line 265.
-
-<./fig/tunelrasoeprofundo.pdf, id=865, 634.89203pt x 318.02368pt>
+[38 <./fig/perfilconvergencia.pdf>]
+<./fig/tunelrasoeprofundo.pdf, id=1259, 634.89203pt x 318.02368pt>
 File: ./fig/tunelrasoeprofundo.pdf Graphic file (type pdf)
 <use ./fig/tunelrasoeprofundo.pdf>
 Package pdftex.def Info: ./fig/tunelrasoeprofundo.pdf  used on input line 269.
 (pdftex.def)             Requested size: 444.42139pt x 222.61505pt.
 
-LaTeX Warning: Citation `Benamar1996' on page 35 undefined on input line 271.
 
+LaTeX Warning: Command \' invalid in math mode on input line 276.
 
-LaTeX Warning: Citation `Benamar1996' on page 35 undefined on input line 271.
-
-
-
-[35 <./fig/perfilconvergencia.pdf>]
-
-LaTeX Warning: Citation `Ferrao2018' on page 36 undefined on input line 276.
-
-<./fig/assentamento.pdf, id=880, 423.01761pt x 184.44745pt>
+Missing character: There is no á in font zptmcm7t!
+<./fig/assentamento.pdf, id=1267, 423.01761pt x 184.44745pt>
 File: ./fig/assentamento.pdf Graphic file (type pdf)
 <use ./fig/assentamento.pdf>
 Package pdftex.def Info: ./fig/assentamento.pdf  used on input line 280.
 (pdftex.def)             Requested size: 423.01657pt x 184.44699pt.
 
-LaTeX Warning: Citation `PintoWhittle2013' on page 36 undefined on input line 2
-82.
 
+[39 <./fig/tunelrasoeprofundo.pdf>]
 
-LaTeX Warning: Citation `PintoWhittle2013' on page 36 undefined on input line 2
-82.
-
-
-
-[36 <./fig/tunelrasoeprofundo.pdf> <./fig/assentamento.pdf
-
-pdfTeX warning: pdflatex.exe (file ./fig/assentamento.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Citation `Iftimie1996' on page 37 undefined on input line 290.
-
-
-LaTeX Warning: Citation `AFTES2001' on page 37 undefined on input line 292.
-
-
-LaTeX Warning: Citation `Couto2011' on page 37 undefined on input line 294.
-
-
-LaTeX Warning: Citation `Panet1995' on page 37 undefined on input line 294.
-
-
-LaTeX Warning: Citation `Bieniawski1989' on page 37 undefined on input line 296
-.
-
-
-LaTeX Warning: Citation `Barton1974' on page 37 undefined on input line 296.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 37 undefined on input line 300.
-
-<./fig/metanalitico.pdf, id=908, 1006.17715pt x 330.60045pt>
+[40 <./fig/assentamento.pdf>]
+<./fig/metanalitico.pdf, id=1323, 1006.17715pt x 330.60045pt>
 File: ./fig/metanalitico.pdf Graphic file (type pdf)
 <use ./fig/metanalitico.pdf>
-Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 306.
+Package pdftex.def Info: ./fig/metanalitico.pdf  used on input line 305.
 (pdftex.def)             Requested size: 402.46373pt x 132.23782pt.
-
-LaTeX Warning: Citation `Bernaud1991' on page 37 undefined on input line 308.
-
-
-LaTeX Warning: Citation `Bernaud1991' on page 37 undefined on input line 308.
-
-
-
-[37]
-<./fig/metanaliticozonas.pdf, id=914, 1006.17715pt x 330.60045pt>
+<./fig/metanaliticozonas.pdf, id=1329, 1006.17715pt x 330.60045pt>
 File: ./fig/metanaliticozonas.pdf Graphic file (type pdf)
 <use ./fig/metanaliticozonas.pdf>
-Package pdftex.def Info: ./fig/metanaliticozonas.pdf  used on input line 315.
+Package pdftex.def Info: ./fig/metanaliticozonas.pdf  used on input line 314.
 (pdftex.def)             Requested size: 402.46373pt x 132.23782pt.
 
 
-LaTeX Warning: Citation `Bernaud1991' on page 38 undefined on input line 317.
-
-
-LaTeX Warning: Citation `Bernaud1991' on page 38 undefined on input line 317.
-
-<./fig/solucaoanalitica.pdf, id=916, 455.44972pt x 203.09006pt>
-File: ./fig/solucaoanalitica.pdf Graphic file (type pdf)
-<use ./fig/solucaoanalitica.pdf>
-Package pdftex.def Info: ./fig/solucaoanalitica.pdf  used on input line 324.
-(pdftex.def)             Requested size: 455.4486pt x 203.08954pt.
-
-LaTeX Warning: Citation `Quevedo2021' on page 38 undefined on input line 326.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 38 undefined on input line 326.
-
-
-
-[38 <./fig/metanalitico.pdf> <./fig/metanaliticozonas.pdf
+[41 <./fig/metanalitico.pdf> <./fig/metanaliticozonas.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/metanaliticozonas.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Citation `Quevedo2021' on page 39 undefined on input line 329.
-
-
-LaTeX Warning: Citation `AFTES2001' on page 39 undefined on input line 343.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 39 undefined on input line 343.
+<./fig/solucaoanalitica.pdf, id=1348, 455.44972pt x 203.09006pt>
+File: ./fig/solucaoanalitica.pdf Graphic file (type pdf)
+<use ./fig/solucaoanalitica.pdf>
+Package pdftex.def Info: ./fig/solucaoanalitica.pdf  used on input line 323.
+(pdftex.def)             Requested size: 455.4486pt x 203.08954pt.
 
 
-
-[39 <./fig/solucaoanalitica.pdf>]
-
-LaTeX Warning: Citation `Panet1995' on page 40 undefined on input line 347.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 40 undefined on input line 349.
-
-<./fig/metodocvcf.pdf, id=955, 284.66164pt x 269.62318pt>
+[42 <./fig/solucaoanalitica.pdf>]
+<./fig/metodocvcf.pdf, id=1389, 284.66164pt x 269.62318pt>
 File: ./fig/metodocvcf.pdf Graphic file (type pdf)
 <use ./fig/metodocvcf.pdf>
-Package pdftex.def Info: ./fig/metodocvcf.pdf  used on input line 353.
+Package pdftex.def Info: ./fig/metodocvcf.pdf  used on input line 352.
 (pdftex.def)             Requested size: 313.12874pt x 296.5864pt.
 
-LaTeX Warning: Citation `Quevedo2021' on page 40 undefined on input line 355.
 
+[43]
 
-LaTeX Warning: Citation `Quevedo2021' on page 40 undefined on input line 355.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 40 undefined on input line 360.
-
-
-
-[40 <./fig/metodocvcf.pdf>]
-
-LaTeX Warning: Citation `Chapman2018' on page 41 undefined on input line 366.
-
-
-LaTeX Warning: Citation `Karakus2004' on page 41 undefined on input line 368.
-
-
-LaTeX Warning: Citation `Chapman2018' on page 41 undefined on input line 368.
-
-
-LaTeX Warning: Citation `Gomes2006' on page 41 undefined on input line 370.
-
-
-LaTeX Warning: Citation `Moreira2006' on page 41 undefined on input line 372.
-
-
-LaTeX Warning: Citation `Karakus2004' on page 41 undefined on input line 374.
-
-
-
-[41]
-
-LaTeX Warning: Citation `Palmstrom1993' on page 42 undefined on input line 376.
-
-
-<./fig/curvasNATM.pdf, id=973, 361.63252pt x 223.38274pt>
-File: ./fig/curvasNATM.pdf Graphic file (type pdf)
-<use ./fig/curvasNATM.pdf>
-Package pdftex.def Info: ./fig/curvasNATM.pdf  used on input line 380.
+[44 <./fig/metodocvcf.pdf>]
+<./fig/curvasNATMPB.pdf, id=1427, 361.63252pt x 223.38274pt>
+File: ./fig/curvasNATMPB.pdf Graphic file (type pdf)
+<use ./fig/curvasNATMPB.pdf>
+Package pdftex.def Info: ./fig/curvasNATMPB.pdf  used on input line 379.
 (pdftex.def)             Requested size: 361.63164pt x 223.38219pt.
-
-
-[42 <./fig/curvasNATM.pdf>]
-
-LaTeX Warning: Citation `Gomes2006' on page 43 undefined on input line 387.
-
-
-LaTeX Warning: Citation `Karakus2004' on page 43 undefined on input line 387.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 43 undefined on input line 394.
-
-<./fig/influenciarigidezNIM.pdf, id=988, 466.65427pt x 126.82498pt>
-File: ./fig/influenciarigidezNIM.pdf Graphic file (type pdf)
-<use ./fig/influenciarigidezNIM.pdf>
-Package pdftex.def Info: ./fig/influenciarigidezNIM.pdf  used on input line 400
-.
-(pdftex.def)             Requested size: 447.99013pt x 121.7525pt.
-
-LaTeX Warning: Citation `Bernaud1992' on page 43 undefined on input line 402.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 43 undefined on input line 402.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Bernaud1992' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Bernaud1994' on page 43 undefined on input line 405.
-
-
-
-[43 <./fig/influenciarigidezNIM.pdf>]
-
-LaTeX Warning: Citation `Marques2014' on page 44 undefined on input line 412.
-
-
-LaTeX Warning: Citation `Couto2011' on page 44 undefined on input line 412.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 44 undefined on input line 416.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 44 undefined on input line 420.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 44 undefined on input line 422.
-
-
-
-[44]
-<./fig/ativacaodesativacao.pdf, id=1015, 304.64915pt x 324.23778pt>
-File: ./fig/ativacaodesativacao.pdf Graphic file (type pdf)
-<use ./fig/ativacaodesativacao.pdf>
-Package pdftex.def Info: ./fig/ativacaodesativacao.pdf  used on input line 458.
-
-(pdftex.def)             Requested size: 396.04384pt x 421.50905pt.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 45 undefined on input line 460.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 45 undefined on input line 460.
-
 
 
 [45]
 
-LaTeX Warning: Citation `Dada2020' on page 46 undefined on input line 470.
+[46 <./fig/curvasNATMPB.pdf>]
+<./fig/influenciarigidezNIM.pdf, id=1454, 466.65427pt x 126.82498pt>
+File: ./fig/influenciarigidezNIM.pdf Graphic file (type pdf)
+<use ./fig/influenciarigidezNIM.pdf>
+Package pdftex.def Info: ./fig/influenciarigidezNIM.pdf  used on input line 399
+.
+(pdftex.def)             Requested size: 447.99013pt x 121.7525pt.
 
 
-
-[46 <./fig/ativacaodesativacao.pdf>]
-
-LaTeX Warning: Citation `Fuente2018' on page 47 undefined on input line 474.
-
-
-LaTeX Warning: Citation `Lietal2018' on page 47 undefined on input line 476.
-
-
-LaTeX Warning: Citation `Fortsakis2012' on page 47 undefined on input line 476.
-
-
-
-LaTeX Warning: Citation `Fortsakis2012' on page 47 undefined on input line 476.
-
-
-
-LaTeX Warning: Citation `ChortisKavvadas2021b' on page 47 undefined on input li
-ne 478.
-
-
-
-[47]
-
-LaTeX Warning: Citation `ChortisKavvadas2021a' on page 48 undefined on input li
-ne 484.
-
-
-LaTeX Warning: Citation `Phutthananon2023' on page 48 undefined on input line 4
-84.
-
-
-LaTeX Warning: Citation `Changguietal2020' on page 48 undefined on input line 4
-84.
-
-
-LaTeX Warning: Citation `Nematollahietal2018' on page 48 undefined on input lin
-e 484.
-
-
-LaTeX Warning: Citation `Doetal2015' on page 48 undefined on input line 484.
-
-
-LaTeX Warning: Citation `Phutthananon2023' on page 48 undefined on input line 5
-26.
-
-
-LaTeX Warning: Citation `Phutthananon2023' on page 48 undefined on input line 5
-28.
-
-
-LaTeX Warning: Citation `Changguietal2020' on page 48 undefined on input line 5
-30.
-
-
-LaTeX Warning: Citation `Changguietal2020' on page 48 undefined on input line 5
-32.
-
-)
+[47 <./fig/influenciarigidezNIM.pdf>]
 
 [48]
+<./fig/ativacaodesativacao.pdf, id=1506, 304.64915pt x 324.23778pt>
+File: ./fig/ativacaodesativacao.pdf Graphic file (type pdf)
+<use ./fig/ativacaodesativacao.pdf>
+Package pdftex.def Info: ./fig/ativacaodesativacao.pdf  used on input line 457.
+
+(pdftex.def)             Requested size: 396.04384pt x 421.50905pt.
+
+
+[49]
+
+[50 <./fig/ativacaodesativacao.pdf>]
+
+[51]
+
+[52])
+
+[53]
 \openout2 = `./chap/cap3.aux'.
 
  (chap/cap3.tex
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 49 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation `BazantPrasannanB' on page 49 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation `CEB1993' on page 49 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Quevedoetal2022b' on page 49 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation `Quevedoetal2018' on page 49 undefined on input line 22
-.
-
-
-LaTeX Warning: Citation `CEB1993' on page 49 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Quevedoetal2022b' on page 49 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 49 undefined on input line 22.
-
-<./fig/modeloreologicoviscoelasticidade.pdf, id=1478, 435.82964pt x 162.71994pt
+<./fig/modeloreologicoviscoelasticidade.pdf, id=2062, 435.82964pt x 162.71994pt
 >
 File: ./fig/modeloreologicoviscoelasticidade.pdf Graphic file (type pdf)
 <use ./fig/modeloreologicoviscoelasticidade.pdf>
@@ -2294,82 +1570,18 @@ Package pdftex.def Info: ./fig/modeloreologicoviscoelasticidade.pdf  used on in
 put line 28.
 (pdftex.def)             Requested size: 418.39835pt x 156.21184pt.
 
-LaTeX Warning: Citation `BazantPrasannanA' on page 49 undefined on input line 3
-0.
 
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 49 undefined on input line 3
-0.
-
-
-
-[49
+[54
 
 
 
 
 ]
 
-LaTeX Warning: Citation `CEB1993' on page 50 undefined on input line 45.
+[55 <./fig/modeloreologicoviscoelasticidade.pdf>]
 
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 50 undefined on input line 5
-3.
-
-
-LaTeX Warning: Citation `BazantPrasannanB' on page 50 undefined on input line 5
-3.
-
-
-LaTeX Warning: Citation `CEB1993' on page 50 undefined on input line 53.
-
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 50 undefined on input line 5
-3.
-
-
-LaTeX Warning: Citation `BazantPrasannanB' on page 50 undefined on input line 5
-3.
-
-
-LaTeX Warning: Citation `CEB1993' on page 50 undefined on input line 53.
-
-
-
-[50 <./fig/modeloreologicoviscoelasticidade.pdf>]
-
-LaTeX Warning: Citation `BazantPrasannanA' on page 51 undefined on input line 5
-9.
-
-
-LaTeX Warning: Citation `BazantPrasannanB' on page 51 undefined on input line 5
-9.
-
-
-LaTeX Warning: Citation `CEB1993' on page 51 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 51 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 51 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Rousset1988' on page 51 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Piepi1995' on page 51 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Giraud1996' on page 51 undefined on input line 96.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 51 undefined on input line 96.
-
-
-
-[51]
-<./fig/representacaoreologica.pdf, id=1507, 333.75082pt x 187.78644pt>
+[56]
+<./fig/representacaoreologica.pdf, id=2133, 333.75082pt x 187.78644pt>
 File: ./fig/representacaoreologica.pdf Graphic file (type pdf)
 <use ./fig/representacaoreologica.pdf>
 Package pdftex.def Info: ./fig/representacaoreologica.pdf  used on input line 1
@@ -2377,28 +1589,12 @@ Package pdftex.def Info: ./fig/representacaoreologica.pdf  used on input line 1
 (pdftex.def)             Requested size: 333.75pt x 187.78596pt.
 
 
-LaTeX Warning: Citation `Rousset1988' on page 52 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Rousset1988' on page 52 undefined on input line 109.
-
-
-
-[52 <./fig/representacaoreologica.pdf>]
-<./fig/funcoesescoamento.pdf, id=1523, 450.29451pt x 172.72375pt>
+[57 <./fig/representacaoreologica.pdf>]
+<./fig/funcoesescoamento.pdf, id=2155, 450.29451pt x 172.72375pt>
 File: ./fig/funcoesescoamento.pdf Graphic file (type pdf)
 <use ./fig/funcoesescoamento.pdf>
 Package pdftex.def Info: ./fig/funcoesescoamento.pdf  used on input line 123.
 (pdftex.def)             Requested size: 450.2934pt x 172.72331pt.
-
-
-LaTeX Warning: Citation `Zienkiewicz1974' on page 53 undefined on input line 12
-5.
-
-
-LaTeX Warning: Citation `Zienkiewicz1974' on page 53 undefined on input line 12
-5.
-
 
 Underfull \hbox (badness 2173) in paragraph at lines 125--125
 [][]|[]\T1/ptm/m/n/12 (+20) Fun-ções de es-co-a-mento de Drucker-Prager e Mohr-
@@ -2407,156 +1603,84 @@ Underfull \hbox (badness 2173) in paragraph at lines 125--125
 
 
 
-[53 <./fig/funcoesescoamento.pdf>]
+[58 <./fig/funcoesescoamento.pdf>]
 
-[54]
-<./fig/dominiosEPVP.pdf, id=1605, 321.12228pt x 217.31194pt>
+[59]
+<./fig/dominiosEPVP.pdf, id=2238, 321.12228pt x 217.31194pt>
 File: ./fig/dominiosEPVP.pdf Graphic file (type pdf)
 <use ./fig/dominiosEPVP.pdf>
 Package pdftex.def Info: ./fig/dominiosEPVP.pdf  used on input line 191.
 (pdftex.def)             Requested size: 385.3448pt x 260.773pt.
-
-
-LaTeX Warning: Citation `Debernardi2009' on page 55 undefined on input line 193
-.
-
-
-LaTeX Warning: Citation `Debernardi2009' on page 55 undefined on input line 193
-.
-
 )
 
-[55 <./fig/dominiosEPVP.pdf>]
+[60 <./fig/dominiosEPVP.pdf>]
 \openout2 = `./chap/cap4.aux'.
 
  (chap/cap4.tex
-
-LaTeX Warning: Citation `Quevedo2017' on page 56 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 56 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 56 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 56 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Quevedo2017' on page 56 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Quevedo2021' on page 56 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 56 undefined on input line 18.
-
-<./fig/dominioaxi.pdf, id=1643, 353.1859pt x 632.48442pt>
+<./fig/dominioaxi.pdf, id=2298, 353.1859pt x 632.48442pt>
 File: ./fig/dominioaxi.pdf Graphic file (type pdf)
 <use ./fig/dominioaxi.pdf>
 Package pdftex.def Info: ./fig/dominioaxi.pdf  used on input line 26.
 (pdftex.def)             Requested size: 353.18503pt x 632.48288pt.
 
-LaTeX Warning: Citation `Quevedo2021' on page 56 undefined on input line 28.
 
-
-LaTeX Warning: Citation `Quevedo2021' on page 56 undefined on input line 28.
-
-
-
-[56
+[61
 
 
 
 
 ]
 
-[57 <./fig/dominioaxi.pdf>]
+[62 <./fig/dominioaxi.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 58 undefined on input line 73.
-
-<./fig/solid185.pdf, id=2373, 325.29547pt x 234.4892pt>
+<./fig/solid185.pdf, id=3034, 325.29547pt x 234.4892pt>
 File: ./fig/solid185.pdf Graphic file (type pdf)
 <use ./fig/solid185.pdf>
 Package pdftex.def Info: ./fig/solid185.pdf  used on input line 77.
 (pdftex.def)             Requested size: 221.19798pt x 159.45053pt.
-<./fig/solid186.pdf, id=2374, 331.08694pt x 238.71686pt>
+<./fig/solid186.pdf, id=3035, 331.08694pt x 238.71686pt>
 File: ./fig/solid186.pdf Graphic file (type pdf)
 <use ./fig/solid186.pdf>
 Package pdftex.def Info: ./fig/solid186.pdf  used on input line 78.
 (pdftex.def)             Requested size: 225.13612pt x 162.3253pt.
 
-LaTeX Warning: Citation `ANSYS' on page 58 undefined on input line 80.
 
-
-LaTeX Warning: Citation `ANSYS' on page 58 undefined on input line 80.
-
-
-
-[58 <./fig/solid185.pdf> <./fig/solid186.pdf
+[63 <./fig/solid185.pdf> <./fig/solid186.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/solid186.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<./fig/Mesh1.pdf, id=2396, 677.70567pt x 531.0825pt>
+<./fig/Mesh1.pdf, id=3061, 677.70567pt x 531.0825pt>
 File: ./fig/Mesh1.pdf Graphic file (type pdf)
 <use ./fig/Mesh1.pdf>
 Package pdftex.def Info: ./fig/Mesh1.pdf  used on input line 87.
 (pdftex.def)             Requested size: 447.28712pt x 350.51552pt.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 59 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 59 undefined on input line 89.
-
-<./fig/Mesh2.pdf, id=2398, 290.57947pt x 205.54703pt>
+<./fig/Mesh2.pdf, id=3067, 290.57947pt x 205.54703pt>
 File: ./fig/Mesh2.pdf Graphic file (type pdf)
 <use ./fig/Mesh2.pdf>
 Package pdftex.def Info: ./fig/Mesh2.pdf  used on input line 96.
 (pdftex.def)             Requested size: 232.46388pt x 164.43782pt.
 
-LaTeX Warning: Citation `Colombo2023' on page 59 undefined on input line 98.
 
-
-LaTeX Warning: Citation `Colombo2023' on page 59 undefined on input line 98.
-
-
-
-[59 <./fig/Mesh1.pdf>]
-<./fig/Mesh4.pdf, id=2419, 364.14055pt x 149.27858pt>
+[64 <./fig/Mesh1.pdf>]
+<./fig/Mesh4.pdf, id=3092, 364.14055pt x 149.27858pt>
 File: ./fig/Mesh4.pdf Graphic file (type pdf)
 <use ./fig/Mesh4.pdf>
 Package pdftex.def Info: ./fig/Mesh4.pdf  used on input line 105.
-(pdftex.def)             Requested size: 400.55583pt x 164.20692pt.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 60 undefined on input line 107.
-
-
-LaTeX Warning: Citation `Colombo2023' on page 60 undefined on input line 107.
-
-<./fig/Mesh5e6.pdf, id=2421, 403.97719pt x 185.29742pt>
+(pdftex.def)             Requested size: 436.96646pt x 179.13338pt.
+<./fig/Mesh5e6.pdf, id=3098, 403.97719pt x 185.29742pt>
 File: ./fig/Mesh5e6.pdf Graphic file (type pdf)
 <use ./fig/Mesh5e6.pdf>
 Package pdftex.def Info: ./fig/Mesh5e6.pdf  used on input line 114.
 (pdftex.def)             Requested size: 403.9762pt x 185.29697pt.
 
-LaTeX Warning: Citation `Colombo2023' on page 60 undefined on input line 116.
 
-
-LaTeX Warning: Citation `Colombo2023' on page 60 undefined on input line 116.
-
-
-
-[60 <./fig/Mesh2.pdf> <./fig/Mesh4.pdf
+[65 <./fig/Mesh2.pdf> <./fig/Mesh4.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/Mesh4.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
@@ -2567,209 +1691,163 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 149.
 
 
-[61 <./fig/Mesh5e6.pdf>]
+[66 <./fig/Mesh5e6.pdf>]
 
-LaTeX Warning: Citation `Guoetal2021' on page 62 undefined on input line 174.
-
-
-
-[62]
-<./fig/dominioGuo.pdf, id=2483, 321.25752pt x 260.8756pt>
+[67]
+<./fig/dominioGuo.pdf, id=3166, 321.25752pt x 260.8756pt>
 File: ./fig/dominioGuo.pdf Graphic file (type pdf)
 <use ./fig/dominioGuo.pdf>
 Package pdftex.def Info: ./fig/dominioGuo.pdf  used on input line 178.
 (pdftex.def)             Requested size: 321.25673pt x 260.87495pt.
-
-
-LaTeX Warning: Citation `Guoetal2021' on page 63 undefined on input line 180.
-
-
-LaTeX Warning: Citation `Guoetal2021' on page 63 undefined on input line 180.
-
-<./fig/GUOperfilconvergenciaUB.pdf, id=2485, 570.09012pt x 339.5702pt>
+<./fig/GUOperfilconvergenciaUB.pdf, id=3172, 541.58267pt x 310.68633pt>
 File: ./fig/GUOperfilconvergenciaUB.pdf Graphic file (type pdf)
 <use ./fig/GUOperfilconvergenciaUB.pdf>
 Package pdftex.def Info: ./fig/GUOperfilconvergenciaUB.pdf  used on input line 
 189.
-(pdftex.def)             Requested size: 467.47691pt x 278.44936pt.
-
-Overfull \hbox (12.2328pt too wide) in paragraph at lines 189--190
- [] 
- []
+(pdftex.def)             Requested size: 444.10066pt x 254.76442pt.
 
 
-
-[63 <./fig/dominioGuo.pdf>]
-
-LaTeX Warning: Citation `Guoetal2021' on page 64 undefined on input line 196.
-
-
-LaTeX Warning: Citation `Ling1948' on page 64 undefined on input line 196.
-
-
-LaTeX Warning: Citation `Ling1948' on page 64 undefined on input line 196.
-
-
-LaTeX Warning: Citation `Guoetal2021' on page 64 undefined on input line 196.
-
-
-LaTeX Warning: Citation `Guoetal2021' on page 64 undefined on input line 196.
-
-
-LaTeX Warning: Citation `Guoetal2021' on page 64 undefined on input line 196.
-
-<./fig/GUOrelacaoUBUA.pdf, id=2506, 582.01828pt x 335.50227pt>
+[68 <./fig/dominioGuo.pdf>]
+<./fig/GUOrelacaoUBUA.pdf, id=3201, 552.36594pt x 306.97069pt>
 File: ./fig/GUOrelacaoUBUA.pdf Graphic file (type pdf)
 <use ./fig/GUOrelacaoUBUA.pdf>
-Package pdftex.def Info: ./fig/GUOrelacaoUBUA.pdf  used on input line 201.
-(pdftex.def)             Requested size: 465.61526pt x 268.40216pt.
-
-Overfull \hbox (10.37115pt too wide) in paragraph at lines 201--202
- [] 
- []
+Package pdftex.def Info: ./fig/GUOrelacaoUBUA.pdf  used on input line 200.
+(pdftex.def)             Requested size: 452.943pt x 251.71759pt.
 
 
-
-[64 <./fig/GUOperfilconvergenciaUB.pdf>]
-<./fig/GUOfatordeconcentracaotangencialA.pdf, id=2537, 588.0183pt x 339.5702pt>
-
+[69 <./fig/GUOperfilconvergenciaUB.pdf>]
+<./fig/GUOfatordeconcentracaotangencialA.pdf, id=3491, 558.36595pt x 310.7576pt
+>
 File: ./fig/GUOfatordeconcentracaotangencialA.pdf Graphic file (type pdf)
 <use ./fig/GUOfatordeconcentracaotangencialA.pdf>
 Package pdftex.def Info: ./fig/GUOfatordeconcentracaotangencialA.pdf  used on i
-nput line 209.
-(pdftex.def)             Requested size: 470.41528pt x 271.65652pt.
+nput line 208.
+(pdftex.def)             Requested size: 457.86305pt x 254.82288pt.
 
-Overfull \hbox (15.17117pt too wide) in paragraph at lines 209--210
+Overfull \hbox (2.61894pt too wide) in paragraph at lines 208--209
  [] 
  []
 
 
-LaTeX Warning: Citation `Maetal2020' on page 65 undefined on input line 217.
 
+[70 <./fig/GUOrelacaoUBUA.pdf> <./fig/GUOfatordeconcentracaotangencialA.pdf
 
-LaTeX Warning: Citation `Guoetal2021' on page 65 undefined on input line 217.
-
-
-
-[65 <./fig/GUOrelacaoUBUA.pdf> <./fig/GUOfatordeconcentracaotangencialA.pdf>]
-<./fig/dominioMa.pdf, id=2572, 318.24628pt x 260.8756pt>
+pdfTeX warning: pdflatex.exe (file ./fig/GUOfatordeconcentracaotangencialA.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./fig/dominioMa.pdf, id=4020, 318.24628pt x 260.8756pt>
 File: ./fig/dominioMa.pdf Graphic file (type pdf)
 <use ./fig/dominioMa.pdf>
-Package pdftex.def Info: ./fig/dominioMa.pdf  used on input line 221.
+Package pdftex.def Info: ./fig/dominioMa.pdf  used on input line 220.
 (pdftex.def)             Requested size: 318.24548pt x 260.87495pt.
 
 
-LaTeX Warning: Citation `Maetal2020' on page 66 undefined on input line 223.
-
-
-LaTeX Warning: Citation `Maetal2020' on page 66 undefined on input line 223.
-
-<./fig/MAperfilconvergenciaUB.pdf, id=2573, 575.7663pt x 339.5702pt>
+[71 <./fig/dominioMa.pdf>]
+<./fig/MAperfilconvergenciaUB.pdf, id=4038, 547.25879pt x 310.68633pt>
 File: ./fig/MAperfilconvergenciaUB.pdf Graphic file (type pdf)
 <use ./fig/MAperfilconvergenciaUB.pdf>
 Package pdftex.def Info: ./fig/MAperfilconvergenciaUB.pdf  used on input line 2
-32.
-(pdftex.def)             Requested size: 460.61366pt x 271.65652pt.
-
-Overfull \hbox (5.36955pt too wide) in paragraph at lines 232--233
- [] 
- []
-
-
-
-[66 <./fig/dominioMa.pdf>]
-<./fig/MA_MC_zonasplasticas.pdf, id=2587, 331.0557pt x 399.22685pt>
+33.
+(pdftex.def)             Requested size: 448.75511pt x 254.76442pt.
+<./fig/MA_MC_zonasplasticas.pdf, id=4042, 331.0557pt x 399.22685pt>
 File: ./fig/MA_MC_zonasplasticas.pdf Graphic file (type pdf)
 <use ./fig/MA_MC_zonasplasticas.pdf>
-Package pdftex.def Info: ./fig/MA_MC_zonasplasticas.pdf  used on input line 241
+Package pdftex.def Info: ./fig/MA_MC_zonasplasticas.pdf  used on input line 242
 .
 (pdftex.def)             Requested size: 331.05489pt x 399.22588pt.
 
 
-LaTeX Warning: Citation `Maetal2020' on page 67 undefined on input line 243.
-
-
-LaTeX Warning: Citation `Maetal2020' on page 67 undefined on input line 243.
-
-
-
-[67 <./fig/MAperfilconvergenciaUB.pdf>]
-<./fig/MA_DPII_tensao.pdf, id=2610, 657.88791pt x 677.71976pt>
+[72 <./fig/MAperfilconvergenciaUB.pdf>]
+<./fig/MA_DPII_tensao.pdf, id=4277, 657.88791pt x 677.71976pt>
 File: ./fig/MA_DPII_tensao.pdf Graphic file (type pdf)
 <use ./fig/MA_DPII_tensao.pdf>
-Package pdftex.def Info: ./fig/MA_DPII_tensao.pdf  used on input line 248.
-(pdftex.def)             Requested size: 460.5184pt x 474.40059pt.
-
-Overfull \hbox (5.27429pt too wide) in paragraph at lines 248--249
- [] 
- []
+Package pdftex.def Info: ./fig/MA_DPII_tensao.pdf  used on input line 251.
+(pdftex.def)             Requested size: 447.35786pt x 460.84334pt.
 
 
-
-[68 <./fig/MA_MC_zonasplasticas.pdf>]
-<./fig/MA_MC_tensao.pdf, id=2971, 657.74977pt x 677.32137pt>
+[73 <./fig/MA_MC_zonasplasticas.pdf>]
+<./fig/MA_MC_tensao.pdf, id=4641, 657.74977pt x 677.32137pt>
 File: ./fig/MA_MC_tensao.pdf Graphic file (type pdf)
 <use ./fig/MA_MC_tensao.pdf>
-Package pdftex.def Info: ./fig/MA_MC_tensao.pdf  used on input line 255.
-(pdftex.def)             Requested size: 460.4217pt x 474.12173pt.
-
-Overfull \hbox (5.1776pt too wide) in paragraph at lines 255--256
- [] 
- []
+Package pdftex.def Info: ./fig/MA_MC_tensao.pdf  used on input line 260.
+(pdftex.def)             Requested size: 447.26393pt x 460.57243pt.
 
 
+[74 <./fig/MA_DPII_tensao.pdf>]
 
-[69 <./fig/MA_DPII_tensao.pdf>]
-
-[70 <./fig/MA_MC_tensao.pdf>]
-<./fig/FRICperfilconvergenciaCRE.pdf, id=7338, 575.7663pt x 339.5702pt>
+[75 <./fig/MA_MC_tensao.pdf>]
+<./fig/FRICperfilconvergenciaCRE.pdf, id=9011, 547.25879pt x 310.68633pt>
 File: ./fig/FRICperfilconvergenciaCRE.pdf Graphic file (type pdf)
 <use ./fig/FRICperfilconvergenciaCRE.pdf>
 Package pdftex.def Info: ./fig/FRICperfilconvergenciaCRE.pdf  used on input lin
-e 273.
-(pdftex.def)             Requested size: 460.61366pt x 271.65652pt.
-
-Overfull \hbox (5.36955pt too wide) in paragraph at lines 273--274
- [] 
- []
+e 278.
+(pdftex.def)             Requested size: 448.75511pt x 254.76442pt.
 
 
-
-[71]
-<./fig/FRICperfilconvergenciaSR.pdf, id=7344, 575.7663pt x 335.50227pt>
+[76 <./fig/FRICperfilconvergenciaCRE.pdf>]
+<./fig/FRICperfilconvergenciaSR.pdf, id=9253, 547.25879pt x 310.7576pt>
 File: ./fig/FRICperfilconvergenciaSR.pdf Graphic file (type pdf)
 <use ./fig/FRICperfilconvergenciaSR.pdf>
 Package pdftex.def Info: ./fig/FRICperfilconvergenciaSR.pdf  used on input line
- 286.
-(pdftex.def)             Requested size: 460.61366pt x 268.40216pt.
+ 289.
+(pdftex.def)             Requested size: 448.75511pt x 254.82288pt.
 
-Overfull \hbox (5.36955pt too wide) in paragraph at lines 286--287
- [] 
+Overfull \hbox (0.308pt too wide) in paragraph at lines 296--297
+[]\T1/ptm/m/n/12 (-20) Por fim, fo-ram re-a-li-za-das as aná-li-ses con-si-de-r
+ando o mo-delo aco-plado elastoplástico-viscoplástico
  []
 
+<./fig/FRICperfilconvergenciaEPVP.pdf, id=9255, 547.25879pt x 310.7576pt>
+File: ./fig/FRICperfilconvergenciaEPVP.pdf Graphic file (type pdf)
+<use ./fig/FRICperfilconvergenciaEPVP.pdf>
+Package pdftex.def Info: ./fig/FRICperfilconvergenciaEPVP.pdf  used on input li
+ne 300.
+(pdftex.def)             Requested size: 448.75511pt x 254.82288pt.
 
 
-[72 <./fig/FRICperfilconvergenciaCRE.pdf>])
+[77 <./fig/FRICperfilconvergenciaSR.pdf>])
 
-[73 <./fig/FRICperfilconvergenciaSR.pdf>]
+[78 <./fig/FRICperfilconvergenciaEPVP.pdf>]
 \openout2 = `./chap/cap5.aux'.
 
- (chap/cap5.tex
+ (chap/cap5.tex)
 
-[74
+[79
 
+
+
+
+] (main.bbl (main.brf)
+\tf@brf=\write4
+\openout4 = `main.brf'.
+
+
+bibitemlist
+
+
+[80
 
 
 
 ]
-\tf@lof=\write4
-\openout4 = `main.lof'.
 
-\tf@lot=\write5
-\openout5 = `main.lot'.
+[81]
 
-\tf@toc=\write6
-\openout6 = `main.toc'.
+[82]
+
+[83]
+
+[84])
+
+[85]
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  (main.aux (chap/cap1.aux) (chap/cap2.aux) (chap/cap3.aux) (chap/cap4.aux)
 (chap/cap5.aux))
@@ -2777,22 +1855,17 @@ Overfull \hbox (5.36955pt too wide) in paragraph at lines 286--287
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
- ) )
-(\end occurred when \iftrue on line 104 was incomplete)
-(\end occurred when \ifx on line 104 was incomplete)
-(\end occurred when \ifnum on line 104 was incomplete) 
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: CFA5095A2E12F0ACA788D6418EED8F6A;13706.
+ ) 
 Here is how much of TeX's memory you used:
- 25141 strings out of 473899
- 415552 string characters out of 5726501
- 1949960 words of memory out of 5000000
- 46854 multiletter control sequences out of 15000+600000
- 677291 words of font info for 475 fonts, out of 8000000 for 9000
+ 25831 strings out of 473899
+ 427891 string characters out of 5726501
+ 1957960 words of memory out of 5000000
+ 47462 multiletter control sequences out of 15000+600000
+ 678241 words of font info for 464 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,16n,121p,2199b,633s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,16n,121p,2696b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2807,9 +1880,9 @@ X/fonts/type1/urw/symbol/usyr.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX
 fonts/type1/urw/times/utmb8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (75 pages, 12354033 bytes).
+Output written on main.pdf (86 pages, 13440250 bytes).
 PDF statistics:
- 7590 PDF objects out of 8907 (max. 8388607)
- 216 named destinations out of 1000 (max. 500000)
- 112691 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 10215 PDF objects out of 10688 (max. 8388607)
+ 305 named destinations out of 1000 (max. 500000)
+ 116800 words of extra memory for PDF output out of 128383 (max. 10000000)
 
