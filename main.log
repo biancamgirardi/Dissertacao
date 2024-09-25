@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  25 SEP 2024 04:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  25 SEP 2024 05:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1559,10 +1559,12 @@ Package pdftex.def Info: ./fig/ativacaodesativacao.pdf  used on input line 457.
 [52])
 
 [53]
+
+[54]
 \openout2 = `./chap/cap3.aux'.
 
  (chap/cap3.tex
-<./fig/modeloreologicoviscoelasticidade.pdf, id=2062, 435.82964pt x 162.71994pt
+<./fig/modeloreologicoviscoelasticidade.pdf, id=2071, 435.82964pt x 162.71994pt
 >
 File: ./fig/modeloreologicoviscoelasticidade.pdf Graphic file (type pdf)
 <use ./fig/modeloreologicoviscoelasticidade.pdf>
@@ -1571,17 +1573,17 @@ put line 28.
 (pdftex.def)             Requested size: 418.39835pt x 156.21184pt.
 
 
-[54
+[55
 
 
 
 
 ]
 
-[55 <./fig/modeloreologicoviscoelasticidade.pdf>]
+[56 <./fig/modeloreologicoviscoelasticidade.pdf>]
 
-[56]
-<./fig/representacaoreologica.pdf, id=2133, 333.75082pt x 187.78644pt>
+[57]
+<./fig/representacaoreologica.pdf, id=2141, 333.75082pt x 187.78644pt>
 File: ./fig/representacaoreologica.pdf Graphic file (type pdf)
 <use ./fig/representacaoreologica.pdf>
 Package pdftex.def Info: ./fig/representacaoreologica.pdf  used on input line 1
@@ -1589,8 +1591,8 @@ Package pdftex.def Info: ./fig/representacaoreologica.pdf  used on input line 1
 (pdftex.def)             Requested size: 333.75pt x 187.78596pt.
 
 
-[57 <./fig/representacaoreologica.pdf>]
-<./fig/funcoesescoamento.pdf, id=2155, 450.29451pt x 172.72375pt>
+[58 <./fig/representacaoreologica.pdf>]
+<./fig/funcoesescoamento.pdf, id=2163, 450.29451pt x 172.72375pt>
 File: ./fig/funcoesescoamento.pdf Graphic file (type pdf)
 <use ./fig/funcoesescoamento.pdf>
 Package pdftex.def Info: ./fig/funcoesescoamento.pdf  used on input line 123.
@@ -1603,84 +1605,84 @@ Underfull \hbox (badness 2173) in paragraph at lines 125--125
 
 
 
-[58 <./fig/funcoesescoamento.pdf>]
+[59 <./fig/funcoesescoamento.pdf>]
 
-[59]
-<./fig/dominiosEPVP.pdf, id=2238, 321.12228pt x 217.31194pt>
+[60]
+<./fig/dominiosEPVP.pdf, id=2247, 321.12228pt x 217.31194pt>
 File: ./fig/dominiosEPVP.pdf Graphic file (type pdf)
 <use ./fig/dominiosEPVP.pdf>
 Package pdftex.def Info: ./fig/dominiosEPVP.pdf  used on input line 191.
 (pdftex.def)             Requested size: 385.3448pt x 260.773pt.
 )
 
-[60 <./fig/dominiosEPVP.pdf>]
+[61 <./fig/dominiosEPVP.pdf>]
 \openout2 = `./chap/cap4.aux'.
 
  (chap/cap4.tex
-<./fig/dominioaxi.pdf, id=2298, 353.1859pt x 632.48442pt>
+<./fig/dominioaxi.pdf, id=2306, 353.1859pt x 632.48442pt>
 File: ./fig/dominioaxi.pdf Graphic file (type pdf)
 <use ./fig/dominioaxi.pdf>
 Package pdftex.def Info: ./fig/dominioaxi.pdf  used on input line 26.
 (pdftex.def)             Requested size: 353.18503pt x 632.48288pt.
 
 
-[61
+[62
 
 
 
 
 ]
 
-[62 <./fig/dominioaxi.pdf>]
+[63 <./fig/dominioaxi.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-<./fig/solid185.pdf, id=3034, 325.29547pt x 234.4892pt>
+<./fig/solid185.pdf, id=3042, 325.29547pt x 234.4892pt>
 File: ./fig/solid185.pdf Graphic file (type pdf)
 <use ./fig/solid185.pdf>
 Package pdftex.def Info: ./fig/solid185.pdf  used on input line 77.
 (pdftex.def)             Requested size: 221.19798pt x 159.45053pt.
-<./fig/solid186.pdf, id=3035, 331.08694pt x 238.71686pt>
+<./fig/solid186.pdf, id=3043, 331.08694pt x 238.71686pt>
 File: ./fig/solid186.pdf Graphic file (type pdf)
 <use ./fig/solid186.pdf>
 Package pdftex.def Info: ./fig/solid186.pdf  used on input line 78.
 (pdftex.def)             Requested size: 225.13612pt x 162.3253pt.
 
 
-[63 <./fig/solid185.pdf> <./fig/solid186.pdf
+[64 <./fig/solid185.pdf> <./fig/solid186.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/solid186.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<./fig/Mesh1.pdf, id=3061, 677.70567pt x 531.0825pt>
+<./fig/Mesh1.pdf, id=3069, 677.70567pt x 531.0825pt>
 File: ./fig/Mesh1.pdf Graphic file (type pdf)
 <use ./fig/Mesh1.pdf>
 Package pdftex.def Info: ./fig/Mesh1.pdf  used on input line 87.
 (pdftex.def)             Requested size: 447.28712pt x 350.51552pt.
-<./fig/Mesh2.pdf, id=3067, 290.57947pt x 205.54703pt>
+<./fig/Mesh2.pdf, id=3075, 290.57947pt x 205.54703pt>
 File: ./fig/Mesh2.pdf Graphic file (type pdf)
 <use ./fig/Mesh2.pdf>
 Package pdftex.def Info: ./fig/Mesh2.pdf  used on input line 96.
 (pdftex.def)             Requested size: 232.46388pt x 164.43782pt.
 
 
-[64 <./fig/Mesh1.pdf>]
-<./fig/Mesh4.pdf, id=3092, 364.14055pt x 149.27858pt>
+[65 <./fig/Mesh1.pdf>]
+<./fig/Mesh4.pdf, id=3100, 364.14055pt x 149.27858pt>
 File: ./fig/Mesh4.pdf Graphic file (type pdf)
 <use ./fig/Mesh4.pdf>
 Package pdftex.def Info: ./fig/Mesh4.pdf  used on input line 105.
 (pdftex.def)             Requested size: 436.96646pt x 179.13338pt.
-<./fig/Mesh5e6.pdf, id=3098, 403.97719pt x 185.29742pt>
+<./fig/Mesh5e6.pdf, id=3106, 403.97719pt x 185.29742pt>
 File: ./fig/Mesh5e6.pdf Graphic file (type pdf)
 <use ./fig/Mesh5e6.pdf>
 Package pdftex.def Info: ./fig/Mesh5e6.pdf  used on input line 114.
 (pdftex.def)             Requested size: 403.9762pt x 185.29697pt.
 
 
-[65 <./fig/Mesh2.pdf> <./fig/Mesh4.pdf
+[66 <./fig/Mesh2.pdf> <./fig/Mesh4.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/Mesh4.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
@@ -1691,15 +1693,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 149.
 
 
-[66 <./fig/Mesh5e6.pdf>]
+[67 <./fig/Mesh5e6.pdf>]
 
-[67]
-<./fig/dominioGuo.pdf, id=3166, 321.25752pt x 260.8756pt>
+[68]
+<./fig/dominioGuo.pdf, id=3174, 321.25752pt x 260.8756pt>
 File: ./fig/dominioGuo.pdf Graphic file (type pdf)
 <use ./fig/dominioGuo.pdf>
 Package pdftex.def Info: ./fig/dominioGuo.pdf  used on input line 178.
 (pdftex.def)             Requested size: 321.25673pt x 260.87495pt.
-<./fig/GUOperfilconvergenciaUB.pdf, id=3172, 541.58267pt x 310.68633pt>
+<./fig/GUOperfilconvergenciaUB.pdf, id=3180, 541.58267pt x 310.68633pt>
 File: ./fig/GUOperfilconvergenciaUB.pdf Graphic file (type pdf)
 <use ./fig/GUOperfilconvergenciaUB.pdf>
 Package pdftex.def Info: ./fig/GUOperfilconvergenciaUB.pdf  used on input line 
@@ -1707,16 +1709,16 @@ Package pdftex.def Info: ./fig/GUOperfilconvergenciaUB.pdf  used on input line
 (pdftex.def)             Requested size: 444.10066pt x 254.76442pt.
 
 
-[68 <./fig/dominioGuo.pdf>]
-<./fig/GUOrelacaoUBUA.pdf, id=3201, 552.36594pt x 306.97069pt>
+[69 <./fig/dominioGuo.pdf>]
+<./fig/GUOrelacaoUBUA.pdf, id=3209, 552.36594pt x 306.97069pt>
 File: ./fig/GUOrelacaoUBUA.pdf Graphic file (type pdf)
 <use ./fig/GUOrelacaoUBUA.pdf>
 Package pdftex.def Info: ./fig/GUOrelacaoUBUA.pdf  used on input line 200.
 (pdftex.def)             Requested size: 452.943pt x 251.71759pt.
 
 
-[69 <./fig/GUOperfilconvergenciaUB.pdf>]
-<./fig/GUOfatordeconcentracaotangencialA.pdf, id=3491, 558.36595pt x 310.7576pt
+[70 <./fig/GUOperfilconvergenciaUB.pdf>]
+<./fig/GUOfatordeconcentracaotangencialA.pdf, id=3499, 558.36595pt x 310.7576pt
 >
 File: ./fig/GUOfatordeconcentracaotangencialA.pdf Graphic file (type pdf)
 <use ./fig/GUOfatordeconcentracaotangencialA.pdf>
@@ -1730,26 +1732,26 @@ Overfull \hbox (2.61894pt too wide) in paragraph at lines 208--209
 
 
 
-[70 <./fig/GUOrelacaoUBUA.pdf> <./fig/GUOfatordeconcentracaotangencialA.pdf
+[71 <./fig/GUOrelacaoUBUA.pdf> <./fig/GUOfatordeconcentracaotangencialA.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/GUOfatordeconcentracaotangencialA.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./fig/dominioMa.pdf, id=4020, 318.24628pt x 260.8756pt>
+<./fig/dominioMa.pdf, id=4028, 318.24628pt x 260.8756pt>
 File: ./fig/dominioMa.pdf Graphic file (type pdf)
 <use ./fig/dominioMa.pdf>
 Package pdftex.def Info: ./fig/dominioMa.pdf  used on input line 220.
 (pdftex.def)             Requested size: 318.24548pt x 260.87495pt.
 
 
-[71 <./fig/dominioMa.pdf>]
-<./fig/MAperfilconvergenciaUB.pdf, id=4038, 547.25879pt x 310.68633pt>
+[72 <./fig/dominioMa.pdf>]
+<./fig/MAperfilconvergenciaUB.pdf, id=4047, 547.25879pt x 310.68633pt>
 File: ./fig/MAperfilconvergenciaUB.pdf Graphic file (type pdf)
 <use ./fig/MAperfilconvergenciaUB.pdf>
 Package pdftex.def Info: ./fig/MAperfilconvergenciaUB.pdf  used on input line 2
 33.
 (pdftex.def)             Requested size: 448.75511pt x 254.76442pt.
-<./fig/MA_MC_zonasplasticas.pdf, id=4042, 331.0557pt x 399.22685pt>
+<./fig/MA_MC_zonasplasticas.pdf, id=4051, 331.0557pt x 399.22685pt>
 File: ./fig/MA_MC_zonasplasticas.pdf Graphic file (type pdf)
 <use ./fig/MA_MC_zonasplasticas.pdf>
 Package pdftex.def Info: ./fig/MA_MC_zonasplasticas.pdf  used on input line 242
@@ -1757,26 +1759,26 @@ Package pdftex.def Info: ./fig/MA_MC_zonasplasticas.pdf  used on input line 242
 (pdftex.def)             Requested size: 331.05489pt x 399.22588pt.
 
 
-[72 <./fig/MAperfilconvergenciaUB.pdf>]
-<./fig/MA_DPII_tensao.pdf, id=4277, 657.88791pt x 677.71976pt>
+[73 <./fig/MAperfilconvergenciaUB.pdf>]
+<./fig/MA_DPII_tensao.pdf, id=4285, 657.88791pt x 677.71976pt>
 File: ./fig/MA_DPII_tensao.pdf Graphic file (type pdf)
 <use ./fig/MA_DPII_tensao.pdf>
 Package pdftex.def Info: ./fig/MA_DPII_tensao.pdf  used on input line 251.
 (pdftex.def)             Requested size: 447.35786pt x 460.84334pt.
 
 
-[73 <./fig/MA_MC_zonasplasticas.pdf>]
-<./fig/MA_MC_tensao.pdf, id=4641, 657.74977pt x 677.32137pt>
+[74 <./fig/MA_MC_zonasplasticas.pdf>]
+<./fig/MA_MC_tensao.pdf, id=4649, 657.74977pt x 677.32137pt>
 File: ./fig/MA_MC_tensao.pdf Graphic file (type pdf)
 <use ./fig/MA_MC_tensao.pdf>
 Package pdftex.def Info: ./fig/MA_MC_tensao.pdf  used on input line 260.
 (pdftex.def)             Requested size: 447.26393pt x 460.57243pt.
 
 
-[74 <./fig/MA_DPII_tensao.pdf>]
+[75 <./fig/MA_DPII_tensao.pdf>]
 
-[75 <./fig/MA_MC_tensao.pdf>]
-<./fig/FRICperfilconvergenciaCRE.pdf, id=9011, 547.25879pt x 310.68633pt>
+[76 <./fig/MA_MC_tensao.pdf>]
+<./fig/FRICperfilconvergenciaCRE.pdf, id=9019, 547.25879pt x 310.68633pt>
 File: ./fig/FRICperfilconvergenciaCRE.pdf Graphic file (type pdf)
 <use ./fig/FRICperfilconvergenciaCRE.pdf>
 Package pdftex.def Info: ./fig/FRICperfilconvergenciaCRE.pdf  used on input lin
@@ -1784,8 +1786,8 @@ e 278.
 (pdftex.def)             Requested size: 448.75511pt x 254.76442pt.
 
 
-[76 <./fig/FRICperfilconvergenciaCRE.pdf>]
-<./fig/FRICperfilconvergenciaSR.pdf, id=9253, 547.25879pt x 310.7576pt>
+[77 <./fig/FRICperfilconvergenciaCRE.pdf>]
+<./fig/FRICperfilconvergenciaSR.pdf, id=9261, 547.25879pt x 310.7576pt>
 File: ./fig/FRICperfilconvergenciaSR.pdf Graphic file (type pdf)
 <use ./fig/FRICperfilconvergenciaSR.pdf>
 Package pdftex.def Info: ./fig/FRICperfilconvergenciaSR.pdf  used on input line
@@ -1797,7 +1799,7 @@ Overfull \hbox (0.308pt too wide) in paragraph at lines 296--297
 ando o mo-delo aco-plado elastoplástico-viscoplástico
  []
 
-<./fig/FRICperfilconvergenciaEPVP.pdf, id=9255, 547.25879pt x 310.7576pt>
+<./fig/FRICperfilconvergenciaEPVP.pdf, id=9263, 547.25879pt x 310.7576pt>
 File: ./fig/FRICperfilconvergenciaEPVP.pdf Graphic file (type pdf)
 <use ./fig/FRICperfilconvergenciaEPVP.pdf>
 Package pdftex.def Info: ./fig/FRICperfilconvergenciaEPVP.pdf  used on input li
@@ -1805,14 +1807,14 @@ ne 300.
 (pdftex.def)             Requested size: 448.75511pt x 254.82288pt.
 
 
-[77 <./fig/FRICperfilconvergenciaSR.pdf>])
+[78 <./fig/FRICperfilconvergenciaSR.pdf>])
 
-[78 <./fig/FRICperfilconvergenciaEPVP.pdf>]
+[79 <./fig/FRICperfilconvergenciaEPVP.pdf>]
 \openout2 = `./chap/cap5.aux'.
 
  (chap/cap5.tex)
 
-[79
+[80
 
 
 
@@ -1825,21 +1827,21 @@ ne 300.
 bibitemlist
 
 
-[80
+[81
 
 
 
 ]
 
-[81]
-
 [82]
 
 [83]
 
-[84])
+[84]
 
-[85]
+[85])
+
+[86]
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1856,11 +1858,11 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: CFA5095A2E12F0ACA788D6418EED8F6A;13706.
+(rerunfilecheck)             Checksum: 3617B34B6F54BB71A6AD5C1348425347;13809.
  ) 
 Here is how much of TeX's memory you used:
- 25831 strings out of 473899
- 427891 string characters out of 5726501
+ 25832 strings out of 473899
+ 427898 string characters out of 5726501
  1957960 words of memory out of 5000000
  47462 multiletter control sequences out of 15000+600000
  678241 words of font info for 464 fonts, out of 8000000 for 9000
@@ -1880,9 +1882,9 @@ X/fonts/type1/urw/symbol/usyr.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX
 fonts/type1/urw/times/utmb8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/bianc/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (86 pages, 13440250 bytes).
+Output written on main.pdf (87 pages, 13442529 bytes).
 PDF statistics:
- 10215 PDF objects out of 10688 (max. 8388607)
- 305 named destinations out of 1000 (max. 500000)
+ 10223 PDF objects out of 10688 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
  116800 words of extra memory for PDF output out of 128383 (max. 10000000)
 
