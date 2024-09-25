@@ -19,7 +19,7 @@ Os fenômenos de retração e fluência são aspectos essenciais nos processos d
 
 % The time-dependent material behavior due to shrinkage and creep of shotcrete considerably influences the stress and strain state of tunnel linings throughout their service life. Shrinkage describes the time-dependent volume reduction of cement-based materials due to hydration and/or drying. If the volume reduction occurs without moisture exchange with the environment, it is referred to as autogenous shrinkage, whereas drying shrinkage describes additional shrinkage due to moisture release to the environment [17]. (Smaniotto et al)
 
-No presente estudo, deformação por fluência do concreto é abordada por um modelo reológico viscoelástico com envelhecimento, baseado na Teoria de Solidificação de \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}. Os parâmetros mecânicos são a rigidez das molas e viscosidade dos amortecedores, calibrados conforme as formulações do CEB-FIP Model Code 1990 \cite{CEB1993}, e uma descrição detalhada desse processo de calibração pode ser encontrada em \citeonline{Quevedoetal2022b} e \citeonline{Quevedoetal2018}. Já a deformação associada à retração do concreto, adota-se a formulação isotrópica proposta na CEB-FIP Model Code 1990 \cite{CEB1993}. Mais informações sobre o modelo podem ser encontradas em \citeonline{Quevedoetal2022b} e \citeonline{Quevedo2017}.
+No presente estudo, a deformação por fluência do concreto é simulada por meio de um modelo reológico viscoelástico com envelhecimento, baseado na Teoria de Solidificação de \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}. Os parâmetros mecânicos são a rigidez das molas e viscosidade dos amortecedores, calibrados conforme as formulações do CEB-FIP Model Code 1990 \cite{CEB1993}, e uma descrição detalhada desse processo de calibração pode ser encontrada em \citeonline{Quevedoetal2022b} e \citeonline{Quevedoetal2018}. Já a deformação associada à retração do concreto, adota-se a formulação isotrópica proposta na CEB-FIP Model Code 1990 \cite{CEB1993}. Mais informações sobre esse modelo podem ser encontradas em \citeonline{Quevedoetal2022b} e \citeonline{Quevedo2017}, e nessa seção serão dados apenas alguns aspectos gerais do modelo.
 
 O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin generalizada, apresentada na \autoref{modeloreologicoviscoelasticidade}.
 
@@ -30,7 +30,7 @@ O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin gen
 	\caption{\label{modeloreologicoviscoelasticidade}Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (adaptado de \citeonline{BazantPrasannanA})} %\cite{quem}}
 \end{figure}
 
-As equações constitutivas do revestimento de concreto, relacionando as taxas de tensão e deformação,, são expressas por:
+As equações constitutivas do revestimento de concreto, relacionando as taxas de tensão e deformação, são expressas por:
 
 \begin{equation}
 	\dot \sigmall = \Dllll : \dot \varepsilonll^e = \dot \varepsilonll - \Dllll : \dot \varepsilonll^{sh} - \Dllll^{\ast} : \dot \varepsilonll^{cr},
@@ -50,13 +50,13 @@ onde $\Delta \varepsilonll^{sh}$ corresponde ao incremento de deformação de fl
 
 Na equação acima, $t_s$ representa o tempo de cura do concreto e $\Delta \varepsilon_{sh}$ corresponde à variação na magnitude da deformação do concreto associada à retração.
 
-O incremento da deformação de fluência é calculado através do algoritmo incremental desenvolvido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, além da calibração da CEB-FIP MC90 \cite{CEB1993}. O comportamento viscoelástico tridimensional com envelhecimento do concreto isotrópico é definido pelo modelo Kelvin generalizado para o módulo de relaxamento sob tensão uniaxial, assumindo que o coeficiente de Poisson permanece constante ao longo do período de análise. Para a identificação dos parâmetros do modelo, é realizada uma comparação das funções de fluência fornecidas por \citeonline{BazantPrasannanA}, \citeonline{BazantPrasannanB} e \citeonline{CEB1993}, levando à equivalência:
+O incremento da deformação de fluência é calculado através do algoritmo incremental desenvolvido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, além da calibração da CEB-FIP MC90 \cite{CEB1993}. O comportamento viscoelástico tridimensional com envelhecimento do concreto isotrópico é definido pelo modelo Kelvin Generalizado para o módulo de relaxamento sob tensão uniaxial, assumindo que o coeficiente de Poisson permanece constante ao longo do período de análise. Para a identificação dos parâmetros do modelo, é realizada uma comparação das funções de fluência fornecidas por \citeonline{BazantPrasannanA}, \citeonline{BazantPrasannanB} e \citeonline{CEB1993}, levando à equivalência:
 
 \begin{equation}
 	E_0 = E_c(t_0), \gamma(t-t_0) = \beta_c (t-t_0), \dfrac{1}{v(t)} = \dfrac{\phi_0(t_0)}{E_{ci}} ~~~ \text{e} ~~~ \dfrac{1}{\eta(t)} \rightarrow 0,
 \end{equation}
 
-onde $t$ refere-se ao tempo atual e $t_0$ à idade do concreto no instante de aplicação da carga, ou seja, o intervalo $t-t_0$ representa o tempo de carregamento. No modelo Kelvin generalizado introduzido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, $E_0$ representa o módulo de elasticidade instantâneo dos agregados e das partículas de cimento, $\gamma(t-t_0) = \sum\limits_{i=1}^{N}\gamma_i$ é a deformação microviscoelástica da fração volumétrica $v(t)$ do concreto solidificado e $\eta(t)$ é a viscosidade macroscópica aparente. Ainda, na formulação CEB-FIP MC90 \cite{CEB1993}, $E_c(t_0)$ corresponde ao módulo de elasticidade tangente do concreto no instante da aplicação da carga, $\beta_c(t-t_0)$ e $\phi_0(t_0)$ são coeficientes, sendo o primeiro dependente da idade do carregamento, e o segundo dependente da idade do revestimento no instante do carregamento $t_0$ e $E_{ci}$ é o módulo de elasticidade tangente do concreto na idade de 28 dias. 
+onde $t$ refere-se ao tempo atual e $t_0$ à idade do concreto no instante de aplicação da carga e, portanto, o intervalo $t-t_0$ representa a idade de carregamento. No modelo Kelvin Generalizado introduzido por \citeonline{BazantPrasannanA} e \citeonline{BazantPrasannanB}, $E_0$ representa o módulo de elasticidade instantâneo dos agregados e das partículas de cimento, $\gamma(t-t_0) = \sum\limits_{i=1}^{N}\gamma_i$ é a deformação microviscoelástica da fração volumétrica $v(t)$ do concreto solidificado e $\eta(t)$ é a viscosidade macroscópica aparente. Ainda, na formulação CEB-FIP MC90 \cite{CEB1993}, $E_c(t_0)$ corresponde ao módulo de elasticidade tangente do concreto no instante da aplicação da carga, $\beta_c(t-t_0)$ e $\phi_0(t_0)$ são coeficientes, sendo o primeiro dependente da idade do carregamento, e o segundo dependente da idade do revestimento no instante do carregamento $t_0$ e $E_{ci}$ é o módulo de elasticidade tangente do concreto na idade de 28 dias. 
 
 
 %Na Teoria da Elasticidade, considera-se que a aplicação de tensões resulta imediatamente em deformações correspondentes, de maneira que, enquanto as tensões forem mantidas, as deformações permanecem proporcionais. Contudo, caso as tensões sejam removidas, o corpo tende a retornar à sua forma original, implicando que as deformações são reversíveis. A lei do comportamento elástico linear é expressa por $\sigmall = \partial w / \partial \varepsilonll$, em que $w$ representa a energia interna específica do material. Ao aplicar a regra da cadeia em relação aos invariantes do tensor de deformações e realizando uma aproximação em torno de $\sigmall_0$, se obtém a lei constitutiva da elasticidade linear isótropa, conforme \citeonline{Salencon2001}:
@@ -93,7 +93,7 @@ No comportamento de túneis, além das deformações instantâneas, que resultam
 
 Conforme \citeonline{Quevedo2021}, nesses estágios iniciais, o maciço no entorno é exposto a condições severas de carga e deformação, podendo apresentar deformações irreversíveis imediatas próximas à parede do túnel, afetando, assim, o equilíbrio a longo prazo da estrutura. Por isso, é crucial a utilização de um modelo constitutivo que inclua tanto às deformações instantâneas quanto às diferidas do maciço.
 
-Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea, representando a plastficação do material a curto prazo, e também a viscoplasticidade para descrever o comportamento a longo prazo. O modelo elastoplástico-viscoplástico proposto inicialmente por \citeonline{Rousset1988}, \citeonline{Piepi1995} e \citeonline{Giraud1996} e posteriormente implementado por \citeonline{Quevedo2021} dentro da hipótese das transformações infinitesimais compreende na associação das deformações elásticas, plásticas e viscoplásticas:
+Dessa maneira, nesse estudo considera-se um modelo constitutivo para o maciço que abrange a plasticidade instantânea, representando a plastificação do material a curto prazo, e também a viscoplasticidade para descrever o comportamento a longo prazo. O modelo elastoplástico-viscoplástico proposto inicialmente por \citeonline{Rousset1988}, \citeonline{Piepi1995} e \citeonline{Giraud1996} e posteriormente implementado por \citeonline{Quevedo2021} dentro da hipótese das transformações infinitesimais compreende na associação das deformações elásticas, plásticas e viscoplásticas:
 
 \begin{equation}
 	\label{eq_modelo_elastoplastico_viscoplastico}
@@ -132,7 +132,7 @@ O modelo constitutivo adotado no presente estudo utiliza a superfície de escoam
 	f(\sigmall,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
 \end{equation}
 
-onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras e $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. Esses termos são dados pelas seguintes expressões:
+onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras, $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. Esses termos são dados pelas seguintes expressões:
 
 \begin{equation}
 	\begin{aligned}
@@ -164,7 +164,7 @@ sendo $k^{vp} = (1+\sin{\phi^{vp}})/(1-\sin{\phi^{vp}})$ e $c^{vp}$ também cons
 	\end{array}\right.,
 	\end{equation}
 
-onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplicador plástico) e $g$ é uma função análoga à $f$, chamada de potencial plástico que, quando diferente de $f$, é capaz de controlar a dilatação do material durante a evolução das deformações plásticas. Contudo, para as subsequentes análises, adota-se a plasticidade associada, que ocorre quando $f = g$. Na plasticidade o multiplicador plástico é a incógnita obtida através da condições de consistência $\dot f = 0$. Já a regra de fluxo viscoplástica é expressa pela equação:
+onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplicador plástico) e $g$ é uma função análoga à $f$, chamada de potencial plástico que, quando diferente de $f$, é capaz de controlar a dilatação do material durante a evolução das deformações plásticas. Contudo, apesar do modelo ser capaz de simular a plasticidade não associada, para as subsequentes análises, adota-se a plasticidade associada, que ocorre quando $f = g$. Na plasticidade o multiplicador plástico é a incógnita obtida através da condições de consistência $\dot f = 0$, através de um esquema semi-implícito de Euler de dois passos (preditor-corretor) que pode ser visto em \citeonline{Quevedo2021}. Já a regra de fluxo viscoplástica é expressa pela equação:
 
 \begin{equation}
 	\dot \varepsilonll^{vp} = \dot \lambda^{vp} \dfrac{\partial f^{vp}}{\partial \sigmall}

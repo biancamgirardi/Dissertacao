@@ -24,7 +24,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10451 items.
+Reallocating 'field_info' (item size: 4) to 10589 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
@@ -38,6 +38,7 @@ Warning--entry type for "Teixeira1994" isn't style-file defined
 --line 1331 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
 --line 1431 of file ./bib/referencias.bib
+Warning--I didn't find a database entry for "CEB:1993"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -47,39 +48,39 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 79 entries,
+You've used 80 entries,
             6714 wiz_defined-function locations,
-            1702 strings with 24634 characters,
-and the built_in function-call counts, 85213 in all, are:
-= -- 8480
-> -- 2331
-< -- 1491
-+ -- 2334
-- -- 702
-* -- 5809
-:= -- 10990
+            1705 strings with 24666 characters,
+and the built_in function-call counts, 84610 in all, are:
+= -- 8367
+> -- 2207
+< -- 1493
++ -- 2294
+- -- 662
+* -- 5692
+:= -- 10928
 add.period$ -- 281
-call.type$ -- 79
-change.case$ -- 790
-chr.to.int$ -- 150
+call.type$ -- 81
+change.case$ -- 779
+chr.to.int$ -- 157
 cite$ -- 75
-duplicate$ -- 7127
-empty$ -- 4211
-format.name$ -- 3399
-if$ -- 17895
-int.to.chr$ -- 5
-int.to.str$ -- 1
-missing$ -- 1374
+duplicate$ -- 7135
+empty$ -- 4275
+format.name$ -- 3273
+if$ -- 17787
+int.to.chr$ -- 7
+int.to.str$ -- 3
+missing$ -- 1385
 newline$ -- 406
 num.names$ -- 376
-pop$ -- 1621
+pop$ -- 1626
 preamble$ -- 1
-purify$ -- 303
+purify$ -- 306
 quote$ -- 0
-skip$ -- 7260
+skip$ -- 7285
 stack$ -- 1
-substring$ -- 3246
-swap$ -- 2666
+substring$ -- 3251
+swap$ -- 2668
 text.length$ -- 66
 text.prefix$ -- 0
 top$ -- 0
