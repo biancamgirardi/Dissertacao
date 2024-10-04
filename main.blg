@@ -24,7 +24,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10589 items.
+Reallocating 'field_info' (item size: 4) to 10520 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
@@ -35,10 +35,9 @@ You're missing a field name---line 1059 of file ./bib/referencias.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Teixeira1994" isn't style-file defined
---line 1331 of file ./bib/referencias.bib
+--line 1335 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1431 of file ./bib/referencias.bib
-Warning--I didn't find a database entry for "CEB:1993"
+--line 1435 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -50,7 +49,7 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 80 entries,
             6714 wiz_defined-function locations,
-            1705 strings with 24666 characters,
+            1703 strings with 24650 characters,
 and the built_in function-call counts, 84610 in all, are:
 = -- 8367
 > -- 2207
