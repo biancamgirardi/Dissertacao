@@ -1,0 +1,150 @@
+05/12/2024 - 1ª REUNIÃO 
+
+1) Tirar férias! 
+
+2) Ler a tese do Quevedo e dissertação do Carlos (anotar dúvidas para vermos juntos)
+	- ideia é ter uma visão geral
+	- se houver referências dar uma olhada na dissertação do Quevedo
+
+3) Fazer um estado da arte de túneis gêmeos
+	- o que as pessoas fazem em termos de projeto (design) na prática?
+	- essa parte será usada para situar o leitor na dissertação
+	- como é levado em conta do ponto de vista do dimensionamento o túnel gêmeo (coeficiente de proximidade? é ignorado?)
+
+4) Procurar artigos que tenham dados para poder fazer validações e ter ideia das propriedades
+	- twin tunnel monitoring (ou data)
+
+5) Possível ideia de estudo paramétrico: distância entre túneis considerando esses modelos reológicos
+
+6) Possível ideia de implementação: adicionar a plasticidade de Mohr Coulomb
+	- ver livros classicos de plasticidade que tenham códigos de implementação (ex. Owen Hinton)
+	- ver tese da Denise Bernaud (1991)
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+27/02/2024 - PEQUENA REUNIÃO COM O SAMIR NO CORREDOR
+
+1) Passar os artigos sobre túneis gêmeos que encontramos com o Carlos para a Bianca Ler
+
+2) Passar a apostila do professor Bittencourt (ver o que seria interessante ela ler).
+
+3) Talvez assistir a disciplina de plasticidade no segundo semestre
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+07/03/2024 - PEQUENA REUNIÃO COM O SAMIR
+
+1) Possível ideia de estudo túnel superfície (argilas)
+
+2) Samir falou para ter um overview (não focar tanto os detalhes)
+
+3) Procurar um artigo (ou review) com um único túnel
+
+4) familiarizar com o ANSYS em elasticidade e depois os trabalhos do Marcos e do Lucas
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+10/04/2024
+
+1) Ler as teses do Couto, Caio, Evandro, Quevedo e montar o capítulo de problemática de túneis (geral para túneis, convergência, comportamento, métodos de escavação, suportes, convergência-confinamento...)
+
+2) Pegar com o Felipe o projeto de pesquisa do pósdoc que vai servir de base para a introdução
+
+3) pesquisar alguns artigos sobre túneis gêmeos para montar depois o capítulo específico sobre o que se estuda atulamente sobre esses túneis.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+02/07/2024
+
+1) Continuar escrevendo os capítulos da dissertação (definir o capitulo de diretrizes da pesquisa)
+
+2) Replicar alguma análise do Carlos para túneis gêmeos (primeiro em Drucker-Prager e depois com MC):
+	2.1) Verificação com solução analítica em elasticidade: GUO (ver artigo revista com QUEVEDO) (túnel gêmeo, sem revestimento, elastico)
+	2.2) Verificação com solução analítica em elastoplasticidade: MA (ver artigo CILAMCE e artigo para revista com QUEVEDO) (túnel gêmeo, sem revestimento, elastoplásticidade, MC)
+	2.3) Replicar algum problema do Carlos (EP, d1 = 4Re, SR e CRE, SG, CG)
+	
+3) Ver com o Quevedo como estão as verificações da usermat utilizando viscoplasticidade com MC (rodar com um tempo infinito para ver se bate com EP e talvez utilizar o GEOMEC também). NÃO FUNCIONOU (ideia - usar apenas o DP mesmo).
+
+4) Ver a possibilidade de ir no Congresso de Maceió (resultado sai dia 30/08)
+
+5) Ver possibilidade de se inscrever em plasticidade com prof. Bittencourt. (abortado pq o Bittencourt deu no segundo trimestre).
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+13/08/2024 - Definir objetivos (visto com o Samir dia 15/08):
+
+O objetivo principal do trabalho consiste na análise de túneis gêmeos profundos com galerias transversais considerando a defasagem construtiva entre os túneis longitudinais e modelos constitutivos não-lineares para o maciço e para o revestimento. 
+
+a) Adaptar o script APDL para viabilizar a análise de túneis gêmeos profundos com galerias transversais considerando o processo construtivo defasado;
+b) Investigar o efeito do parâmetro friccional (ângulo de atrito) nos perfis de convergências dos túneis longitudinais;
+c) Investigar o efeito da rigidez do revestimento. (Uma rigidez na ordem de 360MPa);
+d) Implementar a superfície de Mohr-Coulomb na subrotina constitutiva elastoplástica-viscoplástica desenvolvida por Quevedo (2017) e Quevedo (2021);
+e) Realizar verificações numéricas em elastoplasticidade considerando o modelo constitutivo de Mohr-Coulomb;
+
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+07/10/2024 - Definição dos objetivos pós seminário
+
+1) Adaptar um script para túneis gêmeos sem a malha da galeria
+
+2) A dissertação terá como objetivo principal analisar o efeito da galeria:
+
+	Referência 1: túnel isolado
+	Referência 2: túneis gêmeos sem galeria
+	Referência 3: túneis gêmeos com galeria
+
+- Utilizar as distâncias entre os eixos dos túneis: d1 = 4Rt; d1 = 8Rt; d1 = 16Rt (exatamente como no artigo)
+
+3) Sobre o revestimento de concreto:
+
+- Considerar os modelos elástico e viscoelástico;
+
+- Buscar espessuras na literatura para ter um valor mais realista; ***
+
+- Samir quer saber qual o valor do módulo de elasticidade inicial do concreto (E = 30303 MPa para 28 dias); ***
+
+- Descobrir qual o valor de módulo de elasticidade específico para o concreto projetado;
+
+4) Sobre o maciço:
+
+- Ver parâmetros do artigo Maghous, Bernaud e Couto (2012) - https://www.sciencedirect.com/science/article/pii/S0886779812000776
+
+	E = 1500 MPa			(módulo de elasticidade)
+	v = 0,49			(coeficiente de Poisson)
+
+- Plasticidade:
+
+	phi = 0º, 10º e 20°		(ângulo de atrito)
+	psi = 0º			(ângulo de dilatância)
+
+	- ver ordem de grandeza da coesão nos ensaios experimentais (Piepi, 2010)
+	
+- Viscoplasticidade:
+	
+	phi_vp = 0º			(ângulo de atrito viscoplástico)
+	psi_vp = 0º			(ângulo de dilatância viscoplástico)
+	
+	- ver ordem de grandeza da coesão viscoplástica nos ensaios experimentais (Piepi, 2010)
+	
+5) Sobre as condições de contorno:
+
+	Tensões iniciais: a vertical geralmente é maior que a horizontal
+		Razão (k0 = sigma_H/sigma_V): 0,75 e 1,00 - artigo Maghous, Bernaud e Couto
+		
+6) Para as análises, plotar as tensões e distâncias nos pontos A (0º), B (90º) e C (45º) na direção do túnel gêmeo.
+	
+	Ponto A = horizontal
+	Ponto B = vertical
+	Ponto C = radial
+	

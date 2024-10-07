@@ -19,7 +19,7 @@
 %	Pacotes utilizandos na classe ppgec.cls
 %	---------------------------------------
 %
-%		abntex2cite [alf,abnt-emphasize=bf, abnt-repeated-author-omit=yes]
+%		abntex2cite [alf,abnt-emphasize=bf, abnt-repeated-author-omit=no]
 %		amssymb,amsmath,amsfonts,textcomp,bm
 %		array
 %		backref [brazilian,hyperpageref]
