@@ -148,3 +148,44 @@ e) Realizar verificações numéricas em elastoplasticidade considerando o model
 	Ponto B = vertical
 	Ponto C = radial
 	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11/10/2024 - Reunião com o Samir
+
+1) Definição de parâmetros para as análises da dissertação:
+
+MACIÇO: realizar análises apenas em elastoplasticidade-viscoplasticidade
+
+	E = 1500 MPa
+	v = 0,40
+	Plasticidade - Tresca/Coulomb:	c = 4 MPa
+					phi = 0°, 5° e 10°
+					psi = 0°
+					
+	Viscoplasticidade - Tresca:	c = 2 MPa
+					phi = 0°
+					psi = 0°
+					
+CONCRETO: realizar análises com revestimento elástico e viscoelástico
+
+	Ec = 20 GPa ou 25 GPa (será definido de acordo com a curva Ks x espessuras)
+	v = 0,20
+	espessura = 2% a 5% (será definido de acordo com a curva Ks x espessuras)
+	
+ANÁLISES COM A MALHA DE TÚNEIS GÊMEOS SEM GALERIA - d1 = 4 Rt
+
+Resumindo:
+- EPVP_CRE_D1_4RT_PHI_0
+- EPVP_CRE_D1_4RT_PHI_5
+- EPVP_CRE_D1_4RT_PHI_10
+- EPVP_CRVE_D1_4RT_PHI_0
+- EPVP_CRVE_D1_4RT_PHI_5
+- EPVP_CRVE_D1_4RT_PHI_10
+
+2) Realizar o gráfico Ks x esp com as curvas considerando Ec igual 20 GPa e 25 GPa
+
+- Fazer com as equações como é na planilha (tentar fazer em python)
+
+3) Trabalhar na malha de túneis gêmeos sem galeria, para poder realizar as análises descritas em 1) ***
+
+4) Plotar a curva com o módulo Ec aos 28 dias no mesmo ponto ao longo do tempo (mesmo que esteja errado)
