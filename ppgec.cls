@@ -484,7 +484,7 @@
 	\newcommand{\txttextofolhaderosto}{
 		\OnehalfSpacing{Esta \MakeTextLowercase{\imprimirtipotrabalho} foi julgada adequada para a obtenção do título de \MakeUppercase{\tituloobtido}, na área de concentração \areaconcentracao, e aprovada em sua forma final pelo professor orientador e pelo \ppg~da \imprimirinstituicao.}}	
 	\newcommand{\txttextofolhaderostoquali}{
-			\OnehalfSpacing{Texto apresentado como requisito de \MakeTextLowercase{\imprimirtipotrabalho} na área de concentração de \areaconcentracao~do \ppg~da \imprimirinstituicao.}}
+			\OnehalfSpacing{Texto apresentada como requisito de \MakeTextLowercase{\imprimirtipotrabalho} na área de concentração de \areaconcentracao~do \ppg~da \imprimirinstituicao.}}
 	%
 	% Documento, curso e título
 	\if \vardoctype 0 

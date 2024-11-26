@@ -11,7 +11,7 @@
 \chapter{Verificações preliminares}
 % ----------------------------------------------------------
 
-A partir dos \textit{scripts} desenvolvidos por \citeonline{Quevedo2017} e \citeonline{Quevedo2021} e atualizados por \citeonline{Colombo2023}, realizaram-se algumas análises de túneis gêmeos profundos com galerias e também de túneis isolados, com o intuito de realizar verificações com as soluções analíticas e comparar a influência do parâmetro fricional frente algumas análises realizadas por \citeonline{Colombo2023}. Essas verificações preliminares ainda não possuem o intuito de considerar o efeito da defasagem na construção dos túneis longitudinais, que será feito a posteriori, conforme o cronograma apresentado ao final do trabalho.
+
 
 \section{Discretização do domínio}
 % ---
@@ -42,7 +42,7 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 		\multicolumn{1}{c}{\textbf{VALORES}} \\
 		\hline
 		\makecell{Raio do túnel longitudinal} & $R_t$ & m & $R_t$ \\		
-		\makecell{Espessura do revestimento} & $e_t$ & m & $0,1 R_t$ \\
+		\makecell{Espessura do revestimento} & $e_t$ & m & $0,05 R_t$ \\
 		\makecell{Comprimento do domínio na direção radial} & $L_{x}$ & m & $20 R_t$ \\
 		\makecell{Raio da região de refinamento \\ próxima ao túnel} & $R_1$ & m & $10 R_t$ \\				
 		\makecell{Comprimento na direção radial além \\ da região próxima do túnel} & $L_{x1}$ & m & $L_x - R_1$ \\	
@@ -134,7 +134,7 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		\multicolumn{4}{c}{TÚNEIS LONGITUDINAIS} \\
 		\hline
 		Raio dos túneis longitudinais & $R_t$ & m & $R_t$ \\
-		Espessura do revestimento & $e_t$ & m & $0.1R_t$ \\
+		Espessura do revestimento & $e_t$ & m & $0.05R_t$ \\
 		Comprimento do passo de escavação & $L_{pt}$ & m & $1/3R_t$ \\
 		Comprimento não revestido & $d_{0t}$ & m & $2L_{pt}$ \\
 		Velocidade da face de escavação & $V_{pt}$ & m/dia & $12.5$ \\
