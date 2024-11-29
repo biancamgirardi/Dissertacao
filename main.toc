@@ -2,34 +2,30 @@
 \changetocdepth {2}
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{21}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Justificativa}{23}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos}{24}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Metodologia}{24}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Estrutura do trabalho}{25}{section.1.4}%
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{26}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Breve histórico}{27}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Métodos de escavação}{29}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Suporte}{35}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{36}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{41}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{43}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{43}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{45}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}Método convergência-confinamento (CV-CF)}{45}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{47}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{49}{subsubsection.2.6.2.3}%
-\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{50}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{53}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{57}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{57}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{59}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{64}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{64}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificações com soluções analíticas}{70}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Análise de túneis gêmeos não revestidos em elasticidade}{71}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Análise de túneis gêmeos não revestidos em elastoplasticidade}{74}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Aplicações considerando o parâmetro friccional}{78}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{X}}{83}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{20}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Justificativa}{22}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{23}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Metodologia}{23}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estrutura do trabalho}{24}{section.1.4}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Breve histórico}{26}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Métodos de escavação}{28}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Suporte}{34}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{35}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{40}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{42}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{42}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{44}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Método convergência-confinamento (CV-CF)}{44}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{46}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{48}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{49}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{52}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{56}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{56}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{58}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Discretização do domínio}{63}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{X}}{71}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{84}{section*.68}%
+\contentsline {chapter}{REFERÊNCIAS}{72}{section*.56}%
