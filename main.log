@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  29 NOV 2024 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  10 DEC 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,32 +1348,31 @@ ine 97.
 
 
 ]
-<./fig/0101_desmoronamentoSPPB.jpg, id=420, 903.375pt x 472.76625pt>
-File: ./fig/0101_desmoronamentoSPPB.jpg Graphic file (type jpg)
-<use ./fig/0101_desmoronamentoSPPB.jpg>
-Package pdftex.def Info: ./fig/0101_desmoronamentoSPPB.jpg  used on input line 
-24.
-(pdftex.def)             Requested size: 397.48624pt x 208.01779pt.
-<./fig/0102_desmoronamentoheathrowPB.png, id=428, 715.473pt x 463.7325pt>
-File: ./fig/0102_desmoronamentoheathrowPB.png Graphic file (type png)
-<use ./fig/0102_desmoronamentoheathrowPB.png>
-Package pdftex.def Info: ./fig/0102_desmoronamentoheathrowPB.png  used on input
- line 35.
+<./fig/0101_desmoronamentoSP.jpg, id=411, 1204.5pt x 630.355pt>
+File: ./fig/0101_desmoronamentoSP.jpg Graphic file (type jpg)
+<use ./fig/0101_desmoronamentoSP.jpg>
+Package pdftex.def Info: ./fig/0101_desmoronamentoSP.jpg  used on input line 24
+.
+(pdftex.def)             Requested size: 421.58131pt x 220.62755pt.
+<./fig/0102_desmoronamentoheathrow.png, id=419, 715.473pt x 463.7325pt>
+File: ./fig/0102_desmoronamentoheathrow.png Graphic file (type png)
+<use ./fig/0102_desmoronamentoheathrow.png>
+Package pdftex.def Info: ./fig/0102_desmoronamentoheathrow.png  used on input l
+ine 35.
 (pdftex.def)             Requested size: 357.73563pt x 231.86568pt.
 
 
-[21 <./fig/0101_desmoronamentoSPPB.jpg> <./fig/0102_desmoronamentoheathrowPB.pn
-g>]
+[21 <./fig/0101_desmoronamentoSP.jpg>]
 
-[22])
+[22 <./fig/0102_desmoronamentoheathrow.png>]
 
-[23]
+[23])
 
 [24]
 \openout2 = `./chap/cap2.aux'.
 
  (chap/cap2.tex
-<./fig/0201_tunelrasoeprofundo.pdf, id=485, 388.93652pt x 279.63103pt>
+<./fig/0201_tunelrasoeprofundo.pdf, id=476, 388.93652pt x 279.63103pt>
 File: ./fig/0201_tunelrasoeprofundo.pdf Graphic file (type pdf)
 <use ./fig/0201_tunelrasoeprofundo.pdf>
 Package pdftex.def Info: ./fig/0201_tunelrasoeprofundo.pdf  used on input line 
@@ -1389,81 +1388,79 @@ Package pdftex.def Info: ./fig/0201_tunelrasoeprofundo.pdf  used on input line
 ]
 
 [26 <./fig/0201_tunelrasoeprofundo.pdf>]
-<./fig/0202_cloacamassimaPB.jpg, id=520, 743.77875pt x 752.8125pt>
-File: ./fig/0202_cloacamassimaPB.jpg Graphic file (type jpg)
-<use ./fig/0202_cloacamassimaPB.jpg>
-Package pdftex.def Info: ./fig/0202_cloacamassimaPB.jpg  used on input line 46.
+<./fig/0202_cloacamassima.jpg, id=511, 991.705pt x 1003.75pt>
+File: ./fig/0202_cloacamassima.jpg Graphic file (type jpg)
+<use ./fig/0202_cloacamassima.jpg>
+Package pdftex.def Info: ./fig/0202_cloacamassima.jpg  used on input line 46.
+(pdftex.def)             Requested size: 297.5138pt x 301.12732pt.
 
-(pdftex.def)             Requested size: 297.50623pt x 301.11966pt.
 
-
-[27 <./fig/0202_cloacamassimaPB.jpg>]
+[27 <./fig/0202_cloacamassima.jpg>]
 
 [28]
-<./fig/0203_metodosescavacao.pdf, id=556, 403.4471pt x 313.43916pt>
+<./fig/0203_metodosescavacao.pdf, id=547, 403.4471pt x 313.43916pt>
 File: ./fig/0203_metodosescavacao.pdf Graphic file (type pdf)
 <use ./fig/0203_metodosescavacao.pdf>
 Package pdftex.def Info: ./fig/0203_metodosescavacao.pdf  used on input line 80
 .
 (pdftex.def)             Requested size: 383.27257pt x 297.7655pt.
-<./fig/0204_valarecobertaPB.pdf, id=564, 509.94902pt x 263.4145pt>
-File: ./fig/0204_valarecobertaPB.pdf Graphic file (type pdf)
-<use ./fig/0204_valarecobertaPB.pdf>
-Package pdftex.def Info: ./fig/0204_valarecobertaPB.pdf  used on input line 89.
-
+<./fig/0204_valarecoberta.pdf, id=555, 509.94902pt x 263.4145pt>
+File: ./fig/0204_valarecoberta.pdf Graphic file (type pdf)
+<use ./fig/0204_valarecoberta.pdf>
+Package pdftex.def Info: ./fig/0204_valarecoberta.pdf  used on input line 89.
 (pdftex.def)             Requested size: 433.45871pt x 223.90337pt.
 
 
 [29 <./fig/0203_metodosescavacao.pdf>]
-<./fig/0205_roadheaderPB.png, id=593, 554.82281pt x 366.61969pt>
-File: ./fig/0205_roadheaderPB.png Graphic file (type png)
-<use ./fig/0205_roadheaderPB.png>
-Package pdftex.def Info: ./fig/0205_roadheaderPB.png  used on input line 103.
+<./fig/0205_roadheader.png, id=585, 554.82281pt x 366.61969pt>
+File: ./fig/0205_roadheader.png Graphic file (type png)
+<use ./fig/0205_roadheader.png>
+Package pdftex.def Info: ./fig/0205_roadheader.png  used on input line 103.
 (pdftex.def)             Requested size: 221.92519pt x 146.64526pt.
-<./fig/0205_hammerheadPB.jpg, id=594, 1025.2704pt x 682.2288pt>
-File: ./fig/0205_hammerheadPB.jpg Graphic file (type jpg)
-<use ./fig/0205_hammerheadPB.jpg>
-Package pdftex.def Info: ./fig/0205_hammerheadPB.jpg  used on input line 104.
+<./fig/0205_hammerhead.jpg, id=586, 1025.2704pt x 682.2288pt>
+File: ./fig/0205_hammerhead.jpg Graphic file (type jpg)
+<use ./fig/0205_hammerhead.jpg>
+Package pdftex.def Info: ./fig/0205_hammerhead.jpg  used on input line 104.
 (pdftex.def)             Requested size: 220.42883pt x 146.67633pt.
 
 
-[30 <./fig/0204_valarecobertaPB.pdf>]
-<./fig/0206_sequenciadetonacaoPB.pdf, id=735, 458.17pt x 226.30978pt>
-File: ./fig/0206_sequenciadetonacaoPB.pdf Graphic file (type pdf)
-<use ./fig/0206_sequenciadetonacaoPB.pdf>
-Package pdftex.def Info: ./fig/0206_sequenciadetonacaoPB.pdf  used on input lin
-e 115.
+[30 <./fig/0204_valarecoberta.pdf>]
+<./fig/0206_sequenciadetonacao.pdf, id=732, 458.17pt x 226.30978pt>
+File: ./fig/0206_sequenciadetonacao.pdf Graphic file (type pdf)
+<use ./fig/0206_sequenciadetonacao.pdf>
+Package pdftex.def Info: ./fig/0206_sequenciadetonacao.pdf  used on input line 
+115.
 (pdftex.def)             Requested size: 412.34918pt x 203.67691pt.
 
 
-[31 <./fig/0205_roadheaderPB.png> <./fig/0205_hammerheadPB.jpg> <./fig/0206_seq
-uenciadetonacaoPB.pdf>]
-<./fig/0207_TBMgarras.png, id=911, 820.86674pt x 333.6465pt>
+[31 <./fig/0205_roadheader.png> <./fig/0205_hammerhead.jpg> <./fig/0206_sequenc
+iadetonacao.pdf>]
+<./fig/0207_TBMgarras.png, id=909, 820.86674pt x 333.6465pt>
 File: ./fig/0207_TBMgarras.png Graphic file (type png)
 <use ./fig/0207_TBMgarras.png>
 Package pdftex.def Info: ./fig/0207_TBMgarras.png  used on input line 130.
 (pdftex.def)             Requested size: 451.4781pt x 183.50613pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/0208_TBMblindadaPB.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<./fig/0208_TBMblindadaPB.pdf, id=916, 1927.2pt x 1084.05pt>
-File: ./fig/0208_TBMblindadaPB.pdf Graphic file (type pdf)
-<use ./fig/0208_TBMblindadaPB.pdf>
-Package pdftex.def Info: ./fig/0208_TBMblindadaPB.pdf  used on input line 137.
-(pdftex.def)             Requested size: 443.24669pt x 249.32625pt.
+pdfTeX warning: pdflatex.exe (file ./fig/0208_TBMblindada.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<./fig/0208_TBMblindada.pdf, id=914, 1445.4pt x 813.0375pt>
+File: ./fig/0208_TBMblindada.pdf Graphic file (type pdf)
+<use ./fig/0208_TBMblindada.pdf>
+Package pdftex.def Info: ./fig/0208_TBMblindada.pdf  used on input line 137.
+(pdftex.def)             Requested size: 361.34912pt x 203.25888pt.
 
 
 [32 <./fig/0207_TBMgarras.png>]
-<./fig/0209_TBMsoftground.png, id=930, 479.54156pt x 334.24875pt>
+<./fig/0209_TBMsoftground.png, id=928, 479.54156pt x 334.24875pt>
 File: ./fig/0209_TBMsoftground.png Graphic file (type png)
 <use ./fig/0209_TBMsoftground.png>
 Package pdftex.def Info: ./fig/0209_TBMsoftground.png  used on input line 146.
-(pdftex.def)             Requested size: 335.6768pt x 233.97252pt.
+(pdftex.def)             Requested size: 359.65529pt x 250.68594pt.
 
 
-[33 <./fig/0208_TBMblindadaPB.pdf> <./fig/0209_TBMsoftground.png>]
-<./fig/0210_revestimento.pdf, id=957, 357.79332pt x 232.0466pt>
+[33 <./fig/0208_TBMblindada.pdf> <./fig/0209_TBMsoftground.png>]
+<./fig/0210_revestimento.pdf, id=955, 357.79332pt x 232.0466pt>
 File: ./fig/0210_revestimento.pdf Graphic file (type pdf)
 <use ./fig/0210_revestimento.pdf>
 Package pdftex.def Info: ./fig/0210_revestimento.pdf  used on input line 169.
@@ -1473,7 +1470,7 @@ Package pdftex.def Info: ./fig/0210_revestimento.pdf  used on input line 169.
 [34]
 
 [35 <./fig/0210_revestimento.pdf>]
-<./fig/0211_mobilizacaoresistcisalhamento.pdf, id=1008, 599.99156pt x 435.12563
+<./fig/0211_mobilizacaoresistcisalhamento.pdf, id=1006, 599.99156pt x 435.12563
 pt>
 File: ./fig/0211_mobilizacaoresistcisalhamento.pdf Graphic file (type pdf)
 <use ./fig/0211_mobilizacaoresistcisalhamento.pdf>
@@ -1483,13 +1480,13 @@ input line 197.
 
 
 [36 <./fig/0211_mobilizacaoresistcisalhamento.pdf>]
-<./fig/0212_arqueamentotensoestrid.pdf, id=1028, 291.5395pt x 181.9949pt>
+<./fig/0212_arqueamentotensoestrid.pdf, id=1026, 291.5395pt x 181.9949pt>
 File: ./fig/0212_arqueamentotensoestrid.pdf Graphic file (type pdf)
 <use ./fig/0212_arqueamentotensoestrid.pdf>
 Package pdftex.def Info: ./fig/0212_arqueamentotensoestrid.pdf  used on input l
 ine 206.
 (pdftex.def)             Requested size: 320.69443pt x 200.19499pt.
-<./fig/0213_direcoesprincipais.pdf, id=1034, 574.50359pt x 225.72389pt>
+<./fig/0213_direcoesprincipais.pdf, id=1032, 574.50359pt x 225.72389pt>
 File: ./fig/0213_direcoesprincipais.pdf Graphic file (type pdf)
 <use ./fig/0213_direcoesprincipais.pdf>
 Package pdftex.def Info: ./fig/0213_direcoesprincipais.pdf  used on input line 
@@ -1502,13 +1499,13 @@ Package pdftex.def Info: ./fig/0213_direcoesprincipais.pdf  used on input line
 pdfTeX warning: pdflatex.exe (file ./fig/0213_direcoesprincipais.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
-<./fig/0214_campovetorialdesloc.pdf, id=1125, 375.02695pt x 201.94638pt>
+<./fig/0214_campovetorialdesloc.pdf, id=1123, 375.02695pt x 201.94638pt>
 File: ./fig/0214_campovetorialdesloc.pdf Graphic file (type pdf)
 <use ./fig/0214_campovetorialdesloc.pdf>
 Package pdftex.def Info: ./fig/0214_campovetorialdesloc.pdf  used on input line
  224.
 (pdftex.def)             Requested size: 450.03009pt x 242.33443pt.
-<./fig/0215_convergencia.pdf, id=1133, 648.84038pt x 556.74876pt>
+<./fig/0215_convergencia.pdf, id=1131, 648.84038pt x 556.74876pt>
 File: ./fig/0215_convergencia.pdf Graphic file (type pdf)
 <use ./fig/0215_convergencia.pdf>
 Package pdftex.def Info: ./fig/0215_convergencia.pdf  used on input line 233.
@@ -1516,7 +1513,7 @@ Package pdftex.def Info: ./fig/0215_convergencia.pdf  used on input line 233.
 
 
 [38 <./fig/0214_campovetorialdesloc.pdf>]
-<./fig/0216_perfilconvergencia.pdf, id=1165, 326.25305pt x 115.68109pt>
+<./fig/0216_perfilconvergencia.pdf, id=1163, 326.25305pt x 115.68109pt>
 File: ./fig/0216_perfilconvergencia.pdf Graphic file (type pdf)
 <use ./fig/0216_perfilconvergencia.pdf>
 Package pdftex.def Info: ./fig/0216_perfilconvergencia.pdf  used on input line 
@@ -1533,13 +1530,13 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 [40 <./fig/0216_perfilconvergencia.pdf>]
-<./fig/0217_variacaotensao.pdf, id=1202, 634.89203pt x 318.02368pt>
+<./fig/0217_variacaotensao.pdf, id=1200, 634.89203pt x 318.02368pt>
 File: ./fig/0217_variacaotensao.pdf Graphic file (type pdf)
 <use ./fig/0217_variacaotensao.pdf>
 Package pdftex.def Info: ./fig/0217_variacaotensao.pdf  used on input line 269.
 
 (pdftex.def)             Requested size: 444.42139pt x 222.61505pt.
-<./fig/0218_baciadeassentamento.pdf, id=1210, 423.01761pt x 184.44745pt>
+<./fig/0218_baciadeassentamento.pdf, id=1208, 423.01761pt x 184.44745pt>
 File: ./fig/0218_baciadeassentamento.pdf Graphic file (type pdf)
 <use ./fig/0218_baciadeassentamento.pdf>
 Package pdftex.def Info: ./fig/0218_baciadeassentamento.pdf  used on input line
@@ -1552,7 +1549,7 @@ Package pdftex.def Info: ./fig/0218_baciadeassentamento.pdf  used on input line
 pdfTeX warning: pdflatex.exe (file ./fig/0218_baciadeassentamento.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-<./fig/0219_metanalitico.pdf, id=1257, 1006.17715pt x 330.60045pt>
+<./fig/0219_metanalitico.pdf, id=1255, 1006.17715pt x 330.60045pt>
 File: ./fig/0219_metanalitico.pdf Graphic file (type pdf)
 <use ./fig/0219_metanalitico.pdf>
 Package pdftex.def Info: ./fig/0219_metanalitico.pdf  used on input line 303.
@@ -1560,13 +1557,13 @@ Package pdftex.def Info: ./fig/0219_metanalitico.pdf  used on input line 303.
 
 
 [42]
-<./fig/0220_metanaliticozonas.pdf, id=1272, 1006.17715pt x 330.60045pt>
+<./fig/0220_metanaliticozonas.pdf, id=1270, 1006.17715pt x 330.60045pt>
 File: ./fig/0220_metanaliticozonas.pdf Graphic file (type pdf)
 <use ./fig/0220_metanaliticozonas.pdf>
 Package pdftex.def Info: ./fig/0220_metanaliticozonas.pdf  used on input line 3
 12.
 (pdftex.def)             Requested size: 402.46373pt x 132.23782pt.
-<./fig/0221_solucaoanalitica.pdf, id=1278, 455.44972pt x 203.09006pt>
+<./fig/0221_solucaoanalitica.pdf, id=1276, 455.44972pt x 203.09006pt>
 File: ./fig/0221_solucaoanalitica.pdf Graphic file (type pdf)
 <use ./fig/0221_solucaoanalitica.pdf>
 Package pdftex.def Info: ./fig/0221_solucaoanalitica.pdf  used on input line 32
@@ -1581,7 +1578,7 @@ sion: multiple pdfs with page group included in a single page
 >]
 
 [44 <./fig/0221_solucaoanalitica.pdf>]
-<./fig/0222_metodocvcf.pdf, id=1332, 284.66164pt x 269.62318pt>
+<./fig/0222_metodocvcf.pdf, id=1330, 284.66164pt x 269.62318pt>
 File: ./fig/0222_metodocvcf.pdf Graphic file (type pdf)
 <use ./fig/0222_metodocvcf.pdf>
 Package pdftex.def Info: ./fig/0222_metodocvcf.pdf  used on input line 350.
@@ -1591,15 +1588,15 @@ Package pdftex.def Info: ./fig/0222_metodocvcf.pdf  used on input line 350.
 [45 <./fig/0222_metodocvcf.pdf>]
 
 [46]
-<./fig/0223_curvasNATMPB.pdf, id=1373, 361.63252pt x 223.38274pt>
-File: ./fig/0223_curvasNATMPB.pdf Graphic file (type pdf)
-<use ./fig/0223_curvasNATMPB.pdf>
-Package pdftex.def Info: ./fig/0223_curvasNATMPB.pdf  used on input line 377.
+<./fig/0223_curvasNATM.pdf, id=1371, 361.63252pt x 223.38274pt>
+File: ./fig/0223_curvasNATM.pdf Graphic file (type pdf)
+<use ./fig/0223_curvasNATM.pdf>
+Package pdftex.def Info: ./fig/0223_curvasNATM.pdf  used on input line 377.
 (pdftex.def)             Requested size: 361.63164pt x 223.38219pt.
 
 
-[47 <./fig/0223_curvasNATMPB.pdf>]
-<./fig/0224_influenciarigidezNIM.pdf, id=1394, 466.65427pt x 126.82498pt>
+[47 <./fig/0223_curvasNATM.pdf>]
+<./fig/0224_influenciarigidezNIM.pdf, id=1392, 466.65427pt x 126.82498pt>
 File: ./fig/0224_influenciarigidezNIM.pdf Graphic file (type pdf)
 <use ./fig/0224_influenciarigidezNIM.pdf>
 Package pdftex.def Info: ./fig/0224_influenciarigidezNIM.pdf  used on input lin
@@ -1610,7 +1607,7 @@ e 397.
 [48 <./fig/0224_influenciarigidezNIM.pdf>]
 
 [49]
-<./fig/0225_ativacaodesativacao.pdf, id=1441, 304.64915pt x 324.23778pt>
+<./fig/0225_ativacaodesativacao.pdf, id=1439, 304.64915pt x 324.23778pt>
 File: ./fig/0225_ativacaodesativacao.pdf Graphic file (type pdf)
 <use ./fig/0225_ativacaodesativacao.pdf>
 Package pdftex.def Info: ./fig/0225_ativacaodesativacao.pdf  used on input line
@@ -1632,7 +1629,7 @@ Package pdftex.def Info: ./fig/0225_ativacaodesativacao.pdf  used on input line
 \openout2 = `./chap/cap3.aux'.
 
  (chap/cap3.tex
-<./fig/0301_modeloreologicoviscoelasticidade.pdf, id=2011, 435.82964pt x 162.71
+<./fig/0301_modeloreologicoviscoelasticidade.pdf, id=2009, 435.82964pt x 162.71
 994pt>
 File: ./fig/0301_modeloreologicoviscoelasticidade.pdf Graphic file (type pdf)
 <use ./fig/0301_modeloreologicoviscoelasticidade.pdf>
@@ -1651,7 +1648,7 @@ on input line 28.
 [57 <./fig/0301_modeloreologicoviscoelasticidade.pdf>]
 
 [58]
-<./fig/0302_representacaoreologica.pdf, id=2080, 333.75082pt x 187.78644pt>
+<./fig/0302_representacaoreologica.pdf, id=2078, 333.75082pt x 187.78644pt>
 File: ./fig/0302_representacaoreologica.pdf Graphic file (type pdf)
 <use ./fig/0302_representacaoreologica.pdf>
 Package pdftex.def Info: ./fig/0302_representacaoreologica.pdf  used on input l
@@ -1660,7 +1657,7 @@ ine 107.
 
 
 [59 <./fig/0302_representacaoreologica.pdf>]
-<./fig/0303_funcoesescoamento.pdf, id=2102, 450.29451pt x 172.72375pt>
+<./fig/0303_funcoesescoamento.pdf, id=2100, 450.29451pt x 172.72375pt>
 File: ./fig/0303_funcoesescoamento.pdf Graphic file (type pdf)
 <use ./fig/0303_funcoesescoamento.pdf>
 Package pdftex.def Info: ./fig/0303_funcoesescoamento.pdf  used on input line 1
@@ -1677,21 +1674,21 @@ Underfull \hbox (badness 2173) in paragraph at lines 125--125
 [60 <./fig/0303_funcoesescoamento.pdf>]
 
 [61]
-<./fig/0304_dominiosEPVP.pdf, id=2188, 321.12228pt x 217.31194pt>
+<./fig/0304_dominiosEPVP.pdf, id=2186, 321.12228pt x 217.31194pt>
 File: ./fig/0304_dominiosEPVP.pdf Graphic file (type pdf)
 <use ./fig/0304_dominiosEPVP.pdf>
 Package pdftex.def Info: ./fig/0304_dominiosEPVP.pdf  used on input line 191.
-(pdftex.def)             Requested size: 385.3448pt x 260.773pt.
+(pdftex.def)             Requested size: 353.2356pt x 239.04384pt.
 )
 
 [62 <./fig/0304_dominiosEPVP.pdf>]
 \openout2 = `./chap/cap4.aux'.
 
  (chap/cap4.tex
-<./fig/0401_dominioaxi.pdf, id=2237, 353.1859pt x 632.48442pt>
+<./fig/0401_dominioaxi.pdf, id=2235, 353.1859pt x 632.48442pt>
 File: ./fig/0401_dominioaxi.pdf Graphic file (type pdf)
 <use ./fig/0401_dominioaxi.pdf>
-Package pdftex.def Info: ./fig/0401_dominioaxi.pdf  used on input line 24.
+Package pdftex.def Info: ./fig/0401_dominioaxi.pdf  used on input line 27.
 (pdftex.def)             Requested size: 342.5899pt x 613.50916pt.
 
 
@@ -1704,20 +1701,20 @@ Package pdftex.def Info: ./fig/0401_dominioaxi.pdf  used on input line 24.
 
 [64 <./fig/0401_dominioaxi.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-<./fig/0402solid185.pdf, id=2973, 325.29547pt x 234.4892pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+<./fig/0402solid185.pdf, id=2971, 325.29547pt x 234.4892pt>
 File: ./fig/0402solid185.pdf Graphic file (type pdf)
 <use ./fig/0402solid185.pdf>
-Package pdftex.def Info: ./fig/0402solid185.pdf  used on input line 75.
+Package pdftex.def Info: ./fig/0402solid185.pdf  used on input line 78.
 (pdftex.def)             Requested size: 221.19798pt x 159.45053pt.
-<./fig/0402solid186.pdf, id=2974, 331.08694pt x 238.71686pt>
+<./fig/0402solid186.pdf, id=2972, 331.08694pt x 238.71686pt>
 File: ./fig/0402solid186.pdf Graphic file (type pdf)
 <use ./fig/0402solid186.pdf>
-Package pdftex.def Info: ./fig/0402solid186.pdf  used on input line 76.
+Package pdftex.def Info: ./fig/0402solid186.pdf  used on input line 79.
 (pdftex.def)             Requested size: 225.13612pt x 162.3253pt.
 
 
@@ -1726,24 +1723,24 @@ Package pdftex.def Info: ./fig/0402solid186.pdf  used on input line 76.
 pdfTeX warning: pdflatex.exe (file ./fig/0402solid186.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >]
-<./fig/0403_dominio3D.pdf, id=3000, 677.70567pt x 531.0825pt>
+<./fig/0403_dominio3D.pdf, id=2998, 677.70567pt x 531.0825pt>
 File: ./fig/0403_dominio3D.pdf Graphic file (type pdf)
 <use ./fig/0403_dominio3D.pdf>
-Package pdftex.def Info: ./fig/0403_dominio3D.pdf  used on input line 85.
+Package pdftex.def Info: ./fig/0403_dominio3D.pdf  used on input line 88.
 (pdftex.def)             Requested size: 447.28712pt x 350.51552pt.
 
 
 [66 <./fig/0403_dominio3D.pdf>]
-<./fig/0404_detalhetunellongitudinal.pdf, id=3026, 290.57947pt x 205.54703pt>
+<./fig/0404_detalhetunellongitudinal.pdf, id=3024, 290.57947pt x 205.54703pt>
 File: ./fig/0404_detalhetunellongitudinal.pdf Graphic file (type pdf)
 <use ./fig/0404_detalhetunellongitudinal.pdf>
 Package pdftex.def Info: ./fig/0404_detalhetunellongitudinal.pdf  used on input
- line 94.
+ line 97.
 (pdftex.def)             Requested size: 232.46388pt x 164.43782pt.
-<./fig/0405_detalhegaleria.pdf, id=3032, 364.14055pt x 149.27858pt>
+<./fig/0405_detalhegaleria.pdf, id=3030, 364.14055pt x 149.27858pt>
 File: ./fig/0405_detalhegaleria.pdf Graphic file (type pdf)
 <use ./fig/0405_detalhegaleria.pdf>
-Package pdftex.def Info: ./fig/0405_detalhegaleria.pdf  used on input line 103.
+Package pdftex.def Info: ./fig/0405_detalhegaleria.pdf  used on input line 106.
 
 (pdftex.def)             Requested size: 436.96646pt x 179.13338pt.
 
@@ -1753,16 +1750,16 @@ Package pdftex.def Info: ./fig/0405_detalhegaleria.pdf  used on input line 103.
 pdfTeX warning: pdflatex.exe (file ./fig/0405_detalhegaleria.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<./fig/0406_vistasisometricas.pdf, id=3069, 403.97719pt x 185.29742pt>
+<./fig/0406_vistasisometricas.pdf, id=3067, 403.97719pt x 185.29742pt>
 File: ./fig/0406_vistasisometricas.pdf Graphic file (type pdf)
 <use ./fig/0406_vistasisometricas.pdf>
 Package pdftex.def Info: ./fig/0406_vistasisometricas.pdf  used on input line 1
-12.
+15.
 (pdftex.def)             Requested size: 403.9762pt x 185.29697pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
 
 
 [68 <./fig/0406_vistasisometricas.pdf>]
@@ -1818,16 +1815,16 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: A59CEEECC89268A10FA6E556DECA6428;12587.
+(rerunfilecheck)             Checksum: 4D51BE7B65E3C3A89A7AEE3C39D3EFB9;12379.
  ) 
 Here is how much of TeX's memory you used:
  25704 strings out of 473904
- 427085 string characters out of 5725657
+ 426920 string characters out of 5725657
  1956908 words of memory out of 5000000
  47366 multiletter control sequences out of 15000+600000
- 676401 words of font info for 459 fonts, out of 8000000 for 9000
+ 676303 words of font info for 459 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,17n,121p,2516b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,17n,121p,2051b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -1842,9 +1839,9 @@ grams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/
 Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (78 pages, 11597616 bytes).
+Output written on main.pdf (78 pages, 10996359 bytes).
 PDF statistics:
- 3558 PDF objects out of 3580 (max. 8388607)
+ 3552 PDF objects out of 3580 (max. 8388607)
  272 named destinations out of 1000 (max. 500000)
  112648 words of extra memory for PDF output out of 128383 (max. 10000000)
 
