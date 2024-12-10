@@ -188,3 +188,11 @@ Resumindo:
 
 4) Plotar a curva com o módulo Ec aos 28 dias no mesmo ponto ao longo do tempo (mesmo que esteja errado)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+06/12/2024 - Reunião com Samir
+
+1) Plotar a curva do E(t,t0)
+
+2) Análise com l2 = 500
+
