@@ -196,3 +196,27 @@ Resumindo:
 
 2) Análise com l2 = 500
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19/12/2024 - Última reunião com o Samir de 2024
+
+1) Modificar o "Solution Options" para guardar apenas os resultados que precisamos:
+	
+	a) Para túneis gêmeos sem galeria: ao término da escavação e longo prazo
+	
+	b) Para túneis gêmeos com galeria: antes de escavar a galeria, um pouco depois da escavação da galeria, ao término da escavação e longo prazo
+	
+2) Plotar o gráfico J(t,t0), Ec(t,t0), deformações no tempo com uma tensão inicial (a partir do t0***)
+
+	a) Talvez analisar os parâmetros utilizados para tentar obter um efeito viscoso
+	
+3) Realizar as seguintes análises:
+	
+	a) Análises EPVP CRE e EPVP CRVE com e sem galeria, considerando l2 = 500, PHI = 0°, 5° e 10°
+	
+	b) Análises AXI EPVP CRE e EPVP CRVE, considerando l2 = 500, PHI = 0°, 5° e 10°
+	
+	c) Fazer as mesmas análises de a) e b) com outra velocidade de escavação - talvez pra depois das "férias"
+	
+4) Posteriormente, verificar a influência da rigidez do revestimento
+
