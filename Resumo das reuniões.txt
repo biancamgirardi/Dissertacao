@@ -220,3 +220,50 @@ Resumindo:
 	
 4) Posteriormente, verificar a influência da rigidez do revestimento
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+31/01/2025 - Primeira reunião com o Samir de 2025 
+
+1) Verificar o gráfico J(t,t0) - alterar os parâmetros s e alpha para diminuir o valor de E(t=t0,t0)**
+	
+	a) Plotar menos dias
+
+2) Capítulo apenas sobre o túnel isolado:
+	
+	a) Comparar SR e CRE (instantâneo e longo prazo)
+	
+	b) Comparar SR e CRVE (instantâneo e longo prazo)
+	
+	c) Sempre explicar os gráficos - colocar apenas no texto o resultado do Ueq, para demonstrar que não é necessário colocar todo o comprimento do tunel no gráfico (eixo x)
+
+	d) A escala dos gráficos pode mudar
+	
+	e) No final do capítulo, juntar tudo em um gráfico (SR, CRE e CRVE)
+
+3) Capítulo sobre túneis gêmeos com o túnel isolado de referência - para ver a influência da proximidade (theta = 0°, 45°, 90°, 135° e 180°):
+
+	a) Comparar túnel isolado com túneis gêmeos - SR (variando phi)
+	
+	b) Comparar túnel isolado com túneis gêmeos - CRE (variando phi)
+	
+	c) Comparar túnel isolado com túneis gêmeos - CRVE (variando phi)
+	
+	d) Gráfico theta X rho(theta) - ver a anisotropia em relação ao inicial
+		
+		- theta: varia de 0 a pi
+		
+		- rho(theta): Ueq(theta)/Ueq(theta = 0)
+		
+		- Ueq(theta) irá variar conforme a quantidade de theta que for utilizado; Ueq(theta = 0) é a referência (normalizando o gráfico)
+		
+4) Realizar análises de túnel isolado com a plasticidade associada: psi = phi
+
+	a) Verificar o que ocorre com as deformações
+	
+5) Capítulo sobre túneis gêmeos com galeria e sem galeria (theta = 0°, 45°, 90°, 135° e 180°):
+
+	a) Comparar análise NG com análise CG - SR (variando phi)
+	
+	b) Comparar análise NG com análise CG - CRE (variando phi)
+	
+	c) Comparar análise NG com análise CG - CRVE (variando phi)
