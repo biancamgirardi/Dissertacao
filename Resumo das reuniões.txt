@@ -267,3 +267,4 @@ Resumindo:
 	b) Comparar análise NG com análise CG - CRE (variando phi)
 	
 	c) Comparar análise NG com análise CG - CRVE (variando phi)
+
