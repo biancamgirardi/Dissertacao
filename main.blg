@@ -24,7 +24,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10520 items.
+Reallocating 'field_info' (item size: 4) to 10451 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
@@ -47,45 +47,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 80 entries,
+You've used 79 entries,
             6714 wiz_defined-function locations,
-            1703 strings with 24650 characters,
-and the built_in function-call counts, 84610 in all, are:
-= -- 8367
-> -- 2207
-< -- 1493
-+ -- 2294
-- -- 662
-* -- 5692
-:= -- 10928
-add.period$ -- 281
-call.type$ -- 81
-change.case$ -- 779
-chr.to.int$ -- 157
-cite$ -- 75
-duplicate$ -- 7135
-empty$ -- 4275
-format.name$ -- 3273
-if$ -- 17787
+            1696 strings with 24535 characters,
+and the built_in function-call counts, 84067 in all, are:
+= -- 8338
+> -- 2191
+< -- 1491
++ -- 2289
+- -- 657
+* -- 5655
+:= -- 10846
+add.period$ -- 278
+call.type$ -- 80
+change.case$ -- 772
+chr.to.int$ -- 153
+cite$ -- 74
+duplicate$ -- 7101
+empty$ -- 4230
+format.name$ -- 3250
+if$ -- 17666
 int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 1385
-newline$ -- 406
-num.names$ -- 376
-pop$ -- 1626
+missing$ -- 1369
+newline$ -- 401
+num.names$ -- 371
+pop$ -- 1607
 preamble$ -- 1
-purify$ -- 306
+purify$ -- 303
 quote$ -- 0
-skip$ -- 7285
+skip$ -- 7256
 stack$ -- 1
-substring$ -- 3251
-swap$ -- 2668
-text.length$ -- 66
+substring$ -- 3233
+swap$ -- 2657
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 43
 warning$ -- 0
-while$ -- 507
+while$ -- 501
 width$ -- 0
-write$ -- 1193
+write$ -- 1178
 (There was 1 error message)

@@ -11,16 +11,20 @@
 \chapter{Verificações preliminares}
 % ----------------------------------------------------------
 
-
+Este capítulo tem o objetivo de verificar a modelagem computacional com soluções analíticas de túneis gêmeos que constam na literatura. Também serão apresentados resultados referentes à capacidade do modelo de simular as tensões e deformações da problemática de túneis gêmeos.
 
 \section{Discretização do domínio}
 % ---
 
+O domínio utilizado no presente estudo foi primeiramente desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. %Esse domínio é construído e discretizado através de um modelo no pré-processamento do \textit{software} ANSYS.
 
+Para as análises considerando um túnel isolado, é utilizado o modelo axissimétrico apresentado na \autoref{dominioaxi} (a). Sua aplicação é viável, pois o estado de tensões inicial que prevalece no maciço rochoso antes da escavação do túnel é caracterizado por tensões geostáticas verticais e horizontais constantes, denotadas por $\sigma_v$ e $\sigma_h$, respectivamente, e representadas da seguinte maneira:
 
-O domínio utilizado no presente estudo foi primeiramente desenvolvido por \citeonline{Quevedo2017} e porteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. Esse domínio é construído e discretizado através do pré-processamento do \textit{software} ANSYS, por meio de linguagem APDL (\textit{Ansys Parametric Design Language}).
+\begin{equation}
+	\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
+\end{equation}
 
-Para as análises considerando túneis isolados, é utilizado o modelo axissimétrico, apresentado na \autoref{dominioaxi} (a). Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxi} (b). Essa figura apresenta também a malha em elementos finitos, as condições de contorno e seus parâmetros geométricos. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR1$, $mLx1$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$. % VERIFICAR COM QUEVEDO
+Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxi} (b). Essa figura apresenta também a malha em elementos finitos, as condições de contorno e seus parâmetros geométricos. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR1$, $mLx1$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. %As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
 
 \begin{figure}[H]
 	\begin{center}
@@ -119,7 +123,7 @@ Ressalta-se que os elementos tetraédricos usados para a discretização das reg
 
 A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo tridimensional utilizado neste estudo.
 
-Inúmeros fatores influenciam no custo computacional de modelos tridimensionais como o demonstrado anteriormente, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado. Considerando uma máquina com processador AMD Ryzen$^{TM}$ 7 7700 e memória RAM DDR5 de 32 GB, o tempo médio das análises preliminares desse modelo foi de 45 min em elasticidade, 2 h em elastoplasticidade e 2 h 40 min em elastoplasticidade-viscoplasticidade. O tempo de análises será maior ao considerar a defasagem da escavação das faces, uma vez que o modelo perderá a simetria ao longo do plano yz. 
+Inúmeros fatores influenciam no custo computacional de modelos tridimensionais como o demonstrado anteriormente, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado.% Considerando uma máquina com processador AMD Ryzen$^{TM}$ 7 7700 e memória RAM DDR5 de 32 GB, o tempo médio das análises preliminares desse modelo foi de 45 min em elasticidade, 2 h em elastoplasticidade e 2 h 40 min em elastoplasticidade-viscoplasticidade. 
 
 \begin{table}[H]
 	\caption{Parâmetros relacionados à geometria do domínio, escavação e instalação do revestimento do modelo tridimensional}
@@ -208,5 +212,6 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 	\normalsize
 \end{table}
 
+\section{Verificação com solução analítica em elasticidade}
 
-
+\section{Verificação com solução analítica em elastoplasticidade}

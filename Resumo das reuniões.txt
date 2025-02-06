@@ -85,9 +85,13 @@
 O objetivo principal do trabalho consiste na análise de túneis gêmeos profundos com galerias transversais considerando a defasagem construtiva entre os túneis longitudinais e modelos constitutivos não-lineares para o maciço e para o revestimento. 
 
 a) Adaptar o script APDL para viabilizar a análise de túneis gêmeos profundos com galerias transversais considerando o processo construtivo defasado;
+
 b) Investigar o efeito do parâmetro friccional (ângulo de atrito) nos perfis de convergências dos túneis longitudinais;
+
 c) Investigar o efeito da rigidez do revestimento. (Uma rigidez na ordem de 360MPa);
+
 d) Implementar a superfície de Mohr-Coulomb na subrotina constitutiva elastoplástica-viscoplástica desenvolvida por Quevedo (2017) e Quevedo (2021);
+
 e) Realizar verificações numéricas em elastoplasticidade considerando o modelo constitutivo de Mohr-Coulomb;
 
  
@@ -267,4 +271,14 @@ Resumindo:
 	b) Comparar análise NG com análise CG - CRE (variando phi)
 	
 	c) Comparar análise NG com análise CG - CRVE (variando phi)
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Dúvidas para a próxima reunião:
+
+1) Tabela dos parâmetros do concreto: colocar o fck? Se sim, como explicar?
+	
+	Sugestão do Quevedo: Poderia colocar os parâmetros usados no modelo, mas explicar que é uma adaptação pra 
+	obter o módulo inicial típico de concreto projetado.
+	
+2) Manter as verificações com solução analítica em elasticidade (GUO, 2021) e elastoplasticidade (MA, 2020)?

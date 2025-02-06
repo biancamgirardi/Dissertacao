@@ -26,6 +26,18 @@
 \contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{58}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{63}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Discretização do domínio}{63}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{X}}{71}{chapter.5}%
+\contentsline {section}{\numberline {4.2}Verificação com solução analítica em elasticidade}{70}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Verificação com solução analítica em elastoplasticidade}{70}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{71}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Influência do revestimento}{71}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Influência do parâmetro friccional}{71}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{72}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Influência da proximidade entre os túneis}{72}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Influência do parâmetro friccional}{72}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Influência do revestimento}{72}{section.6.3}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Influência da galeria transversal}{73}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Influência do parâmetro friccional}{73}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Influência do revestimento}{73}{section.7.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{72}{section*.56}%
+\contentsline {chapter}{REFERÊNCIAS}{74}{section*.56}%
