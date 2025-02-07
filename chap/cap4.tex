@@ -214,4 +214,17 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 
 \section{Verificação com solução analítica em elasticidade}
 
+Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioGuo}. Os pontos A ($x = −d_1/2+R_t , y = 0, z$) e B ($x = −d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{0407_dominioGuo.pdf}
+	\end{center}
+	\caption{\label{dominioGuo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
+\end{figure}
+
+Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2,2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
+
+A Figura 4.8 apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel. As curvas de convergência, dadas por $U_B = −u_y(B)/R_t$ , referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único em elasticidade, a convergência longe da face é obtida através da seguinte solução analítica: $U = \sigma_v(1+\nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
+
 \section{Verificação com solução analítica em elastoplasticidade}

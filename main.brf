@@ -36,6 +36,7 @@
 \backcite {Colombo2023}{{11}{(document)}{Doc-Start}}
 \backcite {Colombo2023}{{11}{(document)}{Doc-Start}}
 \backcite {Colombo2023}{{11}{(document)}{Doc-Start}}
+\backcite {Guoetal2021}{{11}{(document)}{Doc-Start}}
 \backcite {Maffei2008}{{21}{1}{chapter.1}}
 \backcite {Folhapress2007}{{21}{1.1}{figure.caption.16}}
 \backcite {HSE1996}{{21}{1}{figure.caption.16}}
@@ -231,3 +232,5 @@
 \backcite {Colombo2023}{{68}{4.6}{figure.caption.53}}
 \backcite {CEB1993}{{70}{4.3}{table.caption.55}}
 \backcite {CEB1993}{{70}{4.3}{table.caption.55}}
+\backcite {Guoetal2021}{{70}{4.2}{section.4.2}}
+\backcite {Guoetal2021}{{71}{4.7}{figure.caption.56}}
