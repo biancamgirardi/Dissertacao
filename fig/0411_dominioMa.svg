@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="7.9320556"
-     inkscape:cx="146.80936"
-     inkscape:cy="138.11048"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.24787674"
+     inkscape:cx="119.01076"
+     inkscape:cy="-119.01076"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
+     inkscape:window-x="1912"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2016-0-5-9-5-4-1-5-7-0-3-3-9-8-8-3-9-4-8-1-57-6-4-9-77-9-6-35-3-0-6-9-9-1-5-9-4-6-6-3-7-6-3-4" /><defs
+     inkscape:current-layer="layer1" /><defs
      id="defs1"><rect
        x="193.62395"
        y="-6.4184732"
@@ -946,8 +946,12 @@
      id="layer1"
      transform="translate(-7.3509937,-2.6909605)"><path
        style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.499896;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       d="M 20.413949,82.109101 V 14.142981 H 88.914054 V 82.641125 Z"
-       id="path1" /><path
+       d="m 20.413949,82.109101 v -67.96612 h 68.500105 l 0,67.939427 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="0411_dominioMa.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><path
        style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.6;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        id="path2"
        sodipodi:type="arc"
@@ -1184,9 +1188,9 @@
    style="font-style:italic;font-size:10.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;stroke:none;stroke-width:0.665197;stroke-linejoin:round;stroke-dashoffset:1.35176"><tspan
      x="234.24023"
      y="136.9949"
-     id="tspan4"><tspan
+     id="tspan2"><tspan
        style="font-style:normal;font-size:16px;-inkscape-font-specification:'Times New Roman, Normal'"
-       id="tspan3">= 1 m</tspan></tspan></text><path
+       id="tspan1">= 1 m</tspan></tspan></text><path
    style="fill:#000000;stroke:#000000;stroke-width:0.727615;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.35176;stroke-opacity:1"
    d="M -33.637054,12.839833 -38.551829,7.9250574"
    id="path8" /><path
@@ -1496,14 +1500,14 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;stroke:none;stroke-width:0.665197;stroke-linejoin:round;stroke-dashoffset:1.35176"><tspan
          x="193.62305"
          y="7.7839647"
-         id="tspan5">= 30 MPa</tspan></text><text
+         id="tspan3">= 30 MPa</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,51.245706,47.551896)"
        id="text2-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2-3);display:inline;fill:#000000;stroke:none;stroke-width:0.665197;stroke-linejoin:round;stroke-dashoffset:1.35176"><tspan
          x="193.62305"
          y="7.7839647"
-         id="tspan6">= 40 MPa</tspan></text><path
+         id="tspan4">= 40 MPa</tspan></text><path
        style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.0802991;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        id="path2-0"
        sodipodi:type="arc"
@@ -1534,27 +1538,27 @@
        style="font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';white-space:pre;shape-inside:url(#rect9-12);display:inline;fill:#000000;fill-opacity:1;stroke:#f92d2d;stroke-width:1.51181;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.35176;stroke-opacity:1"><tspan
          x="128.08789"
          y="135.73318"
-         id="tspan8"><tspan
+         id="tspan6"><tspan
            style="stroke:none"
-           id="tspan7">B</tspan></tspan></text><text
+           id="tspan5">B</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,17.08425,18.328564)"
        id="text9-4"
        style="font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';white-space:pre;shape-inside:url(#rect9-1-2);display:inline;fill:#000000;fill-opacity:1;stroke:#f92d2d;stroke-width:1.51181;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.35176;stroke-opacity:1"><tspan
          x="128.08789"
          y="135.73318"
-         id="tspan10"><tspan
+         id="tspan8"><tspan
            style="stroke:none"
-           id="tspan9">A</tspan></tspan></text><text
+           id="tspan7">A</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458334,0,0,0.26458334,-9.8591396,31.131251)"
        id="text1-1"
        style="font-style:italic;font-size:10.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';white-space:pre;shape-inside:url(#rect1-7-0);display:inline;fill:#000000;stroke:none;stroke-width:0.665197;stroke-linejoin:round;stroke-dashoffset:1.35176"><tspan
          x="234.24023"
          y="136.9949"
-         id="tspan12"><tspan
+         id="tspan10"><tspan
            style="font-style:normal;font-size:16px;-inkscape-font-specification:'Times New Roman, Normal'"
-           id="tspan11">= 5 m</tspan></tspan></text><g
+           id="tspan9">= 5 m</tspan></tspan></text><g
        transform="matrix(0.549741,0,0,0.549741,46.778305,63.545126)"
        ns2:version="1.10.2"
        ns2:texconverter="pdflatex"

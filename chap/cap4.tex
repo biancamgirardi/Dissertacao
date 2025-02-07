@@ -33,13 +33,6 @@ Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y
 	\caption{\label{dominioaxi}a) Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (b) Detalhe dos parâmetros que envolvem a escavação (adaptado de \citeonline{Quevedo2021})}
 \end{figure}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.9]{testedominioaxi.pdf}
-	\end{center}
-	\caption{\label{testedominioaxi}a) Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (b) Detalhe dos parâmetros que envolvem a escavação (adaptado de \citeonline{Quevedo2021})}
-\end{figure}
-
 A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo axissimétrico utilizado neste estudo.
 
 \begin{table}[H]
@@ -221,17 +214,97 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 
 \section{Verificação com solução analítica em elasticidade}
 
-Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioGuo}. Os pontos A ($x = −d_1/2+R_t , y = 0, z$) e B ($x = −d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
+Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioguo}. Os pontos A ($x= -d_{1}/2+R_{t}$, $y = 0$, $z$) e B ($x = -d_1 / 2 , y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=1]{0407_dominioGuo.pdf}
 	\end{center}
-	\caption{\label{dominioGuo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
+	\caption{\label{dominioguo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
 \end{figure}
 
 Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2,2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
 
-A Figura 4.8 apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel. As curvas de convergência, dadas por $U_B = −u_y(B)/R_t$ , referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único em elasticidade, a convergência longe da face é obtida através da seguinte solução analítica: $U = \sigma_v(1+\nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
+A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel. As curvas de convergência, dadas por $U_B = -u_y(B)/R_t$ , referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único em elasticidade, a convergência longe da face é obtida através da seguinte solução analítica: $U = \sigma_v(1+\nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{0408_GUOperfilconvergenciaUB.pdf}
+	\end{center}
+	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
+\end{figure}
+
+É possível verificar a anisotropia da deformação induzida pela proximidade dos túneis gêmeos na \autoref{GUOrelacaoUBUA}, que ilustra a razão $U_B/U_A = u_y(B)/u_x(A)$, sendo $u_x(A)$ e $u_y(B)$ os deslocamentos horizontal na parede lateral e vertical no teto do túnel, respectivamente. É importante ressaltar que os resultados apresentados nessa figura correspondem a uma seção do túnel localizada longe da face de escavação, na distância normalizada $z/R_t = -25$. Destaca-se a ovalização significativa causada pela proximidade entre os túneis, que aumenta à medida que a distância $d_1/2R_t$ diminui.
+
+Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução numérica do modelo tridimensional utilizado nesse estudo. O parâmetro de comparação é o fator de concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v}$ calculado na parede do túnel (ponto A) para diversos espaçamentos d1/2Rt entre os eixos dos túneis. As soluções desenvolvidas por \citeonline{Guoetal2021} foram comparadas com as soluções analíticas de \citeonline{Ling1948} que também estão presentes nessa figura. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = -25$, considerada suficiente para que as condições de deformação plana se estabeleçam. É apresentada também a solução analítica em deformações planas para um túnel isolado, em que a concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v} = 2$.
+
+As soluções numéricas apresentaram resultados muito próximos da solução analítica de \citeonline{Ling1948}, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima sutilmente a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{0409_GUOrelacaoUBUA.pdf}
+	\end{center}
+	\caption{\label{GUOrelacaoUBUA}Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{0410_GUOfatordeconcentracaotangencialA.pdf}
+	\end{center}
+	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}
+\end{figure}
 
 \section{Verificação com solução analítica em elastoplasticidade}
+
+\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica em estado plano de deformações aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, é considerado um estado de tensões inicial anisotrópico ($\sigma_h \neq \sigma_v$). Os pontos A ($x = -d_1/2+R_t , y = 0, z$) e B ($x = -d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{0411_dominioMa.pdf}
+	\end{center}
+	\caption{\label{dominioMa}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Maetal2020})}
+\end{figure}
+
+Para efeitos de comparação da solução, no modelo tridimensional desse trabalho foram realizadas análises em elasticidade e elastoplasticidade perfeita, sendo que nesse último caso foram adotados modelos constitutivos de Mohr-Coulomb (MC) e Drucker-Prager inscrito em Mohr-Coulomb (DPII), ambos com regra de fluxo plástico associada. Além disso, cabe ressaltar que na solução analítica das tensões proposta por \citeonline{Maetal2020} é considerada a hipótese de que as zonas plásticas no entorno de cada túnel circundam completamente as suas bordas, sem que as zonas de ambos os túneis se conectem.
+
+As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 metros e as tensões iniciais $\sigma_h$ = 40 MPa e $\sigma_v$ = 30 MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0,3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
+
+A \autoref{MAperfilconvergenciaUB} apresenta as curvas de convergência obtidas no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel $z/R_t$ . As curvas tracejadas se referem às análises em axissimetria, simulando um túnel isolado ($d_1 \rightarrow \infty$). Nota-se que a proximidade dos túneis gêmeos aumenta significativamente a convergência no teto do túnel. As análises realizadas considerando o modelo com DPII apresentaram valores de convergência ligeiramente menores que as análises com MC.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.8]{0412_MAperfilconvergenciaUB.pdf}
+	\end{center}
+	\caption{\label{MAperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
+\end{figure}
+
+Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribuição de tensão longe da face do túnel obtida através das simulações numéricas pelo MEF para uma distância normalizada $d_1/2R_t$ = 2,5 entre os túneis gêmeos, considerando os critérios de DPII (a) e MC (b), e a solução de tensão aproximada de \citeonline{Maetal2020}. É possível perceber que o comportamento das soluções numérica e analítica são muito semelhantes, e uma diferença muito pequena entre as zonas plásticas do modelo de Mohr-Coulomb e Drucker-Prager.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{0413_MA_MC_zonasplasticas.pdf}
+	\end{center}                 
+	\caption{\label{MAMCzonasplasticas}Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline{Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}
+\end{figure}
+
+A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45◦, 90◦ e 135◦. Verifica-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90◦.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.65]{0414_MA_DPII_tensao.pdf}
+	\end{center}                 
+	\caption{\label{MADPIItensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação	entre simulações numérica e analítica - critério Drucker-Prager}
+\end{figure}
+
+Da mesma forma, a \autoref{MAMCtensao} demonstra a distribuição dos componentes de tensão radial e ortorradial considerando o critério de Mohr-Coulomb. Nesse caso, percebe-se uma diferença menos significativa na comparação entre a solução analítica apresentada por \citeonline{Maetal2020} e a solução numérica encontrada via Método dos Elementos Finitos utilizado neste estudo.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.65]{0415_MA_MC_tensao.pdf}
+	\end{center}                 
+	\caption{\label{MAMCtensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Mohr-Coulomb}
+\end{figure}
+
+
+
+
