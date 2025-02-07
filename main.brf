@@ -31,6 +31,7 @@
 \backcite {Zienkiewicz1974}{{10}{(document)}{Doc-Start}}
 \backcite {Debernardi2009}{{10}{(document)}{Doc-Start}}
 \backcite {Quevedo2021}{{11}{(document)}{Doc-Start}}
+\backcite {Quevedo2021}{{11}{(document)}{Doc-Start}}
 \backcite {ANSYS}{{11}{(document)}{Doc-Start}}
 \backcite {Colombo2023}{{11}{(document)}{Doc-Start}}
 \backcite {Colombo2023}{{11}{(document)}{Doc-Start}}
@@ -223,11 +224,12 @@
 \backcite {Quevedo2017}{{63}{4.1}{section.4.1}}
 \backcite {Colombo2023}{{63}{4.1}{section.4.1}}
 \backcite {Quevedo2021}{{64}{4.1}{figure.caption.47}}
-\backcite {Colombo2023}{{65}{4.1}{table.caption.48}}
-\backcite {ANSYS}{{65}{4.2}{figure.caption.49}}
-\backcite {Colombo2023}{{66}{4.3}{figure.caption.50}}
+\backcite {Quevedo2021}{{65}{4.2}{figure.caption.48}}
+\backcite {Colombo2023}{{66}{4.1}{table.caption.49}}
+\backcite {ANSYS}{{66}{4.3}{figure.caption.50}}
 \backcite {Colombo2023}{{67}{4.4}{figure.caption.51}}
-\backcite {Colombo2023}{{67}{4.5}{figure.caption.52}}
+\backcite {Colombo2023}{{68}{4.5}{figure.caption.52}}
 \backcite {Colombo2023}{{68}{4.6}{figure.caption.53}}
-\backcite {CEB1993}{{70}{4.3}{table.caption.55}}
-\backcite {CEB1993}{{70}{4.3}{table.caption.55}}
+\backcite {Colombo2023}{{69}{4.7}{figure.caption.54}}
+\backcite {CEB1993}{{71}{4.3}{table.caption.56}}
+\backcite {CEB1993}{{71}{4.3}{table.caption.56}}

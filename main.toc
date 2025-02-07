@@ -26,6 +26,6 @@
 \contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{58}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{63}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Discretização do domínio}{63}{section.4.1}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{X}}{71}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{X}}{72}{chapter.5}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{72}{section*.56}%
+\contentsline {chapter}{REFERÊNCIAS}{73}{section*.57}%
