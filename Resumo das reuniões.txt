@@ -282,3 +282,17 @@ Dúvidas para a próxima reunião:
 	obter o módulo inicial típico de concreto projetado.
 	
 2) Manter as verificações com solução analítica em elasticidade (GUO, 2021) e elastoplasticidade (MA, 2020)?
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reunião com Quevedo via meet - 10/02/2025
+
+1) Verificar se há diferenças nas malhas com l2 = 100 e l2 = 500.
+
+2) Testar análise com l2 = 550 e ver se acontece o mesmo erro - EPVP_CRVE - PC do Quevedo
+
+3) Testar análise com l2 = 200 e ver se acontece o mesmo erro - EPVP_CRVE
+
+4) Verificar a quantidade de elementos na malha de l2 = 500
+
+5) Outra alternativa seria alterar o valor do "m4ga" na discretização da malha: deixar um pouco maior - m4ga = Lp1/1.5
