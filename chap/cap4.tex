@@ -13,208 +13,9 @@
 
 Este capítulo tem o objetivo de verificar a modelagem computacional com soluções analíticas de túneis gêmeos que constam na literatura. Também serão apresentados resultados referentes à capacidade do modelo de simular as tensões e deformações da problemática de túneis gêmeos.
 
-\section{Discretização do domínio}
-% ---
-
-O domínio utilizado no presente estudo foi primeiramente desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. %Esse domínio é construído e discretizado através de um modelo no pré-processamento do \textit{software} ANSYS.
-
-Para as análises considerando um túnel isolado, é utilizado o modelo axissimétrico apresentado na \autoref{dominioaxi} (a). Sua aplicação é viável, pois o estado de tensões inicial que prevalece no maciço rochoso antes da escavação do túnel é caracterizado por tensões geostáticas verticais e horizontais constantes, denotadas por $\sigma_v$ e $\sigma_h$, respectivamente, e representadas da seguinte maneira:
-
-\begin{equation}
-	\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
-\end{equation}
-
-Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. Para simular o ciclo contrutivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxi} (b). Essa figura apresenta também a malha em elementos finitos, as condições de contorno e seus parâmetros geométricos. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR1$, $mLx1$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. %As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.97]{0401_dominioaxi.pdf}
-	\end{center}
-	\caption{\label{dominioaxi}a) Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico (b) Detalhe dos parâmetros que envolvem a escavação (adaptado de \citeonline{Quevedo2021})}
-\end{figure}
-
-A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo axissimétrico utilizado neste estudo.
-
-\begin{table}[H]
-	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo axissimétrico}
-	\label{tabelaaxi}
-	\centering
-	\small
-	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{c c c c}
-		\hline
-		\multicolumn{1}{c}{\textbf{PARÂMETROS}} &
-		\multicolumn{1}{c}{\textbf{SÍMBOLO}} &
-		\multicolumn{1}{c}{\textbf{UNIDADE}} &
-		\multicolumn{1}{c}{\textbf{VALORES}} \\
-		\hline
-		\makecell{Raio do túnel longitudinal} & $R_t$ & m & $R_t$ \\		
-		\makecell{Espessura do revestimento} & $e_t$ & m & $0,05 R_t$ \\
-		\makecell{Comprimento do domínio na direção radial} & $L_{x}$ & m & $20 R_t$ \\
-		\makecell{Raio da região de refinamento \\ próxima ao túnel} & $R_1$ & m & $10 R_t$ \\				
-		\makecell{Comprimento na direção radial além \\ da região próxima do túnel} & $L_{x_1}$ & m & $L_x - R_1$ \\	
-		Comprimento longitudinal do domínio & $L_y$ & m & $L_{y1} + L_{y_2}$ \\
-		Comprimento do trecho escavado & $L_{y_1}$ & m & $500 L_{pt}$ \\
-		Comprimento do trecho não escavado & $L_{y_2}$ & m & $10 R_t$ \\				
-		Tamanho do passo de escavação & $L_p$ & m & $\dfrac{1}{3} R_t$ \\
-		Dimensão não suportada & $d_{0t}$ & m & $2L_{pt}$ \\
-		\hline
-		%\multicolumn{4}{c}{DISCRETIZAÇÃO} \\
-		%\hline
-		%Elementos ao longo de $R_i$ & $nR_i$ & un & 10 \\	
-		%\makecell{Elementos na espessura do \\ revestimento} & $n_rev$ & un & 2 \\				
-		%Elementos ao longo de $R_1$ & $nR_1$ & un & 15 \\
-		%\makecell{Razão entre o primeiro e o último \\ elemento em $R_1$} & %$mR_1$ & adm & 15 \\
-		%Elementos ao longo de $L_{x_1}$ & $nL_{x_1}$ & un & 5 \\
-		%\makecell{Razão entre o primeiro e o último \\ elemento em %$L_{x_1}$} & $mL_{x_1}$ & adm & 1,2 \\	
-		%Elementos no passo escavado & $nL_p$ & un & 1 \\
-		%Número de elementos ao longo de $L_y$ & $nL_{y_2}$ & un & 15 \\
-		%\makecell{Razão entre o primeiro e o último \\ elemento em $L_{y_2}$} & $mL_{y_2}$ & adm & 5 \\			
-		%\hline
-	\end{tabular}
-	\normalsize
-\end{table}
-
-O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando os elementos SOLID185 e SOLID186, ilustrados na \autoref{elementossolid}. O elemento SOLID185, utilizado  na região que não compreende a galeria, consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. Já na região da galeria, utilizou-se o SOLID186 na sua forma colapsada tetraédrica de 10 nós. É importante ressaltar que em ambos os elementos, optou-se pela utilização da integração completa.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.68]{0402solid185.pdf}
-		\includegraphics[scale=0.68]{0402solid186.pdf}
-	\end{center}
-	\caption{\label{elementossolid}Elementos SOLID185 e SOLID186 \cite{ANSYS}}
-\end{figure}
-
-Para as análises considerando os túneis gêmeos, a \autoref{dominio3D} apresenta o domínio, a malha de elementos finitos e as condições de contorno utilizadas. Esse domínio trata-se de um volume paralelepipédico de dimensões ($L_1+L_2$) $\times$ $L_3$ $\times$ $d_3$. Devido à simetria, apenas o domínio material \{$x \leq 0$, $y \geq 0$\} é considerado na discretização. Referindo-se às notações da \autoref{dominio3D}, $d_1$ é a distância entre os eixos dos túneis longitudinais, $L_2$ representa o comprimento total ao longo da direção $\underline{e}_z$ do túnel escavado, $d_3$ a espessura ao longo da direção vertical $\underline{e}_y$ do domínio, $L_1$ o comprimento da região não escavada ao longo da direção $\underline{e}_z$, $L_3$ o comprimento total transversal ao longo da direção $\underline{e}_x$ do domínio, $d_2$ caracteriza a localização do eixo transversal da galeria que intersecta o túnel longitudinal em $z = L_1 + d_2$. O comprimento do passo de escavação é denotado por $L_{pt}$. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.66]{0403_dominio3D.pdf}
-	\end{center}
-	\caption{\label{dominio3D}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos tridimensionais (adaptado de \citeonline{Colombo2023})}
-\end{figure} 
-
-As figuras a seguir apresentam detalhamentos da geometria e discretização da malha de elementos finitos do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento da região próxima à seção transversal do túnel longitudinal, que consta no plano $xy$, sendo $R_t$ o raio do túnel e $e_t$ a espessura da parede do revestimento, em azul. Será apresentado apenas o domínio com espaçamento entre os túneis longitudinais de $4 R_t$, uma vez que as análises preliminares foram realizadas a partir dele. 
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.8]{0404_detalhetunellongitudinal.pdf}
-	\end{center}
-	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
-\end{figure}
-
-Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à seção transversal da galeria, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em ue é feita a transição entre a malha livre e a malha mapeada do restante do domínio.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=1.2]{0405_detalhegaleria.pdf}
-	\end{center}
-	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline{Colombo2023})}
-\end{figure}
-
-Ressalta-se que os elementos tetraédricos usados para a discretização das regiões internas ao túnel longitudinal e transversal se encaixam no comprimento do passo de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção dos revestimentos do túnel longitudinal (em azul) e da galeria transversal (em vermelho)..
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=1]{0406_vistasisometricas.pdf}
-	\end{center}
-	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline{Colombo2023})}
-\end{figure}
-
-A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo tridimensional utilizado neste estudo.
-
-Inúmeros fatores influenciam no custo computacional de modelos tridimensionais como o demonstrado anteriormente, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado.% Considerando uma máquina com processador AMD Ryzen$^{TM}$ 7 7700 e memória RAM DDR5 de 32 GB, o tempo médio das análises preliminares desse modelo foi de 45 min em elasticidade, 2 h em elastoplasticidade e 2 h 40 min em elastoplasticidade-viscoplasticidade. 
-
-\begin{table}[H]
-	\caption{Parâmetros relacionados à geometria do domínio, escavação e instalação do revestimento do modelo tridimensional}
-	\label{tabela3D}
-	\centering
-	\small
-	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{c c c c}
-		\hline
-		\multicolumn{1}{c}{PARÂMETROS} &
-		\multicolumn{1}{c}{SÍMBOLO} &
-		\multicolumn{1}{c}{UNIDADE} &
-		\multicolumn{1}{c}{VALORES} \\
-		\hline
-		\multicolumn{4}{c}{TÚNEIS LONGITUDINAIS} \\
-		\hline
-		Raio dos túneis longitudinais & $R_t$ & m & $R_t$ \\
-		Espessura do revestimento & $e_t$ & m & $0.05R_t$ \\
-		Comprimento do passo de escavação & $L_{pt}$ & m & $1/3R_t$ \\
-		Comprimento não revestido & $d_{0t}$ & m & $2L_{pt}$ \\
-		Velocidade da face de escavação & $V_{pt}$ & m/dia & $12.5$ \\
-		Tempo para um passo de escavação & $t_p$ & dia & $L_{pt}/V_{pt}$ \\
-		\hline
-		\multicolumn{4}{c}{GALERIA} \\
-		\hline
-		Raio da galeria & $R_{g}$ & m & $2/3R_t$ \\
-		Espessura do revestimento & $e_g$ & m & $0.1R_t$ \\
-		Comprimento do passo de escavação \footnote{1} & $L_{pg}$ & m & $1/3R_g$ \\
-		Comprimento não revestido & $d_{0g}$ & m & $2L_{pg}$ \\
-		Velocidade da face de escavação & $V_{pg}$ & m/dia & $12.5$ \\
-		\makecell{Número de passos em que inicia a \\  escavação da galeria} & $n_{pig}$ & un & $15$ \\
-		\hline
-		\multicolumn{4}{c}{RESTANTE DO DOMÍNIO} \\
-		\hline
-		Distância entre os eixos dos túneis longitudinais & $d_1$ & m & $4R_t $\\
-		Espessura do domínio na direção vertical $\underline{e}_y$ & $d_3$ & m & $20R_t$ \\
-		Comprimento da região não escavada & $L_1$ & m & $10R_t$ \\
-		Comprimento do trecho escavado & $L_2$ & m & $100L_{pt}$ \\
-		Espessura do domínio na direção transversal $\underline{e}_x$ & $L_3$ & m & $20R_t + d_1/2$ \\
-		\hline
-	\end{tabular}
-	\normalsize
-	\\ \footnotemark[1]{{\footnotesize O valor de $L_{pg}$ é ligeiramente diferente para a última etapa de escavação para corresponder ao comprimento da galeria.}}
-\end{table}
-
-
-\begin{table}[H]
-	\caption{\label{parametrosconstitutivosaplicacoes} Parâmetros constitutivos utilizados nas análises numéricas}
-	\centering
-	\small
-	\renewcommand{\arraystretch}{1.25}
-	\begin{tabular}{c c c c}
-		\hline
-		\multicolumn{1}{c}{PARÂMETROS} &
-		\multicolumn{1}{c}{SÍMBOLOS} &
-		\multicolumn{1}{c}{UNIDADE} &
-		\multicolumn{1}{c}{VALORES} \\
-		\hline
-		\multicolumn{4}{c}{MODELO CONSTITUTIVO DO MACIÇO} \\
-		\hline
-		Módulo de Young & $E$ & MPa & $1500$ \\
-		Coeficiente de Poisson & $\nu$ & - & $0.40$ \\
-		Coesão plástica & $c$ & MPa & 4 \\
-		Ângulo de atrito plástico & $\phi$ & $^{\circ}$ & $0 \ \ \ 5 \ \ \ 10$ \\
-		Coesão viscoplástica & $c_{vp}$ & MPa & 2 \\
-		Ângulo de atrito viscoplástico & $\phi_{vp}$ & $^{\circ}$ & 0 \\
-		Parâmetro da lei de potência & $n$ & - & 1 \\
-		Parâmetro de referência & $f_0$ & MPa & 1 \\
-		Coeficiente de viscosidade & $\eta$ & dia & $40000$ \\
-		\hline
-		\multicolumn{4}{c}{MODELO CONSTITUTIVO DO REVESTIMENTO} \\
-		\hline
-		\makecell{Resistência característica à compressão \\ na idade de 28 dias} & $f_{ck}$ & MPa & $8$ \\
-		\makecell{Módulo de elasticidade na idade de 28 dias} & $E_{c_{28}}$ & MPa & $25146$ \\
-		Coeficiente de Poisson & $\nu_c$ & - & $0.2$ \\
-		\makecell{Coeficiente que define o módulo \\ de relaxação instantânea \cite{CEB1993}}  & $s$ & - & $0.2$ \\
-		\makecell{Umidade relativa do ambiente} & $RH$ & \% & $70$ \\
-		\makecell{Tamanho nominal da barra - revestimento \\ de concreto do túnel longitudinal} & $h_t$ & cm & $0.2111$ \\
-		\makecell{Tamanho nominal da barra - revestimento \\ de concreto da galeria transversal} & $h_{g}$ & cm & $0.2176$ \\
-		\makecell{Idade do concreto no início da retração} & $t_s$ & dia & $7$ \\
-		\makecell{Coeficiente de retração conforme \\ o tipo de cimento \cite{CEB1993}} & $\beta_{sc}$ & - & $8$ \\
-		Temperatura & $T$ & $^\circ$C & $20$ \\
-		\makecell{Idade do concreto no momento do \\ carregamento} & $t_0$ & dia & $1$ \\
-		\hline
-	\end{tabular}
-	\normalsize
-\end{table}
-
 \section{Verificação com solução analítica em elasticidade}
 
-Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioguo}. Os pontos A ($x= -d_{1}/2+R_{t}$, $y = 0$, $z$) e B ($x = -d_1 / 2 , y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
+Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos não revestidos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioguo}. Os pontos A ($x= -d_{1}/2+R_{t}$, $y = 0$, $z$) e B ($x = -d_1 / 2 , y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
@@ -256,7 +57,7 @@ As soluções numéricas apresentaram resultados muito próximos da solução an
 
 \section{Verificação com solução analítica em elastoplasticidade}
 
-\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica em estado plano de deformações aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, é considerado um estado de tensões inicial anisotrópico ($\sigma_h \neq \sigma_v$). Os pontos A ($x = -d_1/2+R_t , y = 0, z$) e B ($x = -d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
+\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica em estado plano de deformações aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos não revestidos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, é considerado um estado de tensões inicial anisotrópico ($\sigma_h \neq \sigma_v$). Os pontos A ($x = -d_1/2+R_t , y = 0, z$) e B ($x = -d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
@@ -287,7 +88,7 @@ Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribui�
 	\caption{\label{MAMCzonasplasticas}Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline{Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}
 \end{figure}
 
-A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45◦, 90◦ e 135◦. Verifica-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90◦.
+A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45°, 90° e 135°. Verifica-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90°.
 
 \begin{figure}[H]
 	\begin{center}

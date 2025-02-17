@@ -25,23 +25,25 @@
 \contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{58}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{60}{section.3.2}%
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Verificações preliminares}}{65}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Discretização do domínio}{65}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verificação com solução analítica em elasticidade}{72}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Verificação com solução analítica em elastoplasticidade}{76}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{81}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Influência do revestimento na convergência}{81}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Influência do revestimento nos esforços atuantes}{84}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Influência do parâmetro friccional nos perfis de convergência (?)}{85}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Influência do parâmetro friccional nos esforços atuantes (?)}{85}{section.5.4}%
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{86}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Influência da proximidade entre os túneis nos perfis de convergência (?)}{86}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Influência da proximidade entre os túneis nos esforços atuantes (?)}{87}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Anisotropia em relação ao estado inicial}{88}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Influência do parâmetro friccional (?)}{88}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Influência dos efeitos viscosos do revestimento (?)}{88}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{89}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Influência da galeria transversal nos perfis de convergência}{89}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Influência do parâmetro friccional}{89}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Influência do revestimento}{89}{section.7.3}%
+\contentsline {section}{\numberline {4.1}Verificação com solução analítica em elasticidade}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Verificação com solução analítica em elastoplasticidade}{68}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Parâmetros do modelo}}{74}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Discretização do domínio}{74}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Estudo do concreto}{81}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{82}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Influência do revestimento na convergência}{82}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Influência do revestimento nos esforços atuantes}{84}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Influência do parâmetro friccional nos perfis de convergência (?)}{85}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Influência do parâmetro friccional nos esforços atuantes (?)}{85}{section.6.4}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{86}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis nos perfis de convergência (?)}{86}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nos esforços atuantes (?)}{87}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Anisotropia em relação ao estado inicial}{88}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Influência do parâmetro friccional (?)}{88}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Influência dos efeitos viscosos do revestimento (?)}{88}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{89}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{89}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Influência do parâmetro friccional}{89}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Influência do revestimento}{89}{section.8.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{90}{section*.71}%
+\contentsline {chapter}{REFERÊNCIAS}{90}{section*.72}%
