@@ -252,7 +252,7 @@ Resumindo:
 	
 	c) Comparar túnel isolado com túneis gêmeos - CRVE (variando phi)
 	
-	d) Gráfico theta X rho(theta) - ver a anisotropia em relação ao inicial
+	d) Gráfico theta X rho(theta) - ver a anisotropia em relação ao theta = 0º
 		
 		- theta: varia de 0 a pi
 		
