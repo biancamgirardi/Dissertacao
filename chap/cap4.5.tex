@@ -47,18 +47,18 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 	\centering
 	\small
 	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{c c c c}
+	\begin{tabular}{l c c c}
 		\hline
-		\multicolumn{1}{c}{\textbf{PARÂMETROS}} &
+		\multicolumn{1}{l}{\textbf{PARÂMETROS}} &
 		\multicolumn{1}{c}{\textbf{SÍMBOLO}} &
 		\multicolumn{1}{c}{\textbf{UNIDADE}} &
 		\multicolumn{1}{c}{\textbf{VALORES}} \\
 		\hline
-		\makecell{Raio do túnel longitudinal} & $R_t$ & m & $R_t$ \\		
-		\makecell{Espessura do revestimento} & $e_t$ & m & $0,05 R_t$ \\
-		\makecell{Comprimento do domínio na direção radial} & $L_{x}$ & m & $20 R_t$ \\
-		\makecell{Raio da região de refinamento \\ próxima ao túnel} & $R_1$ & m & $10 R_t$ \\				
-		\makecell{Comprimento na direção radial além \\ da região próxima do túnel} & $L_{x_1}$ & m & $L_x - R_1$ \\	
+		Raio do túnel longitudinal & $R_t$ & m & $R_t$ \\		
+		Espessura do revestimento & $e_t$ & m & $0,05 R_t$ \\
+		Comprimento do domínio na direção radial & $L_{x}$ & m & $20 R_t$ \\
+		Raio da região de refinamento & $R_1$ & m & $10 R_t$ \\				
+		Comprimento na direção radial além da região de refinamento & $L_{x_1}$ & m & $L_x - R_1$ \\	
 		Comprimento longitudinal do domínio & $L_y$ & m & $L_{y1} + L_{y_2}$ \\
 		Comprimento do trecho escavado & $L_{y_1}$ & m & $500 L_{pt}$ \\
 		Comprimento do trecho não escavado & $L_{y_2}$ & m & $10 R_t$ \\				
@@ -137,14 +137,14 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 	\centering
 	\small
 	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{c c c c}
+	\begin{tabular}{l c c c}
 		\hline
-		\multicolumn{1}{c}{PARÂMETROS} &
+		\multicolumn{1}{l}{PARÂMETROS} &
 		\multicolumn{1}{c}{SÍMBOLO} &
 		\multicolumn{1}{c}{UNIDADE} &
 		\multicolumn{1}{c}{VALORES} \\
 		\hline
-		\multicolumn{4}{c}{TÚNEIS LONGITUDINAIS} \\
+		\multicolumn{4}{l}{Túneis longitudinais} \\
 		\hline
 		Raio dos túneis longitudinais & $R_t$ & m & $R_t$ \\
 		Espessura do revestimento & $e_t$ & m & $0.05R_t$ \\
@@ -153,16 +153,16 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		Velocidade da face de escavação & $V_{pt}$ & m/dia & $12.5$ \\
 		Tempo para um passo de escavação & $t_p$ & dia & $L_{pt}/V_{pt}$ \\
 		\hline
-		\multicolumn{4}{c}{GALERIA} \\
+		\multicolumn{4}{l}{Galeria} \\
 		\hline
 		Raio da galeria & $R_{g}$ & m & $2/3R_t$ \\
 		Espessura do revestimento & $e_g$ & m & $0.1R_t$ \\
 		Comprimento do passo de escavação \footnote{1} & $L_{pg}$ & m & $1/3R_g$ \\
 		Comprimento não revestido & $d_{0g}$ & m & $2L_{pg}$ \\
 		Velocidade da face de escavação & $V_{pg}$ & m/dia & $12.5$ \\
-		\makecell{Número de passos em que inicia a \\  escavação da galeria} & $n_{pig}$ & un & $15$ \\
+			Número de passos que inicia a escavação da galeria & $n_{pig}$ & un & $15$ \\
 		\hline
-		\multicolumn{4}{c}{RESTANTE DO DOMÍNIO} \\
+		\multicolumn{4}{l}{Restante do domínio} \\
 		\hline
 		Distância entre os eixos dos túneis longitudinais & $d_1$ & m & $4R_t $\\
 		Espessura do domínio na direção vertical $\underline{e}_y$ & $d_3$ & m & $20R_t$ \\
