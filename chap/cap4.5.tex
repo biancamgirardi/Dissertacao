@@ -58,7 +58,7 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 		Espessura do revestimento & $e_t$ & m & $0,05 R_t$ \\
 		Comprimento do domínio na direção radial & $L_{x}$ & m & $20 R_t$ \\
 		Raio da região de refinamento & $R_1$ & m & $10 R_t$ \\				
-		Comprimento na direção radial além da região de refinamento & $L_{x_1}$ & m & $L_x - R_1$ \\	
+		\makecell[l]{Comprimento na direção radial além da região de \\  refinamento} & $L_{x_1}$ & m & $L_x - R_1$ \\	
 		Comprimento longitudinal do domínio & $L_y$ & m & $L_{y1} + L_{y_2}$ \\
 		Comprimento do trecho escavado & $L_{y_1}$ & m & $500 L_{pt}$ \\
 		Comprimento do trecho não escavado & $L_{y_2}$ & m & $10 R_t$ \\				
@@ -181,14 +181,14 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 	\centering
 	\small
 	\renewcommand{\arraystretch}{1.25}
-	\begin{tabular}{c c c c}
+	\begin{tabular}{l c c c}
 		\hline
 		\multicolumn{1}{c}{PARÂMETROS} &
 		\multicolumn{1}{c}{SÍMBOLOS} &
 		\multicolumn{1}{c}{UNIDADE} &
 		\multicolumn{1}{c}{VALORES} \\
 		\hline
-		\multicolumn{4}{c}{MODELO CONSTITUTIVO DO MACIÇO} \\
+		\multicolumn{4}{l}{MODELO CONSTITUTIVO DO MACIÇO} \\
 		\hline
 		Módulo de Young & $E$ & MPa & $1500$ \\
 		Coeficiente de Poisson & $\nu$ & - & $0.40$ \\
@@ -202,17 +202,17 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		\hline
 		\multicolumn{4}{c}{MODELO CONSTITUTIVO DO REVESTIMENTO} \\
 		\hline
-		\makecell{Resistência característica à compressão \\ na idade de 28 dias} & $f_{ck}$ & MPa & $8$ \\
+		\makecell[l]{Resistência característica à compressão \\ na idade de 28 dias} & $f_{ck}$ & MPa & $8$ \\
 		\makecell{Módulo de elasticidade na idade de 28 dias} & $E_{c_{28}}$ & MPa & $25146$ \\
 		Coeficiente de Poisson & $\nu_c$ & - & $0.2$ \\
-		\makecell{Coeficiente que define o módulo \\ de relaxação instantânea \cite{CEB1993}}  & $s$ & - & $0.2$ \\
-		\makecell{Umidade relativa do ambiente} & $RH$ & \% & $70$ \\
-		\makecell{Tamanho nominal da barra - revestimento \\ de concreto do túnel longitudinal} & $h_t$ & cm & $0.2111$ \\
-		\makecell{Tamanho nominal da barra - revestimento \\ de concreto da galeria transversal} & $h_{g}$ & cm & $0.2176$ \\
-		\makecell{Idade do concreto no início da retração} & $t_s$ & dia & $7$ \\
-		\makecell{Coeficiente de retração conforme \\ o tipo de cimento \cite{CEB1993}} & $\beta_{sc}$ & - & $8$ \\
+		\makecell[l]{Coeficiente que define o módulo \\ de relaxação instantânea \cite{CEB1993}}  & $s$ & - & $0.2$ \\
+		\makecell[l]{Umidade relativa do ambiente} & $RH$ & \% & $70$ \\
+		\makecell[l]{Tamanho nominal da barra - revestimento \\ de concreto do túnel longitudinal} & $h_t$ & cm & $0.2111$ \\
+		\makecell[l]{Tamanho nominal da barra - revestimento \\ de concreto da galeria transversal} & $h_{g}$ & cm & $0.2176$ \\
+		\makecell[l]{Idade do concreto no início da retração} & $t_s$ & dia & $7$ \\
+		\makecell[l]{Coeficiente de retração conforme \\ o tipo de cimento \cite{CEB1993}} & $\beta_{sc}$ & - & $8$ \\
 		Temperatura & $T$ & $^\circ$C & $20$ \\
-		\makecell{Idade do concreto no momento do \\ carregamento} & $t_0$ & dia & $1$ \\
+		\makecell[l]{Idade do concreto no momento do \\ carregamento} & $t_0$ & dia & $1$ \\
 		\hline
 	\end{tabular}
 	\normalsize
