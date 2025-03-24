@@ -6,7 +6,6 @@
 \contentsline {section}{\numberline {1.1}Justificativa}{25}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objetivos}{25}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Metodologia}{26}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Estrutura do trabalho}{26}{section.1.4}%
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Problemática geral de túneis}}{27}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Breve histórico}{28}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Métodos de escavação}{30}{section.2.2}%
@@ -31,19 +30,19 @@
 \contentsline {section}{\numberline {5.1}Discretização do domínio}{74}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Estudo do concreto}{81}{section.5.2}%
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{82}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Influência do revestimento na convergência}{82}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Influência do revestimento nos esforços atuantes}{84}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Influência do parâmetro friccional nos perfis de convergência (?)}{85}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Influência do parâmetro friccional nos esforços atuantes (?)}{85}{section.6.4}%
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{86}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis nos perfis de convergência (?)}{86}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nos esforços atuantes (?)}{87}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Anisotropia em relação ao estado inicial}{88}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Influência do parâmetro friccional (?)}{88}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Influência dos efeitos viscosos do revestimento (?)}{88}{section.7.5}%
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{89}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{89}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Influência do parâmetro friccional}{89}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Influência do revestimento}{89}{section.8.3}%
+\contentsline {section}{\numberline {6.1}Influência do tipo de revestimento na convergência da seção}{82}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Influência do revestimento nos esforços atuantes}{86}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Influência do parâmetro friccional nos perfis de convergência (?)}{87}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Influência do parâmetro friccional nos esforços atuantes (?)}{87}{section.6.4}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{88}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis nos perfis de convergência}{88}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nos esforços atuantes (?)}{89}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Anisotropia em relação ao estado inicial}{90}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Influência do parâmetro friccional (?)}{90}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Influência dos efeitos viscosos do revestimento (?)}{90}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{91}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{91}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Influência do parâmetro friccional}{91}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Influência do revestimento}{91}{section.8.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{90}{section*.72}%
+\contentsline {chapter}{REFERÊNCIAS}{92}{section*.72}%
