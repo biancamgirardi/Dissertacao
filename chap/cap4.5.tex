@@ -81,14 +81,13 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 	\normalsize
 \end{table}
 
-O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando os elementos SOLID185 e SOLID186, ilustrados na \autoref{elementossolid}. O elemento SOLID185, utilizado  na região que não compreende a galeria, consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. Já na região da galeria, utilizou-se o SOLID186 na sua forma colapsada tetraédrica de 10 nós. É importante ressaltar que em ambos os elementos, optou-se pela utilização da integração completa.
+O modelo tridimensional adaptado por \citeonline{Colombo2023} trouxe melhorias quanto à malha, principalmente na região que compreende a galeria, utilizando o elemento SOLID185, ilustrado na \autoref{elementosolid}. O elemento SOLID185 consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração. É importante ressaltar que optou-se pela utilização da integração completa.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.68]{0402solid185.pdf}
-		\includegraphics[scale=0.68]{0402solid186.pdf}
 	\end{center}
-	\caption{\label{elementossolid}Elementos SOLID185 e SOLID186 \cite{ANSYS}}
+	\caption{\label{elementosolid}Elemento SOLID185 \cite{ANSYS}}
 \end{figure}
 
 Para as análises considerando os túneis gêmeos, a \autoref{dominio3D} apresenta o domínio, a malha de elementos finitos e as condições de contorno utilizadas. Esse domínio trata-se de um volume paralelepipédico de dimensões ($L_1+L_2$) $\times$ $L_3$ $\times$ $d_3$. Devido à simetria, apenas o domínio material \{$x \leq 0$, $y \geq 0$\} é considerado na discretização. Referindo-se às notações da \autoref{dominio3D}, $d_1$ é a distância entre os eixos dos túneis longitudinais, $L_2$ representa o comprimento total ao longo da direção $\underline{e}_z$ do túnel escavado, $d_3$ a espessura ao longo da direção vertical $\underline{e}_y$ do domínio, $L_1$ o comprimento da região não escavada ao longo da direção $\underline{e}_z$, $L_3$ o comprimento total transversal ao longo da direção $\underline{e}_x$ do domínio, $d_2$ caracteriza a localização do eixo transversal da galeria que intersecta o túnel longitudinal em $z = L_1 + d_2$. O comprimento do passo de escavação é denotado por $L_{pt}$. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
@@ -219,6 +218,5 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 \end{table}
 
 
-\section{Estudo do concreto}
 % ---
 
