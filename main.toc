@@ -33,15 +33,15 @@
 \contentsline {section}{\numberline {6.2}Influência do revestimento nas pressões}{89}{section.6.2}%
 \contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{92}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis na convergência da seção}{93}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{97}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Anisotropia em relação a theta}{99}{section.7.3}%
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{100}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{100}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões no revestimento}{101}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Anisotropia da seção}{101}{section.8.3}%
+\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{98}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Anisotropia em relação a theta}{100}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{101}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{101}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões no revestimento}{102}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Anisotropia da seção}{102}{section.8.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{105}{section*.95}%
+\contentsline {chapter}{REFERÊNCIAS}{106}{section*.95}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{111}{section*.97}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{túnel isolado e túneis gêmeos}}{112}{appendix.anexochapback.1}%
+\contentsline {part}{ANEXOS}{112}{section*.97}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{túnel isolado e túneis gêmeos}}{113}{appendix.anexochapback.1}%
