@@ -43,52 +43,57 @@ Como fatores determinantes para os incidentes durante a construção de túneis,
 
 Um dos maiores desafios na modelagem de túneis é a interação entre o comportamento instantâneo e o diferido dessas estruturas, sendo que esse último pode afetar significativamente a estabilidade e causar deformações excessivas na abertura. Durante o processo construtivo, fenômenos como a plastificação do maciço no entorno da cavidade, o fechamento gradual da seção, a extrusão na face da escavação e o aumento das cargas sobre o revestimento podem ocorrer não apenas no curto prazo, como também continuar a evoluir meses e até anos após a conclusão da obra, afetando sua integridade no médio e longo prazo.
 
-Somado a essa complexidade, os túneis gêmeos apresentam desafios significativos devido à complexa interação entre os túneis, pois sua proximidade pode induzir deformações significativas e gerar um estado de tensões altamente perturbado, exigindo análises que consideram um comportamento não-linear do maciço. Além disso, o processo construtivo impõe dificuldades adicionais em comparação a túneis isolados, como o controle dos efeitos da escavação do primeiro túnel sobre o segundo, o estudo da distância de defasagem das faces de escavação e o aumento das pressões sobre o revestimento. Do ponto de vista da Engenharia, o mecanismo de interação entre o maciço circundante e os túneis gêmeos apresenta mais complexidade e risco do que a construção de um único túnel, o que pode levar essencialmente à perda da capacidade de manutenção das estruturas existentes próximas \cite{Phutthananon2023}. A necessidade da construção de galerias transversais para garantir a segurança e a circulação de ar dos túneis longitudinais também adiciona zonas de fragilidade estrutural que demandam estudos aprofundados. Ademais, os túneis gêmeos, quando superficiais, apresentam bacias de assentamento mais extensas em comparação com túneis superficiais isolados. 
+Somado a essa complexidade, os túneis gêmeos apresentam desafios significativos devido à complexa interação entre os túneis, uma vez que sua proximidade pode induzir deformações significativas e gerar um estado de tensões altamente perturbado, exigindo análises que consideram um comportamento não-linear do maciço. Além disso, o processo construtivo impõe dificuldades adicionais em comparação a túneis isolados, como o controle dos efeitos da escavação do primeiro túnel sobre o segundo, o estudo da distância de defasagem das faces de escavação e o aumento das pressões sobre o revestimento. Do ponto de vista da Engenharia, o mecanismo de interação entre o maciço circundante e os túneis gêmeos apresenta mais complexidade e risco do que a construção de um único túnel, o que pode levar essencialmente à perda da capacidade de manutenção das estruturas existentes próximas \cite{Phutthananon2023}. 
+
+A necessidade da construção de galerias transversais para garantir a segurança e a ventilação dos túneis longitudinais adiciona zonas de fragilidade estrutural que demandam estudos aprofundados, uma vez que essas conexões alteram o fluxo de tensões no maciço e podem amplificar deslocamentos. Ademais, em casos de túneis gêmeos superficiais, as bacias de assentamento resultantes tendem a ser mais amplas e intensas do que aquelas observadas em túneis isolados, potencializando impactos sobre a superfície e sobre construções existentes. Assim, a compreensão detalhada desses efeitos torna-se essencial para avaliar com maior precisão o comportamento estrutural dos túneis gêmeos e seus impactos no maciço circundante.
 
 % ---
-\section{Justificativa}
+%\section{Justificativa}
 % ---
 
-A análise de túneis gêmeos envolve diversos fatores que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Também se pode constatar que a interação entre os túneis gêmeos não depende apenas de suas localizações relativas, mas também da distância entre as duas faces de escavação do túnel \cite{Ngetal2004}. %Os autores verificaram que a distância defasada possui maior influência sobre o movimento horizontal do que sobre o movimento vertical de cada túnel, e que a magnitude do assentamento máximo é independente dessa distância.
+%A análise de túneis gêmeos envolve diversos fatores que influenciam diretamente sua estabilidade e comportamento estrutural, especialmente devido à proximidade entre as cavidades. Também se pode constatar que a interação entre os túneis gêmeos não depende apenas de suas localizações relativas, mas também da distância entre as duas faces de escavação do túnel \cite{Ngetal2004}. %Os autores verificaram que a distância defasada possui maior influência sobre o movimento horizontal do que sobre o movimento vertical de cada túnel, e que a magnitude do assentamento máximo é independente dessa distância.
 
-A defasagem entre as faces é uma característica inerente ao processo construtivo dessas estruturas, podendo gerar impactos significativos nas deformações e na redistribuição das tensões do maciço circundante. De acordo com \citeonline{Changguietal2020}, é de grande importância estudar a distância de defasagem razoável para garantir a estabilidade, principalmente em túneis de pequena distância livre entre eles. 
+%A defasagem entre as faces é uma característica inerente ao processo construtivo dessas estruturas, podendo gerar impactos significativos nas deformações e na redistribuição das tensões do maciço circundante. De acordo com \citeonline{Changguietal2020}, é de grande importância estudar a distância de defasagem razoável para garantir a estabilidade, principalmente em túneis de pequena distância livre entre eles. 
 
-%Em geral, a escavação simultânea de túneis gêmeos causa forças estruturais e deslocamentos de revestimento menores do que os induzidos no caso de túneis gêmeos escavados a uma grande distância defasada. No entanto, a escavação simultânea de túneis gêmeos pode resultar em um assentamento maior acima dos dois túneis. \cite{Doetal2014}. ?????????
+%Outro aspecto importante dos maciços rochosos é o parâmetro friccional, relacionado à dependência da resistência frente à componente hidrostática das tensões. O modelo de Drucker-Prager foi implementado e verificado por \citeonline{Quevedo2021}, porém, não houve aplicações em túneis gêmeos com galerias transversais envolvendo a influência desse parâmetro friccional na resposta da estrutura.
 
-Outro aspecto importante dos maciços rochosos é o parâmetro friccional, relacionado à dependência da resistência frente à componente hidrostática das tensões. O modelo de Drucker-Prager foi implementado e verificado por \citeonline{Quevedo2021}, porém, não houve aplicações em túneis gêmeos com galerias transversais envolvendo a influência desse parâmetro friccional na resposta da estrutura.
-
-%1) que a defasagem é algo fundamental nos túneis gêmeos. Pois é uma realidade na execução desses túneis (citaria alguns túneis ou exemplos de estudos cujo o foco foi a distância de afastamento das faces). 
-
-%2) a questão friccional, já que os trabalhos anteriores, apesar de ter esse modelo implementado com DP na plasticidade, não fizeram análises paramétricas com essa característica. Além disso, apesar de haver estudos com modelos elastoplásticos com ângulo de atrito, há uma ausência de investigação, nessa problemática dos túneis gêmeos, sobre modelos envolvendo o acoplamento com a viscosidade.
-
-Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela necessidade de aprofundar o estudo considerando a influência da defasagem na escavação e também o impacto do parâmetro friccional, contribuindo para o desenvolvimento de modelos computacionais mais completos dessa problemática.
+%Neste âmbito, dado o caráter complexo do tema, evidencia-se a importância da contribuição de novos estudos para a comunidade geotécnica de túneis. O presente trabalho se justifica pela necessidade de aprofundar o estudo considerando a influência da defasagem na escavação e também o impacto do parâmetro friccional, contribuindo para o desenvolvimento de modelos computacionais mais completos dessa problemática.
 
 % ---
 \section{Objetivos}
 % ---
 
-O objetivo principal do trabalho consiste em analisar a redistribuição de esforços no revestimento devido à escavação de uma galeria transversal em túneis gêmeos profundos considerando modelos constitutivos não-lineares e dependentes do tempo para o maciço e o revestimento.
+O objetivo principal do trabalho consiste em analisar a redistribuição dos esforços no revestimento devido à escavação de uma galeria transversal em túneis gêmeos profundos considerando modelos constitutivos não-lineares e dependentes do tempo para o maciço e o revestimento.
 
-Para alcançá-lo, foram definidos objetivos específicos:
+Para alcançá-lo, foram definidos os seguintes objetivos específicos:
 
 \begin{alineas}
 	
-	\item 
+	\item analisar os efeitos da construção da galeria transversal na convergência da seção dos túneis longitudinais, comparando cenários com e sem a presença da galeria;
 	
-	\item investigar o efeito do parâmetro friccional (ângulo de atrito);
+	\item verificar a influência da galeria transversal nas pressões atuantes no revestimento dos túneis longitudinais, identificando as redistribuições de tensão;
 	
-	\item investigar o efeito reológico do revestimento;
+	\item investigar o efeito do ângulo de atrito do maciço rochoso na convergência da seção e nas pressões sobre o revestimento;
 	
-	%\item implementar a superfície de Mohr-Coulomb na subrotina constitutiva elastoplástica-viscoplástica desenvolvida por \citeonline{Quevedo2017} e \citeonline{Quevedo2021};
+	\item avaliar o comportamento reológico do revestimento viscoelástico e sua interação com o maciço ao longo do tempo;
 	
-	%\item realizar análises paramétricas na problemática de túneis gêmeos com o modelo elastoplástico-viscoplástico.
+	\item verificar a anisotropia das deformações e das pressões no revestimento na seção.
 
 	
 \end{alineas}
 % ---
 \section{Metodologia}
 % ---
-%Visando alcançar os objetivos, a metodologia consiste em uma abordagem teórica derivada da mecânica do contínuo e a solução é obtida de forma numérica através do emprego do Método dos Elementos Finitos.
+
+A metodologia adotada consiste em uma abordagem teórica derivada da mecânica do contínuo, e a solução é obtida de forma numérica através do emprego do Método dos Elementos Finitos (MEF). A análise computacional das deformações em túneis gêmeos profundos interligados por galerias é conduzida por meio do \textit{software} ANSYS, empregando modelos constitutivos para o maciço e revestimento implementados pela rotina de usuário (USERMAT). Essa abordagem possibilita a utilização de modelos constitutivos mais completos para os materiais.
+
+Os estudos numéricos serão desenvolvidos em duas etapas. Inicialmente, pretende-se analisar modelos em axissimetria para representar o comportamento de túneis isolados, permitindo a avaliação preliminar das tensões e deslocamentos e a influência do tipo de revestimento utilizado. Em seguida, modelos tridimensionais são empregados para investigar a interação entre os túneis gêmeos em dois cenários distintos. No primeiro cenário, referente ao modelo de túneis gêmeos sem galeria transversal, é avaliada a influência da construção de dois túneis paralelos em comparação com o túnel isolado, analisando as variações nas tensões e deslocamentos resultantes dessa configuração. O segundo cenário se refere ao estudo dos túneis gêmeos com galeria transversal, a fim de investigar o impacto da escavação da mesma na convergência da seção e na pressão atuante no revestimento.
+
+As análises computacionais consideram um maciço modelado como um meio elastoplástico-viscoplástico, que é capaz de simular as deformações instantâneas (elásticas ou elastoplásticas) em conjunto com o comportamento diferido (viscoso). Para o revestimento, serão investigados os efeitos considerando um modelo elástico e também um modelo viscoelástico.
+
+Por meio dessa abordagem, busca-se compreender a influência da galeria transversal na resposta estrutural dos túneis gêmeos, bem como avaliar o impacto dos diferentes modelos constitutivos adotados para o revestimento.
+
+
 
 
 

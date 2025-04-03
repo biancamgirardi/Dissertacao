@@ -16,7 +16,13 @@ A level-1 auxiliary file: ./chap/cap6.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: ./chap/cap7.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: ./chap/cap8.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: ./chap/cap9.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: ./pos/aneA.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -53,43 +59,43 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 80 entries,
             6714 wiz_defined-function locations,
-            1705 strings with 24680 characters,
-and the built_in function-call counts, 84610 in all, are:
-= -- 8367
-> -- 2207
-< -- 1493
-+ -- 2294
-- -- 662
-* -- 5692
-:= -- 10928
+            1708 strings with 24737 characters,
+and the built_in function-call counts, 84755 in all, are:
+= -- 8433
+> -- 2179
+< -- 1521
++ -- 2314
+- -- 655
+* -- 5684
+:= -- 10952
 add.period$ -- 281
 call.type$ -- 81
-change.case$ -- 779
-chr.to.int$ -- 157
+change.case$ -- 771
+chr.to.int$ -- 154
 cite$ -- 75
-duplicate$ -- 7135
-empty$ -- 4275
-format.name$ -- 3273
-if$ -- 17787
+duplicate$ -- 7200
+empty$ -- 4256
+format.name$ -- 3235
+if$ -- 17769
 int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 1385
-newline$ -- 406
+missing$ -- 1382
+newline$ -- 407
 num.names$ -- 376
-pop$ -- 1626
+pop$ -- 1614
 preamble$ -- 1
-purify$ -- 306
+purify$ -- 304
 quote$ -- 0
-skip$ -- 7285
+skip$ -- 7357
 stack$ -- 1
-substring$ -- 3251
-swap$ -- 2668
-text.length$ -- 66
+substring$ -- 3254
+swap$ -- 2680
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 43
+type$ -- 45
 warning$ -- 0
-while$ -- 507
+while$ -- 506
 width$ -- 0
 write$ -- 1193
 (There was 1 error message)

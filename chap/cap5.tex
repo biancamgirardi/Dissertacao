@@ -8,93 +8,104 @@
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\chapter{Análises considerando o cenário de túnel isolado}
+\chapter{Verificações preliminares}
 % ----------------------------------------------------------
 
-Neste capítulo, será abordado exclusivamente o comportamento de um túnel isolado, ou seja, sem a presença de um túnel paralelo (túneis gêmeos) ou de uma galeria transversal. Essa abordagem permite avaliar, de forma específica, a influência dos revestimentos elástico e viscoelástico quando comparados à condição de um túnel sem revestimento. As análises concentram-se em dois aspectos principais: a convergência da seção do túnel e os esforços atuantes no revestimento, destacando as diferenças entre cada cenário estudado.
+Este capítulo tem o objetivo de verificar a modelagem computacional com soluções analíticas de túneis gêmeos que constam na literatura. Também serão apresentados resultados referentes à capacidade do modelo de simular as tensões e deformações da problemática de túneis gêmeos.
 
-Os resultados referentes à convergência da seção do túnel $U=-u(r=R_t)/R_t$ e à pressão no revestimento $p=-\sigma_{rr}/c$, normalizada pela coesão elastoplástica, são apresentados no final da construção, referente ao último passo de escavação do túnel, e também no longo prazo, ao longo de seu comprimento normalizado pelo raio ($y/R_t$). O ponto escolhido para representar a convergência de equilíbrio, ou seja, afastado da influência da face de escavação, é dado por $U_{eq}(x=R_t,y=-140R_t)$. Esse mesmo ponto também é representativo das pressões de equilíbrio $p_{eq}$.
+\section{Verificação com solução analítica em elasticidade}
 
-
-\section{Influência do revestimento na convergência da seção}
-
-A \autoref{SR_CRE_inst} apresenta as curvas de convergência obtidas ao final da construção do túnel, comparando o comportamento do maciço nos cenários sem revestimento (SR) e com revestimento elástico (CRE), considerando diferentes ângulos de atrito ($\phi$). 
-
-Em relação ao parâmetro friccional, nota-se, em ambos os casos de túnel isolado com e sem revestimento, uma diminuição da convergência da seção à medida que o mesmo aumenta. Para o túnel sem revestimento, há uma diminuição de 11,6\% ao aumentar o ângulo de atrito de $0^\circ$ para $10^\circ$, enquanto que no caso do túnel com revestimento de concreto elástico, essa redução foi menor, com valor de 7,2\%. Esse comportamento era esperado, pois, à medida que o parâmetro friccional aumenta, a capacidade de resistência do maciço também se eleva.
-
-Observa-se ainda uma nítida diferença no comportamento da convergência quando empregado o revestimento em concreto elástico. Enquanto o túnel sem revestimento apresenta convergências significativas mesmo em regiões distantes da frente de escavação, o modelo revestido demonstra valores de convergência mais estáveis e consistentemente menores. Especificamente, para $\phi = 0^\circ$, verifica-se uma redução de 24,8\% nas deformações quando comparado ao caso não revestido.
+Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram a configuração de túneis gêmeos profundos não revestidos escavados em um meio elástico homogêneo, onde vigora uma distribuição de tensão inicial hidrostática ($\sigma_h = \sigma_v$). Os autores desenvolveram soluções analíticas aproximadas para a distribuição de tensões que se forma em uma região afastada da frente de escavação e é induzida no maciço pela abertura de dois túneis paralelos de seção transversal circular. A geometria do modelo dos túneis, bem como o carregamento associado à tensão hidrostática inicial está ilustrada na \autoref{dominioguo}. Os pontos A ($x= -d_{1}/2+R_{t}$, $y = 0$, $z$) e B ($x = -d_1 / 2 , y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.9]{TI_U_SR_CRE_inst.pdf}
+		\includegraphics[scale=1]{0407_dominioGuo.pdf}
 	\end{center}
-	\caption{\label{SR_CRE_inst}Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}
+	\caption{\label{dominioguo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
 \end{figure}
 
-A análise do comportamento a longo prazo do túnel na convergência da seção, apresentada na \autoref{SR_CRE_longo}, revela diferenças significativas entre os casos revestido e não revestido. Para o túnel sem revestimento, observa-se um aumento acentuado nas convergências em relação ao estágio final da construção, com deformações progressivas ao longo do tempo devido à ausência de suporte. Já no caso revestido, a maior diferença entre a convergência no final da construção e no longo prazo foi considerando o maciço com $\phi = 10^\circ$, com um aumento de 12,2\%.
+Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2,2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
 
-Verifica-se que o ângulo de atrito não possui uma influência significativa nas convergências a longo prazo, tanto para o caso do túnel revestido quanto para o não revestido. O aumento do parâmetro friccional para túnel com revestimento representa uma redução de 6,5\% na convergência a longo prazo.
+A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel. As curvas de convergência, dadas por $U_B = -u_y(B)/R_t$ , referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único em elasticidade, a convergência longe da face é obtida através da seguinte solução analítica: $U = \sigma_v(1+\nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.9]{TI_U_SR_CRE_longo.pdf}
+		\includegraphics[scale=0.8]{0408_GUOperfilconvergenciaUB.pdf}
 	\end{center}
-	\caption{\label{SR_CRE_longo}Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}
+	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
 \end{figure}
 
-A \autoref{SR_CRVE_inst} apresenta as curvas de convergência ao final da construção de túneis isolados nas condições sem revestimento e com revestimento viscoelástico. É notável a redução da convergência no túnel revestido, sendo para $\phi=0^\circ$ a maior diferença, de 19,4\%. É importante ressaltar que um concreto de comportamento viscoelástico apresenta deformações dependentes do tempo e da história do carregamento. Dessa maneira, espera-se uma deformação lenta e gradual ao longo e após a escavação, ao contrário do que ocorre no cenário de um túnel revestido com concreto elástico.
+É possível verificar a anisotropia da deformação induzida pela proximidade dos túneis gêmeos na \autoref{GUOrelacaoUBUA}, que ilustra a razão $U_B/U_A = u_y(B)/u_x(A)$, sendo $u_x(A)$ e $u_y(B)$ os deslocamentos horizontal na parede lateral e vertical no teto do túnel, respectivamente. É importante ressaltar que os resultados apresentados nessa figura correspondem a uma seção do túnel localizada longe da face de escavação, na distância normalizada $z/R_t = -25$. Destaca-se a ovalização significativa causada pela proximidade entre os túneis, que aumenta à medida que a distância $d_1/2R_t$ diminui.
 
-É possível perceber, também, a influência do parâmetro friccional para o túnel com revestimento viscoelástico, caracterizando uma redução da convergência de 6,67\% entre o menor e maior ângulo de atrito.
+Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução numérica do modelo tridimensional utilizado nesse estudo. O parâmetro de comparação é o fator de concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v}$ calculado na parede do túnel (ponto A) para diversos espaçamentos d1/2Rt entre os eixos dos túneis. As soluções desenvolvidas por \citeonline{Guoetal2021} foram comparadas com as soluções analíticas de \citeonline{Ling1948} que também estão presentes nessa figura. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = -25$, considerada suficiente para que as condições de deformação plana se estabeleçam. É apresentada também a solução analítica em deformações planas para um túnel isolado, em que a concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v} = 2$.
+
+As soluções numéricas apresentaram resultados muito próximos da solução analítica de \citeonline{Ling1948}, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima sutilmente a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.9]{TI_U_SR_CRVE_inst.pdf}
+		\includegraphics[scale=0.8]{0409_GUOrelacaoUBUA.pdf}
 	\end{center}
-	\caption{\label{SR_CRVE_inst}Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}
+	\caption{\label{GUOrelacaoUBUA}Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}
 \end{figure}
-
-Analogamente ao que ocorre nos túneis revestidos com concreto elástico, a longo prazo, o revestimento viscoelástico limita a convergência da seção consideravelmente em relação ao túnel não revestido, como demonstra a \autoref{SR_CRVE_longo}. Contudo, as deformações continuam ocorrendo lentamente, acarretando em um aumento de até 49,5\% para $\phi=10^{\circ}$ em relação à convergência ao final da construção do túnel. Esse comportamento é característico de concretos viscoelásticos, pois os efeitos viscosos provenientes do mesmo permitem um certo desenvolvimento da convergência da seção.
-
-Ao comparar os valores de convergência no equilíbrio ao longo prazo dos túneis não revestidos com os que se fez uso do revestimento viscoelástico, percebe-se uma redução de até 68,4\%, para o maciço com $\phi=10^{\circ}~$. Também é possível notar uma redução extremamente sutil nas convergências $U_{eq}$ do túnel revestido com a variação dos ângulos de atrito.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.9]{TI_U_SR_CRVE_longo.pdf}
+		\includegraphics[scale=0.8]{0410_GUOfatordeconcentracaotangencialA.pdf}
 	\end{center}
-	\caption{\label{SR_CRVE_longo}Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}
+	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}
 \end{figure}
 
-A \autoref{SR_CRE_CRVE} apresenta os perfis de convergência dos túneis isolados não revestidos, com revestimento elástico e viscoelástico ao final da construção (a) e no longo prazo (b), para uma melhor visualização dos efeitos da utilização dos dois tipos de suporte nos túneis isolados estudados.
+\section{Verificação com solução analítica em elastoplasticidade}
 
-O revestimento viscoelástico tem como característica apresentar no início da sua instalação um módulo de elasticidade inferior ao registrado ao final da escavação e após a dissipação dos efeitos viscosos. Essa menor rigidez resulta em uma contribuição mais expressiva para o desenvolvimento da convergência quando comparado ao revestimento elástico, como é possível analisar nos gráficos.
+\citeonline{Maetal2020} desenvolveram, em seu estudo, uma solução analítica em estado plano de deformações aproximada para as tensões e para o limite da zona plástica em torno de túneis gêmeos profundos não revestidos de seção transversal circular em um maciço elastoplástico homogêneo. A geometria e as condições de carregamento estão ilustradas na \autoref{dominioMa} e, ao contrário do estudo de \citeonline{Guoetal2021}, é considerado um estado de tensões inicial anisotrópico ($\sigma_h \neq \sigma_v$). Os pontos A ($x = -d_1/2+R_t , y = 0, z$) e B ($x = -d_1/2, y = R_t , z$) representam a parede lateral e o teto do túnel, respectivamente.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.8]{TI_U_SR_CRE_CRVE_inst.pdf} \\
-		
-		\includegraphics[scale=0.8]{TI_U_SR_CRE_CRVE_longo.pdf}
+		\includegraphics[scale=1]{0411_dominioMa.pdf}
 	\end{center}
-	\caption{\label{SR_CRE_CRVE}Perfis de convergência - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE). a) Final da construção; b) Longo prazo}
+	\caption{\label{dominioMa}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Maetal2020})}
 \end{figure}
 
-\section{Influência do revestimento nas pressões}
+Para efeitos de comparação da solução, no modelo tridimensional desse trabalho foram realizadas análises em elasticidade e elastoplasticidade perfeita, sendo que nesse último caso foram adotados modelos constitutivos de Mohr-Coulomb (MC) e Drucker-Prager inscrito em Mohr-Coulomb (DPII), ambos com regra de fluxo plástico associada. Além disso, cabe ressaltar que na solução analítica das tensões proposta por \citeonline{Maetal2020} é considerada a hipótese de que as zonas plásticas no entorno de cada túnel circundam completamente as suas bordas, sem que as zonas de ambos os túneis se conectem.
 
-A análise das pressões no revestimento foram realizadas a partir das tensões radiais atuantes no revestimento e normalizadas pela coesão elastoplástica. Desse modo, são apresentadas na \autoref{p_SR_CRE_CRVE} as pressões atuantes em um cenário de túnel com revestimento elástico (CRE) e com revestimento viscoelástico (CRVE) no estágio final da construção.
-	
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.8]{TI_P_SR_CRE_CRVE_inst.pdf}
-	\end{center}
-	\caption{\label{p_SR_CRE_CRVE}Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no final da construção}
-\end{figure}
+As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 metros e as tensões iniciais $\sigma_h$ = 40 MPa e $\sigma_v$ = 30 MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0,3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
 
-Observa-se que a variação do parâmetro friccional do maciço rochoso não influencia nas pressões atuantes, independentemente do material (elástico ou viscoelástico). Isso ocorre porque o equilíbrio de tensões radiais no contorno do túnel é governado principalmente pela interação entre a rigidez do revestimento e a deformação imposta pelo maciço circundante, e não pelo atrito interno da rocha. No entanto, a diferença de pressão entre os revestimentos de concreto viscoelástico e elástico deve-se essencialmente ao comportamento reológico de cada material. 
-
-Enquanto o revestimento em concreto elástico responde instantaneamente ao carregamento, mantendo as tensões constantes ao longo do tempo, o viscoelástico sofre uma deformação dependente do tempo, que é a fluência. Esta faz com que o revestimento ceda gradualmente, redistribuindo as tensões e transferindo mais carga do maciço para a estrutura. Consequentemente, a pressão radial no revestimento viscoelástico tende a aumentar com o tempo, como demonstra a \autoref{p_SR_CRE_CRVE_long}. Já o aumento considerável das pressões no concreto elástico ao longo prazo é devido ao comportamento elastoplástico-viscoplástico do maciço rochoso.
+A \autoref{MAperfilconvergenciaUB} apresenta as curvas de convergência obtidas no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel $z/R_t$ . As curvas tracejadas se referem às análises em axissimetria, simulando um túnel isolado ($d_1 \rightarrow \infty$). Nota-se que a proximidade dos túneis gêmeos aumenta significativamente a convergência no teto do túnel. As análises realizadas considerando o modelo com DPII apresentaram valores de convergência ligeiramente menores que as análises com MC.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.8]{TI_P_SR_CRE_CRVE_longo.pdf}
+		\includegraphics[scale=0.8]{0412_MAperfilconvergenciaUB.pdf}
 	\end{center}
-	\caption{\label{p_SR_CRE_CRVE_long}Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}
+	\caption{\label{MAperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
 \end{figure}
+
+Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribuição de tensão longe da face do túnel obtida através das simulações numéricas pelo MEF para uma distância normalizada $d_1/2R_t$ = 2,5 entre os túneis gêmeos, considerando os critérios de DPII (a) e MC (b), e a solução de tensão aproximada de \citeonline{Maetal2020}. É possível perceber que o comportamento das soluções numérica e analítica são muito semelhantes, e uma diferença muito pequena entre as zonas plásticas do modelo de Mohr-Coulomb e Drucker-Prager.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{0413_MA_MC_zonasplasticas.pdf}
+	\end{center}                 
+	\caption{\label{MAMCzonasplasticas}Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline{Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}
+\end{figure}
+
+A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45°, 90° e 135°. Verifica-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90°.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.65]{0414_MA_DPII_tensao.pdf}
+	\end{center}                 
+	\caption{\label{MADPIItensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação	entre simulações numérica e analítica - critério Drucker-Prager}
+\end{figure}
+
+Da mesma forma, a \autoref{MAMCtensao} demonstra a distribuição dos componentes de tensão radial e ortorradial considerando o critério de Mohr-Coulomb. Nesse caso, percebe-se uma diferença menos significativa na comparação entre a solução analítica apresentada por \citeonline{Maetal2020} e a solução numérica encontrada via Método dos Elementos Finitos utilizado neste estudo.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.65]{0415_MA_MC_tensao.pdf}
+	\end{center}                 
+	\caption{\label{MAMCtensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Mohr-Coulomb}
+\end{figure}
+
+
+
+
