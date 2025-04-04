@@ -35,7 +35,7 @@
 \contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{96}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis na convergência da seção}{97}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{101}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Distribuição anisotrópica das deformações e pressões no revestimento}{105}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Anisotropia das deformações e pressões no revestimento}{105}{section.7.3}%
 \contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{110}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{110}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões no revestimento}{112}{section.8.2}%

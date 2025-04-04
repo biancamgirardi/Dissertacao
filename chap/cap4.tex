@@ -136,7 +136,7 @@ Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos fini
 	\begin{center}
 		\includegraphics[scale=1.2]{0405_detalhegaleria.pdf}
 	\end{center}
-	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria. Adaptado de \citeonline{Colombo2023}}
 \end{figure}
 
 Ressalta-se que os elementos tetraédricos usados para a discretização das regiões internas ao túnel longitudinal e transversal se encaixam no comprimento do passo de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção dos revestimentos do túnel longitudinal (em azul) e da galeria transversal (em vermelho).
@@ -145,7 +145,7 @@ Ressalta-se que os elementos tetraédricos usados para a discretização das reg
 	\begin{center}
 		\includegraphics[scale=1]{0406_vistasisometricas.pdf}
 	\end{center}
-	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria. Adaptado de \citeonline{Colombo2023}}
 \end{figure}
 
 A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo tridimensional utilizado neste estudo.
@@ -178,7 +178,7 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		\hline
 		Raio da galeria & $R_{g}$ & m & $2/3R_t$ \\
 		Espessura do revestimento & $e_g$ & m & $0.1R_t$ \\
-		Comprimento do passo de escavação \footnote{1} & $L_{pg}$ & m & $1/3R_g$ \\
+		Comprimento do passo de escavação \footnote{1} & $L_{pg}$ & m & $0,2R_g$ \\
 		Comprimento não revestido & $d_{0g}$ & m & $2L_{pg}$ \\
 		Velocidade da face de escavação & $V_{pg}$ & m/dia & $12.5$ \\
 		Número de passos que inicia a escavação da galeria & $n_{pig}$ & un & $15$ \\
@@ -193,7 +193,6 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 		\hline
 	\end{tabular}
 	\normalsize
-	\\ \footnotemark[1]{{\footnotesize O valor de $L_{pg}$ é ligeiramente diferente para a última etapa de escavação para corresponder ao comprimento da galeria.}}
 \end{table}
 
 \section{Parâmetros constitutivos adotados para as análises}
@@ -252,14 +251,9 @@ Nas análises de deformação dos túneis, o revestimento de concreto é tradici
 	K_{c_{28}}=\dfrac{E_{c_{28}}}{1+\nu_c} \dfrac{1-(1-e_t/R_t)^2}{(1-2\nu_c)+ (1-e_t/R_t)^2}
 \end{equation}
 
-A partir da equação e considerando que a espessura do revestimento tanto da galeria quanto do túnel longitudinal equivalem a $0,05R_t$, obtém-se a rigidez do revestimento $K_{c_{28}}=1359,80$ MPa. Com o intuito de obter um módulo de elasticidade próximo aos módulos comumente utilizados em concreto projetado, adotou-se a resistência característica à compressão na idade de 28 dias (fck) de 8 MPa.
-%Portanto, supõe-se que o acoplamento hidromecânico possa ser negligenciado na análise da deformação do material rochoso. Em particular, os testes de fluência indicaram que os efeitos de longo prazo decorrem principalmente da viscosidade do material, com uma proporção muito baixa induzida pela redistribuição da pressão dos poros. Uma característica importante do comportamento dessa argila é que as deformações irreversíveis são observadas em testes cíclicos, mesmo em valores pequenos de deformação axial (menos de 0,3%). Os testes triaxiais instantâneos não drenados realizados com altos valores de pressão de confinamento, como os que prevalecem no maciço rochoso a aproximadamente 450 m de profundidade, indicaram que a tensão desviadora máxima permanece aproximadamente constante, sugerindo, assim, um critério de falha do tipo Tresca para o componente de curto prazo do comportamento. (artigo)
+A partir da equação e considerando que a espessura do revestimento tanto da galeria quanto do túnel longitudinal equivalem a $0,05R_t$, obtém-se a rigidez do revestimento $K_{c_{28}}=1359,80$ MPa. Com o intuito de obter um módulo de elasticidade próximo aos módulos comumente utilizados em concreto projetado, adotou-se a resistência característica à compressão na idade de 28 dias ($f_{ck}$) de 8 MPa.
 
-%Quanto ao comportamento de longo prazo, os testes de fluência revelaram que o limiar de tensão desviadora além do qual o material apresenta deformação por fluência é quase independente da tensão média, sugerindo que o componente de comportamento dependente do tempo pode ser convenientemente descrito por um critério do tipo Tresca. A comparação dos comportamentos instantâneo e retardado revela que a coesão de curto prazo excede a coesão de longo prazo em uma proporção que varia entre 1,2 e 2. Com base nessas observações, os dados do modelo constitutivo adotado para os componentes elastoplástico e viscoplástico do comportamento do material rochoso estão resumidos na Tabela 2. (artigo)
+Os parâmetros foram utilizados para as análises que serão apresentadas a partir do capítulo 6, referentes ao estudo da influência das propriedades dos materiais no comportamento instantâneo e diferido com diversos cenários: inicialmente um túnel isolado, em seguida túneis gêmeos, e por fim túneis gêmeos interligados por uma galeria transversal.
 
-%A Tabela 2 também apresenta os parâmetros constitutivos utilizados para o revestimento usado nos túneis gêmeos e na galeria, sendo o módulo de relaxamento instantâneo sob tensão uniaxial aos 28 dias denominado 𝐸𝑐28 . Nas análises que consideram o comportamento elástico do revestimento, o módulo de elasticidade do concreto é definido como 𝐸𝑐28 . Quando o comportamento viscoelástico é adotado para o revestimento, o módulo de relaxamento evolui no tempo de acordo com o modelo Kelvin generalizado descrito na Seção 4, enquanto o coeficiente de Poisson é considerado constante no intervalo de tempo da análise. Durante o processo de construção do túnel, o carregamento e a fluência de cada segmento do revestimento começam a partir do momento em que ele é ativado com propriedades na idade 𝑡0 = 1 dia, enquanto os efeitos de retração são considerados na idade de 𝑡𝑠 = 7 dias. (artigo)
-
-
-Esses parâmetros foram utilizados para todas as análises realizadas neste estudo, que serão apresentadas a partir do capítulo 6, tanto para o túnel isolado quanto para os túneis gêmeos.
 % ---
 
