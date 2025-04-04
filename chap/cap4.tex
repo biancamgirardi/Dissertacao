@@ -15,10 +15,10 @@
 \section{Modelo axissimétrico}
 % ---
 
-Para as análises considerando um único túnel, é utilizada a condição de axissimetria, cujo domínio é apresentado na \autoref{dominioaxi}. Sua aplicação é viável, pois o estado de tensões inicial que prevalece no maciço antes da escavação do túnel é caracterizado por tensões geostáticas verticais e horizontais constantes, denotadas por $\sigma_v$ e $\sigma_h$, respectivamente, e representadas da seguinte maneira:
+Para as análises considerando um único túnel, é utilizada a condição de axissimetria, ou seja, um modelo com simetria axial em $x=0$ e $y=R_t$, cujo domínio, discretização e condições de contorno, são apresentados na \autoref{dominioaxi}. Sua aplicação é viável, pois o estado de tensões inicial que prevalece no maciço antes da escavação do túnel é caracterizado por tensões geostáticas verticais e horizontais constantes, denotadas por $\sigma_v$ e $\sigma_h$, respectivamente, e representadas da seguinte maneira:
 
 \begin{equation}
-	\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
+	\sigmall_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
 \end{equation}
 
 Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR_1$, $mL_{x_1}$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. Para simular o ciclo construtivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxidetalhe}.%As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
@@ -27,7 +27,7 @@ Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y
 	\begin{center}
 		\includegraphics[scale=0.92]{testedominioaxi.pdf}
 	\end{center}
-	\caption{\label{dominioaxi}Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico}
+	\caption{\label{dominioaxi}Discretização do domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico}
 \end{figure}
 
 \begin{figure}[H]
@@ -37,7 +37,7 @@ Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y
 	\caption{\label{dominioaxidetalhe}Detalhe dos parâmetros que envolvem a escavação e colocação do revestimento}
 \end{figure}
 
-A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo axissimétrico utilizado neste estudo.
+A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo axissimétrico utilizado nas análises durante esse estudo.
 
 \begin{table}[H]
 	\caption{Parâmetros relacionados à geometria do domínio, à escavação e à instalação do revestimento do modelo axissimétrico}
@@ -81,14 +81,16 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 
 \section{Modelo tridimensional}
 
+Antes de apresentar a modelagem tridimensional do problema, é fundamental compreender a configuração geométrica do domínio analisado. A \autoref{dominio_montanha} ilustra a representação esquemática do domínio $\Omega$, que inclui os túneis gêmeos interligados por uma galeria transversal. Esse modelo visa capturar os efeitos da interação entre as estruturas escavadas e o maciço circundante, considerando aspectos como a posição relativa dos túneis, a localização da galeria e as condições de contorno aplicadas à simulação numérica.
+
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=1]{dominio_montanha.pdf}
 	\end{center}
-	\caption{\label{dominio_montanha}Domínio}
+	\caption{\label{dominio_montanha}Representação esquemática do domínio $\Omega$ para a problemática de túneis gêmeos com galeria}
 \end{figure}
 
-O domínio utilizado no presente estudo foi primeiramente desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. Esse modelo modelo tridimensional atualizado trouxe melhorias quanto à malha, principalmente na região que compreende a galeria que, assim como o restante do modelo, utiliza o elemento SOLID185, ilustrado na \autoref{elementosolid}. O elemento SOLID185 consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração e, nesse estudo, optou-se pela utilização da integração completa.
+O domínio utilizado no presente estudo foi primeiramente desenvolvido por \citeonline{Quevedo2017} e posteriormente atualizado por \citeonline{Colombo2023} para aplicação em túneis gêmeos com galerias. Esse modelo modelo tridimensional atualizado trouxe melhorias quanto à malha, principalmente na região que compreende a galeria que, assim como o restante do modelo, utiliza o elemento SOLID185, ilustrado na \autoref{elementosolid}. O elemento SOLID185 consiste em um hexaedro trilinear de 8 nós com 8 pontos de integração e, nesse estudo, optou-se pela utilização da integração completa. Na região da galeria transversal, esse elemento também foi utilizado, mas na sua forma colapsada de tetraedros lineares.
 
 \begin{figure}[H]
 	\begin{center}
@@ -98,6 +100,10 @@ O domínio utilizado no presente estudo foi primeiramente desenvolvido por \cite
 \end{figure}
 
 Para as análises considerando os túneis gêmeos com galeria transversal, a \autoref{dominio3D_2} apresenta o domínio, a malha de elementos finitos e as condições de contorno utilizadas. Esse domínio trata-se de um volume paralelepipédico de dimensões ($L_1+L_2$) $\times$ $L_3$ $\times$ $d_3$. Devido à simetria, apenas o domínio material \{$x \leq 0$, $y \geq 0$\} é considerado na discretização. Referindo-se às notações desta figura, $d_1$ é a distância entre os eixos dos túneis longitudinais, $L_2$ representa o comprimento total ao longo da direção $\underline{e}_z$ do túnel escavado, $d_3$ a espessura ao longo da direção vertical $\underline{e}_y$ do domínio, $L_1$ o comprimento da região não escavada ao longo da direção $\underline{e}_z$, $L_3$ o comprimento total transversal ao longo da direção $\underline{e}_x$ do domínio, $d_2$ caracteriza a localização do eixo transversal da galeria que intersecta o túnel longitudinal em $z = L_1 + d_2$. O comprimento do passo de escavação é denotado por $L_{pt}$. Ainda, é possível visualizar no modelo as tensões vertical $\sigma_v$ e horizontal $\sigma_h$ em vermelho. 
+
+A adoção da simetria dupla na modelagem estrategicamente reduz o custo computacional da análise e garante uma representação adequada do problema. Essa simplificação assume, contudo, que os túneis longitudinais são escavados de maneira sincronizada e que a galeria transversal é escavada a partir de um dos túneis em direção ao centro. Dessa forma, apenas um quarto do domínio total precisa ser discretizado, considerando as condições de contorno apropriadas para refletir a continuidade da estrutura. 
+
+No entanto, essa abordagem implica certas limitações na representação das condições reais de escavação, uma vez que, na prática, os túneis podem ser executados com defasagem da frente de escavação e a galeria pode ser escavada de forma assimétrica. Essas simplificações, embora úteis para viabilizar as simulações numéricas, devem ser consideradas na interpretação dos resultados.
 
 \begin{figure}[H]
 	\begin{center}
@@ -124,7 +130,7 @@ As figuras a seguir apresentam detalhamentos da geometria e discretização da m
 	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
-Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à seção transversal da galeria, que se encontra no plano $yz$, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em ue é feita a transição entre a malha livre e a malha mapeada do restante do domínio.
+Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à galeria, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em que é feita a transição entre a malha livre de tetraedros e a malha mapeada de hexaedros do restante do domínio.
 
 \begin{figure}[H]
 	\begin{center}
@@ -133,7 +139,7 @@ Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos fini
 	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline{Colombo2023})}
 \end{figure}
 
-Ressalta-se que os elementos tetraédricos usados para a discretização das regiões internas ao túnel longitudinal e transversal se encaixam no comprimento do passo de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção dos revestimentos do túnel longitudinal (em azul) e da galeria transversal (em vermelho)..
+Ressalta-se que os elementos tetraédricos usados para a discretização das regiões internas ao túnel longitudinal e transversal se encaixam no comprimento do passo de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção dos revestimentos do túnel longitudinal (em azul) e da galeria transversal (em vermelho).
 
 \begin{figure}[H]
 	\begin{center}
@@ -196,7 +202,7 @@ Os parâmetros utilizados para caracterizar o maciço rochoso e o revestimento d
 
 Para o revestimento de concreto, é importante ressaltar que nas análises com comportamento elástico, o módulo de elasticidade do concreto é assumido como o próprio módulo de elasticidade $E_{c28}$. Por outro lado, para o comportamento viscoelástico do revestimento, o módulo de relaxação varia no tempo conforme o modelo Kelvin generalizado descrito no capítulo 3.
 
-No processo de construção, cada segmento do suporte inicia sua resposta mecânica (carregamento e fluência) no instante $t_0 =$ 1 dia, idade referente ao momento em que o elemento de revestimento é ativado com suas propriedades. Contudo, os efeitos de retração são incorporados ao modelo somente a partir de $t_s =$ 7 dias, refletindo o envelhecimento do material.
+No processo de construção, cada segmento do suporte inicia sua resposta mecânica (carregamento e fluência) no instante $t_0 =$ 1 dia, idade referente ao momento em que o elemento de revestimento é ativado com suas propriedades. Contudo, os efeitos de retração são incorporados ao modelo somente a partir de $t_s =$ 7 dias.
 
 \begin{table}[H]
 	\caption{\label{parametrosconstitutivosaplicacoes} Parâmetros constitutivos utilizados nas análises numéricas}
@@ -229,8 +235,8 @@ No processo de construção, cada segmento do suporte inicia sua resposta mecân
 		Coeficiente de Poisson & $\nu_c$ & - & $0.2$ \\
 		\makecell[l]{Coeficiente que define o módulo \\ de relaxação instantânea \cite{CEB1993}}  & $s$ & - & $0.2$ \\
 		\makecell[l]{Umidade relativa do ambiente} & $RH$ & \% & $70$ \\
-		\makecell[l]{Tamanho nominal da barra - revestimento \\ de concreto do túnel longitudinal} & $h_t$ & cm & $0.2111$ \\
-		\makecell[l]{Tamanho nominal da barra - revestimento \\ de concreto da galeria transversal} & $h_{g}$ & cm & $0.2176$ \\
+		\makecell[l]{Espessura fictícia - revestimento \\ de concreto do túnel longitudinal} & $h_t$ & cm & $0.2111$ \\
+		\makecell[l]{Espessura fictícia - revestimento \\ de concreto da galeria transversal} & $h_{g}$ & cm & $0.2176$ \\
 		\makecell[l]{Idade do concreto no início da retração} & $t_s$ & dia & $7$ \\
 		\makecell[l]{Coeficiente de retração conforme \\ o tipo de cimento \cite{CEB1993}} & $\beta_{sc}$ & - & $8$ \\
 		Temperatura & $T$ & $^\circ$C & $20$ \\
@@ -240,6 +246,13 @@ No processo de construção, cada segmento do suporte inicia sua resposta mecân
 	\normalsize
 \end{table}
 
+Nas análises de deformação dos túneis, o revestimento de concreto é tradicionalmente avaliado por meio do parâmetro de rigidez elástica, a qual expressa a relação entre a tensão normal aplicada pelo maciço rochoso no entorno do túnel e o deslocamento normal do revestimento. Determina-se esse parâmetro com base nas propriedades elásticas do concreto e na espessura do revestimento, considerando sua normalização pelo raio do túnel \cite{Panet1995,HoekBrown1980}. Neste estudo, amplia-se esse conceito para revestimentos de comportamento viscoelástico, onde o módulo de rigidez instantâneo aos 28 dias, $K_{c_{28}}$, é definido pela equação:
+
+\begin{equation}
+	K_{c_{28}}=\dfrac{E_{c_{28}}}{1+\nu_c} \dfrac{1-(1-e_t/R_t)^2}{(1-2\nu_c)+ (1-e_t/R_t)^2}
+\end{equation}
+
+A partir da equação e considerando que a espessura do revestimento tanto da galeria quanto do túnel longitudinal equivalem a $0,05R_t$, obtém-se a rigidez do revestimento $K_{c_{28}}=1359,80$ MPa. Com o intuito de obter um módulo de elasticidade próximo aos módulos comumente utilizados em concreto projetado, adotou-se a resistência característica à compressão na idade de 28 dias (fck) de 8 MPa.
 %Portanto, supõe-se que o acoplamento hidromecânico possa ser negligenciado na análise da deformação do material rochoso. Em particular, os testes de fluência indicaram que os efeitos de longo prazo decorrem principalmente da viscosidade do material, com uma proporção muito baixa induzida pela redistribuição da pressão dos poros. Uma característica importante do comportamento dessa argila é que as deformações irreversíveis são observadas em testes cíclicos, mesmo em valores pequenos de deformação axial (menos de 0,3%). Os testes triaxiais instantâneos não drenados realizados com altos valores de pressão de confinamento, como os que prevalecem no maciço rochoso a aproximadamente 450 m de profundidade, indicaram que a tensão desviadora máxima permanece aproximadamente constante, sugerindo, assim, um critério de falha do tipo Tresca para o componente de curto prazo do comportamento. (artigo)
 
 %Quanto ao comportamento de longo prazo, os testes de fluência revelaram que o limiar de tensão desviadora além do qual o material apresenta deformação por fluência é quase independente da tensão média, sugerindo que o componente de comportamento dependente do tempo pode ser convenientemente descrito por um critério do tipo Tresca. A comparação dos comportamentos instantâneo e retardado revela que a coesão de curto prazo excede a coesão de longo prazo em uma proporção que varia entre 1,2 e 2. Com base nessas observações, os dados do modelo constitutivo adotado para os componentes elastoplástico e viscoplástico do comportamento do material rochoso estão resumidos na Tabela 2. (artigo)

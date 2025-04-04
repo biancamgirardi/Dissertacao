@@ -114,9 +114,9 @@ Desse modo, a lei de evolução das tensões pode ser escrita da seguinte forma:
 	\dot \sigmall = \Dllll : \dot \varepsilonll^e = \Dllll : (\dot \varepsilonll - \dot \varepsilonll^{ep} - \dot \varepsilonll^{vp})
 \end{equation}
 
-Na elastoplasticidade, há um domínio dentro do qual os materiais com essas características se comportam em elasticidade. Em problemas tridimensionais e isotrópicos, esse domínio é delimitado por uma superfície no espaço das tensões principais, que leva o nome de superfície de escoamento e é expressa por uma função de escomento $f$. Assim, quando o estado de tensões atinge essa superfície, dá início às deformações plásticas. No comportamento elastoplástico isotrópico, a função de escoamento pode ser descrita apenas em função dos invariantes do tensor de tensões e das forças termodinamicamente associadas às variáveis internas.
+Na elastoplasticidade, há um domínio dentro do qual os materiais com essas características se comportam em regime elástico linear. Em problemas tridimensionais e isotrópicos, esse domínio é delimitado por uma superfície no espaço das tensões principais, que leva o nome de superfície de escoamento e é expressa por uma função de escomento $f$. Assim, quando o estado de tensões atinge essa superfície, dá início às deformações plásticas. No comportamento elastoplástico isotrópico, a função de escoamento pode ser descrita apenas em função dos invariantes do tensor de tensões e das forças termodinamicamente associadas às variáveis internas.
 
-Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker-Prager, Tresca e Mohr-Coulomb, representadas na \autoref{funcoesescoamento}. Nas superfícies de plastificação de von-Mises e Tresca, a plastificação é independente da componente hidrostática do estado de tensão, apresentando assim os formatos cilíndrico e prismático, respectivamente. Todavia, observa-se que nas superfícies de Drucker-Prager e Mohr-Coulomb a função de escoamento depende da componente hidrostática, sendo aplicáveis a materiais com ângulo de atrito interno e apresentando, respectivamente, formatos cônico e piramidal.
+Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker-Prager, Tresca e Mohr-Coulomb, representadas na \autoref{funcoesescoamento}. Nas superfícies de plastificação de von-Mises e Tresca, a plastificação é independente da componente hidrostática do estado de tensão, apresentando assim os formatos cilíndrico e prismático, respectivamente. Todavia, observa-se que nas superfícies de Drucker-Prager e Mohr-Coulomb a função de escoamento depende da componente hidrostática, sendo aplicáveis a materiais com ângulo de atrito interno $\phi$ e apresentando, respectivamente, formatos cônico e piramidal.
 
 \begin{figure}[H]
 	\begin{center}
@@ -126,10 +126,9 @@ Há diversas funções de escoamento na literatura, como a de von-Mises, Drucker
 \end{figure}
 
 O modelo constitutivo adotado no presente estudo utiliza a superfície de escoamento de Drucker-Prager:
-
 \begin{equation}
-	\label{funcaodruckerprager}
 	f(\sigmall,q) = f(I_1,J_2,q) = \beta_1 I_1 + \beta_2 \sqrt{J_2} - q(\alpha),
+	\label{funcaodruckerprager}
 \end{equation}
 
 onde $I_1$ é o primeiro invariante do tensor de tensões, $J_2$ é o segundo invariante do tensor de tensões desviadoras, $\beta_1$ e $\beta_2$ são parâmetros de resistência relacionados ao ângulo de atrito $\phi$ e $q(\alpha)$ o parâmetro relacionado à coesão $c(\alpha)$, respectivamente. Esses termos são dados pelas seguintes expressões:
@@ -164,7 +163,7 @@ sendo $k^{vp} = (1+\sin{\phi^{vp}})/(1-\sin{\phi^{vp}})$ e $c^{vp}$ também cons
 	\end{array}\right.,
 	\end{equation}
 
-onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplicador plástico) e $g$ é uma função análoga à $f$, chamada de potencial plástico que, quando diferente de $f$, é capaz de controlar a dilatação do material durante a evolução das deformações plásticas. Contudo, apesar do modelo ser capaz de simular a plasticidade não associada, para as subsequentes análises, adota-se a plasticidade associada, que ocorre quando $f = g$. Na plasticidade, o multiplicador plástico é a incógnita obtida através da condições de consistência $\dot f = 0$, através de um esquema semi-implícito de Euler de dois passos (preditor-corretor), que pode ser visto em \citeonline{Quevedo2021}. Já a regra de fluxo viscoplástica é expressa pela equação:
+onde $\dot \lambda$ é a taxa da magnitude de deformação plástica (multiplicador plástico) e $g$ é uma função análoga à $f$, chamada de potencial plástico que, quando diferente de $f$, é capaz de controlar a dilatação do material durante a evolução das deformações plásticas. Na plasticidade, o multiplicador plástico é a incógnita obtida através da condições de consistência $\dot f = 0$, através de um esquema semi-implícito de Euler de dois passos (preditor-corretor), que pode ser visto em \citeonline{Quevedo2021}. Já a regra de fluxo viscoplástica é expressa pela equação:
 
 \begin{equation}
 	\dot \varepsilonll^{vp} = \dot \lambda^{vp} \dfrac{\partial f^{vp}}{\partial \sigmall}

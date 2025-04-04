@@ -4,7 +4,7 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Desabamento do teto do túnel na área central de \textit {Heathrow} \cite {Dailymirror}}}{26}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diferença no formato da seção transversal (adaptado de \citeonline {Jensenetal2019})}}{30}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Aspecto da boca de saída da \textit {Cloaca Massima} em Roma \cite {Moreira2006}}}{31}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Métodos de escavação de túneis (adaptado de \citeonline {Quevedo2021})}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Métodos de escavação de túneis (\cite {Quevedo2021})}}{33}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Método de escavação vala recoberta. a) \textit {cut} and \textit {cover} e b) \textit {cover} and \textit {cut} (adaptado de \citeonline {FederalHighwayAdministration2009})}}{34}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Esquerda: escavadeira rotativa \cite {FederalHighwayAdministration2009}; direita: martelo hidráulico \cite {Worldhighways2015}}}{35}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Sequência executiva do método de construção por perfuração e detonação (adaptado de \citeonline {Heinio1999})}}{35}{figure.caption.23}%
@@ -12,84 +12,104 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Tuneladora blindada ou com escudo \cite {Herrenknecht2015}}}{37}{figure.caption.25}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Detalhe de cabeçote de corte utilizado em solo macio \cite {Chapman2018}}}{37}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Elementos de revestimento de túnel rodoviário (adaptado de \citeonline {DAERSP2005})}}{39}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Efeito arco: mobilização da resistência ao cisalhamento do maciço nos arredores da escavação (adaptado de \citeonline {Franca2006})}}{40}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Efeito arco em diferentes planos que interceptam o túnel (adaptado de \citeonline {Franca2006})}}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Direções das tensões principais (adaptado de \citeonline {Franca2006})}}{41}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Campo vetorial de deslocamentos no maciço durante a escavação de um túnel (adaptado de \citeonline {Franca2006})}}{42}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Seção de medição de convergência em quatro direções (adaptado de \citeonline {Panet1995})}}{43}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Perfil de tensões verticais e de convergências ao longo de uma linha longitudinal situada na parte superior do túnel (adaptado de \citeonline {Eisensteinetal1984} apud \citeonline {Couto2011})}}{44}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Variação da tensão vertical (adaptado de \citeonline {Benamar1996})}}{45}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Forma do assentamento superficial (adaptado de \citeonline {PintoWhittle2013})}}{45}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Geometria e carregamento do túnel (adaptado de \citeonline {Bernaud1991})}}{47}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Delimitação das regiões plástica e elástica (adaptado de \citeonline {Bernaud1991})}}{47}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Deslocamentos e tensões no entorno de um maciço submetido à pressão geostática-hidrostática $p_\infty $ e pressão interna $p_i$ no interior da seção do túnel. Esquerda: elasticidade. Direita: elastoplasticidade \cite {Quevedo2021}}}{48}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Método convergência-confinamento \cite {Quevedo2021}}}{49}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Curvas características do maciço (CV) e do revestimento (CF)}}{51}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Influência da rigidez do revestimento no perfil de convergências e no parâmetro ${U_0}$ (adaptado de \citeonline {Bernaud1992})}}{52}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Representação esquemática do processo de escavação (adaptado de \citeonline {Colombo2023})}}{55}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (adaptado de \citeonline {BazantPrasannanA})}}{61}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Representação reológica do modelo elastoplástico viscoplástico (adaptado de \citeonline {Rousset1988})}}{63}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Funções de escoamento de Drucker-Prager e Mohr-Coulomb (adaptado de \citeonline {Zienkiewicz1974})}}{64}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Domínios e superfícies do modelo elastoplástico viscoplástico (adaptado de \citeonline {Debernardi2009})}}{66}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico}}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Detalhe dos parâmetros que envolvem a escavação e colocação do revestimento}}{68}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Domínio}}{69}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Elemento SOLID185 \cite {ANSYS}}}{70}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos com galeria (adaptado de \citeonline {Colombo2023})}}{71}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos sem galeria (adaptado de \citeonline {Colombo2023})}}{72}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline {Colombo2023})}}{73}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline {Colombo2023})}}{73}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline {Colombo2023})}}{74}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Guoetal2021})}}{77}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Perfis de convergência no teto do túnel (ponto B)}}{78}{figure.caption.60}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}}{79}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}}{80}{figure.caption.62}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Maetal2020})}}{81}{figure.caption.63}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Perfis de convergência no teto do túnel (ponto B)}}{82}{figure.caption.64}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline {Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}}{83}{figure.caption.65}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Drucker-Prager}}{84}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Mohr-Coulomb}}{85}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}}{87}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}}{88}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}}{89}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}}{90}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Perfis de convergência - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE). a) Final da construção; b) Longo prazo}}{91}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no final da construção}}{92}{figure.caption.73}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{93}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Representação dos pontos de análise dos túneis gêmeos}}{94}{figure.caption.75}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) e sem revestimento (SR) no final da construção}}{95}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) e sem revestimento (SR) no longo prazo}}{96}{figure.caption.77}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento elástico (CRE) no final da construção}}{97}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento elástico (CRE) no longo prazo}}{97}{figure.caption.79}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento viscoelástico (CRVE) no final da construção}}{98}{figure.caption.80}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento viscoelástico (CRVE) no longo prazo}}{99}{figure.caption.81}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento elástico (CRE) no final da construção}}{100}{figure.caption.82}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento elástico (CRE) no longo prazo}}{101}{figure.caption.83}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento viscoelástico (CRVE) no final da construção}}{102}{figure.caption.84}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento viscoelástico (CRVE) no longo prazo}}{102}{figure.caption.85}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Posições dos ângulos $\theta $ no contorno da seção transversal do túnel}}{103}{figure.caption.86}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Anisotropia das deformações - túneis gêmeos sem galeria com revestimento elástico (CRE)}}{104}{figure.caption.87}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Anisotropia das deformações - túneis gêmeos sem galeria com revestimento viscoelástico (CRVE)}}{105}{figure.caption.88}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Anisotropia das pressões no revestimento - túneis gêmeos sem galeria com revestimento elástico (CRE)}}{106}{figure.caption.89}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Anisotropia das pressões no revestimento - túneis gêmeos sem galeria com revestimento viscoelástico (CRVE)}}{106}{figure.caption.90}%
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Esquema de representação das seções de análise}}{109}{figure.caption.91}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Esquema de representação das seções de análise}}{109}{figure.caption.92}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Esquema de representação das seções de análise}}{110}{figure.caption.93}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento elástico (CRE) na seção 1}}{110}{figure.caption.94}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento elástico (CRE) na seção 2}}{111}{figure.caption.95}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento elástico (CRE) na seção 3}}{111}{figure.caption.96}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento viscoelástico (CRVE) na seção 1}}{112}{figure.caption.97}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento viscoelástico (CRVE) na seção 2}}{112}{figure.caption.98}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Deformada da seção - túneis gêmeos com galeria com revestimento viscoelástico (CRVE) na seção 3}}{113}{figure.caption.99}%
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{122}{figure.caption.103}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{123}{figure.caption.104}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{123}{figure.caption.105}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{124}{figure.caption.106}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{124}{figure.caption.107}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{125}{figure.caption.108}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{125}{figure.caption.109}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{126}{figure.caption.110}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{126}{figure.caption.111}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{127}{figure.caption.112}%
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{127}{figure.caption.113}%
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{128}{figure.caption.114}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Efeito arco: mobilização da resistência ao cisalhamento do maciço nos arredores da escavação (adaptado de \citeonline {Franca2006})}}{41}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Direções das tensões principais (adaptado de \citeonline {Franca2006})}}{42}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Efeito arco em diferentes planos que interceptam o túnel (adaptado de \citeonline {Franca2006})}}{42}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Campo vetorial de deslocamentos no maciço durante a escavação de um túnel (adaptado de \citeonline {Franca2006})}}{43}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Seção de medição de convergência em quatro direções (adaptado de \citeonline {Panet1995})}}{44}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Perfil de tensões verticais $\sigma _v$ e de convergências $U_i$ ao longo do túnel (adaptado de \citeonline {Eisensteinetal1984} apud \citeonline {Couto2011})}}{45}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Variação da tensão vertical (adaptado de \citeonline {Benamar1996})}}{46}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Forma do assentamento superficial (adaptado de \citeonline {PintoWhittle2013})}}{46}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Geometria e carregamento do túnel (adaptado de \citeonline {Bernaud1991})}}{48}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Delimitação das regiões plástica e elástica (adaptado de \citeonline {Bernaud1991})}}{48}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Deslocamentos e tensões no entorno de um maciço submetido à pressão geostática-hidrostática $p_\infty $ e pressão interna $p_i$ no interior da seção do túnel. Esquerda: elasticidade. Direita: elastoplasticidade \cite {Quevedo2021}}}{49}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Método convergência-confinamento \cite {Quevedo2021}}}{51}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Curvas características do maciço (CV) e do revestimento (CF)}}{53}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Influência da rigidez do revestimento no perfil de convergências e no parâmetro ${U_0}$ (adaptado de \citeonline {Bernaud1992})}}{54}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Representação esquemática do processo de escavação (adaptado de \citeonline {Colombo2023})}}{57}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo Kelvin generalizado para viscoelasticidade uniaxial do concreto (adaptado de \citeonline {BazantPrasannanA})}}{63}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representação reológica do modelo elastoplástico viscoplástico (adaptado de \citeonline {Rousset1988})}}{65}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Funções de escoamento de Drucker-Prager e Mohr-Coulomb (adaptado de \citeonline {Zienkiewicz1974})}}{66}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Domínios e superfícies do modelo elastoplástico viscoplástico (adaptado de \citeonline {Debernardi2009})}}{68}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Discretização do domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico}}{70}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Detalhe dos parâmetros que envolvem a escavação e colocação do revestimento}}{70}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Representação esquemática do domínio $\Omega $ para a problemática de túneis gêmeos com galeria}}{72}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Elemento SOLID185 \cite {ANSYS}}}{72}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos com galeria (adaptado de \citeonline {Colombo2023})}}{73}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Malha, dimensões e condições de contorno do domínio dos túneis gêmeos sem galeria (adaptado de \citeonline {Colombo2023})}}{74}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline {Colombo2023})}}{75}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria (adaptado de \citeonline {Colombo2023})}}{75}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria (adaptado de \citeonline {Colombo2023})}}{76}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Guoetal2021})}}{80}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Perfis de convergência no teto do túnel (ponto B)}}{81}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}}{82}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}}{83}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Geometria e carregamento dos túneis gêmeos estudados por \citeonline {Maetal2020})}}{84}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline {Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}}{85}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Drucker-Prager}}{86}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Mohr-Coulomb}}{87}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}}{89}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento elástico (CRE)}}{90}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Perfis de convergência ao final da construção - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}}{91}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Perfis de convergência no longo prazo - túnel isolado sem revestimento (SR) e com revestimento viscoelástico (CRVE)}}{92}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Perfis de convergência - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE). a) Final da construção; b) Longo prazo}}{93}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no final da construção}}{94}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Pressões no revestimento - túnel isolado sem revestimento (SR), com revestimento elástico (CRE) e viscoelástico (CRVE) no longo prazo}}{95}{figure.caption.73}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Representação dos pontos de análise dos túneis gêmeos}}{96}{figure.caption.74}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) e sem revestimento (SR) no final da construção}}{97}{figure.caption.75}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) e sem revestimento (SR) no longo prazo}}{98}{figure.caption.76}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento elástico (CRE) no final da construção}}{99}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento elástico (CRE) no longo prazo}}{99}{figure.caption.78}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento viscoelástico (CRVE) no final da construção}}{100}{figure.caption.79}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Perfis de convergência - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG), com revestimento viscoelástico (CRVE) no longo prazo}}{101}{figure.caption.80}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento elástico (CRE) no final da construção}}{102}{figure.caption.81}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento elástico (CRE) no longo prazo}}{103}{figure.caption.82}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento viscoelástico (CRVE) no final da construção}}{104}{figure.caption.83}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Pressões no revestimento - túnel isolado (TI) e túneis gêmeos (TG) sem galeria (SG) com revestimento viscoelástico (CRVE) no longo prazo}}{104}{figure.caption.84}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Posições dos ângulos $\theta $ no contorno da seção transversal do túnel}}{105}{figure.caption.85}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Anisotropia das deformações - túneis gêmeos sem galeria com revestimento elástico (CRE)}}{106}{figure.caption.86}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Anisotropia das deformações - túneis gêmeos sem galeria com revestimento viscoelástico (CRVE)}}{107}{figure.caption.87}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Anisotropia das pressões no revestimento - túneis gêmeos sem galeria com revestimento elástico (CRE)}}{108}{figure.caption.88}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Anisotropia das pressões no revestimento - túneis gêmeos sem galeria com revestimento viscoelástico (CRVE)}}{108}{figure.caption.89}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Perfis de convergência - túneis gêmeos sem galeria (SG) e com galeria (CG) com revestimento elástico (CRE)}}{111}{figure.caption.90}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Perfis de convergência - túneis gêmeos sem galeria (SG) e com galeria (CG) com revestimento viscoelástico (CRVE)}}{112}{figure.caption.91}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Pressões no revestimento - túneis gêmeos sem galeria (SG) e com galeria (CG) com revestimento elástico (CRE)}}{113}{figure.caption.92}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Pressões no revestimento - túneis gêmeos sem galeria (SG) e com galeria (CG) com revestimento viscoelástico (CRVE)}}{113}{figure.caption.93}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Esquema de representação das seções de análise}}{114}{figure.caption.94}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Deformada da seção - túneis gêmeos com galeria transversal e revestimento elástico (CRE) no final da construção}}{115}{figure.caption.95}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Deformada da seção - túneis gêmeos com galeria transversal e revestimento elástico (CRE) no longo prazo}}{115}{figure.caption.96}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Deformada da seção - túneis gêmeos com galeria transversal e revestimento viscoelástico (CRVE) no final da construção}}{116}{figure.caption.97}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Deformada da seção - túneis gêmeos com galeria transversal e revestimento viscoelástico (CRVE) no longo prazo}}{116}{figure.caption.98}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Pressões no revestimento - túneis gêmeos com galeria transversal e revestimento elástico (CRE) no final da construção}}{117}{figure.caption.99}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Pressões no revestimento - túneis gêmeos com galeria transversal e revestimento elástico (CRE) no longo prazo}}{118}{figure.caption.100}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Pressões no revestimento - túneis gêmeos com galeria transversal e revestimento viscoelástico (CRVE) no final da construção}}{119}{figure.caption.101}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Pressões no revestimento - túneis gêmeos com galeria transversal e revestimento viscoelástico (CRVE) no longo prazo}}{119}{figure.caption.102}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Razão entre túneis gêmeos com galeria e sem galeria, com revestimento elástico (CRE) e $\phi = 0^\circ $}}{120}{figure.caption.103}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Razão entre túneis gêmeos com galeria e sem galeria, com revestimento elástico (CRE) e $\phi = 5^\circ $}}{120}{figure.caption.104}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Razão entre túneis gêmeos com galeria e sem galeria, com revestimento viscoelástico (CRVE) e $\phi = 0^\circ $}}{121}{figure.caption.105}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Razão entre túneis gêmeos com galeria e sem galeria, com revestimento viscoelástico (CRVE) e $\phi = 5^\circ $}}{121}{figure.caption.106}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no final da construção}}{130}{figure.caption.110}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no longo prazo}}{131}{figure.caption.111}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no final da construção}}{131}{figure.caption.112}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no longo prazo}}{132}{figure.caption.113}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no final da construção}}{132}{figure.caption.114}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no longo prazo}}{133}{figure.caption.115}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no final da construção}}{133}{figure.caption.116}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no longo prazo}}{134}{figure.caption.117}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no final da construção}}{134}{figure.caption.118}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no longo prazo}}{135}{figure.caption.119}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no final da construção}}{135}{figure.caption.120}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no longo prazo}}{136}{figure.caption.121}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no final da construção}}{136}{figure.caption.122}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no longo prazo}}{136}{figure.caption.123}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no final da construção}}{137}{figure.caption.124}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no longo prazo}}{137}{figure.caption.125}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no final da construção}}{137}{figure.caption.126}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no longo prazo}}{138}{figure.caption.127}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no final da construção}}{138}{figure.caption.128}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento elástico (CRE) no longo prazo}}{139}{figure.caption.129}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no final da construção}}{139}{figure.caption.130}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no longo prazo}}{140}{figure.caption.131}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no final da construção}}{140}{figure.caption.132}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Perfis de convergência - Ponto B - túnel isolado (TI) e túneis gêmeos (TG) com revestimento viscoelástico (CRVE) no longo prazo}}{141}{figure.caption.133}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Perfis de convergência - Ponto A - túnel isolado (TI) e túneis gêmeos (TG) sem revestimento (SR) no final da construção}}{142}{figure.caption.134}%

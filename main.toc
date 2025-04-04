@@ -10,40 +10,45 @@
 \contentsline {section}{\numberline {2.2}Métodos de escavação}{32}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Suporte}{38}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Comportamento do maciço frente à escavação}{39}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{44}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{46}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{46}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{48}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}Método convergência-confinamento (CV-CF)}{48}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{50}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{52}{subsubsection.2.6.2.3}%
-\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{53}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{56}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{60}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{60}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{62}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Discretização do domínio}}{67}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Modelo axissimétrico}{67}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Modelo tridimensional}{69}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Parâmetros constitutivos adotados para as análises}{75}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Verificações preliminares}}{77}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Verificação com solução analítica em elasticidade}{77}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Verificação com solução analítica em elastoplasticidade}{80}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{86}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Influência do revestimento na convergência da seção}{86}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Influência do revestimento nas pressões}{91}{section.6.2}%
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{94}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis na convergência da seção}{95}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{99}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Distribuição anisotrópica das deformações e pressões no revestimento}{103}{section.7.3}%
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{108}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{109}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões no revestimento}{110}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Anisotropia da seção}{110}{section.8.3}%
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{114}{chapter.9}%
+\contentsline {section}{\numberline {2.5}Influência da profundidade do túnel}{45}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Métodos de dimensionamento}{47}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Métodos analíticos}{47}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Métodos simplificados}{49}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Método convergência-confinamento (CV-CF)}{49}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}\textit {New Austrian Tunneling Method} (NATM)}{51}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\textit {New Implicit Method} (NIM)}{53}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}Métodos diretos}{54}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Aspectos gerais de túneis gêmeos}{58}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Modelos constitutivos}}{62}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo constitutivo do revestimento}{62}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo constitutivo do maciço}{64}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Discretização do domínio}}{69}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Modelo axissimétrico}{69}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelo tridimensional}{71}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Parâmetros constitutivos adotados para as análises}{77}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Verificações preliminares}}{80}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Verificação com solução analítica em elasticidade}{80}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Verificação com solução analítica em elastoplasticidade}{83}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Análises considerando o cenário de túnel isolado}}{88}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Influência do revestimento na convergência da seção}{88}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Influência do revestimento nas pressões}{93}{section.6.2}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{96}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis na convergência da seção}{97}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{101}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Distribuição anisotrópica das deformações e pressões no revestimento}{105}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{110}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{110}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões no revestimento}{112}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Distribuição anisotrópica das deformações e pressões no revestimento}{114}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Relação entre túneis com galeria e sem galeria}{120}{section.8.4}%
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{122}{chapter.9}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{115}{section*.100}%
+\contentsline {chapter}{REFERÊNCIAS}{123}{section*.107}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{121}{section*.102}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{túnel isolado e túneis gêmeos}}{122}{appendix.anexochapback.1}%
+\contentsline {part}{ANEXOS}{129}{section*.109}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões no revestimento}}{130}{appendix.anexochapback.1}%
+\contentsline {section}{\numberline {A.1}Convergência da seção}{130}{section.anexochapback.1.1}%
+\contentsline {section}{\numberline {A.2}Pressões no revestimento}{136}{section.anexochapback.1.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Influência da galeria transversal na convergência da seção e pressões no revestimento}}{142}{appendix.anexochapback.2}%
+\contentsline {section}{\numberline {B.1}Convergência da seção}{142}{section.anexochapback.2.1}%
