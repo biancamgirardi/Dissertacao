@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  4 APR 2025 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  8 APR 2025 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2563,22 +2563,17 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 040E092209E7834FC01B536C37D98A9C;13561
-(rerunfilecheck)             After:  494076FF78EA7FCFDECA8AF1C548104D;13471.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: 494076FF78EA7FCFDECA8AF1C548104D;13471.
  ) 
 Here is how much of TeX's memory you used:
- 26977 strings out of 473904
- 462547 string characters out of 5725657
+ 26968 strings out of 473904
+ 462490 string characters out of 5725657
  1966908 words of memory out of 5000000
- 48379 multiletter control sequences out of 15000+600000
+ 48370 multiletter control sequences out of 15000+600000
  679712 words of font info for 500 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,16n,121p,1789b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,16n,121p,2582b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2594,7 +2589,7 @@ Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local
 l/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/
 Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (143 pages, 19707290 bytes).
+Output written on main.pdf (143 pages, 19708915 bytes).
 PDF statistics:
  35470 PDF objects out of 38293 (max. 8388607)
  438 named destinations out of 1000 (max. 500000)
