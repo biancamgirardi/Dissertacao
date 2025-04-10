@@ -35,21 +35,21 @@
 \contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos}}{96}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Influência da proximidade entre os túneis na convergência da seção}{97}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Influência da proximidade entre os túneis nas pressões no revestimento}{101}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Anisotropia das deformações e pressões no revestimento}{105}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Anisotropia das deformações e pressões sobre o revestimento}{105}{section.7.3}%
 \contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Análises considerando o cenário de túneis gêmeos com galeria transversal}}{111}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Influência da galeria transversal nos perfis de convergência}{111}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões sobre o revestimento}{115}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Anisotropia das deformações e pressões no revestimento}{118}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Relação entre túneis com galeria e sem galeria}{125}{section.8.4}%
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{127}{chapter.9}%
+\contentsline {section}{\numberline {8.3}Anisotropia das deformações e pressões sobre o revestimento}{119}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Influência da construção da galeria transversal}{126}{section.8.4}%
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{133}{chapter.9}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{129}{section*.107}%
+\contentsline {chapter}{REFERÊNCIAS}{134}{section*.113}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{135}{section*.109}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões sobre o revestimento}}{136}{appendix.anexochapback.1}%
-\contentsline {section}{\numberline {A.1}Perfis de convergência}{136}{section.anexochapback.1.1}%
-\contentsline {section}{\numberline {A.2}Perfis de pressões sobre o revestimento}{148}{section.anexochapback.1.2}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Influência da galeria transversal na convergência da seção e pressões no revestimento}}{157}{appendix.anexochapback.2}%
-\contentsline {section}{\numberline {B.1}Perfis de convergência}{157}{section.anexochapback.2.1}%
-\contentsline {section}{\numberline {B.2}Perfis das pressões sobre o revestimento}{163}{section.anexochapback.2.2}%
+\contentsline {part}{ANEXOS}{140}{section*.115}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões sobre o revestimento}}{141}{appendix.anexochapback.1}%
+\contentsline {section}{\numberline {A.1}Perfis de convergência}{141}{section.anexochapback.1.1}%
+\contentsline {section}{\numberline {A.2}Perfis de pressões sobre o revestimento}{153}{section.anexochapback.1.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Influência da galeria transversal na convergência da seção e pressões no revestimento}}{162}{appendix.anexochapback.2}%
+\contentsline {section}{\numberline {B.1}Perfis de convergência}{162}{section.anexochapback.2.1}%
+\contentsline {section}{\numberline {B.2}Perfis das pressões sobre o revestimento}{168}{section.anexochapback.2.2}%
