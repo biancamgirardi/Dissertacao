@@ -41,15 +41,15 @@
 \contentsline {section}{\numberline {8.2}Influência da galeria transversal nas pressões sobre o revestimento}{120}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Anisotropia das deformações e das pressões sobre o revestimento}{124}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Influência da construção da galeria transversal}{132}{section.8.4}%
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{144}{chapter.9}%
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{147}{chapter.9}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{145}{section*.124}%
+\contentsline {chapter}{REFERÊNCIAS}{148}{section*.124}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{ANEXOS}{151}{section*.126}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões sobre o revestimento}}{152}{appendix.anexochapback.1}%
-\contentsline {section}{\numberline {A.1}Perfis de convergência}{152}{section.anexochapback.1.1}%
-\contentsline {section}{\numberline {A.2}Perfis das pressões sobre o revestimento}{164}{section.anexochapback.1.2}%
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Influência da galeria transversal na convergência da seção e pressões no revestimento}}{173}{appendix.anexochapback.2}%
-\contentsline {section}{\numberline {B.1}Perfis de convergência}{173}{section.anexochapback.2.1}%
-\contentsline {section}{\numberline {B.2}Perfis das pressões sobre o revestimento}{179}{section.anexochapback.2.2}%
+\contentsline {part}{ANEXOS}{154}{section*.126}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões sobre o revestimento}}{155}{appendix.anexochapback.1}%
+\contentsline {section}{\numberline {A.1}Perfis de convergência}{155}{section.anexochapback.1.1}%
+\contentsline {section}{\numberline {A.2}Perfis das pressões sobre o revestimento}{167}{section.anexochapback.1.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Influência da galeria transversal na convergência da seção e pressões no revestimento}}{176}{appendix.anexochapback.2}%
+\contentsline {section}{\numberline {B.1}Perfis de convergência}{176}{section.anexochapback.2.1}%
+\contentsline {section}{\numberline {B.2}Perfis das pressões sobre o revestimento}{182}{section.anexochapback.2.2}%
