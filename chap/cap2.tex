@@ -175,7 +175,7 @@ Os sistemas de suporte são compostos por revestimento primário e, quando neces
 
 Existem também elementos e técnicas que visam melhorar o maciço antes mesmo da escavação da abertura, denominados pré-suporte, e é comum utilizá-los em maciços com riscos iminentes de desabamento. Como exemplos, pode-se citar as enfilagens, tirantes frontais, pré-confinamento com ar comprimido e injeções de cimento sobre pressão.%\cite{Quevedo2021}. REVISAR
 
-As simulações de escavação do presente estudo foram realizadas uma espessura constante do revestimento de concreto. Na modelagem, o suporte foi tratado como um meio contínuo tridimensional com propriedades temporais homogêneas ao longo de sua espessura, sem distinção entre suporte primário e secundário.
+As simulações do presente estudo foram realizadas assumindo uma espessura constante do revestimento de concreto. Na modelagem, o suporte foi tratado como um meio contínuo tridimensional com propriedades temporais homogêneas ao longo de sua espessura, sem distinção entre suporte primário e secundário.
 
 % Revisão Quevedo:
 
@@ -275,7 +275,7 @@ onde $\gamma_m$ é o peso específico do maciço, que varia entre 20 e 30 kN/m³
 	\caption{\label{tunelrasoeprofundo}Variação da tensão vertical. Adaptado de \citeonline{Benamar1996}}
 \end{figure}
 
-É possível considerar, também, que um túnel é raso quando a escavação provoca recalques superficiais que não podem ser desprezados, não dependendo apenas da relação entre diâmetro e profundidade, mas também das características inerentes do maciço \cite{Ferrao2018}. A \autoref{assentamento} ilustra o assentamento superficial que ocorre em túneis de configuração rasa, sendo que $u_{max}$ corresponde à flecha máxima do assentamento superficial.
+É possível considerar, também, que um túnel é raso quando a escavação provoca recalques superficiais que não podem ser desprezados, não dependendo apenas da relação entre o diâmetro e profundidade, mas também das características inerentes do maciço \cite{Ferrao2018}. A \autoref{assentamento} ilustra o assentamento superficial que ocorre em túneis de configuração rasa, sendo que $u_{max}$ corresponde à flecha máxima do assentamento superficial.
 
 \begin{figure}[H]
 	\begin{center}
@@ -294,7 +294,9 @@ Desse modo, durante muito tempo, o projeto de suporte de túneis permaneceu como
 
 Os métodos empíricos visam reproduzir os tipos de suportes que tiveram sucesso em situações similares ao projeto em estudo. Dessa abordagem, emerge o conceito de "obras de referência", conforme \citeonline{Couto2011}. Dessa maneira, o dimensionamento ficará dependente das informações que se tem registro, além da avaliação da semelhança entre as condições da obra de referência e do projeto em questão.  De acordo com \citeonline{Panet1995}, os métodos empíricos podem, na melhor das hipóteses, somente refletir e perpetuar práticas já existentes.
 
-Mais informações sobre os métodos empíricos podem ser encontrados em \citeonline{Bieniawski1989} e \citeonline{Barton1974}. A seguir, são apresentados os métodos analíticos, simplificados e diretos.
+Mais informações sobre os métodos empíricos podem ser encontrados em \citeonline{Bieniawski1989} e \citeonline{Barton1974}. A seguir, são apresentados os métodos analíticos, simplificados e diretos. No final da seção, serão apresentados os métodos analíticos, simplificados e diretos. Será dada uma ênfase no método direto adotado para a realização das análises do presente trabalho.
+
+
 
 \subsection{Métodos analíticos}
 % ---
@@ -444,7 +446,7 @@ Por fim, as análises numéricas tridimensionais permitem incluir diversos parâ
 É possível modelar os efeitos diferidos ao longo das escavações nas análises bidimensionais axissimétricas e tridimensionais através do tempo transcorrido durante o ciclo de escavação e colocação do revestimento. Esse tempo está relacionado à velocidade e ao tamanho do passo de escavação, como demonstra a equação:
 
 \begin{equation}
-	t_p = \frac{L_{p}}{V_p},
+	t_p = \frac{L_{p}}{V_p}
 \end{equation}
 
 onde:
@@ -461,34 +463,34 @@ No presente estudo, será utilizado o método direto para soluções não-linear
 	\ul_{i+1} = \ul_i - \Kll(\ul_i)^{-1}\left(\Fl_{int}(\ul_i)-\Fl_{ext} \right) = \ul_i - \Kll_i^{-1} \left(\Fl_{int_i} - \Fl_{ext} \right) = \ul_i + \Kll_i^{-1}\Rl_i = \ul_i + \Delta \ul_i
 \end{equation}
 
-onde $\ul_i$ são os deslocamentos nodais na iteração atual, $\ul_{i+1}$ os deslocamentos nodais atualizados para a próxima iteração, $\Delta \ul_i$ é o incremento de deslocamentos nodais da iteração atual $i$, $\Fl_{int_i}$ são as forças internas da iteração atual (calculadas com $\ul_i$), $\Rl_i$ é o vetor de carga desbalanceado (resíduo) para a iteração atual e $\Kll_i$ a matriz de rigidez global tangente na iteração atual.
+onde $\ul_i$ são os deslocamentos nodais na iteração atual, $\ul_{i+1}$ os deslocamentos nodais atualizados para a próxima iteração, $\Delta \ul_i$ é o incremento de deslocamentos nodais da iteração atual $i$, $\Fl_{int_i}$ são as forças internas da iteração atual (calculadas com $\ul_i$), $\Rl_i$ representa o vetor de carga desbalanceado (resíduo) para a iteração atual e $\Kll_i$ a matriz de rigidez global tangente na iteração atual.
 
-Como $\Delta \ul_i = \Kll_i^{-1}\Rl_i$ é um sistema de equações esparso, ou seja, contém muitos elementos nulos, e geralmente simétrico, existem diversas técnicas de solução que buscam explorar essas características a fim de obter eficiência computacional. O \textit{software} ANSYS emprega uma técnica de solução direta, denominada \textit{Sparse Direct Solver}, que consiste em aplicar a fatorização de Cholesky modificada $\Kll = \Lll~\Dll~ \Lll^T$ (em que $\Lll$ é uma matriz triangular inferior e $\Dll$ uma matriz diagonal) e, através de substituições progressivas e retroativas, resolver o sistema. De modo geral, trata-se de uma solução robusta, bastante eficiente e livre de problemas de instabilidade numérica.
+Tendo em vista que $\Delta \ul_i = \Kll_i^{-1}\Rl_i$ é um sistema de equações esparso, ou seja, contém muitos elementos nulos, e normalmente simétrico, existem inúmeras técnicas de solução que buscam explorar essas características a fim de obter eficiência computacional. O \textit{software} ANSYS emprega uma técnica de solução direta, denominada \textit{Sparse Direct Solver}, que consiste em aplicar a fatoração de Cholesky modificada $\Kll = \Lll~\Dll~ \Lll^T$ (onde $\Lll$ é uma matriz triangular inferior e $\Dll$ uma matriz diagonal) e, através de substituições progressivas e retroativas, resolver o sistema. De modo geral, trata-se de uma solução robusta, bastante eficiente e livre de problemas de instabilidade numérica.
 
-Para incorporar a dependência do tempo e dos passos de escavação, a \autoref{eq:NR} é resolvida a cada $1 \le n \le n_s$ subpassos em que o tempo é incrementado linearmente. Dessa forma, itera-se o sistema \autoref{eq:NR} repetidas vezes para cada subpasso $n$ tendo-se:
+Para incorporar a dependência do tempo e dos passos de escavação, a \autoref{eq:NR} é resolvida a cada $1 \le n \le n_s$ subpassos em que o tempo é incrementado linearmente. Assim sendo, itera-se o sistema da \autoref{eq:NR} repetidas vezes para cada subpasso $n$ tendo-se:
 
 \begin{equation}
 	\label{eq:NR1}
-	\Delta \ul_{n,i} = \Kll_{n,i}^{-1}\left(\Fl_{ext_{n}} - \Fl_{int_{n,i}} \right) = \Kll_{n,i}^{-1}\Rl_{n,i},
+	\Delta \ul_{n,i} = \Kll_{n,i}^{-1}\left(\Fl_{ext_{n}} - \Fl_{int_{n,i}} \right) = \Kll_{n,i}^{-1}\Rl_{n,i}
 \end{equation}
 \begin{equation}
 	\label{eq:NR2}
-	\ul_{n,i+1} = \ul_{n,i}+\Delta\ul_{n,i},
+	\ul_{n,i+1} = \ul_{n,i}+\Delta\ul_{n,i}
 \end{equation}
 \begin{equation}
 	\label{eq:NR3}
-	\Fl_{ext_{n}} = \Fl_{ext_{n-1}} + \Delta \Fl_{p},
+	\Fl_{ext_{n}} = \Fl_{ext_{n-1}} + \Delta \Fl_{p}
 \end{equation}
 \begin{equation}
 	\label{eq:NR4}
-	t_{n} = t_{n-1} + \Delta t_p,
+	t_{n} = t_{n-1} + \Delta t_p
 \end{equation}
 em que
 \begin{equation}
 	\label{eq:NR5}
 	\Fl_{int_{n,i}} = \left( \int_{\Omega} \Bll^T \sigmal d\Omega \right)_{n,i}
 \end{equation}
-sendo $\ul_{0,0}$, $\Fl_{int_{0,0}}$, $\Fl_{ext_0}$   e $t_0$ nulos. Para os próximos subpassos, os valores de $\ul_{n,0}$ e $\Fl_{int_{n,0}}$, correspondem aos valores da solução convergente no subpasso anterior $n-1$. O número de subpassos $n_s$ e o incremento de força externa $\Delta \underline{F}_p$ são dependentes do incremento de tempo utilizado no passo $\Delta t_p$, e são expressos por:
+sendo que $\ul_{0,0}$, $\Fl_{int_{0,0}}$, $\Fl_{ext_0}$ e $t_0$ são nulos. Nos subpassos seguintes, os valores de $\ul_{n,0}$ e $\Fl_{int_{n,0}}$ à solução convergente obtida no subpasso anterior $n-1$. Tanto o número de subpassos $n_s$ quanto o incremento de força externa $\Delta \underline{F}_p$ são dependentes do incremento de tempo utilizado no passo $\Delta t_p$, e são expressos por:
 \begin{equation}
 	\label{eq:NR6}
 	n_s = \dfrac{t_p}{\Delta t_p},~~~ \Delta \Fl_{p} = \dfrac{\Fl_{ext_p}}{n_s}
@@ -500,7 +502,7 @@ A convergência é verificada sobre o vetor resíduo e o incremento de deslocame
 	\label{eq:convergencia}
 	||\Rl_i|| \leq \varepsilon_R R_{ref},~~~ ||\Delta \ul_i || \leq \varepsilon_u u_{ref}
 \end{equation}
-em que $\varepsilon_R$ e $\varepsilon_u$ são as tolerâncias para o resíduo (de 0,5\%) e deslocamentos (de 5\%), respectivamente. Os valores de referência $R_{ref}$ e $u_{ref}$ são $||\Fl_{ext_p}||$ e $||\ul_{n,i}||$, respectivamente. Assim, o critério de convergência considera que o resíduo não deve ultrapassar 0,5\% do valor de referência das forças externas, enquanto o incremento de deslocamentos deve permanecer abaixo de 5\% dos deslocamentos do subpasso. Por padrão, é adotada a norma euclidiana.
+onde $\varepsilon_R$ se refere à tolerância para o resíduo, de 0,5\%, e $\varepsilon_u$ à tolerância para deslocamentos, de 5\%. Os valores de referência $R_{ref}$ e $u_{ref}$ são, respectivamente, $||\Fl_{ext_p}||$ e $||\ul_{n,i}||$. Assim, o critério de convergência considera que o resíduo não deve ultrapassar 0,5\% do valor de referência das forças externas, enquanto o incremento de deslocamentos deve permanecer abaixo de 5\% dos deslocamentos do subpasso. Por padrão, é adotada a norma euclidiana.
 
 \begin{figure}[H]
 	\begin{center}
@@ -509,7 +511,7 @@ em que $\varepsilon_R$ e $\varepsilon_u$ são as tolerâncias para o resíduo (d
 	\caption{\label{iteracoesNR}Ilustração das iterações do método de Newton-Raphson. Adaptado de \citeonline{ChenHan1988}}
 \end{figure}
 
-O ANSYS disponibiliza quatro estratégias baseadas no Método de Newton-Raphson, que se diferenciam quanto à forma de atualização da matriz de rigidez ao longo da solução. Neste trabalho, adotou-se a opção "Completo" (Full), na qual a matriz de rigidez é atualizada a cada iteração $i$. Essa opção reduz o número de iterações de equilíbrio, porém, exige a montagem, fatoração e inversão da matriz a cada iteração de equilíbrio \cite{ANSYS2018b}.
+O ANSYS disponibiliza quatro estratégias baseadas no Método de Newton-Raphson, que se diferenciam quanto à forma de atualização da matriz de rigidez ao longo da solução. Neste trabalho, adotou-se a opção "Completo" (\textit{Full}), na qual a matriz de rigidez é atualizada a cada iteração $i$. Essa opção reduz o número de iterações de equilíbrio, porém, exige a montagem, fatoração e inversão da matriz a cada iteração de equilíbrio \cite{ANSYS2018b}.
 
 Para simular o ciclo construtivo de escavação e colocação do revestimento, utiliza-se o recurso de ativação/desativação de elementos em cada passo de solução. A desativação, à rigor, compreende três modificações. A primeira consiste em substituir o valor do módulo de elasticidade dos elementos por um valor muito pequeno ($1 \times 10^{-12}$). Dessa forma, durante as iterações de equilíbrio, esses elementos contribuem minimamente para a matriz de rigidez e para o incremento de forças internas, o que favorece a redistribuição das tensões para os elementos vizinhos já ativados. A segunda alteração consiste em igualar a zero as tensões internas nos pontos de Gauss do elemento, que estavam acumuladas dos passos anteriores. Por fim, a terceira alteração consiste em anular as forças externas eventualmente aplicadas na fronteira desses elementos, evitando que influenciem o cálculo do resíduo no método Newton-Raphson.
 
@@ -523,7 +525,7 @@ A \autoref{ativacaodesativacao} ilustra as primeiras quatro escavações do tún
 \end{figure}
 
 
-Também é possível observar, na figura, o comprimento do passo de escavação do túnel ($L_{p_t}$), o comprimento $d_0$ que corresponde à dimensão não suportada, que correspondente a três passos de escavação, e a velocidade de avanço ($V_{p_t}$). A primeira escavação, representada por $n_{esc} = 1$, corresponde à desativação simultânea dos três primeiros passos (destacados em verde), caracterizando o início do processo de escavação. A partir da segunda escavação, observa-se que a desativação de um novo passo é realizada simultaneamente à ativação dos elementos de revestimento correspondentes (em vermelho).
+Também é possível observar, na figura, o comprimento do passo de escavação do túnel ($L_{p_t}$), o comprimento $d_0$ que corresponde à dimensão não suportada, correspondente a três passos de escavação, e a velocidade de avanço ($V_{p_t}$). A primeira escavação, representada por $n_{esc} = 1$, corresponde à desativação simultânea dos três primeiros passos (destacados em verde), caracterizando o início do processo de escavação. A partir da segunda escavação, observa-se que a desativação de um novo passo é realizada simultaneamente à ativação dos elementos de revestimento correspondentes (em vermelho).
 
 \section{Aspectos gerais de túneis gêmeos}
 % ----------------------------------------------------------
