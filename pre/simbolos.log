@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.2)  25 SEP 2024 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.7)  11 APR 2025 05:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./simbolos.tex
 (simbolos.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
+L3 programming layer <2024-08-16>
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -425,7 +425,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.57 \item[$E_{c28}$]
-                     							Módulo de elasticidade tangente do concreto aos...
+                     						Módulo de elasticidade tangente do concreto aos ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -958,7 +958,148 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \item[$I_1$]
+l.66 \item[$h_g$]
+                 							Tamanho nominal do da barra - revestimento da galeri...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \item[$h_t$]
+                 							Tamanho nominal do da barra - revestimento do túnel...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 67--68
+\/cmr/m/n/10 ^^Su 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \item[$I_1$]
                  							Primeiro invariante do tensor de tensões
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -998,7 +1139,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 66--67
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 68--69
 \/cmr/m/n/10 ~o 
  []
 
@@ -1009,7 +1150,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \item[$J_2$]
+l.69 \item[$J_2$]
                  							Segundo invariante do tensor de tensões desviadoras
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1059,7 +1200,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--68
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 69--70
 \/cmr/m/n/10 ~o 
  []
 
@@ -1070,7 +1211,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \item[$K_c$]
+l.70 \item[$K_c$]
                  							Rigidez do revestimento de concreto
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1113,7 +1254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \item[$L_p$]
+l.71 \item[$L_p$]
                  							Comprimento do passo de escavação
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1146,7 +1287,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 69--70
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 71--72
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -1157,7 +1298,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \item[$n$]
+l.72 \item[$n$]
                								Parâmetro da lei de potência
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1185,12 +1326,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 70--71
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
 \/cmr/m/n/10 ^a
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 70--71
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 72--73
 \/cmr/m/n/10 ^e 
  []
 
@@ -1201,7 +1342,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \item[$n_{esc}$]
+l.73 \item[$n_{esc}$]
                      						Contador da escavação
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1224,7 +1365,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 71--73
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 73--75
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -1235,7 +1376,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \item[$p_{eq}$]
+l.75 \item[$p_{eq}$]
                     							Pressão de equilíbrio de um túnel revestido
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1275,17 +1416,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 73--74
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 75--76
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 73--74
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 75--76
 \/cmr/m/n/10 ^^S^^P
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 73--74
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 75--76
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1296,7 +1437,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \item[$P_i$]
+l.76 \item[$P_i$]
                  							Pressão interna no túnel
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1321,12 +1462,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 74--75
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 76--77
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 74--75
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 76--77
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1337,7 +1478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \item[$P_{\infty}$]
+l.77 \item[$P_{\infty}$]
                         						Pressão geostática-hidrostática
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1370,12 +1511,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 75--76
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--78
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 75--76
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 77--78
 \/cmr/m/n/10 ^^Sa^^Sa 
  []
 
@@ -1386,7 +1527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \item[$R_g$]
+l.78 \item[$R_g$]
                  							Raio da seção transversal da galeria transversal
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1432,7 +1573,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 76--77
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 78--79
 \/cmr/m/n/10 ^^Xc~a
  []
 
@@ -1443,7 +1584,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \item[$R_t$]
+l.79 \item[$R_t$]
                  							Raio da seção transversal do túnel longitudinal
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1487,12 +1628,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 77--78
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 79--80
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 77--78
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 79--80
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1503,7 +1644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \item[$R_i$]
+l.80 \item[$R_i$]
                  							Raio da interface entre o túnel e o maciço
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1541,12 +1682,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 78--79
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 80--81
 \/cmr/m/n/10 ^^Su
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 78--79
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 80--81
 \/cmr/m/n/10 ^^Xc 
  []
 
@@ -1557,7 +1698,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \item[$r$]
+l.81 \item[$RH$]
+                								Umidade relativa do ambiente
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no U in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \item[$r$]
                								Coordenada radial no plano da seção transversal do ...
 
 Try typing  <return>  to proceed.
@@ -1609,12 +1787,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 79--80
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 82--83
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 79--80
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 82--83
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1625,7 +1803,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \item[sin]
+l.83 \item[sin]
                								Função seno
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1639,7 +1817,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 80--81
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 83--84
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -1650,7 +1828,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \item[$t$]
+l.84 \item[$t$]
                								Tempo atual
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1672,7 +1850,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 \item[$t_p$]
+l.85 \item[$t_p$]
                  							Tempo transcorrido durante um passo de escavação
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1718,7 +1896,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 82--83
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 85--86
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -1729,7 +1907,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \item[$t_s$]
+l.86 \item[$t_s$]
                  							Tempo de cura do concreto
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1762,7 +1940,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \item[$t_0$]
+l.87 \item[$t_0$]
                  							Idade do concreto no instante de aplicação da carga
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1809,7 +1987,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 84--85
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 87--88
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -1820,7 +1998,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \item[$U$]
+l.88 \item[$U$]
                								Convergência da seção do túnel
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1848,17 +2026,17 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 85--86
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 88--89
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 85--86
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 88--89
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 85--86
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 88--89
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1869,7 +2047,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \item[$U_{eq}$]
+l.89 \item[$U_{eq}$]
                     							Convergência de equilíbrio de um túnel revestido
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1914,17 +2092,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 86--87
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 89--90
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 86--87
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 89--90
 \/cmr/m/n/10 ^^S^^P
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 86--87
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 89--90
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -1935,7 +2113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \item[$U_i$]
+l.90 \item[$U_i$]
                  							Convergência em r = $R_i$
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1956,16 +2134,16 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no = in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 87.
+(Font)              <5> on input line 90.
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 87--88
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 90--91
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (10.92218pt too wide) in paragraph at lines 87--88
+Overfull \hbox (10.92218pt too wide) in paragraph at lines 90--91
 \OML/cmm/m/it/10 R[]$ 
  []
 
@@ -1976,7 +2154,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \item[$u_{max}$]
+l.91 \item[$u_{max}$]
                      						Flecha máxima do assentamento superficial
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2018,7 +2196,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 88--89
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 91--92
 \/cmr/m/n/10 ^^Sa
  []
 
@@ -2029,7 +2207,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 \item[$u_r$]
+l.92 \item[$u_r$]
                  							Deslocamento radial
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2059,7 +2237,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 \item[$U_0$]
+l.93 \item[$U_0$]
                  							Convergência da seção do túnel na cota não reve...
 
 Try typing  <return>  to proceed.
@@ -2127,27 +2305,27 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 90--91
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 93--94
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 90--91
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 93--94
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 90--91
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 93--94
 \/cmr/m/n/10 ^^Su
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 90--91
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 93--94
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 90--91
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 93--94
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -2158,7 +2336,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item[$V_p$]
+l.94 \item[$V_p$]
                  							Velocidade de avanço do túnel longitudinal
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2199,12 +2377,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 91--92
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 94--95
 \/cmr/m/n/10 ^^Xc
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 91--92
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 94--95
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -2215,7 +2393,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \item[$v_t$]
+l.95 \item[$v_t$]
                  							Fração volumétrica do concreto solidificado
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2257,12 +2435,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 92--93
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 95--96
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 92--93
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 95--96
 \/cmr/m/n/10 ^^Se
  []
 
@@ -2273,8 +2451,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item[$\alpha$]
-                    							Variável interna associada aos fenômenos de end...
+l.100 \item[$\alpha$]
+                     							Variável interna associada aos fenômenos de en...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2342,12 +2520,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 97--98
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 100--101
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 97--98
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 100--101
 \/cmr/m/n/10 ^o
  []
 
@@ -2358,8 +2536,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \item[$\beta_1$, $\beta_2$]
-                                				Parâmetros de resistência relacionados...
+l.101 \item[$\beta_1$, $\beta_2$]
+                                 				Parâmetros de resistência relacionado...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2413,17 +2591,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--99
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 101--102
 \/cmr/m/n/10 ^a
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 98--99
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 101--102
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--99
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 101--102
 \/cmr/m/n/10 ^a 
  []
 
@@ -2434,8 +2612,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \item[$\gamma_m$]
-                      						Peso específico do maciço
+l.102 \item[$\gamma_m$]
+                       						Peso específico do maciço
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2460,12 +2638,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 99--100
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 102--103
 \/cmr/m/n/10 ^^S^^P
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 99--100
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 102--103
 \/cmr/m/n/10 ^^Xc 
  []
 
@@ -2476,7 +2654,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \item[$\gamma(t-t_0)$]
+l.103 \item[$\gamma(t-t_0)$]
                             					Deformação microviscoelástica da fraçã...
 
 Try typing  <return>  to proceed.
@@ -2546,22 +2724,22 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 100--101
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 103--104
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 100--101
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 103--104
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 100--101
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 103--104
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 100--101
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 103--104
 \/cmr/m/n/10 ^^Se
  []
 
@@ -2572,7 +2750,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \item[$\Delta$]
+l.104 \item[$\Delta$]
                      							Incremento
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2594,7 +2772,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \item[$\varepsilonll$]
+l.105 \item[$\varepsilonll$]
                             					Tensor de deformações
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2617,7 +2795,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 102--103
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 105--106
 \/cmr/m/n/10 ^^Xc~o 
  []
 
@@ -2628,7 +2806,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item[$\dot \varepsilonll$]
+l.106 \item[$\dot \varepsilonll$]
                                  				Taxa de deformação
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2648,7 +2826,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 103--104
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 106--107
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -2659,7 +2837,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \item[$\varepsilonll^{e}$]
+l.107 \item[$\varepsilonll^{e}$]
                                 				Deformação elástica
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2680,12 +2858,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 104--105
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 107--108
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 104--105
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 107--108
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -2696,7 +2874,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \item[$\varepsilonll^{p}$]
+l.108 \item[$\varepsilonll^{p}$]
                                 				Deformação plástica
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2717,12 +2895,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 105--106
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 108--109
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 105--106
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 108--109
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -2733,7 +2911,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \item[$\varepsilonll^{vp}$]
+l.109 \item[$\varepsilonll^{vp}$]
                                  				Deformação viscoplástica
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2759,12 +2937,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 106--107
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 109--110
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 106--107
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 109--110
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -2775,7 +2953,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 \item[$\dot \varepsilonll^{cr}$]
+l.110 \item[$\dot \varepsilonll^{cr}$]
                                       		Taxa de deformação por fluência
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2805,12 +2983,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 107--108
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 110--111
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 107--108
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 110--111
 \/cmr/m/n/10 ^e 
  []
 
@@ -2821,7 +2999,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \item[$\dot \varepsilonll^{sh}$]
+l.111 \item[$\dot \varepsilonll^{sh}$]
                                       		Taxa de deformação por retração
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2850,12 +3028,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 108--109
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 111--112
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 108--109
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 111--112
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -2866,7 +3044,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \item[$\eta$]
+l.112 \item[$\eta$]
                    							Coeficiente de viscosidade % Constante de viscosid...
 
 Try typing  <return>  to proceed.
@@ -2903,7 +3081,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \item[$\eta(t)$]
+l.113 \item[$\eta(t)$]
                       						Viscosidade macroscópica aparente
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2939,7 +3117,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 110--111
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 113--114
 \/cmr/m/n/10 ^^So 
  []
 
@@ -2950,7 +3128,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \item[$\dot \lambda^{vp}$]
+l.114 \item[$\dot \lambda^{vp}$]
                                 				Multiplicador viscoplástico
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2981,7 +3159,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 111--112
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 114--115
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -2992,7 +3170,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \item[$\sigma_v$]
+l.115 \item[$\rho(\theta)$]
+                           					Anisotropia das deformações
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 115--116
+\/cmr/m/n/10 ^^Xc~o 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \item[$\sigma_v$]
                        						Tensão vertical
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3011,7 +3229,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 112--113
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--117
 \/cmr/m/n/10 ~a 
  []
 
@@ -3022,7 +3240,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \item[$\sigma_h$]
+l.117 \item[$\sigma_h$]
                        						Tensão horizontal
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3043,7 +3261,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 113--114
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 117--118
 \/cmr/m/n/10 ~a 
  []
 
@@ -3054,7 +3272,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \item[$ \sigma_{\theta\theta}$]
+l.118 \item[$ \sigma_{\theta\theta}$]
                                      			Componente da tensão na direção o...
 
 Try typing  <return>  to proceed.
@@ -3095,12 +3313,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 114--115
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 118--119
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 114--115
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 118--119
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -3111,7 +3329,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 \item[$\sigma_{rr}$]
+l.119 \item[$\sigma_{rr}$]
                           					Componente da tensão na direção radial
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3147,12 +3365,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 115--116
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 115--116
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 119--120
 \/cmr/m/n/10 ^^Xc~a 
  []
 
@@ -3163,7 +3381,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \item[$\sigma_{zz}$]
+l.120 \item[$\sigma_{zz}$]
                           					Componente da tensão ortogonal ao plano da s...
 
 Try typing  <return>  to proceed.
@@ -3214,17 +3432,17 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 116--117
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 120--121
 \/cmr/m/n/10 ~a
  []
 
 
-Overfull \hbox (9.44446pt too wide) in paragraph at lines 116--117
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 120--121
 \/cmr/m/n/10 ^^Xc~a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 116--117
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 120--121
 \/cmr/m/n/10 ^^Su 
  []
 
@@ -3235,7 +3453,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \item[$\sigmall$]
+l.121 \item[$\sigmall$]
                        						Tensor de tensões
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3255,7 +3473,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 117--119
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 121--123
 \/cmr/m/n/10 ~o 
  []
 
@@ -3266,7 +3484,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \item[$ \nu$]
+l.123 \item[$ \nu$]
                    							Coeficiente de Poisson
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3298,7 +3516,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \item[$ \nu_c$]
+l.124 \item[$ \nu_c$]
                      							Coeficiente de Poisson do revestimento de concreto
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3354,7 +3572,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \item[$\phi$]
+l.125 \item[$\phi$]
                    							Ângulo de atrito plástico
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3380,12 +3598,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 121--122
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 125--126
 []\/cmr/m/n/10 A
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 121--122
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 125--126
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -3396,7 +3614,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 \item[$\phi^{vp}$]
+l.126 \item[$\phi^{vp}$]
                         						Ângulo de atrito viscoplástico
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3427,12 +3645,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 122--123
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 126--127
 []\/cmr/m/n/10 A
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 122--123
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 126--127
 \/cmr/m/n/10 ^^Sa 
  []
 
@@ -3443,7 +3661,99 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \item[$\Umll$]
+l.127 \item[$\psi$]
+                   							Ângulo de dilatação
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 127--128
+[]\/cmr/m/n/10 A
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 127--128
+\/cmr/m/n/10 ^^Xc~a 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \item[$\chi(\theta)$]
+                           					Anisotropia das pressões sobre o revestimento
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 128--129
+\/cmr/m/n/10 ~o
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 \item[$\Umll$]
                     							Tensor identidade de primeira ordem
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3487,10 +3797,10 @@ Missing character: There is no m in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 61 strings out of 473904
- 806 string characters out of 5725657
- 1936908 words of memory out of 5000000
- 23029 multiletter control sequences out of 15000+600000
+ 61 strings out of 473899
+ 806 string characters out of 5726501
+ 1937960 words of memory out of 5000000
+ 23034 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,1n,32p,159b,90s stack positions out of 10000i,1000n,20000p,200000b,200000s

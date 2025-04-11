@@ -17,9 +17,20 @@
   Num\'{e}rica}}.
 Tese (Doutorado) --- Universidade de Coimbra, Coimbra, 1998.}
 
+\bibitem[{ANSYS Inc} 2018]{ANSYS2018b}
+\abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2018a}
+{{ANSYS Inc}. \textbf{{Structural Analysis Guide}}.
+[S.l.], 2018. 454~p.}
+
+\bibitem[{ANSYS Inc} 2018]{ANSYS2018}
+\abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2018b}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{{Theory reference guide}}.
+[S.l.], 2018. 904~p.}
+
 \bibitem[{ANSYS Inc} 2024]{ANSYS}
 \abntrefinfo{{ANSYS Inc}}{{ANSYS Inc}}{2024}
-{{ANSYS Inc}. \textbf{Ansys Product Help - Mechanical APDL}. 2024.
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{Ansys Product Help - Mechanical APDL}.
+  2024.
 Dispon{\'\i}vel em:
   \url{https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/prod\_page.html?pn=Mechanical\%20APDL&prodver=24.2&lang=en}.}
 
@@ -121,6 +132,14 @@ Dispon{\'\i}vel em:
 ISSN 0886-7798.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/S0886779808000606}.}
+
+\bibitem[Chen e Han 1988]{ChenHan1988}
+\abntrefinfo{Chen e Han}{CHEN; HAN}{1988}
+{CHEN, W.~F.; HAN, D.~J. \textbf{{Plasticity for Structural Engineers}}. New
+  York: Springer-Verlag, 1988. 609~p.
+ISBN 978-1-4612-8380-5. Dispon{\'\i}vel em:
+  \url{http://libgen.rs/book/index.php?md5=1BD099ECCC8CD644C33488ED5B6EBA70}.
+  Acesso em: 09 jun. 2021.}
 
 \bibitem[Chortis e Kavvadas 2021]{ChortisKavvadas2021b}
 \abntrefinfo{Chortis e Kavvadas}{CHORTIS; KAVVADAS}{2021a}

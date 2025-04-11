@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="371.9px"
+   height="152.8px"
+   viewBox="0 0.7 371.9 152.8"
+   enable-background="new 0 0.7 371.9 152.8"
+   xml:space="preserve"
+   sodipodi:docname="plane182.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs80" /><sodipodi:namedview
+   id="namedview80"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.1883349"
+   inkscape:cx="197.33494"
+   inkscape:cy="124.96477"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g17"
+   inkscape:export-filename="plane182.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+	<g
+   id="g3">
+		<g
+   id="g1">
+			<polygon
+   fill="#FFFFFF"
+   points="21.6,127.4 18.7,116.5 15.8,127.4    "
+   id="polygon1" />
+		</g>
+		<g
+   id="g2">
+			<line
+   fill="none"
+   stroke="#000000"
+   stroke-linecap="square"
+   x1="18.7"
+   y1="125.4"
+   x2="18.7"
+   y2="145.3"
+   id="line1" />
+			<polygon
+   points="21.6,127.4 18.7,116.5 15.8,127.4    "
+   id="polygon2" />
+		</g>
+	</g>
+	<g
+   id="g7">
+		<g
+   id="g6">
+			<g
+   id="g5">
+				<g
+   id="g4">
+					<text
+   transform="matrix(1.0014 0 0 1 52.832 149.916)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text3">X (or radial)</text>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g
+   id="g16">
+		<g
+   id="g11">
+			<g
+   id="g10">
+				<g
+   id="g9">
+					<g
+   id="g8">
+						<text
+   transform="matrix(1.0014 0 0 1 0 100.0156)"
+   enable-background="new    "
+   id="text8"><tspan
+     x="0"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan7">    </tspan><tspan
+     x="12.2"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan8"> Y</tspan></text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g
+   id="g15">
+			<g
+   id="g14">
+				<g
+   id="g13">
+					<g
+   id="g12">
+						<text
+   transform="matrix(1.0014 0 0 1 0 113.0156)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text11">(or axial)</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g20">
+	<g
+   id="g18">
+		<polygon
+   fill="#FFFFFF"
+   points="37.6,148.2 48.4,145.3 37.6,142.4   "
+   id="polygon17" />
+	</g>
+	<g
+   id="g19">
+		<line
+   fill="none"
+   stroke="#000000"
+   stroke-linecap="square"
+   x1="39.6"
+   y1="145.3"
+   x2="18.7"
+   y2="145.3"
+   id="line18" />
+		<polygon
+   points="37.6,148.2 48.4,145.3 37.6,142.4   "
+   id="polygon18" />
+	</g>
+</g>
+<polygon
+   fill="none"
+   stroke="#000000"
+   points="224,123.9 245.4,13.3 122.7,22.2 72.1,110.2 "
+   id="polygon20" />
+<polyline
+   fill="none"
+   stroke="#000000"
+   points="328.7,54.6 354.9,106.6 284.8,94.3 329.4,54.3 "
+   id="polyline20" />
+<g
+   id="g24">
+	<g
+   id="g23">
+		<g
+   id="g22">
+			<g
+   id="g21">
+				<text
+   transform="matrix(1.0014 0 0 1 138.5869 131.334)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text20">1</text>
+			</g>
+		</g>
+	</g>
+</g>
+<path
+   fill="none"
+   stroke="#000000"
+   d="M135.6,127.6c0-3.4,2.7-6.1,6.1-6.1c3.4,0,6.1,2.7,6.1,6.1s-2.7,6.1-6.1,6.1  S135.6,131,135.6,127.6L135.6,127.6z"
+   id="path24" />
+<path
+   d="M69.2,109.8c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C70.5,112.7,69.2,111.4,69.2,109.8L69.2,109.8z"
+   id="path25" />
+<path
+   d="M220.2,123.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C221.5,126.7,220.2,125.5,220.2,123.9  L220.2,123.9z"
+   id="path26" />
+<path
+   d="M281.8,94.5c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C283.1,97.4,281.8,96.1,281.8,94.5L281.8,94.5z"
+   id="path27" />
+<path
+   d="M325.6,55.2c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9C326.9,58,325.6,56.8,325.6,55.2L325.6,55.2z"
+   id="path28" />
+<path
+   d="M352.1,106.7c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C353.3,109.6,352.1,108.3,352.1,106.7L352.1,106.7z"
+   id="path29" />
+<path
+   d="M119.9,22c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C121.2,24.9,119.9,23.6,119.9,22L119.9,22z"
+   id="path30" />
+<path
+   d="M242.7,13.3c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9s-1.3,2.9-2.9,2.9C243.9,16.2,242.7,14.9,242.7,13.3L242.7,13.3z"
+   id="path31" />
+<g
+   id="g34">
+	<g
+   id="g33">
+		<g
+   id="g32">
+			<g
+   id="g31">
+				<text
+   transform="matrix(1.0014 0 0 1 89.5869 59)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text31">4</text>
+			</g>
+		</g>
+	</g>
+</g>
+<path
+   fill="none"
+   stroke="#000000"
+   d="M86.6,55.3c0-3.4,2.7-6.1,6.1-6.1s6.1,2.7,6.1,6.1c0,3.4-2.7,6.1-6.1,6.1  C89.3,61.4,86.6,58.7,86.6,55.3L86.6,55.3z"
+   id="path34" />
+<g
+   id="g38">
+	<g
+   id="g37">
+		<g
+   id="g36">
+			<g
+   id="g35">
+				<text
+   transform="matrix(1.0014 0 0 1 241.9199 75.3335)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text34">2</text>
+			</g>
+		</g>
+	</g>
+</g>
+<path
+   fill="none"
+   stroke="#000000"
+   d="M238.9,71.6c0-3.4,2.7-6.1,6.1-6.1c3.4,0,6.1,2.7,6.1,6.1s-2.7,6.1-6.1,6.1  C241.6,77.7,238.9,75,238.9,71.6L238.9,71.6z"
+   id="path38" />
+<g
+   id="g42">
+	<g
+   id="g41">
+		<g
+   id="g40">
+			<g
+   id="g39">
+				<text
+   transform="matrix(1.0014 0 0 1 170.5869 11)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text38">3</text>
+			</g>
+		</g>
+	</g>
+</g>
+<path
+   fill="none"
+   stroke="#000000"
+   d="M167.6,7.3c0-3.4,2.7-6.1,6.1-6.1c3.4,0,6.1,2.7,6.1,6.1s-2.7,6.1-6.1,6.1  S167.6,10.7,167.6,7.3L167.6,7.3z"
+   id="path42" />
+<g
+   id="g46">
+	<g
+   id="g45">
+		<g
+   id="g44">
+			<g
+   id="g43">
+				<text
+   transform="matrix(1.0014 0 0 1 113.7876 16.1211)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text42">L</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g50">
+	<g
+   id="g49">
+		<g
+   id="g48">
+			<g
+   id="g47">
+				<text
+   transform="matrix(1.0014 0 0 1 251.4541 14.7881)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text46">K</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g54">
+	<g
+   id="g53">
+		<g
+   id="g52">
+			<g
+   id="g51">
+				<text
+   transform="matrix(1.0014 0 0 1 61.7876 115.7881)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text50">I</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g58">
+	<g
+   id="g57">
+		<g
+   id="g56">
+			<g
+   id="g55">
+				<text
+   transform="matrix(1.0014 0 0 1 228.1211 131.4551)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text54">J</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g62">
+	<g
+   id="g61">
+		<g
+   id="g60">
+			<g
+   id="g59">
+				<text
+   transform="matrix(1.0014 0 0 1 319.1211 46.4546)"
+   enable-background="new    "
+   id="text59"><tspan
+     x="0"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan58">K, </tspan><tspan
+     x="13.4"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan59">L</tspan></text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g66">
+	<g
+   id="g65">
+		<g
+   id="g64">
+			<g
+   id="g63">
+				<text
+   transform="matrix(1.0014 0 0 1 275.7881 96.1211)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text62">I</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g70">
+	<g
+   id="g69">
+		<g
+   id="g68">
+			<g
+   id="g67">
+				<text
+   transform="matrix(1.0014 0 0 1 361.7881 110.7881)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text66">J</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="g80">
+	<g
+   id="g75">
+		<g
+   id="g74">
+			<g
+   id="g73">
+				<g
+   id="g72">
+					<text
+   transform="matrix(1.0014 0 0 1 273.7871 136.916)"
+   enable-background="new    "
+   id="text72"><tspan
+     x="0"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan70">(</tspan><tspan
+     x="3.7"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan71">T</tspan><tspan
+     x="10"
+     y="0"
+     font-family="'ArialMT'"
+     font-size="11"
+     id="tspan72">riangular Option - </tspan></text>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g
+   id="g79">
+		<g
+   id="g78">
+			<g
+   id="g77">
+				<g
+   id="g76">
+					<text
+   transform="matrix(1.0014 0 0 1 273.7871 149.916)"
+   font-family="'ArialMT'"
+   font-size="11"
+   id="text75">not recommended)</text>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

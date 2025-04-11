@@ -21,7 +21,9 @@ Para as análises considerando um único túnel, é utilizada a condição de ax
 	\sigmall_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
 \end{equation}
 
-Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR_1$, $mL_{x_1}$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. Para simular o ciclo construtivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme \autoref{dominioaxidetalhe}.%As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
+Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR_1$, $mL_{x_1}$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. Para simular o ciclo construtivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme ilustra a \autoref{dominioaxidetalhe}.%As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
+
+
 
 \begin{figure}[H]
 	\begin{center}
@@ -35,6 +37,15 @@ Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y
 		\includegraphics[scale=0.95]{0402_dominioaxidetalhe.pdf}
 	\end{center}
 	\caption{\label{dominioaxidetalhe}Detalhe dos parâmetros que envolvem a escavação e colocação do revestimento}
+\end{figure}
+
+No modelo axissimétrico, é utilizado o elemento finito PLANE182, que consiste em um elemento bidimensional quadrilátero com quatro nós, cada um com dois graus de liberdade, ou seja, deslocamentos nas direções radial e axial, como indica a \autoref{plane182}. Esse elemento possui funções de interpolação lineares e é apropriado para utilização em condições axissimétricas.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.9]{plane182.pdf}
+	\end{center}
+	\caption{\label{plane182}Elemento PLANE182 \cite{ANSYS}}
 \end{figure}
 
 A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo axissimétrico utilizado nas análises durante esse estudo.
@@ -109,7 +120,7 @@ No entanto, essa abordagem implica certas limitações na representação das co
 	\begin{center}
 		\includegraphics[scale=0.09]{0403_dominio3D_2.pdf}
 	\end{center}
-	\caption{\label{dominio3D_2}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos com galeria (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{dominio3D_2}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos com galeria. Adaptado de \citeonline{Colombo2023}}
 \end{figure} 
 
 Para as análises considerando túneis gêmeos sem galeria transversal, realizou-se uma adaptação do modelo tridimensional original. A região de refinamento que continha a galeria foi removida, conforme ilustrado na \autoref{dominio3D_2}, mantendo-se apenas a modelagem do túnel longitudinal.
@@ -118,7 +129,7 @@ Para as análises considerando túneis gêmeos sem galeria transversal, realizou
 	\begin{center}
 		\includegraphics[scale=0.09]{0403_dominio3D_1.pdf}
 	\end{center}
-	\caption{\label{dominio3D_1}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos sem galeria (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{dominio3D_1}Malha, dimensões e condições de contorno do domínio dos túneis gêmeos sem galeria. Adaptado de \citeonline{Colombo2023}}
 \end{figure} 
 
 As figuras a seguir apresentam detalhamentos da geometria e discretização da malha de elementos finitos do túnel longitudinal e da galeria transversal. A \autoref{detalhestunelegaleria} apresenta um detalhamento da região próxima à seção transversal do túnel longitudinal, que consta no plano $xy$, sendo $R_t$ o raio do túnel e $e_t$ a espessura da parede do revestimento, em azul. Será apresentado apenas o domínio com espaçamento entre os túneis longitudinais de $4 R_t$, uma vez que as análises preliminares foram realizadas a partir dele. 
@@ -127,7 +138,7 @@ As figuras a seguir apresentam detalhamentos da geometria e discretização da m
 	\begin{center}
 		\includegraphics[scale=0.8]{0404_detalhetunellongitudinal.pdf}
 	\end{center}
-	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal (adaptado de \citeonline{Colombo2023})}
+	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal. Adaptado de \citeonline{Colombo2023}}
 \end{figure}
 
 Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à galeria, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em que é feita a transição entre a malha livre de tetraedros e a malha mapeada de hexaedros do restante do domínio.
