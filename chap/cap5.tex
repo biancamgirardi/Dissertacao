@@ -21,7 +21,7 @@ Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram 
 	\begin{center}
 		\includegraphics[scale=1]{0407_dominioGuo.pdf}
 	\end{center}
-	\caption{\label{dominioguo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021})}
+	\caption{\label{dominioguo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021}}
 \end{figure}
 
 Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2,2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0,23.
@@ -44,7 +44,7 @@ A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto 
 	\caption{\label{GUOrelacaoUBUA}Ilustração da anisotropia de deformação da parede do túnel induzida pela proximidade de túneis gêmeos}
 \end{figure}
 
-Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução numérica do modelo tridimensional utilizado nesse estudo. O parâmetro de comparação é o fator de concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v}$ calculado na parede do túnel (ponto A) para diversos espaçamentos $d_1/2R_t$ entre os eixos dos túneis. As soluções desenvolvidas por \citeonline{Guoetal2021} foram comparadas com as soluções analíticas de \citeonline{Ling1948} que também estão presentes nessa figura. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = -25$, considerada suficiente para que as condições de deformação plana se estabeleçam. É apresentada também a solução analítica em deformações planas para um túnel isolado, em que a concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v} = 2$.
+Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução numérica do modelo tridimensional utilizado nesse estudo. O parâmetro de comparação é o fator de concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v}$ calculado na parede do túnel (ponto A) para diversos espaçamentos $d_1/2R_t$ entre os eixos dos túneis. As soluções desenvolvidas por \citeonline{Guoetal2021} foram comparadas com as soluções analíticas de \citeonline{Ling1948}, que também estão presentes nessa figura. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = -25$, considerada suficiente para que as condições de deformação plana se estabeleçam. É apresentada também a solução analítica em deformações planas para um túnel isolado, em que a concentração de tensão tangencial é $\sigma_{\theta\theta} / \sigma_{v} = 2$.
 
 \begin{figure}[H]
 	\begin{center}
@@ -53,7 +53,7 @@ Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entr
 	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}
 \end{figure}
 
-As soluções numéricas considerando o maciço elástico apresentaram resultados muito próximos da solução analítica de \citeonline{Ling1948}, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima sutilmente a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
+As soluções numéricas considerando o maciço elástico apresentaram resultados muito próximos da solução analítica de \citeonline{Ling1948}, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
 
 \section{Verificação com solução analítica em elastoplasticidade}
 
@@ -79,7 +79,7 @@ As simulações numéricas desta seção também foram realizadas para os modelo
 %	\caption{\label{MAperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
 %\end{figure}
 
-Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribuição de tensão longe da face do túnel obtida através das simulações numéricas pelo MEF para uma distância normalizada $d_1/2R_t$ = 2,5 entre os túneis gêmeos, considerando os critérios de DPII (a) e MC (b), e a solução de tensão aproximada de \citeonline{Maetal2020}. É possível perceber que o comportamento das soluções numérica e analítica são muito semelhantes, e uma diferença muito pequena entre as zonas plásticas do modelo de Mohr-Coulomb e Drucker-Prager.
+Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribuição de tensão longe da face do túnel obtida através das simulações numéricas pelo MEF para uma distância normalizada $d_1/2R_t$ = 2,5 entre os túneis gêmeos, considerando os critérios de DPII (a), MC (b) e a solução de tensão aproximada de \citeonline{Maetal2020}. É possível perceber que o comportamento das soluções numérica e analítica são muito semelhantes, com uma diferença muito pequena entre as zonas plásticas do modelo de Mohr-Coulomb e Drucker-Prager.
 
 \begin{figure}[H]
 	\begin{center}
@@ -97,7 +97,7 @@ A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucke
 	\caption{\label{MADPIItensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação	entre simulações numérica e analítica - critério Drucker-Prager}
 \end{figure}
 
-Da mesma forma, a \autoref{MAMCtensao} demonstra a distribuição dos componentes de tensão radial e ortorradial considerando o critério de Mohr-Coulomb. Nesse caso, percebe-se uma diferença menos significativa na comparação entre a solução analítica apresentada por \citeonline{Maetal2020} e a solução numérica encontrada via Método dos Elementos Finitos utilizado neste estudo.
+Da mesma forma, a \autoref{MAMCtensao} demonstra a distribuição dos componentes de tensão radial e ortorradial considerando o critério de Mohr-Coulomb. Nesse caso, percebe-se uma diferença menos significativa na comparação entre a solução analítica apresentada por \citeonline{Maetal2020} e a solução numérica encontrada via Método dos Elementos Finitos, utilizado neste estudo.
 
 \begin{figure}[H]
 	\begin{center}

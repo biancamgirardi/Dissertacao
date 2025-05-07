@@ -92,7 +92,7 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio, escava�
 
 \section{Modelo tridimensional}
 
-Antes de apresentar a modelagem tridimensional do problema, é fundamental compreender a configuração geométrica do domínio analisado. A \autoref{dominio_montanha} ilustra a representação esquemática do domínio $\Omega$, que inclui os túneis gêmeos interligados por uma galeria transversal. Esse modelo visa capturar os efeitos da interação entre as estruturas escavadas e o maciço circundante, considerando aspectos como a posição relativa dos túneis, a localização da galeria e as condições de contorno aplicadas à simulação numérica.
+Antes de apresentar a modelagem tridimensional do problema, é fundamental compreender a configuração geométrica do domínio analisado. A \autoref{dominio_montanha} ilustra a representação esquemática do domínio $\Omega$, que inclui os túneis gêmeos interligados por uma galeria transversal. Esse modelo visa capturar os efeitos da interação entre as estruturas escavadas e o maciço circundante, considerando aspectos como a posição relativa dos túneis, a localização da galeria e as condições de contorno aplicadas à simulação numérica. 
 
 \begin{figure}[H]
 	\begin{center}
@@ -136,27 +136,27 @@ As figuras a seguir apresentam detalhamentos da geometria e discretização da m
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.8]{0404_detalhetunellongitudinal.pdf}
+		\includegraphics[scale=1]{0404_detalhetunellongitudinal.pdf}
 	\end{center}
-	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal. Adaptado de \citeonline{Colombo2023}}
+	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal.}
 \end{figure}
 
 Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à galeria, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em que é feita a transição entre a malha livre de tetraedros e a malha mapeada de hexaedros do restante do domínio.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1.2]{0405_detalhegaleria.pdf}
+		\includegraphics[scale=1]{0405_detalhegaleria.pdf}
 	\end{center}
-	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria. Adaptado de \citeonline{Colombo2023}}
+	\caption{\label{detalhamentogaleria}Detalhamento da galeria transversal. Esquerda: vista da região de encontro entre o túnel longitudinal e a galeria no plano de simetria $y = 0$; Direita: detalhe da malha de elementos finitos na seção transversal da galeria.}
 \end{figure}
 
 Ressalta-se que os elementos tetraédricos usados para a discretização das regiões internas ao túnel longitudinal e transversal se encaixam no comprimento do passo de escavação. A \autoref{transicaogaleriaetunel} apresenta uma vista isométrica da malha de elementos finitos da região de transição e também da zona de interseção dos revestimentos do túnel longitudinal (em azul) e da galeria transversal (em vermelho).
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1]{0406_vistasisometricas.pdf}
+		\includegraphics[scale=1.3]{0410_intersecaorevestimento.pdf}
 	\end{center}
-	\caption{\label{transicaogaleriaetunel}Esquerda: vista isométrica da zona de transição no maciço; Direita: vista isométrica da zona de intersecção do revestimento túnel/galeria. Adaptado de \citeonline{Colombo2023}}
+	\caption{\label{transicaogaleriaetunel}Vista isométrica da zona de intersecção do revestimento do túnel e da galeria.}
 \end{figure}
 
 A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavação e instalação do revestimento para o modelo tridimensional utilizado neste estudo.
@@ -210,7 +210,7 @@ Inúmeros fatores influenciam no custo computacional de modelos tridimensionais 
 
 Os parâmetros utilizados para caracterizar o maciço rochoso e o revestimento dos túneis longitudinais e da galeria transversal nas análises deste estudo se referem a uma argila profunda localizada na região leste da Bacia de Paris, na França (mais especificamente em Aisne). Esses materiais foram estudados nos trabalhos de \citeonline{Piepi1995}, \citeonline{Rousset1988}, \citeonline{Giraud1996} e \citeonline{Giraud1993}. Nestes estudos, as propriedades elastoplásticas e viscoplásticas foram determinadas e ajustadas com base em uma ampla série de ensaios laboratoriais conduzidos sob condições não drenadas. %As argilitas de Aisne destacam-se por sua alta densidade (variando entre 2,01 e 2,57 g/cm³), baixo teor de umidade (de 3\% a 11\%) e porosidade reduzida (geralmente abaixo de 20\%).
 
-Para o revestimento de concreto, é importante ressaltar que nas análises com comportamento elástico, o módulo de elasticidade do concreto é assumido como o próprio módulo de elasticidade $E_{c28}$. Por outro lado, para o comportamento viscoelástico do revestimento, o módulo de relaxação varia no tempo conforme o modelo Kelvin generalizado descrito no capítulo 3.
+Para o revestimento de concreto, é importante ressaltar que nas análises com comportamento elástico, o módulo de elasticidade do concreto é assumido como o próprio módulo de elasticidade $E_{c28}$. Por outro lado, para o comportamento viscoelástico do revestimento, o módulo de relaxação varia no tempo conforme o modelo Kelvin generalizado descrito no Capítulo 3.
 
 No processo de construção, cada segmento do suporte inicia sua resposta mecânica (carregamento e fluência) no instante $t_0 =$ 1 dia, idade referente ao momento em que o elemento de revestimento é ativado com suas propriedades. Contudo, os efeitos de retração são incorporados ao modelo somente a partir de $t_s =$ 7 dias.
 
@@ -264,7 +264,7 @@ Nas análises de deformação dos túneis, o revestimento de concreto é tradici
 
 A partir da equação e considerando que a espessura do revestimento tanto da galeria quanto do túnel longitudinal equivalem a $0,05R_t$, obtém-se a rigidez do revestimento $K_{c_{28}}=1359,80$ MPa. Com o intuito de obter um módulo de elasticidade próximo aos módulos comumente utilizados em concreto projetado, adotou-se a resistência característica à compressão na idade de 28 dias ($f_{ck}$) de 8 MPa.
 
-Os parâmetros foram utilizados para as análises que serão apresentadas a partir do capítulo 6, referentes ao estudo da influência das propriedades dos materiais no comportamento instantâneo e diferido com diversos cenários: inicialmente um túnel isolado, em seguida túneis gêmeos, e por fim túneis gêmeos interligados por uma galeria transversal.
+Os parâmetros foram utilizados para as análises que serão apresentadas a partir do Capítulo 6, referentes ao estudo da influência das propriedades dos materiais no comportamento instantâneo e diferido com diversos cenários: inicialmente um túnel isolado, em seguida túneis gêmeos, e por fim túneis gêmeos interligados por uma galeria transversal.
 
 % ---
 
