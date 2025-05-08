@@ -36,7 +36,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10727 items.
+Reallocating 'field_info' (item size: 4) to 10865 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
@@ -47,9 +47,9 @@ You're missing a field name---line 1109 of file ./bib/referencias.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Teixeira1994" isn't style-file defined
---line 1385 of file ./bib/referencias.bib
+--line 1417 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1485 of file ./bib/referencias.bib
+--line 1517 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -59,45 +59,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 83 entries,
+You've used 85 entries,
             6714 wiz_defined-function locations,
-            1727 strings with 25057 characters,
-and the built_in function-call counts, 88027 in all, are:
-= -- 8800
-> -- 2241
-< -- 1590
-+ -- 2406
-- -- 675
-* -- 5889
-:= -- 11382
-add.period$ -- 296
-call.type$ -- 84
-change.case$ -- 793
-chr.to.int$ -- 156
-cite$ -- 78
-duplicate$ -- 7510
-empty$ -- 4424
-format.name$ -- 3328
-if$ -- 18448
+            1740 strings with 25328 characters,
+and the built_in function-call counts, 89266 in all, are:
+= -- 8877
+> -- 2273
+< -- 1595
++ -- 2416
+- -- 685
+* -- 5972
+:= -- 11559
+add.period$ -- 302
+call.type$ -- 86
+change.case$ -- 807
+chr.to.int$ -- 164
+cite$ -- 80
+duplicate$ -- 7588
+empty$ -- 4526
+format.name$ -- 3374
+if$ -- 18730
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 1430
-newline$ -- 422
-num.names$ -- 391
-pop$ -- 1662
+missing$ -- 1463
+newline$ -- 432
+num.names$ -- 401
+pop$ -- 1700
 preamble$ -- 1
-purify$ -- 314
+purify$ -- 320
 quote$ -- 0
-skip$ -- 7655
+skip$ -- 7722
 stack$ -- 1
-substring$ -- 3374
-swap$ -- 2789
-text.length$ -- 66
+substring$ -- 3434
+swap$ -- 2821
+text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 45
 warning$ -- 0
-while$ -- 525
+while$ -- 540
 width$ -- 0
-write$ -- 1241
+write$ -- 1272
 (There was 1 error message)
