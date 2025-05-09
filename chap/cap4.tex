@@ -21,7 +21,7 @@ Para as análises considerando um único túnel, é utilizada a condição de ax
 	\sigmall_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)
 \end{equation}
 
-Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mLy2$, $mR_1$, $mL_{x_1}$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. Para simular o ciclo construtivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme ilustra a \autoref{dominioaxidetalhe}.%As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
+Nesse modelo, o eixo longitudinal do túnel está localizado ao longo do eixo $y$, enquanto que o eixo $x$ representa a direção radial. O domínio possui dimensões $L_y \times L_x$, sendo $L_y$ e $L_x$ os comprimentos longitudinal e radial, respectivamente. O parâmetro $R_1$ representa o raio da região de refinamento próxima ao túnel, onde o gradiente das deformações são maiores, $L_{x1}$ corresponde ao trecho do raio além da região próxima ao túnel, $L_{y1}$ e $L_{y2}$ são os comprimentos do trecho escavado e não escavado, respectivamente. O raio da interface entre o túnel e o maciço é representado por $R_t$, e a espessura do revestimento por $e_{t}$. Ainda, $L_{pt}$ é o comprimento do passo de escavação e $n_{pt}$ representa a quantidade de passos escavados, sendo $y_f$ a cota da face de escavação e $y_r$ a cota do último revestimento adicionado. A diferença entre essas cotas representa a distância não revestida $d_0$. Os demais parâmetros $nL_{y_1}$, $nL_{y_2}$, $nR_1$, $nL_{x_1}$, $nL_{pt}$, $nR_v$, $ne_t$ representam a quantidade de elementos nas respectivas dimensões e $mL_{y_2}$, $mL_{x}$ representam a razão entre o tamanho dos elementos extremos da respectiva dimensão. Para simular o ciclo construtivo de escavação e instalação do revestimento, utiliza-se o recurso de ativação e desativação de elementos em cada passo de escavação, conforme ilustra a \autoref{dominioaxidetalhe}.%As condições iniciais são representadas pelas pressões nas fronteiras $\sigma_v$ e $\sigma_h$ e tensões internas $\sigma_0 = -\sigma_v ~ \underline{e}_r \otimes \underline{e}_r - \sigma_h (\Umll - \underline{e}_y \otimes \underline{e}_y)$.
 
 No modelo axissimétrico, é utilizado o elemento finito PLANE182, que consiste em um elemento bidimensional quadrilátero com quatro nós, cada um com dois graus de liberdade, ou seja, deslocamentos nas direções radial e axial, como indica a \autoref{plane182}. Esse elemento possui funções de interpolação lineares e é apropriado para utilização em condições axissimétricas.
 
@@ -76,7 +76,7 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio e discre
 		\hline
 		\multicolumn{4}{l}{Escavação e colocação do revestimento} \\
 		\hline				
-		Tamanho do passo de escavação & $L_p$ & m & $\dfrac{1}{3} R_t$ \\
+		Tamanho do passo de escavação & $L_p$ & m & $\frac{1}{3} R_t$ \\
 		Dimensão não suportada & $d_{0t}$ & m & $2L_{pt}$ \\
 		\hline
 		\multicolumn{4}{l}{Discretização} \\
@@ -157,7 +157,7 @@ As Figuras \ref{detalhestunelegaleria} e \ref {detalhamentogaleria} e \ref{trans
 	\caption{\label{detalhestunelegaleria}Detalhe da malha de elementos finitos na seção transversal do túnel longitudinal.}
 \end{figure}
 
-Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à galeria, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em que é feita a transição entre a malha livre de tetraedros e a malha mapeada de hexaedros do restante do domínio.
+Na \autoref{detalhamentogaleria}, mostra-se em detalhe a malha de elementos finitos na região próxima à galeria, juntamente com os parâmetros $R_g$ e $e_g$ que correspondem ao raio da seção transversal e à espessura do revestimento da galeria (em vermelho), respectivamente. Nesses detalhes, $d_5$ corresponde à distância na direção $\underline{e}_z$ adjacente à galeria em que é feita a transição entre a malha livre de tetraedros e a malha mapeada de hexaedros do restante do domínio e $d_6$ à distância na direção $\underline{e}_y$ a partir do raio da galeria.
 
 \begin{figure}[H]
 	\begin{center}
@@ -170,7 +170,7 @@ Ressalta-se que os elementos tetraédricos usados para a discretização das reg
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1.4]{0410_intersecaorevestimento.pdf}
+		\includegraphics[scale=1.3]{0410_intersecaorevestimento.pdf}
 	\end{center}
 	\caption{\label{transicaogaleriaetunel}Vista isométrica da zona de intersecção do revestimento do túnel e da galeria.}
 \end{figure}
@@ -253,11 +253,15 @@ A \autoref{tabela3D_2} apresenta a discretização do domínio do modelo tridime
 		\makecell[l]{Elementos na espessura do revestimento do \\ túnel longitudinal} & $ne_t$ & un & 1 \\
 		\makecell[l]{Elementos na espessura do revestimento da \\ galeria} & $ne_g$ & un & 1 \\
 		\makecell[l]{Elementos na interface entre maciço e o revestimento \\ do túnel longitudinal} & $nC_{R_t}$ & un & 16 \\ 
-		Elementos na distância $d_1$ & $nd_1$ & un & 9 \\
-		?? $d_1$ & $md_1$ & adm & 5 \\
-		Elementos na direção vertical $d_3$ & $nd_3$ & un & $nC_{R_t}$/2 \\
-		Elementos na distância $d_4$ & $nd_4$ & un & 12 \\
-		?? $d_4$ & $md_4$ & adm & 6 \\
+		Elementos na dimensão $d_1$ & $nd_1$ & un & 9 \\
+		Razão entre o maior e o menor elemento na dimensão $d_1$ & $md_1$ & adm & 5 \\
+		Elementos na dimensão $d_3$ & $nd_3$ & un & $nC_{R_t}$/2 \\
+		Elementos na dimensão $d_4$ & $nd_4$ & un & 12 \\
+		Razão entre o maior e o menor elemento na dimensão $d_4$ & $md_4$ & adm & 6 \\
+		Elementos na dimensão $d_5$ & $nd_5$ & un & 8 \\
+		Razão entre o maior e o menor elemento na dimensão $d_5$ & $md_5$ & adm & 1 \\	
+		Elementos na dimensão $d_6$ & $nd_6$ & un & $2nd_1$ \\
+		Razão entre o maior e o menor elemento na dimensão $d_6$ & $md_6$ & adm & $md_1$ \\	
 		\hline
 	\end{tabular}
 	\normalsize
@@ -280,6 +284,8 @@ Nas análises de deformação dos túneis, o revestimento de concreto é tradici
 \end{equation}
 
 A partir da \autoref{equacaorigidez} e considerando que a espessura do revestimento tanto da galeria quanto do túnel longitudinal equivalem a $0.05R_t$, obtém-se a rigidez do revestimento $K_{c_{28}}=1359.80$ MPa. Com o intuito de obter um módulo de elasticidade próximo aos módulos comumente utilizados em concreto projetado, adotou-se a resistência característica à compressão na idade de 28 dias ($f_{ck}$) de 8 MPa.
+
+Os parâmetros da \autoref{parametrosconstitutivosaplicacoes} foram utilizados para as análises que serão apresentadas a partir do Capítulo 6, referentes ao estudo da influência das propriedades dos materiais no comportamento instantâneo e diferido com diversos cenários: inicialmente um túnel isolado, em seguida túneis gêmeos, e por fim túneis gêmeos interligados por uma galeria transversal.
 
 \begin{table}[H]
 	\caption{\label{parametrosconstitutivosaplicacoes} Parâmetros constitutivos utilizados nas análises numéricas}
@@ -322,8 +328,6 @@ A partir da \autoref{equacaorigidez} e considerando que a espessura do revestime
 	\end{tabular}
 	\normalsize
 \end{table}
-
-Os parâmetros da \autoref{parametrosconstitutivosaplicacoes} foram utilizados para as análises que serão apresentadas a partir do Capítulo 6, referentes ao estudo da influência das propriedades dos materiais no comportamento instantâneo e diferido com diversos cenários: inicialmente um túnel isolado, em seguida túneis gêmeos, e por fim túneis gêmeos interligados por uma galeria transversal.
 
 % ---
 

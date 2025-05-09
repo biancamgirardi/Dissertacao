@@ -33,7 +33,7 @@ O modelo reológico viscoelástico é descrito mediante uma cadeia de Kelvin gen
 	As equações constitutivas do revestimento de concreto, relacionando as taxas de tensão e deformação, são expressas por:
 	
 	\begin{equation}
-\dot \sigmall = \Dllll : \dot \varepsilonll^e = \dot \varepsilonll - \Dllll : \dot \varepsilonll^{sh} - \Dllll^{\ast} : \dot \varepsilonll^{cr},
+\dot \sigmall = \Dllll : \dot \varepsilonll^e = \Dllll : \dot \varepsilonll - \Dllll : \dot \varepsilonll^{sh} - \Dllll^{\ast} : \dot \varepsilonll^{cr},
 \end{equation}
 
 onde $\dot \varepsilonll^{sh}$ corresponde à taxa de deformação por retração (\textit{shrinkage}) e $\dot \varepsilonll^{cr}$ à taxa de deformação por fluência (\textit{creep}). Ainda, os tensores de quarta ordem $\Dllll$ e $\Dllll^{\ast}$ se referem ao tensor constitutivo isotrópico elástico linear e ao tensor constitutivo modificado que incorpora as propriedades viscoelásticas de envelhecimento do concreto, respectivamente. No algoritmo incremental de solução, a equação acima pode ser escrita na seguinte forma:
