@@ -24,7 +24,7 @@ Sob as condições de deformação plana, \citeonline{Guoetal2021} investigaram 
 	\caption{\label{dominioguo}Geometria e carregamento dos túneis gêmeos estudados por \citeonline{Guoetal2021}}
 \end{figure}
 
-Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 metros, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2.2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0.23.
+Para fins de comparação, as simulações numéricas foram realizadas no modelo axissimétrico (túnel isolado) e no modelo tridimensional, sendo o último com o objetivo de investigar os efeitos da proximidade dos túneis gêmeos. Quanto aos parâmetros, adotou-se o raio dos túneis longitudinais ($R_t$) de 4 m, tensões iniciais isotrópicas $\sigma_h = \sigma_v$ = 2.2 MPa e diferentes distâncias entre os eixos longitudinais dos túneis, $d_1 = 3R_t$ , $d_1 = 4R_t$ , $d_1 = 5R_t$ e $d_1 = 6R_t$. Para o maciço, utilizou-se o módulo de Young ($E$) de 500 MPa e coeficiente de Poisson ($\nu$) de 0.23.
 
 A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel $z/R_t = 0$. As curvas de convergência, dadas por $U_B = -u_y(B)/R_t$ , referem-se a diferentes distâncias entre os eixos dos túneis gêmeos normalizadas $d_1/2R_t$, e também ao túnel isolado, representado pela curva tracejada. Para essa configuração de túnel único em elasticidade, a convergência longe da face é obtida através da seguinte solução analítica: $U = \sigma_v(1+\nu)/E$. Os resultados obtidos apontam que, quanto maior a proximidade entre os túneis longitudinais, maior será a convergência no teto dos túneis.
 
@@ -35,7 +35,7 @@ A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto 
 	\caption{\label{GUOperfilconvergenciaUB}Perfis de convergência no teto do túnel (ponto B)}
 \end{figure}
 
-É possível verificar a anisotropia da deformação induzida pela proximidade dos túneis gêmeos na \autoref{GUOrelacaoUBUA}, que ilustra a razão $U_B/U_A = u_y(B)/u_x(A)$, sendo $u_x(A)$ e $u_y(B)$ os deslocamentos horizontal na parede lateral e vertical no teto do túnel, respectivamente. É importante ressaltar que os resultados apresentados nessa figura correspondem a uma seção do túnel localizada longe da face de escavação, na distância normalizada $z/R_t = -25$. Destaca-se a ovalização significativa causada pela proximidade entre os túneis, que aumenta à medida que a distância $d_1/2R_t$ diminui.
+É possível observar a anisotropia da deformação induzida pela proximidade dos túneis gêmeos na \autoref{GUOrelacaoUBUA}, que ilustra a razão $U_B/U_A = u_y(B)/u_x(A)$, sendo $u_x(A)$ e $u_y(B)$ os deslocamentos horizontal na parede lateral e vertical no teto do túnel, respectivamente. É importante ressaltar que os resultados apresentados nessa figura correspondem a uma seção do túnel localizada longe da face de escavação, na distância normalizada $z/R_t = -25$. Destaca-se a ovalização significativa causada pela proximidade entre os túneis, que aumenta à medida que a distância $d_1/2R_t$ diminui.
 
 \begin{figure}[H]
 	\begin{center}
@@ -46,14 +46,14 @@ A \autoref{GUOperfilconvergenciaUB} apresenta o perfil de convergência no teto 
 
 Ainda, a \autoref{GUOfatordeconcentracaotangencialA} ilustra a comparação entre as soluções numéricas e analíticas presentes em \citeonline{Guoetal2021} e a solução numérica do modelo tridimensional utilizado nesse estudo. O parâmetro de comparação é o fator de concentração de tensão tangencial $\sigma_{\theta\theta} / \sigma_{v}$ calculado na parede do túnel (ponto A) para diversos espaçamentos $d_1/2R_t$ entre os eixos dos túneis. As soluções desenvolvidas por \citeonline{Guoetal2021} foram comparadas com as soluções analíticas de \citeonline{Ling1948}, que também estão presentes nessa figura. Os resultados das simulações em elementos finitos correspondem a uma seção localizada longe da face do túnel $z/R_t = -25$, considerada suficiente para que as condições de deformação plana se estabeleçam. É apresentada também a solução analítica em deformações planas para um túnel isolado, em que a concentração de tensão tangencial é $\sigma_{\theta\theta} / \sigma_{v} = 2$.
 
+As soluções numéricas realizadas a partir do MEF, considerando o maciço elástico, apresentaram resultados coerentes com a solução analítica de \citeonline{Ling1948}, com diferenças menores que 1\% nas distâncias entre os túneis analisadas. A solução analítica proposta por \citeonline{Guoetal2021} superestima a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta, sendo a maior diferença um aumento de 8.07\% para $d_1/2R_t = 1.5$ em relação à solução numérica pelo MEF.
+
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=0.8]{0410_GUOfatordeconcentracaotangencialA.pdf}
 	\end{center}
 	\caption{\label{GUOfatordeconcentracaotangencialA}Fator de concentração de tensão tangencial na parede lateral do túnel (ponto A) em função da distância entre os túneis gêmeos}
 \end{figure}
-
-As soluções numéricas considerando o maciço elástico apresentaram resultados muito próximos da solução analítica de \citeonline{Ling1948}, com exceção da solução analítica proposta por \citeonline{Guoetal2021}, que superestima a tensão tangencial calculada na parede lateral do túnel ao passo que a distância entre os túneis gêmeos aumenta.
 
 \section{Verificação com solução analítica em elastoplasticidade}
 
@@ -68,7 +68,7 @@ As soluções numéricas considerando o maciço elástico apresentaram resultado
 
 Para efeitos de comparação da solução, no modelo tridimensional desse trabalho foram realizadas análises em elasticidade e elastoplasticidade perfeita, sendo que nesse último caso foram adotados modelos constitutivos de Mohr-Coulomb (MC) e Drucker-Prager inscrito em Mohr-Coulomb (DPII), ambos com regra de fluxo plástico associada. Além disso, cabe ressaltar que na solução analítica das tensões proposta por \citeonline{Maetal2020} é considerada a hipótese de que as zonas plásticas no entorno de cada túnel englobam completamente as suas bordas, sem que as zonas de ambos os túneis se conectem.
 
-As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 metros e as tensões iniciais $\sigma_h$ = 40 MPa e $\sigma_v$ = 30 MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0.3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
+As simulações numéricas desta seção também foram realizadas para os modelos axissimétrico e tridimensional. Neste estudo, o raio dos túneis longitudinais é igual a 1 m, a distância entre os eixos dos túneis igual a 5 m e as tensões iniciais $\sigma_h$ = 40 MPa e $\sigma_v$ = 30 MPa. Ainda, o módulo de Young e o coeficiente de Poisson do maciço foram considerados de 20 GPa e 0.3, respectivamente, o ângulo de atrito de 30° e a coesão de 5 MPa.
 
 %A \autoref{MAperfilconvergenciaUB} apresenta as curvas de convergência obtidas no teto do túnel (ponto B) em função da distância longitudinal normalizada até a face do túnel $z/R_t$ . As curvas tracejadas se referem às análises em axissimetria, simulando um túnel isolado ($d_1 \rightarrow \infty$). Nota-se que a proximidade dos túneis gêmeos aumenta significativamente a convergência no teto do túnel. As análises realizadas considerando o modelo com DPII apresentaram valores de convergência ligeiramente menores que as análises com MC.
 
@@ -88,7 +88,7 @@ Para fins de comparação, a \autoref{MAMCzonasplasticas} apresenta a distribui�
 	\caption{\label{MAMCzonasplasticas}Extensão da zona plástica obtida com as simulações numéricas do presente estudo e a solução analítica fornecida por \citeonline{Maetal2020}. a) Drucker-Prager; b) Mohr-Coulomb}
 \end{figure}
 
-A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45°, 90° e 135°. Verifica-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90°.
+A \autoref{MADPIItensao} apresenta, considerando o modelo constitutivo de Drucker-Prager, os gráficos das componentes de tensão radial ($\sigma_{rr}$) e ortorradial ($\sigma_{\theta\theta}$) ao longo de três caminhos na direção radial estabelecidos por coordenadas polares, em que $\theta$ adquire os valores de 45°, 90° e 135°. Nota-se uma grande aproximação das curvas das soluções numérica e analítica, com uma pequena diferença no resultado de $\sigma_{\theta\theta}$ para a condição $\theta$ = 90°.
 
 \begin{figure}[H]
 	\begin{center}
@@ -106,7 +106,46 @@ Da mesma forma, a \autoref{MAMCtensao} demonstra a distribuição dos componente
 	\caption{\label{MAMCtensao}Distribuição dos componentes de tensão radial e ortorradial ao longo de diferentes direções radiais: comparação entre simulações numérica e analítica - critério Mohr-Coulomb}
 \end{figure}
 
-Os resultados demonstram que a solução analítica pode ser adequadamente reproduzida por meio de modelagem numérica utilizando a aproximação de Drucker-Prager inscrito em Mohr-Coulomb. Essa equivalência numérica valida a consistência entre as abordagens analítica e computacional, evidenciando que o modelo Drucker-Prager, quando devidamente calibrado, é capaz de capturar os mesmos mecanismos de ruptura previstos pelo modelo de Mohr-Coulomb. Tal correspondência reforça a confiabilidade da simulação numérica para análises de estabilidade em problemas geotécnicos, especialmente em casos onde a implementação direta de Mohr-Coulomb apresenta limitações computacionais.
+Os resultados demonstram que a solução analítica pode ser adequadamente reproduzida por meio de modelagem numérica utilizando a aproximação de Drucker-Prager inscrito em Mohr-Coulomb. Essa equivalência numérica verifica a consistência entre as abordagens analítica e computacional, evidenciando que o modelo Drucker-Prager, quando devidamente calibrado, é capaz de capturar os mesmos mecanismos de ruptura previstos pelo modelo de Mohr-Coulomb. Tal correspondência reforça a confiabilidade da simulação numérica para análises de estabilidade em problemas geotécnicos, especialmente em casos onde a implementação direta de Mohr-Coulomb apresenta limitações computacionais.
+
+\section{Verificação com solução numérica em elastoplasticidade}
+
+Esta seção tem como objetivo avaliar a capacidade do modelo computacional em reproduzir as forças internas longitudinais e circunferenciais no revestimento dos túneis longitudinais, resultantes da construção de uma galeria transversal. Para isso, os resultados obtidos neste estudo são comparados aos apresentados por \citeonline{ChortisKavvadas2023}, com base em análises tridimensionais por elementos finitos. O foco da investigação está em túneis gêmeos escavados em um maciço rochoso com comportamento elastoplástico, revestidos por um material elástico linear.
+
+O modelo numérico desenvolvido por \citeonline{ChortisKavvadas2023} utiliza elementos sólidos para representar o maciço rochoso, considerado como um geomaterial elástico linear e perfeitamente plástico, com base no critério de resistência Hoek-Brown Generalizado, conforme proposto por \citeonline{KalosKavvadas2017}. O suporte primário, constituído por concreto projetado, é modelado por meio de elementos de casca, assumindo-se comportamento elástico linear.
+
+Para viabilizar o uso do modelo constitutivo de Mohr-Coulomb nas análises numéricas, os parâmetros do critério de Hoek-Brown foram convertidos em parâmetros equivalentes de Mohr-Coulomb, ou seja, coesão ($c$) e ângulo de atrito interno ($\phi$), por meio das relações empíricas propostas por \citeonline{Hoek2002}. A \autoref{aproximacaoMC} apresenta as curvas dos critérios de Hoek-Brown e Mohr-Coulomb no espaço de tensões $\sigma_n \times \tau$, onde  $\sigma_n$ e $\tau$ representam, respectivamente, a tensão normal e a tensão de cisalhamento. A curva de Hoek-Brown é representada por um envelope de falha não linear (linha preta contínua), refletindo o comportamento do maciço rochoso sob diferentes estados de tensão. Em contrapartida, o envelope de Mohr-Coulomb (linha reta tracejada em vermelho) ilustra a aproximação linear da resposta do maciço rochoso com base em uma coesão e um ângulo de atrito constantes.
+
+Enquanto o estudo original considerou uma ampla gama de parâmetros geométricos e constitutivos por meio de análises paramétricas, neste trabalho foram adotados valores fixos para esses parâmetros. Os valores adotados foram: razão entre os diâmetros do túnel longitudinal e da galeria $D/d = 1.33$; distância entre os eixos dos túneis longitudinais $d_1 = 8R_t$; profundidade do túnel $H = 80\,\text{m}$; tensão inicial isotrópica $\sigma_h = \sigma_v = 2\,\text{MPa}$; módulo de Young do maciço rochoso $E_m = 562\,\text{MPa}$ e coeficiente de Poisson $\nu_m = 0.3$; módulo de Young do concreto projetado $E_{c} = 20000\,\text{MPa}$ e coeficiente de Poisson $\nu_{c} = 0.2$.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.9]{aproximacaoMC.pdf}
+	\end{center}                 
+	\caption{\label{aproximacaoMC}Aproximação de Hoek-Brown e Mohr-Coulomb.}
+\end{figure}
+
+\citeonline{ChortisKavvadas2023} realizaram a simulação da escavação dos túneis longitudinais por meio da aplicação de uma pressão interna, em vez de utilizar um método de escavação sequencial. Em contrapartida, a construção da galeria transversal foi modelada com base em um processo de escavação sequencial.
+
+Os resultados da análise numérica são apresentados em termos das forças axiais circunferenciais ($N_C$) e longitudinais ($N_L$) atuando ao longo do revestimento dos túneis longitudinais, expressas por meio das expressões normalizadas \( N_C^{\ast} = {N_C}/{p_0 D} \) e \( N_L^{\ast} = {N_L}/{p_0 D} \), respectivamente. Essas forças foram avaliadas ao final da construção, em quatro posições ao longo do eixo longitudinal do túnel, identificadas pela distância adimensional \( S/D \), sendo \( S/D = 0 \) correspondente à linha central da galeria transversal. Nos gráficos das Figuras \ref{resultadosNC} e \ref{resultadosNL} a seguir, a linha pontilhada em \( S/D = 0.4 \) indica a localização da parede da galeria.
+
+A \autoref{resultadosNC} apresenta os resultados das forças axiais circunferenciais ao longo do comprimento do túnel longitudinal. As curvas tracejadas representam os envelopes dos resultados ao longo da circunferência do túnel fornecidos por \citeonline{ChortisKavvadas2023}, indicando os valores máximos (linhas tracejadas pretas) e mínimos (linhas tracejadas cinzas) obtidos em suas análises. Próximo à parede da galeria transversal, os resultados do presente estudo são consistentes com os limites definidos por esses envelopes, destacando a zona crítica influenciada pela ruptura e construção da galeria, também observada por \citeonline{ChortisKavvadas2023}. Entretanto, à medida que a distância da galeria aumenta, os resultados obtidos neste estudo são inferiores aos relatados pelos autores. Essas diferenças podem ser decorrentes de abordagens de modelagem distintas, como o tipo de elementos usados para a representação do revestimento, o método de escavação aplicado aos túneis longitudinais e o critério de falha adotado para o maciço rochoso circundante.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.9]{resultadosNC.pdf}
+	\end{center}                 
+	\caption{\label{resultadosNC}Resultados de $N_C^{\ast}$ no túnel longitudinal no final da construção.}
+\end{figure}
+
+Os resultados das forças axiais longitudinais, apresentados na \autoref{resultadosNL}, estão dentro dos limites máximos (curva tracejada preta) e mínimos (curva tracejada cinza) encontrados por \citeonline{ChortisKavvadas2023}, indicando um alinhamento geral entre os modelos. No entanto, observa-se uma discrepância significativa na intensidade dos valores, particularmente em relação à faixa de variação das forças axiais longitudinais. Em comparação, enquanto \citeonline{ChortisKavvadas2023} reportaram uma diferença de até 0.1 entre os valores máximo e mínimo, e a variação máxima observada no presente estudo foi de 0.04. Essa diferença pode estar atribuída às abordagens de modelagem distintas adotadas já comentadas anteriormente.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.9]{resultadosNL.pdf}
+	\end{center}                 
+	\caption{\label{resultadosNL}Resultados de $N_L^{\ast}$ no túnel longitudinal no final da construção.}
+\end{figure}
 
 
 

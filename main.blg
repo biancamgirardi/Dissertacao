@@ -22,9 +22,9 @@ A level-1 auxiliary file: ./chap/cap9.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: ./pos/aneA.aux
+A level-1 auxiliary file: ./pos/apeA.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: ./pos/aneB.aux
+A level-1 auxiliary file: ./pos/apeB.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -36,20 +36,20 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10865 items.
+Reallocating 'field_info' (item size: 4) to 11141 items.
 Database file #1: abntex2-options.bib
 Database file #2: ./bib/referencias.bib
 Warning--entry type for "Ferrao2018" isn't style-file defined
---line 607 of file ./bib/referencias.bib
-You're missing a field name---line 1109 of file ./bib/referencias.bib
+--line 641 of file ./bib/referencias.bib
+You're missing a field name---line 1175 of file ./bib/referencias.bib
  :  
  :  %author = {{O ANTAGONISTA}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Teixeira1994" isn't style-file defined
---line 1417 of file ./bib/referencias.bib
+--line 1483 of file ./bib/referencias.bib
 Warning--entry type for "Zienkiewicz1974" isn't style-file defined
---line 1517 of file ./bib/referencias.bib
+--line 1583 of file ./bib/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -59,45 +59,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 85 entries,
+You've used 89 entries,
             6714 wiz_defined-function locations,
-            1740 strings with 25328 characters,
-and the built_in function-call counts, 89266 in all, are:
-= -- 8877
-> -- 2273
-< -- 1595
-+ -- 2416
-- -- 685
-* -- 5972
-:= -- 11559
-add.period$ -- 302
-call.type$ -- 86
-change.case$ -- 807
-chr.to.int$ -- 164
-cite$ -- 80
-duplicate$ -- 7588
-empty$ -- 4526
-format.name$ -- 3374
-if$ -- 18730
+            1763 strings with 26140 characters,
+and the built_in function-call counts, 93085 in all, are:
+= -- 9165
+> -- 2423
+< -- 1603
++ -- 2473
+- -- 729
+* -- 6260
+:= -- 12045
+add.period$ -- 314
+call.type$ -- 90
+change.case$ -- 857
+chr.to.int$ -- 174
+cite$ -- 84
+duplicate$ -- 7788
+empty$ -- 4778
+format.name$ -- 3590
+if$ -- 19626
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 1463
-newline$ -- 432
-num.names$ -- 401
-pop$ -- 1700
+missing$ -- 1537
+newline$ -- 452
+num.names$ -- 421
+pop$ -- 1801
 preamble$ -- 1
-purify$ -- 320
+purify$ -- 338
 quote$ -- 0
-skip$ -- 7722
+skip$ -- 7922
 stack$ -- 1
-substring$ -- 3434
-swap$ -- 2821
-text.length$ -- 69
+substring$ -- 3649
+swap$ -- 2923
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 45
 warning$ -- 0
-while$ -- 540
+while$ -- 576
 width$ -- 0
-write$ -- 1272
+write$ -- 1334
 (There was 1 error message)

@@ -26,9 +26,9 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="1.1883349"
-   inkscape:cx="197.33494"
-   inkscape:cy="124.96477"
+   inkscape:zoom="1.6805593"
+   inkscape:cx="172.26408"
+   inkscape:cy="6.2479198"
    inkscape:window-width="1920"
    inkscape:window-height="991"
    inkscape:window-x="-9"
@@ -74,10 +74,10 @@
 				<g
    id="g4">
 					<text
-   transform="matrix(1.0014 0 0 1 52.832 149.916)"
-   font-family="'ArialMT'"
-   font-size="11"
-   id="text3">X (or radial)</text>
+   transform="matrix(1.0014,0,0,1,52.832,149.916)"
+   font-family="ArialMT"
+   font-size="11px"
+   id="text3">X (ou radial)</text>
 				</g>
 			</g>
 		</g>
@@ -119,10 +119,10 @@
 					<g
    id="g12">
 						<text
-   transform="matrix(1.0014 0 0 1 0 113.0156)"
-   font-family="'ArialMT'"
-   font-size="11"
-   id="text11">(or axial)</text>
+   transform="matrix(1.0014,0,0,1,0,113.0156)"
+   font-family="ArialMT"
+   font-size="11px"
+   id="text11">(ou axial)</text>
 					</g>
 				</g>
 			</g>
@@ -402,7 +402,8 @@
 	</g>
 </g>
 <g
-   id="g80">
+   id="g80"
+   transform="translate(-1.080791)">
 	<g
    id="g75">
 		<g
@@ -412,24 +413,14 @@
 				<g
    id="g72">
 					<text
-   transform="matrix(1.0014 0 0 1 273.7871 136.916)"
+   transform="matrix(1.0014,0,0,1,273.7871,136.916)"
    enable-background="new    "
    id="text72"><tspan
      x="0"
      y="0"
-     font-family="'ArialMT'"
-     font-size="11"
-     id="tspan70">(</tspan><tspan
-     x="3.7"
-     y="0"
-     font-family="'ArialMT'"
-     font-size="11"
-     id="tspan71">T</tspan><tspan
-     x="10"
-     y="0"
-     font-family="'ArialMT'"
-     font-size="11"
-     id="tspan72">riangular Option - </tspan></text>
+     font-family="ArialMT"
+     font-size="11px"
+     id="tspan70">(Opção Triangular - </tspan></text>
 				</g>
 			</g>
 		</g>
@@ -443,10 +434,10 @@
 				<g
    id="g76">
 					<text
-   transform="matrix(1.0014 0 0 1 273.7871 149.916)"
-   font-family="'ArialMT'"
-   font-size="11"
-   id="text75">not recommended)</text>
+   transform="matrix(1.0014,0,0,1,273.7871,149.916)"
+   font-family="ArialMT"
+   font-size="11px"
+   id="text75">não recomendada)</text>
 				</g>
 			</g>
 		</g>
