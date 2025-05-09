@@ -44,10 +44,10 @@
 \contentsline {section}{\numberline {8.4}Comparação entre os túneis com galeria e sem galeria}{137}{section.8.4}%
 \contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusões}}{153}{chapter.9}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{REFERÊNCIAS}{157}{section*.128}%
+\contentsline {chapter}{REFERÊNCIAS}{157}{section*.129}%
 \setcounter {tocdepth}{-1}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{APÊNDICES}{164}{section*.130}%
+\contentsline {part}{APÊNDICES}{164}{section*.131}%
 \contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Influência da proximidade entre os túneis na convergência da seção e pressões sobre o revestimento}}{165}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Perfis de convergência}{165}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Perfis das pressões sobre o revestimento}{177}{section.A.2}%

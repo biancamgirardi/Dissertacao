@@ -27,7 +27,7 @@ No modelo axissimétrico, é utilizado o elemento finito PLANE182, que consiste 
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.92]{testedominioaxi.pdf}
+		\includegraphics[scale=0.92]{0401_dominioaxi.pdf}
 	\end{center}
 	\caption{\label{dominioaxi}Discretização do domínio, condições de contorno e parâmetros geométricos do modelo axissimétrico}
 \end{figure}
@@ -86,7 +86,7 @@ A \autoref{tabelaaxi} apresenta os parâmetros relacionados ao domínio e discre
 		Elementos do domínio na direção radial & $nL_x$ & un & 20 \\
 		\makecell[l]{Razão entre o primeiro e o último elemento do \\ domínio na direção radial} & $mL_{x}$ & adm & 40 \\ 
 		Elementos no passo não escavado & $nL_{y1}$ & un & 15 \\
-		\makecell[l]{Razão entre o primeiro e o último elemento do \\ trecho não escavado} & $mL_{y_2}$ & adm & 5 \\ 
+		\makecell[l]{Razão entre o maior e o menor elemento do \\ trecho não escavado} & $mL_{y_2}$ & adm & 5 \\ 
 		\hline
 		%\multicolumn{4}{c}{DISCRETIZAÇÃO} \\
 		%\hline
@@ -208,7 +208,7 @@ A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavaç
 		\hline
 		Raio da galeria & $R_{g}$ & m & $2/3R_t$ \\
 		Espessura do revestimento & $e_g$ & m & $0.1R_t$ \\
-		Comprimento do passo de escavação & $L_{pg}$ & m & $0,2R_g$ \\
+		Comprimento do passo de escavação & $L_{pg}$ & m & $0.2R_g$ \\
 		Comprimento não revestido & $d_{0g}$ & m & $2L_{pg}$ \\
 		Velocidade da face de escavação & $V_{pg}$ & m/dia & $12.5$ \\
 		\makecell[l]{Número de passos a partir do eixo da galeria que \\ inicia a escavação da galeria}  & $n_{pig}$ & un & $15$ \\
@@ -218,17 +218,41 @@ A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavaç
 		Distância entre os eixos dos túneis longitudinais & $d_1$ & m & $4R_t $\\
 		Espessura do domínio na direção vertical $\underline{e}_y$ & $d_3$ & m & $20R_t$ \\
 		\makecell[l]{Distância das bordas laterais do domínio até a região \\ do túnel longitudinal} & $d_4$ & m & 20 \\
+		\makecell[l]{Distância na horizontal contígua à galeria} & $d_5$ & m & $2.5L_p$ \\
+		\makecell[l]{Distância na vertical acima da galeria} & $d_6$ & m & $d_1/2-R_g$ \\
 		Comprimento da região não escavada & $L_1$ & m & $10R_t$ \\
 		Comprimento do trecho escavado & $L_2$ & m & $500L_{pt}$ \\
 		Espessura do domínio na direção transversal $\underline{e}_x$ & $L_3$ & m & $20R_t + d_1/2$ \\
+		\hline
+	\end{tabular}
+	\normalsize
+\end{table}
+
+Inúmeros fatores influenciam no custo computacional de modelos tridimensionais, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado. O tempo médio das análises tridimensionais considerando túneis gêmeos com galeria transversal foi de 25 h.
+
+A \autoref{tabela3D_2} apresenta a discretização do domínio do modelo tridimensional.
+
+\begin{table}[H]
+	\caption{Parâmetros relacionados à discretização do domínio do modelo tridimensional}
+	\label{tabela3D_2}
+	\centering
+	\small
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{l c c c}
+		\hline
+		\multicolumn{1}{l}{PARÂMETROS} &
+		\multicolumn{1}{c}{SÍMBOLO} &
+		\multicolumn{1}{c}{UNIDADE} &
+		\multicolumn{1}{c}{VALORES} \\
 		\hline
 		\multicolumn{4}{l}{Discretização} \\
 		\hline
 		Elementos no passo escavado do túnel longitudinal & $nL_{p_t}$ & un & 1 \\
 		Elementos no passo escavado da galeria & $nL_{p_g}$ & un & 1 \\
 		Elementos ao longo do trecho não escavado & $nL_{1}$ & un & 30 \\
-		\makecell[l]{Elementos na espessura do revestimento do \\ túnel longitudinal e da galeria} & $ne$ & un & 1 \\
-		%\makecell[l]{Elementos na interface entre maciço e o revestimento \\ do túnel longitudinal} & $nC_{R_t}$ & un & 16 \\ 
+		\makecell[l]{Elementos na espessura do revestimento do \\ túnel longitudinal} & $ne_t$ & un & 1 \\
+		\makecell[l]{Elementos na espessura do revestimento da \\ galeria} & $ne_g$ & un & 1 \\
+		\makecell[l]{Elementos na interface entre maciço e o revestimento \\ do túnel longitudinal} & $nC_{R_t}$ & un & 16 \\ 
 		Elementos na distância $d_1$ & $nd_1$ & un & 9 \\
 		?? $d_1$ & $md_1$ & adm & 5 \\
 		Elementos na direção vertical $d_3$ & $nd_3$ & un & $nC_{R_t}$/2 \\
@@ -239,7 +263,6 @@ A \autoref{tabela3D} apresenta os parâmetros relacionados ao domínio, escavaç
 	\normalsize
 \end{table}
 
-Inúmeros fatores influenciam no custo computacional de modelos tridimensionais como o demonstrado anteriormente, sendo que o mais significativo é o tamanho do sistema de equações a ser resolvido, que é determinado pela quantidade de graus de liberdade ativos por nó e, consequentemente, pelo número de nós. Em problemas não-lineares, como a interação entre o maciço e o suporte com efeitos de longo prazo, o sistema de equações precisa ser resolvido várias vezes para cada incremento de tempo, tornando o tempo de solução muito demorado. O tempo médio das análises tridimensionais considerando túneis gêmeos com galeria transversal foi de 25 h.
 
 \section{Parâmetros constitutivos adotados para as análises}
 
