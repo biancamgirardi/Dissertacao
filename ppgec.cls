@@ -214,7 +214,7 @@
 %	--------------------------------------------
 %
 % Número de níveis do sumário
-\settocdepth{subsection}
+\settocdepth{subsubsection}
 %
 % Espaçamento itens do sumário
 \setlength{\cftbeforesubsectionskip}{6pt}

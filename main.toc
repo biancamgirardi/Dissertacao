@@ -1,5 +1,5 @@
 \changetocdepth {4}
-\changetocdepth {2}
+\changetocdepth {3}
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{28}{chapter.1}%
